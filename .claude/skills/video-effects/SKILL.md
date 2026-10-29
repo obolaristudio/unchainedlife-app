@@ -43,3 +43,4 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 - Cortar pausas e respiros; legendas sincronizadas palavra a palavra (transcrever com faster-whisper), fonte sans bold, palavras-chave destacadas em cor.
 - Color grade quente e consistente; manter rosto sempre em área segura (fora dos 15% inferiores e da lateral direita onde ficam botões do app).
 - Antes de entregar: gerar contact sheet de frames e revisar visualmente; apontar ao Maxwell quais efeitos usei e por quê.
+- Sempre disponibilizar o vídeo final no chat (SendUserFile, display render) para o Maxwell assistir e aprovar ANTES de qualquer publicação. Nunca publicar sem aprovação explícita.
