@@ -2,6 +2,13 @@
 
 Pedido do Maxwell: responder os comentários dos posts por ele. Roda por tarefa agendada várias vezes ao dia. A "Regra nº 1: conta segura" do SKILL.md vale aqui também.
 
+## Publicar vídeos da fila (fazer ANTES dos comentários, em toda execução)
+1. `git fetch origin media` e ler `fila.json` do ramo `media`.
+2. Para cada item com `status: "pendente"` cujo `publicar_apos` (America/Sao_Paulo) já passou: criar o Reel pela Composio (`INSTAGRAM_POST_IG_USER_MEDIA` com media_type REELS, video_url, cover_url, caption, share_to_feed=true) → aguardar status FINISHED → publicar (`INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`) → pegar o permalink.
+3. No máximo 1 publicação por execução e nunca 2 posts com menos de 4 h de intervalo.
+4. Marcar o item como `"status": "publicado", "permalink": "..."` no `fila.json`, commit/push no ramo `media`, registrar em `research/peptideos.md` (main) e mandar o link do post ao Maxwell.
+5. Se falhar, marcar `"status": "erro"` com o motivo e avisar o Maxwell. Não tentar de novo no mesmo item sem ele.
+
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
