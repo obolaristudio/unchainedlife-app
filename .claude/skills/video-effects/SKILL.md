@@ -72,6 +72,7 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 **No relatório de entrega**, sempre incluir uma linha "Checagem de políticas: OK" ou listar o que foi ajustado.
 
 ## Identidade visual Obolari Academy (todo vídeo)
-- **Assinatura discreta:** "@obolari_academy" pequeno em todos os vídeos — ~24–26 px (em 1080×1920), fonte da legenda em peso regular, branco a ~55% de opacidade, centralizado logo abaixo da barra de progresso do topo (fora das áreas cobertas pela interface do Instagram). Nunca grande, nunca piscando, nunca sobre o rosto ou sobre gráficos.
-- **Paleta consistente (feed limpo, sem poluição):** cor de destaque = **verde-limão** da marca; fundo escuro neutro; texto branco; cinza para textos secundários. Vermelho só para alerta/mito/"ERRADO". Máximo de 1 cor de destaque + 1 de alerta por vídeo; nada de arco-íris de cores. Capas seguem a mesma paleta para o grid ficar uniforme.
-- Códigos exatos da paleta: ver `brand/paleta.md` (usar sempre esses valores; se o arquivo ainda não existir, usar verde-limão #C6F432 provisório e avisar o Maxwell).
+- Seguir **`brand/paleta.md`** à risca (cores exatas, estilo "caderno" creme com verde-limão, cards com borda preta e sombra dura, rótulos mono). Isso substitui o visual escuro/rosa/amarelo usado nos primeiros vídeos.
+- **Assinatura discreta:** barra grafite do topo com "● OBOLARI ACADEMY" pequeno (fonte mono, ~24 px) + a série à direita ("PEPTÍDEOS · GHK-Cu"). Na tela final, pílula preta "@obolari_academy" em verde-limão, pequena.
+- **Feed limpo:** mesma paleta e mesmo layout em todos os vídeos e capas, para o grid ficar uniforme.
+- Legendas palavra a palavra: texto preto sobre faixa off-white com borda preta, palavra falada destacada em caixa verde-limão.
