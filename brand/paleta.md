@@ -37,7 +37,12 @@ Limites: o verde-limão continua sendo a cor principal da marca em todo vídeo; 
 - Bloco **🇧🇷 BRASIL | 🇺🇸 EUA** lado a lado, separado por linha tracejada, para o status Anvisa × FDA.
 - Rodapé: aviso "Conteúdo educativo…" com barra vermelha à esquerda; pílula preta com "@obolari_academy" em verde-limão (em vídeo, só na tela final, fora da área coberta pelo Instagram).
 
-## Fontes (aproximação no Google Fonts — confirmar com o Maxwell se houver fonte oficial)
-- Títulos: Plus Jakarta Sans 800
-- Texto: Plus Jakarta Sans 400/600
-- Rótulos: JetBrains Mono 500, maiúsculas, letter-spacing ~0.2em
+## Tipografia (obrigatória em todo vídeo — mesma das artes da marca)
+Comparada com as artes oficiais; usar sempre estas três, nada de outras fontes:
+- **Títulos:** Bricolage Grotesque ExtraBold/Bold (grotesca pesada, espaçamento justo, "g" de uma volta) — preto, ou preto sobre caixa verde-limão.
+- **Texto e legendas:** Inter (Regular para texto, Bold para os termos destacados).
+- **Rótulos/etiquetas e barra do topo:** JetBrains Mono, MAIÚSCULAS, espaçamento ~0.2em.
+Se o Maxwell informar os nomes oficiais das fontes, substituir aqui.
+
+## Música
+Em todo vídeo, sempre: trilha instrumental de fundo **bem baixinha** (~15 dB abaixo da voz, com ducking quando a voz entra, fade in/out), sem vocal, estilo leve/moderno que combine com conteúdo educativo.
