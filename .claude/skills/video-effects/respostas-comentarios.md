@@ -2,6 +2,9 @@
 
 Pedido do Maxwell: responder os comentários dos posts por ele. Roda por tarefa agendada várias vezes ao dia. A "Regra nº 1: conta segura" do SKILL.md vale aqui também.
 
+## Horário de silêncio (economia)
+A tarefa roda de hora em hora. Se a hora atual em America/Sao_Paulo estiver entre **00:00 e 07:59**, encerrar imediatamente sem fazer nada e sem relatório. Fora desse horário, se não houver vídeo para publicar, nem comentário novo, nem caso para o Maxwell, encerrar com resposta mínima ("Nada novo.") sem enviar arquivos.
+
 ## Publicar vídeos da fila (fazer ANTES dos comentários, em toda execução)
 1. `git fetch origin media` e ler `fila.json` do ramo `media`.
 2. Para cada item com `status: "pendente"` cujo `publicar_apos` (America/Sao_Paulo) já passou: criar o Reel pela Composio (`INSTAGRAM_POST_IG_USER_MEDIA` com media_type REELS, video_url, cover_url, caption, share_to_feed=true) → aguardar status FINISHED → publicar (`INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`) → pegar o permalink.
