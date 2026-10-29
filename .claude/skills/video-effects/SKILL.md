@@ -1,6 +1,6 @@
 ---
 name: video-effects
-description: Catálogo de efeitos de edição profissional para vídeos curtos verticais (Reels/TikTok/Shorts) do Maxwell. Use SEMPRE que for editar, montar, legendar ou finalizar um vídeo para ele — escolher os efeitos que melhor se encaixam no conteúdo e aplicá-los.
+description: Catálogo de efeitos de edição profissional para vídeos do Maxwell. Use SEMPRE que for criar, editar, montar, legendar ou finalizar qualquer vídeo para ele — especialmente para postar no Instagram (Reels/Stories), e também TikTok/Shorts — escolhendo e aplicando os efeitos que melhor se encaixam no conteúdo.
 ---
 
 # Efeitos de edição de vídeo (padrão profissional)
@@ -38,6 +38,7 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 6. Sempre adaptar os textos dos widgets ao conteúdo real do vídeo (dados, nome, @ do Maxwell), nunca deixar texto genérico de exemplo.
 
 ## Padrão de qualidade (todo vídeo)
+- Destino padrão: Instagram Reels. Duração ideal 15–45 s; capa (thumbnail) com texto legível no grid 4:5 central; sugerir legenda do post + 3–5 hashtags junto com o vídeo.
 - 1080×1920, 30 fps, H.264 alta qualidade (CRF ≤ 18), áudio AAC 192k, loudness ~-14 LUFS.
 - Cortar pausas e respiros; legendas sincronizadas palavra a palavra (transcrever com faster-whisper), fonte sans bold, palavras-chave destacadas em cor.
 - Color grade quente e consistente; manter rosto sempre em área segura (fora dos 15% inferiores e da lateral direita onde ficam botões do app).
