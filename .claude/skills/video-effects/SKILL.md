@@ -48,3 +48,25 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 - Entrega dupla: SendUserFile a partir de `videos/` no projeto + página Artifact privada com o vídeo embutido (data URI, < 16 MB) e a legenda com botão de copiar.
 - Conteúdo de saúde: checar fatos antes de narrar; nunca gravar com a voz do Maxwell afirmações falsas ou que incentivem uso de substância não aprovada — propor versão corrigida (formato "mito ou verdade" funciona bem).
 - Sempre disponibilizar o vídeo final no chat (SendUserFile, display render) para o Maxwell assistir e aprovar ANTES de qualquer publicação. Nunca publicar sem aprovação explícita.
+
+## Regra nº 1: conta segura (prioridade acima de engajamento)
+O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem saber. Todo vídeo, legenda, capa e hashtag passa por este checklist ANTES de ser entregue. Se algum item falhar, corrigir ou avisar — nunca entregar "para testar".
+
+**Tom obrigatório:** ensino. Explicar o que é, como funciona, o que a ciência diz. Nunca prometer resultado (peso, músculo, cura, dinheiro, prazo).
+
+**Bloqueia na hora (não produzir):**
+- Instrução de dose, diluição, aplicação ou protocolo de medicamento/substância — principalmente injetável ou não aprovada pela Anvisa.
+- Venda, preço, "onde comprar", "chama no direct", link de fornecedor de medicamento, peptídeo, hormônio, suplemento.
+- Promessa de resultado ("perca X kg", "ganhe massa", "substitui hormônio", "cura").
+- Antes/depois de corpo, foco em partes do corpo, ou conteúdo que faça a pessoa se sentir mal com o próprio corpo.
+- Afirmações de saúde falsas ou sem fonte (checar fatos antes de narrar).
+- Música, imagem, logo ou vídeo de terceiros sem direito de uso; reupload de vídeo de outro criador.
+- Engajamento artificial: "comenta X que eu te mando", sorteio sem regras, pedir curtida em troca de algo.
+
+**Cuidados (pode, com ajuste):**
+- Citar nome de remédio (Ozempic, Mounjaro) só em contexto educativo/histórico, sem marca visual (logo/embalagem).
+- Aviso fixo em conteúdo de saúde: "Conteúdo educativo. Fale com um médico." — na tela e na legenda.
+- Hashtags: só educativas e do tema. Evitar tags de emagrecimento/estética/biohacking em conteúdo com remédio (público e moderação mais restritos); nunca hashtags banidas ou de spam; máx. ~10.
+- Linguagem de alerta forte ("mata") só quando é fato educativo e com contexto.
+
+**No relatório de entrega**, sempre incluir uma linha "Checagem de políticas: OK" ou listar o que foi ajustado.
