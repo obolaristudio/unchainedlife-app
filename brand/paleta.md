@@ -15,7 +15,18 @@ Extraída das artes oficiais (fichas "Retatrutida" e "Manejo do estrogênio"). R
 | Alerta / mito / linha de margem | vermelho | `#D9503F` |
 | Fundo de "mito" | rosa claro | `#F3D3CD` |
 
-Regra: fundo creme + texto preto + 1 destaque verde-limão. Vermelho e rosa só para alerta/mito. Nada de outras cores.
+Regra: a base é sempre fundo creme + texto preto + destaque verde-limão. Vermelho e rosa só para alerta/mito.
+
+### Cores vivas complementares (liberadas pelo Maxwell, usar com moderação)
+Quando o conteúdo pedir mais vida (gráficos, comparações, ícones, diferenciar 2–3 itens), pode usar estas cores vivas que combinam com o verde-limão:
+| Cor | Hex | Bom para |
+|---|---|---|
+| Azul elétrico | `#3D7BFF` | dados, gráficos, "estudo em humanos" |
+| Violeta | `#7B5CFF` | mecanismo / ciência, segundo item de comparação |
+| Laranja | `#FF8A3D` | atenção leve, "ainda em estudo" |
+| Ciano | `#22C7B8` | terceiro item de comparação |
+
+Limites: o verde-limão continua sendo a cor principal da marca em todo vídeo; no máximo 2 cores vivas extras por vídeo; usar só em elementos (gráficos, ícones, etiquetas), nunca no fundo inteiro; sempre com a borda preta do estilo.
 
 ## Elementos de estilo
 - Fundo creme com quadriculado bem leve, **linha vertical vermelha** de margem à esquerda e furos de caderno (argolas) na lateral.
