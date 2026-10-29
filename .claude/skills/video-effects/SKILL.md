@@ -70,3 +70,8 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 - Linguagem de alerta forte ("mata") só quando é fato educativo e com contexto.
 
 **No relatório de entrega**, sempre incluir uma linha "Checagem de políticas: OK" ou listar o que foi ajustado.
+
+## Identidade visual Obolari Academy (todo vídeo)
+- **Assinatura discreta:** "@obolari_academy" pequeno em todos os vídeos — ~24–26 px (em 1080×1920), fonte da legenda em peso regular, branco a ~55% de opacidade, centralizado logo abaixo da barra de progresso do topo (fora das áreas cobertas pela interface do Instagram). Nunca grande, nunca piscando, nunca sobre o rosto ou sobre gráficos.
+- **Paleta consistente (feed limpo, sem poluição):** cor de destaque = **verde-limão** da marca; fundo escuro neutro; texto branco; cinza para textos secundários. Vermelho só para alerta/mito/"ERRADO". Máximo de 1 cor de destaque + 1 de alerta por vídeo; nada de arco-íris de cores. Capas seguem a mesma paleta para o grid ficar uniforme.
+- Códigos exatos da paleta: ver `brand/paleta.md` (usar sempre esses valores; se o arquivo ainda não existir, usar verde-limão #C6F432 provisório e avisar o Maxwell).
