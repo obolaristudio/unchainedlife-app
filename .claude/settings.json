@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read", "Edit", "Write", "Glob", "Grep", "WebSearch", "WebFetch",
+      "Bash(ffmpeg:*)", "Bash(ffprobe:*)", "Bash(node:*)", "Bash(python3:*)",
+      "Bash(pip install:*)", "Bash(yt-dlp:*)", "Bash(curl:*)", "Bash(git:*)",
+      "Bash(mkdir:*)", "Bash(cp:*)", "Bash(mv:*)", "Bash(ls:*)", "Bash(rm:*)", "Bash(cat:*)",
+      "mcp__ElevenLabs", "mcp__composio", "mcp__gpt_social",
+      "mcp__claude-code-remote__send_later",
+      "SendUserFile", "Artifact"
+    ]
+  }
+}
