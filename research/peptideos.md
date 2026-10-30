@@ -17,3 +17,5 @@
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
+| 2026-10-30 | Retatrutida (mito ou fato) | agendado 13:10 BRT (fila.json, ramo media) |
+| 2026-10-30 | GHK-Cu (mito dos 6 meses / 4 mil genes) | agendado 19:40 BRT (fila.json, ramo media) |
