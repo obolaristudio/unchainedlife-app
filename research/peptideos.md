@@ -3,7 +3,6 @@
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
 - GHK-Cu
 - BPC-157
-- Retatrutida
 - Semaglutida (Ozempic/Wegovy)
 - Tirzepatida (Mounjaro/Zepbound)
 - Tesamorelina
@@ -17,3 +16,4 @@
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
+| 2026-10-30 | Retatrutida | https://www.instagram.com/reel/DfIDOLxgOKk/ |
