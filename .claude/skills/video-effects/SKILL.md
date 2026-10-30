@@ -46,6 +46,7 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 - Transições de zoom (pedido do Maxwell, padrão em todo vídeo): entrada de cena com zoom 1.22→1 + leve blur, punch-in de ~9% nas palavras de impacto, deriva lenta de zoom dentro da cena, whoosh bem baixo na troca de cena.
 - Música de fundo sempre, bem baixinha: instrumental (ElevenLabs Music, conferir que não tem vocal), ~15 dB abaixo da voz, com ducking (sidechaincompress) e fade in/out.
 - Entrega dupla: SendUserFile a partir de `videos/` no projeto + página Artifact privada com o vídeo embutido (data URI, < 16 MB) e a legenda com botão de copiar.
+- Link no chat (pedido do Maxwell, todo pedido de vídeo): ao terminar, escrever o link do vídeo na resposta final do chat, clicável. Vale para a página Artifact e para qualquer link gerado por ferramenta externa (Higgsfield, HyperFrames, ElevenLabs, Canva etc.). Se houver mais de um, listar todos com uma linha dizendo o que é cada um.
 - Conteúdo de saúde: checar fatos antes de narrar; nunca gravar com a voz do Maxwell afirmações falsas ou que incentivem uso de substância não aprovada — propor versão corrigida (formato "mito ou verdade" funciona bem).
 - Sempre disponibilizar o vídeo final no chat (SendUserFile, display render) para o Maxwell assistir e aprovar ANTES de qualquer publicação. Nunca publicar sem aprovação explícita.
 
