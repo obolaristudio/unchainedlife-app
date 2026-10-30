@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "2026-10-30-retatrutida",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@a200c14900d8b9a9b7b4e7e4c755437abf935cf5/reel_2026-10-30_retatrutida.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@a200c14900d8b9a9b7b4e7e4c755437abf935cf5/capa_2026-10-30_retatrutida.jpg",
+    "caption": "Retatrutida: o peptídeo mais potente já estudado? Mito ou fato.\n\nÉ um medicamento experimental que age em 3 receptores (GLP-1, GIP e glucagon). Os estudos clínicos mostram redução de peso, mas isso é média de grupo em pesquisa controlada, não promessa de resultado. Efeitos colaterais digestivos foram registrados.\n\nStatus: EUA (FDA): não aprovada; a Lilly diz que pretende pedir aprovação em 2027. Brasil (Anvisa): não aprovada; produtos vendidos com esse nome são irregulares.\n\nConteúdo educativo. Fale com um médico.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #retatrutida",
+    "peptideo": "Retatrutida",
+    "publicar_apos": "2026-10-30 13:10",
+    "status": "pendente"
+  },
+  {
+    "id": "2026-10-30-ghkcu",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@a200c14900d8b9a9b7b4e7e4c755437abf935cf5/reel_2026-10-30_ghkcu.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@a200c14900d8b9a9b7b4e7e4c755437abf935cf5/capa_2026-10-30_ghkcu.jpg",
+    "caption": "GHK-Cu muda 4 mil genes e precisa de 6 meses seguidos? Mito ou verdade.\n\nA regra dos 6 meses não existe em nenhum estudo. Os estudos em humanos são pequenos, principalmente com produtos na pele, e acompanham 8 a 12 semanas. Os dados sobre genes vêm de análises de dados e células. Para uso injetável, a evidência clínica é ainda mais limitada.\n\nStatus: EUA (FDA): não aprovado como medicamento. Brasil (Anvisa): sem registro como medicamento para esse uso.\n\nConteúdo educativo. Fale com um médico.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #ghkcu",
+    "peptideo": "GHK-Cu",
+    "publicar_apos": "2026-10-30 19:40",
+    "status": "pendente"
+  }
+]
