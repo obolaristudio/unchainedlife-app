@@ -18,5 +18,23 @@
     "publicar_apos": "2026-10-30 19:40",
     "status": "publicado",
     "permalink": "https://www.instagram.com/reel/DfI3o0glQ5u/"
+  },
+  {
+    "id": "2026-10-31-semaglutida",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@035fc7dc1ad3b336fba4cfcf35a673d4f425536d/reel_semaglutida_2026-10-31.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@035fc7dc1ad3b336fba4cfcf35a673d4f425536d/capa_semaglutida_2026-10-31.jpg",
+    "caption": "Semaglutida é só uma caneta para emagrecer? Mito ou verdade.\n\nÉ um peptídeo sintético parecido com o GLP-1, hormônio produzido pelo intestino. Foi aprovada primeiro para diabetes tipo 2 e depois para o controle crônico do peso, sempre com estudos grandes em humanos. No estudo SELECT (mais de 17 mil pessoas com doença cardiovascular e sobrepeso), houve 20% menos eventos cardiovasculares graves. Não é só para emagrecer.\n\nStatus: EUA (FDA): Ozempic aprovado em 2017 e Wegovy em 2021. Brasil (Anvisa): Ozempic registrado em 2018 e Wegovy em 2023; a receita fica retida na farmácia desde 23/06/2025.\n\nRiscos: náusea, vômito e diarreia são frequentes; a Anvisa alertou para um efeito muito raro nos olhos. Uso só com acompanhamento médico.\n\nConteúdo educativo. Fale com um médico. Não é prescrição nem recomendação de uso.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #cienciadasaude #educacaoemsaude #saudebaseadaemevidencia",
+    "peptideo": "Semaglutida",
+    "publicar_apos": "2026-10-31 12:10",
+    "status": "pendente"
+  },
+  {
+    "id": "2026-10-31-bpc157",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@035fc7dc1ad3b336fba4cfcf35a673d4f425536d/reel_bpc157_2026-10-31.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@035fc7dc1ad3b336fba4cfcf35a673d4f425536d/capa_bpc157_2026-10-31.jpg",
+    "caption": "BPC-157 cura tudo? Mito ou verdade?\n\nO que a ciência mostra: uma revisão sistemática de 2025 encontrou 36 estudos; 35 eram pré-clínicos (animais e laboratório) e só 1 em humanos, com 12 pessoas. Não há dados de segurança em humanos.\n\n🇺🇸 FDA: pouca informação de segurança; não é medicamento aprovado.\n🇧🇷 Anvisa: sem registro e sem autorização como suplemento alimentar.\n\nConteúdo educativo. Fale com um médico. Não é prescrição nem recomendação de uso.\n\nQual peptídeo você quer que eu explique no próximo?\n\nFontes: HSS Journal 2025 (revisão sistemática); fda.gov; gov.br/anvisa.\n\n#peptideos #cienciadasaude #educacaoemsaude #saudebaseadaemevidencia",
+    "peptideo": "BPC-157",
+    "publicar_apos": "2026-10-31 18:10",
+    "status": "pendente"
   }
 ]
