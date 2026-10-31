@@ -4,7 +4,6 @@
 - GHK-Cu
 - BPC-157
 - Retatrutida
-- Semaglutida (Ozempic/Wegovy)
 - Tirzepatida (Mounjaro/Zepbound)
 - Tesamorelina
 - Sermorelina
@@ -17,3 +16,4 @@
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
+| 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
