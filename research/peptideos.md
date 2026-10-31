@@ -1,10 +1,8 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
-- GHK-Cu
-- BPC-157
-- Retatrutida
-- Semaglutida (Ozempic/Wegovy)
+- BPC-157 (na fila de publicação em 2026-10-31 18:10)
+- Semaglutida (Ozempic/Wegovy) (na fila de publicação em 2026-10-31 12:10)
 - Tirzepatida (Mounjaro/Zepbound)
 - Tesamorelina
 - Sermorelina
@@ -17,3 +15,5 @@
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
+| 2026-10-30 | Retatrutida | https://www.instagram.com/reel/DfIDOLxgOKk/ |
+| 2026-10-30 | GHK-Cu | https://www.instagram.com/reel/DfI3o0glQ5u/ |
