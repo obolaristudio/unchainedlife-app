@@ -38,5 +38,23 @@
     "publicar_apos": "2026-10-31 18:10",
     "status": "publicado",
     "permalink": "https://www.instagram.com/reel/DfLHy5OjLtS/"
+  },
+  {
+    "id": "2026-11-01-tb500",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@7084b778baffad49d3eb66f6e2c94fd965f87f7d/reel_2026-11-01_tb500.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@7084b778baffad49d3eb66f6e2c94fd965f87f7d/capa_2026-11-01_tb500.jpg",
+    "caption": "TB-500: o peptídeo da recuperação? Veja o que a ciência diz.\n\nÉ um fragmento sintético da timosina beta-4, proteína que o corpo produz e que participa da organização das células na cicatrização. Em células e animais, a timosina beta-4 mostrou efeitos na migração celular e na formação de vasos. Em humanos, a molécula inteira foi estudada em ensaios clínicos (colírio para olho seco, úlceras de pele), mas o TB-500, o fragmento vendido por aí, não tem ensaio de eficácia em humanos.\n\nStatus: EUA (FDA): não aprovado para nenhuma indicação. Brasil (Anvisa): citado no alerta de julho de 2026 entre os peptídeos não regularizados em nenhuma categoria. No esporte, é proibido pela agência mundial antidoping.\n\nConteúdo educativo. Fale com um médico.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #tb500",
+    "peptideo": "TB-500",
+    "publicar_apos": "2026-11-01 12:10",
+    "status": "pendente"
+  },
+  {
+    "id": "2026-11-01-tirzepatida",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@7084b778baffad49d3eb66f6e2c94fd965f87f7d/reel_2026-11-01_tirzepatida.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@7084b778baffad49d3eb66f6e2c94fd965f87f7d/capa_2026-11-01_tirzepatida.jpg",
+    "caption": "Tirzepatida é só um Ozempic mais forte? Mito ou fato.\n\nÉ um peptídeo sintético que imita dois hormônios do intestino, o GLP-1 e o GIP. Foi estudada em grandes ensaios de fase 3 (SURPASS, em diabetes tipo 2, e SURMOUNT, em obesidade). Os resultados são médias de grupo em pesquisa controlada, não promessa individual.\n\nRiscos: náusea, vômito e diarreia são os mais comuns; a bula traz alertas de pancreatite e problemas de vesícula. Uso só com acompanhamento médico.\n\nStatus: EUA (FDA): Mounjaro aprovado em 2022 (diabetes tipo 2) e Zepbound em 2023 (obesidade). Brasil (Anvisa): Mounjaro aprovado para diabetes e, em junho de 2025, para obesidade, com retenção de receita; canetas sem registro são irregulares.\n\nConteúdo educativo. Fale com um médico. Não é prescrição nem recomendação de uso.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #cienciadasaude #educacaoemsaude #saudebaseadaemevidencias",
+    "peptideo": "Tirzepatida",
+    "publicar_apos": "2026-11-01 19:40",
+    "status": "pendente"
   }
 ]
