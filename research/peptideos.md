@@ -16,4 +16,9 @@
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
+| 2026-10-30 | Retatrutida | https://www.instagram.com/reel/DfIDOLxgOKk/ |
+| 2026-10-30 | GHK-Cu | https://www.instagram.com/reel/DfI3o0glQ5u/ |
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-10-31 | BPC-157 | https://www.instagram.com/reel/DfLHy5OjLtS/ |
+| 2026-11-01 | TB-500 | (na fila, 12:10) |
+| 2026-11-01 | Tirzepatida | (na fila, 19:40) |
