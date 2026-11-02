@@ -57,5 +57,23 @@
     "peptideo": "Tirzepatida",
     "publicar_apos": "2026-11-01 19:40",
     "status": "pendente"
+  },
+  {
+    "id": "2026-11-02-insulina",
+    "video_url": "@@/reel_2026-11-02_insulina.mp4",
+    "cover_url": "@@/capa_2026-11-02_insulina.jpg",
+    "caption": "Insulina é um peptídeo? Sim, e foi o primeiro usado como remédio.\n\nÉ um hormônio produzido pelas células beta do pâncreas, com 51 aminoácidos em duas cadeias, que avisa as células para usarem a glicose do sangue. Foi usada pela primeira vez em um paciente em 1922; hoje quase toda é produzida por biotecnologia (DNA recombinante). É o peptídeo com mais evidência em humanos.\n\nStatus: EUA (FDA): insulinas aprovadas como medicamento. Brasil (Anvisa): insulinas registradas como medicamento.\n\nRisco mais conhecido: hipoglicemia (queda forte do açúcar no sangue). Uso só com acompanhamento médico.\n\nConteúdo educativo. Fale com um médico. Não é prescrição nem recomendação de uso.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #insulina",
+    "peptideo": "Insulina",
+    "publicar_apos": "2026-11-02 12:10",
+    "status": "pendente"
+  },
+  {
+    "id": "2026-11-02-cjc1295",
+    "video_url": "@@/reel_2026-11-02_cjc1295.mp4",
+    "cover_url": "@@/capa_2026-11-02_cjc1295.jpg",
+    "caption": "CJC-1295 aumenta massa muscular? Ainda não foi demonstrado.\n\nÉ um peptídeo sintético parecido com o GHRH, modificado para durar mais no corpo. Em estudos pequenos com adultos saudáveis, elevou o hormônio do crescimento e o IGF-1 no sangue. Mas subir um exame não é o mesmo que melhorar força, recuperação ou composição corporal, e isso não foi mostrado em estudos robustos. Faltam também dados de segurança a longo prazo.\n\nStatus: EUA (FDA): não aprovado como medicamento. Brasil (Anvisa): não aprovado como medicamento.\n\nConteúdo educativo. Fale com um médico. Não é prescrição nem recomendação de uso.\n\nQual peptídeo você quer que eu explique no próximo?\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #cjc1295",
+    "peptideo": "CJC-1295",
+    "publicar_apos": "2026-11-02 19:40",
+    "status": "pendente"
   }
 ]
