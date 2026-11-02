@@ -76,3 +76,6 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 - **Assinatura discreta:** barra grafite do topo com "● OBOLARI ACADEMY" pequeno (fonte mono, ~24 px) + a série à direita ("PEPTÍDEOS · GHK-Cu"). Na tela final, pílula preta "@obolari_academy" em verde-limão, pequena.
 - **Feed limpo:** mesma paleta e mesmo layout em todos os vídeos e capas, para o grid ficar uniforme.
 - Legendas palavra a palavra: texto preto sobre faixa off-white com borda preta, palavra falada destacada em caixa verde-limão.
+
+## Layout viral v2 (substitui o visual de cartões da seção acima para Reels de peptídeos)
+Pesquisa e dados em `research/layout-viral.md`. Os reels de cartões em fundo creme tiveram 25–165 views e 2–20 s de tempo médio; o que performa na categoria é rosto em tela cheia + título curto + legenda grande. Para Reels novos: tela cheia com gravação do Maxwell (ou prints/B-roll reais), título 3–6 palavras no topo (branco, contorno preto, palavra-chave amarela `#FFE14D`), legenda palavra a palavra branca com contorno, 20–35 s, cortes secos a cada 2–4 s, selo @obolari_academy discreto. Sem cartões, sem quadriculado. Regra nº 1 continua valendo (sem "comente X que eu mando").
