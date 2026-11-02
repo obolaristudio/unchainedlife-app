@@ -17,3 +17,5 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-02 | Insulina | agendado 12:10 (BRT) via fila.json |
+| 2026-11-02 | CJC-1295 | agendado 19:40 (BRT) via fila.json |
