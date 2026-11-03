@@ -4,7 +4,6 @@
 - GHK-Cu
 - BPC-157
 - Retatrutida
-- Tirzepatida (Mounjaro/Zepbound)
 - Tesamorelina
 - Sermorelina
 - AOD-9604
@@ -17,3 +16,4 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-03 | Tirzepatida | https://www.instagram.com/reel/DfR4YEriNcD/ |
