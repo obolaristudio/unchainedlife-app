@@ -17,3 +17,4 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-04 | Ipamorelina | https://www.instagram.com/reel/DfVGaT3FAko/ |
