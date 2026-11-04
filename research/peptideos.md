@@ -9,7 +9,6 @@
 - Sermorelina
 - AOD-9604
 - TB-500 (timosina beta-4)
-- CJC-1295
 - Ipamorelina
 - Insulina (o primeiro peptídeo usado como remédio)
 
@@ -17,3 +16,4 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-04 | CJC-1295 | https://www.instagram.com/reel/DfUkHZBEX2p/ |
