@@ -12,6 +12,15 @@ A tarefa roda de hora em hora. Se a hora atual em America/Sao_Paulo estiver entr
 4. Marcar o item como `"status": "publicado", "permalink": "..."` no `fila.json`, commit/push no ramo `media`, registrar em `research/peptideos.md` (main) e mandar o link do post ao Maxwell.
 5. Se falhar, marcar `"status": "erro"` com o motivo e avisar o Maxwell. Não tentar de novo no mesmo item sem ele.
 
+## Publicar Stories da fila (junto com os Reels, em toda execução)
+Pedido do Maxwell (2026-11-05): Stories para crescer seguidores.
+1. Ler `fila_stories.json` do ramo `media`. Cada item tem `image_url`, `publicar_apos` (America/Sao_Paulo) e `status`.
+2. Para cada item `pendente` com `publicar_apos` já passado (máx. 2 Stories por execução, ~1 min entre eles): `INSTAGRAM_POST_IG_USER_MEDIA` com `media_type: "STORIES"` e `image_url` → `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH` (se der timeout, conferir o status do container com `INSTAGRAM_GET_POST_STATUS` e repetir o publish com `max_wait_seconds` baixo; nunca criar container novo antes de checar).
+3. Marcar `"status": "publicado"` e `media_id` no `fila_stories.json`, commit/push no ramo `media`.
+4. Falhou → `"status": "erro"` com o motivo e avisar o Maxwell.
+5. A API não cria figurinhas interativas (enquete, pergunta). Por isso o Story de enquete pede resposta por texto/DM. Respostas de seguidores aos Stories chegam como DM: não responder DM sozinho; listar no relatório.
+6. Conteúdo dos Stories segue a Regra nº 1 do SKILL.md: sem dose, venda, promessa, "comenta X que eu te mando" nem sorteio.
+
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
