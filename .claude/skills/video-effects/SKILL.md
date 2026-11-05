@@ -52,20 +52,24 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 ## Regra nº 1: conta segura (prioridade acima de engajamento)
 O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem saber. Todo vídeo, legenda, capa e hashtag passa por este checklist ANTES de ser entregue. Se algum item falhar, corrigir ou avisar — nunca entregar "para testar".
 
-**Tom obrigatório:** ensino. Explicar o que é, como funciona, o que a ciência diz. Nunca prometer resultado (peso, músculo, cura, dinheiro, prazo).
+**Tom obrigatório (atualizado pelo Maxwell em 2026-11-05):** ensino neutro e informativo. Explicar o que é, como funciona, o que os estudos mostram e o status regulatório atual, sem empurrar nem assustar:
+- Não recomendar uso ("use", "vale a pena tomar") e também não amedrontar nem desencorajar ("perigoso", "proibido", "não use", "não funciona", "golpe").
+- Não afirmar que o peptídeo "não funciona". Dizer o que foi estudado, em quem e com que resultado, e o que ainda não foi estudado, em tom de curiosidade científica, não de alerta.
+- Status regulatório em uma linha neutra e exata. Ex.: "EUA: o FDA não aprovou como medicamento, mas desde outubro de 2026 permite, por enforcement discretion, que farmácias 503A manipulem". Nunca dizer "aprovado/liberado pelo FDA" quando é só manipulação. Brasil (Anvisa) em uma frase curta, factual.
+- Nunca prometer resultado (peso, músculo, cura, dinheiro, prazo).
 
 **Bloqueia na hora (não produzir):**
 - Instrução de dose, diluição, aplicação ou protocolo de medicamento/substância — principalmente injetável ou não aprovada pela Anvisa.
 - Venda, preço, "onde comprar", "chama no direct", link de fornecedor de medicamento, peptídeo, hormônio, suplemento.
 - Promessa de resultado ("perca X kg", "ganhe massa", "substitui hormônio", "cura").
 - Antes/depois de corpo, foco em partes do corpo, ou conteúdo que faça a pessoa se sentir mal com o próprio corpo.
-- Afirmações de saúde falsas ou sem fonte (checar fatos antes de narrar).
-- Música, imagem, logo ou vídeo de terceiros sem direito de uso; reupload de vídeo de outro criador.
+- Afirmações de saúde falsas ou sem fonte (checar fatos antes de narrar, de preferência na fonte oficial: FDA, Anvisa, PubMed).
+- Música, imagem, logo ou vídeo de terceiros sem direito de uso; reupload de vídeo de outro criador. Imagens de referência da internet: só domínio público ou licença aberta (Wikimedia Commons CC0/CC BY/CC BY-SA, PubChem/NIH, Openverse), com crédito na legenda; nunca embalagem, logo de marca, foto de produto à venda ou foto de pessoa.
 - Engajamento artificial: "comenta X que eu te mando", sorteio sem regras, pedir curtida em troca de algo.
 
 **Cuidados (pode, com ajuste):**
 - Citar nome de remédio (Ozempic, Mounjaro) só em contexto educativo/histórico, sem marca visual (logo/embalagem).
-- Aviso fixo em conteúdo de saúde: "Conteúdo educativo. Fale com um médico." — na tela e na legenda.
+- Aviso fixo em conteúdo de saúde, curto: "Conteúdo educativo. Fale com um médico." — na tela e na legenda. Sem blocos longos de "não é recomendação / não pode".
 - Hashtags: só educativas e do tema. Evitar tags de emagrecimento/estética/biohacking em conteúdo com remédio (público e moderação mais restritos); nunca hashtags banidas ou de spam; máx. ~10.
 - Linguagem de alerta forte ("mata") só quando é fato educativo e com contexto.
 
@@ -76,3 +80,8 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 - **Assinatura discreta:** barra grafite do topo com "● OBOLARI ACADEMY" pequeno (fonte mono, ~24 px) + a série à direita ("PEPTÍDEOS · GHK-Cu"). Na tela final, pílula preta "@obolari_academy" em verde-limão, pequena.
 - **Feed limpo:** mesma paleta e mesmo layout em todos os vídeos e capas, para o grid ficar uniforme.
 - Legendas palavra a palavra: texto preto sobre faixa off-white com borda preta, palavra falada destacada em caixa verde-limão.
+
+## Variação visual e interatividade (pedido do Maxwell, 2026-11-05)
+- Pode variar o layout entre vídeos (cards, comparativo, linha do tempo, "mito × fato", estrutura molecular, mecanismo em passos), sempre dentro de `brand/paleta.md`: base creme/preto/verde-limão e até 2 cores vivas extras por vídeo.
+- Mais dinâmica: elementos entrando em sequência, destaque que acompanha a fala, estrutura/imagem de referência na tela quando o assunto permitir (estrutura molecular do PubChem, esquema de receptor, ilustração de domínio público), zoom e cortes a cada ~3–4 s.
+- Imagens da internet: usar somente as com licença que permite uso (ver "Bloqueia na hora"), guardar a fonte e a licença em `fila.json` (campo `creditos`) e colocar o crédito na legenda.
