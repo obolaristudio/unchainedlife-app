@@ -1,0 +1,44 @@
+[
+  {
+    "id": "story-01-apresentacao",
+    "tipo": "story",
+    "image_url": "@@/story_01-apresentacao.jpg",
+    "publicar_apos": "2026-11-05 10:45",
+    "status": "pendente"
+  },
+  {
+    "id": "story-02-o-que-e",
+    "tipo": "story",
+    "image_url": "@@/story_02-o-que-e.jpg",
+    "publicar_apos": "2026-11-05 13:00",
+    "status": "pendente"
+  },
+  {
+    "id": "story-03-insulina",
+    "tipo": "story",
+    "image_url": "@@/story_03-insulina.jpg",
+    "publicar_apos": "2026-11-05 18:30",
+    "status": "pendente"
+  },
+  {
+    "id": "story-04-glp1",
+    "tipo": "story",
+    "image_url": "@@/story_04-glp1.jpg",
+    "publicar_apos": "2026-11-06 08:30",
+    "status": "pendente"
+  },
+  {
+    "id": "story-05-enquete",
+    "tipo": "story",
+    "image_url": "@@/story_05-enquete.jpg",
+    "publicar_apos": "2026-11-06 13:00",
+    "status": "pendente"
+  },
+  {
+    "id": "story-06-segue",
+    "tipo": "story",
+    "image_url": "@@/story_06-segue.jpg",
+    "publicar_apos": "2026-11-06 20:00",
+    "status": "pendente"
+  }
+]
