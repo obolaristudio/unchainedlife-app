@@ -52,8 +52,11 @@ legenda-gancho em balão branco no topo nos primeiros segundos.
 ## Regra nº 1: conta segura (prioridade acima de engajamento)
 O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem saber. Todo vídeo, legenda, capa e hashtag passa por este checklist ANTES de ser entregue. Se algum item falhar, corrigir ou avisar — nunca entregar "para testar".
 
-**Tom obrigatório (atualizado pelo Maxwell em 2026-11-05):** ensino neutro e informativo. Explicar o que é, como funciona, o que os estudos mostram e o status regulatório atual, sem empurrar nem assustar:
+**Posição do Maxwell: ele é totalmente A FAVOR dos peptídeos.** O canal nunca deve soar contra, cético ou alarmista. O tom é de entusiasmo pela ciência e pelo que está sendo descoberto, sem sair da política do Instagram (sem dose, prescrição, venda, promessa de resultado ou "use").
+
+**Tom obrigatório (atualizado pelo Maxwell em 2026-11-05):** ensino positivo e informativo. Explicar o que é, como funciona, o que os estudos mostram e o status regulatório atual, sem empurrar nem assustar:
 - Não recomendar uso ("use", "vale a pena tomar") e também não amedrontar nem desencorajar ("perigoso", "proibido", "não use", "não funciona", "golpe").
+- Abrir e fechar sempre pelo lado interessante/promissor do que a pesquisa mostra (o que ele faz no corpo, por que chama atenção dos cientistas, o que já foi observado), e tratar o que falta estudar como "próximos passos da pesquisa", nunca como defeito.
 - Não afirmar que o peptídeo "não funciona". Dizer o que foi estudado, em quem e com que resultado, e o que ainda não foi estudado, em tom de curiosidade científica, não de alerta.
 - Status regulatório em uma linha neutra e exata. Ex.: "EUA: o FDA não aprovou como medicamento, mas desde outubro de 2026 permite, por enforcement discretion, que farmácias 503A manipulem". Nunca dizer "aprovado/liberado pelo FDA" quando é só manipulação. Brasil (Anvisa) em uma frase curta, factual.
 - Nunca prometer resultado (peso, músculo, cura, dinheiro, prazo).
@@ -85,3 +88,14 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 - Pode variar o layout entre vídeos (cards, comparativo, linha do tempo, "mito × fato", estrutura molecular, mecanismo em passos), sempre dentro de `brand/paleta.md`: base creme/preto/verde-limão e até 2 cores vivas extras por vídeo.
 - Mais dinâmica: elementos entrando em sequência, destaque que acompanha a fala, estrutura/imagem de referência na tela quando o assunto permitir (estrutura molecular do PubChem, esquema de receptor, ilustração de domínio público), zoom e cortes a cada ~3–4 s.
 - Imagens da internet: usar somente as com licença que permite uso (ver "Bloqueia na hora"), guardar a fonte e a licença em `fila.json` (campo `creditos`) e colocar o crédito na legenda.
+
+## Retenção (dados reais do Instagram, 2026-11-05)
+Os 10 Reels dos últimos dias tiveram 28–223 views e tempo médio assistido de **3 a 11 s**. Os vídeos de peptídeo tinham 59–85 s, ou seja, as pessoas saíam em ~5–12% do vídeo. Regras novas:
+- **Duração 20–35 s** (máximo 40 s). Um fato por vídeo; o que sobra vira outro vídeo da série.
+- **Gancho nos primeiros 2 s**: pergunta ou afirmação curiosa em tela grande + voz já falando na primeira palavra, sem intro, sem logo, sem "oi, eu sou". Ex.: "Esse peptídeo tem só 3 aminoácidos."
+- **Corte ou troca visual a cada 2–3 s** (zoom, nova imagem, card entrando, palavra-chave destacada). Nenhuma cena parada por mais de 3 s.
+- **Loop aberto**: prometer algo no início ("no fim eu mostro por que isso importa") e entregar só no último segundo.
+- Imagem de referência (estrutura molecular, esquema do mecanismo, ilustração livre) já nos primeiros 5 s.
+- Fala rápida e enxuta, ~170 palavras por minuto, frases de até 10 palavras, sem enrolar contexto.
+- Último segundo: pergunta curta para comentar (sem prometer nada em troca) e a legenda traz o resto do conteúdo para quem quiser ler.
+- Medir: depois de 24 h de cada post, puxar `ig_reels_avg_watch_time` e comparar com a duração; registrar em `research/peptideos.md` o que funcionou.
