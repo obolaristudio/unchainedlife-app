@@ -41,5 +41,13 @@
     "image_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@392ae7c175b0d285393a3d211f9e1963e00349b8/story_06-segue.jpg",
     "publicar_apos": "2026-11-06 20:00",
     "status": "pendente"
+  },
+  {
+    "id": "story-motsc-teaser",
+    "tipo": "story",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@2ee3c07b2ca651ab2793e8898eb7740e2ee56e7d/story_motsc_teaser.mp4",
+    "publicar_apos": "2026-11-05 10:40",
+    "status": "publicado",
+    "media_id": "18096363701694572"
   }
 ]
