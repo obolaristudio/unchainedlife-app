@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+:root{--lime:#CBEF4B;--copper:#F08A3C}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#bg{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+#shade{position:absolute;inset:0;background:linear-gradient(#000 0%,rgba(0,0,0,.55) 22%,rgba(0,0,0,0) 38%,rgba(0,0,0,0) 72%,rgba(0,0,0,.7) 84%,#000 100%)}
+#tag{position:absolute;top:118px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:7px}
+#tag .dot{width:16px;height:16px;border-radius:50%;background:var(--lime);box-shadow:0 0 14px var(--lime)}
+#tag .sep{width:2px;height:26px;background:rgba(255,255,255,.5)}
+#tag .cat{color:var(--copper)}
+#title{position:absolute;top:186px;left:0;right:0;text-align:center;font-weight:800;font-size:200px;letter-spacing:-6px;line-height:1;text-shadow:0 0 40px rgba(240,138,60,.55),0 0 90px rgba(240,138,60,.35)}
+#title .cu{color:var(--copper)}
+#sub{position:absolute;top:418px;left:90px;right:90px;text-align:center;font-weight:700;font-size:54px;line-height:1.12}
+#kick{position:absolute;top:1490px;left:0;right:0;text-align:center;font-weight:700;font-size:25px;letter-spacing:6px;color:var(--copper)}
+#ben{position:absolute;top:1540px;left:110px;right:110px;text-align:center;font-weight:700;font-size:46px;line-height:1.15}
+#how{position:absolute;top:1680px;left:0;right:0;text-align:center;font-weight:700;font-size:32px}
+#handle{position:absolute;top:1745px;left:0;right:0;text-align:center;font-weight:700;font-size:24px;letter-spacing:5px;color:rgba(255,255,255,.65)}
+#disc{position:absolute;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:21px;color:rgba(255,255,255,.55)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="12" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="12" src="assets/anim.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="12"></div>
+<div id="tag" class="clip" data-start="0" data-duration="12"><span class="dot"></span>OBOLARI ACADEMY<span class="sep"></span><span class="cat">PELE · LONGEVIDADE</span></div>
+<div id="title" class="clip" data-start="0" data-duration="12">GHK-<span class="cu">Cu</span></div>
+<div id="sub" class="clip" data-start="0" data-duration="12">o peptídeo de cobre que o seu corpo já produz.</div>
+<div id="kick" class="clip" data-start="0" data-duration="12">COLÁGENO · ELASTINA · RENOVAÇÃO</div>
+<div id="ben" class="clip" data-start="0" data-duration="12">Os níveis caem com a idade.<br>A pele se renova mais devagar.</div>
+<div id="how" class="clip" data-start="0" data-duration="12">Entenda na legenda 👇</div>
+<div id="handle" class="clip" data-start="0" data-duration="12">@OBOLARI_ACADEMY</div>
+<div id="disc" class="clip" data-start="0" data-duration="12">Conteúdo educativo · não é recomendação médica</div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo("#title",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.6,ease:"power3.out"},0.1);
+tl.fromTo("#tag,#sub",{opacity:0,y:20},{opacity:1,y:0,duration:0.5,stagger:0.1,ease:"power3.out"},0.35);
+tl.fromTo("#kick,#ben,#how,#handle,#disc",{opacity:0},{opacity:1,duration:0.5,stagger:0.06},0.7);
+tl.to("#title",{textShadow:"0 0 60px rgba(240,138,60,.9),0 0 140px rgba(240,138,60,.55)",duration:1.2,ease:"sine.inOut",yoyo:true,repeat:3},2);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>

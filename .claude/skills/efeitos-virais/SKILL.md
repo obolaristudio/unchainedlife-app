@@ -64,3 +64,8 @@ Em negrito: os que mais combinam com o nosso conteúdo (estudos, números, mitos
 - Modelo pronto (04 Snap Zoom + 08 Growth Curve): `modelos/snapzoom-growthcurve/index.html`.
 - Para juntar com nosso pipeline: renderizar o trecho do efeito e substituir o segmento correspondente no `bg.mp4` (ou renderizar o overlay inteiro com `--format mov` para ter transparência).
 - Achar novos efeitos: o pack sugere o Klint (tryklint.ai), um MCP pago de dados sociais. Está registrado como sugestão em `research/ferramentas.md`; não foi instalado.
+
+## Formato 2: pôster animado 3D (inspirado em @hnrlabs) — piloto 07/11/2026
+- 12 s, 1 plano, sem narração. Fluxo: imagem herói 3D (Higgsfield `gpt_image_2_6`, 9:16, fundo preto, espaço livre no topo 35% e rodapé 20%, sem texto/seringa/frasco) → animação 12 s (Higgsfield `kling3_0`, start_image = job da imagem, sound off, push-in lento + "acender" o tecido) → texto fixo via HyperFrames (`modelos/poster-3d/index.html`: selo OBOLARI ACADEMY | CATEGORIA, título gigante com brilho na cor do tema, subtítulo 1 linha, rótulo + benefício no rodapé, "Entenda na legenda 👇", @, aviso) → música -6 dB + whoosh/shimmer/riser/impact (earshot) → -14 LUFS.
+- Todo o conteúdo vai na legenda longa (seções com emoji, "Vale saber" com as limitações, CTA comentário + GUIA + salvar, aviso).
+- Custo: 1 imagem + 1 clipe de 12 s no Higgsfield. Comparar desempenho com o Reel narrado antes de escalar.
