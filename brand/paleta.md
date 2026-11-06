@@ -15,6 +15,8 @@ Extraída das artes oficiais (fichas "Retatrutida" e "Manejo do estrogênio"). R
 | Alerta / mito / linha de margem | vermelho | `#D9503F` |
 | Fundo de "mito" | rosa claro | `#F3D3CD` |
 
+Nome da marca em todo material: **Obolari Academy** (nunca "Obolari Labs").
+
 Regra: a base é sempre fundo creme + texto preto + destaque verde-limão. Vermelho e rosa só para alerta/mito.
 
 ### Cores vivas complementares (liberadas pelo Maxwell, usar com moderação)

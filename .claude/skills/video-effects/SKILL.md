@@ -102,3 +102,6 @@ Objetivo: vídeos mais dinâmicos, com movimento real, e não só cards animados
 - Nada de embalagem ou logo de remédio.
 - Avatar de IA não pode se passar por médico nem por paciente real.
 - Pessoas geradas só em cenas neutras: cozinha, prato, caminhada, academia, exame de sangue genérico.
+
+## Nome da marca (regra fixa, pedido do Maxwell em nov/2026)
+Todo vídeo e material usa **"Obolari Academy"**: narração ("conteúdo educativo da Obolari Academy"), créditos na tela, aviso fixo, legenda do post, PDFs e documentos. **Nunca usar "Obolari Labs"**, para não confundir o público. Os vídeos de resistência à insulina e de amilina (nov/2026) ainda citam "Obolari Labs"; corrigir se o Maxwell pedir.
