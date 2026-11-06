@@ -15,6 +15,29 @@ Consultar este arquivo ao planejar série, gancho, capa, bio ou destaques. Copia
 7. **O mesmo vídeo em 2 idiomas** (inglês e espanhol): dobra o público com a mesma gravação.
 8. **Rosto e voz próprios (talking-head)**: gera confiança e conexão, e sustenta a marca pessoal.
 
+
+### Dados dos 20 posts mais recentes (gpt_social, 06/11/2026)
+Os posts com mais comentários são todos de **CTA com palavra-chave** que leva a algo: VIP (52 comentários), WEBINAR (25), CLASE (23), GUT/guia grátis (22). Os posts sem palavra-chave ficam com 9 a 17 comentários. **O motor de engajamento dela é "comente X e eu te mando Y" ligado a uma oferta real** (consultoria VIP, webinar grátis, aula em espanhol, guia).
+
+**Estrutura de legenda/roteiro que se repete (usar como molde):**
+1. **Sintoma identificável na 1ª linha**: "Exames normais, mas continua inchada e cansada?", "Dormiu 5 horas e quer comer tudo?", "Primeiro o leite. Depois o glúten. Agora até os vegetais."
+2. **Reenquadramento que tira a culpa**: "Não é falta de força de vontade" / "Não é só a idade".
+3. **Explicação curta do porquê**: conecta 2 sistemas (intestino + hormônio, sono + fome).
+4. **Lista prática numerada (3–5 itens)** do que observar ou fazer.
+5. **Ponte para a oferta**: método com nome próprio (RISE VIP).
+6. **CTA de comentário com palavra-chave**.
+7. **Aviso curto**: "Isto é educação, não conselho médico". Uma linha só, sem exagero.
+
+Outros pontos:
+- Segmentação explícita do público ("Só para mulheres", "Acima dos 40").
+- Funil gratuito → pago (webinar/aula grátis → VIP).
+- Posts em espanhol para outro público, com evento próprio.
+
+### ⚠️ Decisão pendente do Maxwell: CTA com palavra-chave
+A `Regra nº 1` do SKILL.md proíbe "comenta X que eu te mando" (risco de ser tratado como isca de engajamento, e ele já perdeu uma conta). É exatamente o que mais gera comentários no perfil dela.
+- **Só usar com autorização explícita do Maxwell**, e só quando existir um material real a entregar (guia em PDF, aula, lista), com envio por automação oficial de DM (ex.: ManyChat/Meta), nunca promessa vazia.
+- Enquanto não houver autorização: usar a pergunta aberta ("Qual peptídeo eu explico no próximo? Comenta aqui") mais a estrutura de legenda acima.
+
 ### Ponto de atenção (análise crítica)
 - Os Reels recentes mostram **952, 3,1 mil e 7,2 mil visualizações** para 779 mil seguidores (cerca de 1% de alcance). A força do perfil é marca, autoridade e funil, não viralização de cada Reel. Não copiar o formato esperando volume: copiar o que constrói **confiança e conversão**.
 - Ela tem equipe médica. O @obolari_academy é educativo: sem prescrição, dose ou "protocolo".
