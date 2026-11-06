@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Guia dos Peptídeos – Obolari Academy</title>
+<style>
+@page { size: A4; margin: 0; }
+:root{--lime:#CBEF4B;--ink:#141414;--bar:#2B2B2B;--cream:#F2EFE6;--card:#FBFAF6;--grid:#E6E3DA;--muted:#555;--red:#E53935;--pink:#F3D3CD;--blue:#3D7BFF;--orange:#FF8A3D}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,sans-serif;color:var(--ink);font-size:10.6pt;line-height:1.5}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;
+ background-color:var(--cream);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:9mm 9mm;padding:24mm 16mm 22mm 24mm}
+.page:last-child{page-break-after:auto}
+.page::before{content:"";position:absolute;left:15mm;top:0;bottom:0;width:.7mm;background:var(--red);opacity:.75}
+.top{position:absolute;left:0;right:0;top:0;height:12mm;background:var(--bar);color:#F2EFE6;display:flex;justify-content:space-between;align-items:center;padding:0 12mm 0 24mm;font-family:"JetBrains Mono";font-weight:700;font-size:7.5pt;letter-spacing:.2em}
+.top b{color:var(--lime)}
+.foot{position:absolute;left:24mm;right:16mm;bottom:8mm;border-left:2mm solid var(--red);background:rgba(251,250,246,.95);padding:2mm 3mm;font-size:7.4pt;color:var(--muted);display:flex;justify-content:space-between;gap:4mm}
+.foot b{color:var(--ink)}
+h1{font-family:"Bricolage Grotesque";font-weight:800;font-size:44pt;line-height:.98;letter-spacing:-1.5pt}
+h2{font-family:"Bricolage Grotesque";font-weight:800;font-size:24pt;line-height:1.05;letter-spacing:-.6pt;margin-bottom:4mm}
+h3{font-family:"Bricolage Grotesque";font-weight:800;font-size:13pt;margin:3mm 0 1.5mm}
+.hl{background:var(--lime);border:.6mm solid var(--ink);box-shadow:1.6mm 1.6mm 0 var(--ink);border-radius:2mm;padding:0 3mm 1mm;display:inline-block}
+.label{display:inline-block;font-family:"JetBrains Mono";font-weight:800;font-size:7.5pt;letter-spacing:.18em;text-transform:uppercase;background:var(--lime);border:.5mm solid var(--ink);border-radius:1.2mm;padding:1mm 2.5mm;margin-bottom:3mm}
+.label.red{background:var(--red);color:#fff}
+.card{background:var(--card);border:.6mm solid var(--ink);box-shadow:1.8mm 1.8mm 0 var(--ink);border-radius:2.5mm;padding:4mm 5mm;margin-bottom:4.5mm}
+.card.lime{background:var(--lime)} .card.pink{background:var(--pink)} .card.dark{background:var(--ink);color:#F2EFE6}
+p{margin-bottom:2mm}
+ul{padding-left:5mm;margin-bottom:2mm} li{margin-bottom:1mm}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.mono{font-family:"JetBrains Mono";font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:7.5pt}
+.pep{display:grid;grid-template-columns:1fr 1fr;gap:3.5mm}
+.pep .card{margin-bottom:0;padding:3.5mm 4.5mm;font-size:9.6pt}
+.pep h3{margin-top:0;font-size:14pt}
+.row{display:flex;gap:2mm;margin:1mm 0}
+.k{flex:none;width:22mm;font-family:"JetBrains Mono";font-weight:700;font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:.6mm}
+.tag{display:inline-block;font-family:"JetBrains Mono";font-weight:800;font-size:6.6pt;letter-spacing:.1em;border:.4mm solid var(--ink);border-radius:1mm;padding:.3mm 1.6mm;margin-right:1mm}
+.t-green{background:var(--lime)} .t-orange{background:var(--orange)} .t-red{background:var(--red);color:#fff} .t-blue{background:var(--blue);color:#fff}
+.big{font-family:"Bricolage Grotesque";font-weight:800;font-size:30pt;line-height:1;color:var(--red)}
+table{width:100%;border-collapse:collapse;font-size:9pt;background:var(--card);border:.6mm solid var(--ink)}
+th{background:var(--ink);color:#F2EFE6;font-family:"JetBrains Mono";font-size:7pt;letter-spacing:.1em;text-transform:uppercase;text-align:left;padding:2mm}
+td{padding:2mm;border-top:.3mm solid var(--grid);vertical-align:top}
+.small{font-size:8pt;color:var(--muted)}
+</style></head><body>
+
+<!-- CAPA -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA GRATUITO · 2026</span></div>
+  <div style="margin-top:22mm"><span class="label">Guia educativo</span></div>
+  <h1 style="margin-top:4mm">Guia dos<br>Peptídeos</h1>
+  <h1 style="margin-top:4mm"><span class="hl">o que a ciência<br>mostra</span></h1>
+  <p style="font-size:13pt;margin-top:10mm;max-width:150mm">10 peptídeos que estão em alta, explicados sem hype: o que são, como agem, o que os estudos mostram de verdade, os riscos conhecidos e o status nos EUA e no Brasil.</p>
+  <div class="card dark" style="margin-top:12mm;max-width:150mm">
+    <div class="mono" style="color:var(--lime)">Como usar este guia</div>
+    <p style="margin-top:2mm;margin-bottom:0">Leia, entenda e leve suas dúvidas para o seu médico. Este material <b style="color:var(--lime)">não traz doses, protocolos nem indicação de uso</b> — de propósito.</p>
+  </div>
+  <div style="position:absolute;right:16mm;bottom:30mm;text-align:right">
+    <div class="mono">Por</div>
+    <div style="font-family:'Bricolage Grotesque';font-weight:800;font-size:18pt">Maxwell Obolari</div>
+    <div style="display:inline-block;margin-top:2mm;background:var(--ink);color:var(--lime);border:.6mm solid var(--lime);border-radius:8mm;padding:1.5mm 5mm;font-family:'JetBrains Mono';font-weight:800;font-size:10pt">@obolari_academy</div>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>1</span></div>
+</section>
+
+<!-- O QUE SAO -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 1 · Fundamentos</span>
+  <h2>O que é, afinal,<br>um <span class="hl">peptídeo</span>?</h2>
+  <p>Peptídeos são <b>cadeias curtas de aminoácidos</b> — os mesmos blocos que formam as proteínas, só que menores. No corpo, muitos funcionam como <b>mensageiros</b>: encaixam em receptores e dão ordens às células (liberar um hormônio, sinalizar saciedade, reparar um tecido).</p>
+  <div class="grid2">
+    <div class="card"><div class="mono">Aminoácido</div><h3>1 bloco</h3><p class="small" style="margin:0">A unidade básica, como uma letra.</p></div>
+    <div class="card lime"><div class="mono">Peptídeo</div><h3>Poucos blocos</h3><p class="small" style="margin:0;color:var(--ink)">Uma palavra: curta e com uma mensagem específica.</p></div>
+  </div>
+  <div class="card"><div class="mono">Proteína</div><h3>Muitos blocos</h3><p class="small" style="margin:0">Uma frase longa, com estrutura e função mais complexas.</p></div>
+  <h3>Por que todo mundo está falando disso?</h3>
+  <p>Porque alguns peptídeos viraram remédios com resultados grandes e comprovados — como a semaglutida e a tirzepatida. O problema é que esse sucesso fez <b>dezenas de outros peptídeos</b>, com muito menos estudo, serem vendidos na internet como se fossem iguais. Não são.</p>
+  <div class="card pink">
+    <span class="tag t-red">ATENÇÃO</span>
+    <p style="margin:1.5mm 0 0">"Ser natural do corpo" não significa "ser seguro em qualquer quantidade". E "funcionou em ratos" não significa "funciona em pessoas".</p>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>2</span></div>
+</section>
+
+<!-- COMO LER A EVIDENCIA -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 1 · Fundamentos</span>
+  <h2>Como ler a evidência<br>em <span class="hl">30 segundos</span></h2>
+  <p>Antes de acreditar em qualquer promessa, pergunte: <b>em quem isso foi estudado?</b> Neste guia, cada peptídeo tem um selo de evidência:</p>
+  <table>
+    <tr><th>Selo</th><th>O que significa</th></tr>
+    <tr><td><span class="tag t-green">FORTE</span></td><td>Grandes estudos em humanos (fase 3), com milhares de pessoas, e aprovação de agências como a FDA (EUA) ou a Anvisa (Brasil).</td></tr>
+    <tr><td><span class="tag t-blue">MODERADA</span></td><td>Estudos em humanos, mas para um grupo específico, em menor número ou ainda em análise pelas agências.</td></tr>
+    <tr><td><span class="tag t-orange">INICIAL</span></td><td>Poucos estudos pequenos em humanos; a maior parte vem de laboratório e animais.</td></tr>
+    <tr><td><span class="tag t-red">FRACA</span></td><td>Praticamente só estudos em células e animais. Benefício e segurança em pessoas não estão estabelecidos.</td></tr>
+  </table>
+  <h3 style="margin-top:6mm">4 perguntas que separam ciência de propaganda</h3>
+  <div class="grid2">
+    <div class="card"><div class="big">1</div><p style="margin:1mm 0 0">Foi testado em <b>humanos</b> ou só em animais?</p></div>
+    <div class="card"><div class="big">2</div><p style="margin:1mm 0 0">Quantas pessoas e <b>por quanto tempo</b>?</p></div>
+    <div class="card"><div class="big">3</div><p style="margin:1mm 0 0">Comparou com <b>placebo</b>?</p></div>
+    <div class="card"><div class="big">4</div><p style="margin:1mm 0 0">Alguma agência <b>aprovou</b> — e para quê?</p></div>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>3</span></div>
+</section>
+
+<!-- PEPTIDEOS 1-4 -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 2 · Metabolismo e peso</span>
+  <h2 style="font-size:20pt">Os remédios que mudaram<br>o tratamento da <span class="hl">obesidade</span></h2>
+  <div class="pep">
+    <div class="card"><span class="tag t-green">FORTE</span><h3>Semaglutida</h3>
+      <div class="row"><span class="k">O que é</span><span>Imita o GLP-1, hormônio do intestino que aumenta a saciedade e ajuda a controlar a glicose.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>No estudo STEP-1, perda média de cerca de 15% do peso em 68 semanas. No SELECT, menos eventos cardiovasculares em pessoas com doença cardíaca.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Náusea, vômito, alterações intestinais; raramente pancreatite e problemas de vesícula.</span></div>
+      <div class="row"><span class="k">Status</span><span>Aprovada pela FDA e pela Anvisa (diabetes tipo 2 e obesidade).</span></div></div>
+    <div class="card"><span class="tag t-green">FORTE</span><h3>Tirzepatida</h3>
+      <div class="row"><span class="k">O que é</span><span>Age em dois hormônios ao mesmo tempo: GIP e GLP-1.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>SURMOUNT-1: cerca de 21% de perda média em 72 semanas (sem diabetes). SURMOUNT-2: cerca de 15% em quem tem diabetes tipo 2.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Parecidos com os da semaglutida, principalmente gastrointestinais.</span></div>
+      <div class="row"><span class="k">Status</span><span>Aprovada pela FDA e pela Anvisa.</span></div></div>
+    <div class="card"><span class="tag t-blue">MODERADA</span><h3>Retatrutida</h3>
+      <div class="row"><span class="k">O que é</span><span>"Agonista triplo": GIP, GLP-1 e glucagon.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Fase 2 (NEJM, 2023) com perda média de até cerca de 24% em 48 semanas. Estudos de fase 3 em andamento.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Gastrointestinais e aumento da frequência cardíaca nos estudos; perfil de longo prazo ainda em estudo.</span></div>
+      <div class="row"><span class="k">Status</span><span>Investigacional: ainda não aprovada pela FDA nem pela Anvisa.</span></div></div>
+    <div class="card"><span class="tag t-blue">MODERADA</span><h3>Cagrilintida + semaglutida (CagriSema)</h3>
+      <div class="row"><span class="k">O que é</span><span>Combina a semaglutida com uma versão de longa duração da amilina, hormônio da saciedade do pâncreas.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>REDEFINE 1: perda média de cerca de 20% em 68 semanas. Num estudo direto, não mostrou ser tão eficaz quanto a tirzepatida.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Principalmente náusea e vômito.</span></div>
+      <div class="row"><span class="k">Status</span><span>Em análise na FDA; não aprovada no Brasil.</span></div></div>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>4</span></div>
+</section>
+
+<!-- PEPTIDEOS 5-8 -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 2 · Gordura, desejo e recuperação</span>
+  <h2 style="font-size:20pt">Os que estão em alta<br>nas <span class="hl">redes sociais</span></h2>
+  <div class="pep">
+    <div class="card"><span class="tag t-blue">MODERADA</span><h3>Tesamorelina</h3>
+      <div class="row"><span class="k">O que é</span><span>Imita o hormônio do cérebro que faz a hipófise liberar hormônio do crescimento.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Reduziu em média cerca de 15% da gordura visceral em 6 meses, em pessoas com HIV e gordura abdominal acumulada.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Inchaço, dor nas articulações, aumento da glicose; a gordura tende a voltar ao parar.</span></div>
+      <div class="row"><span class="k">Status</span><span>Aprovada pela FDA só para esse grupo. Consulte o status atual na Anvisa.</span></div></div>
+    <div class="card"><span class="tag t-blue">MODERADA</span><h3>PT-141 (bremelanotida)</h3>
+      <div class="row"><span class="k">O que é</span><span>Age no sistema da melanocortina, em áreas do cérebro ligadas ao desejo sexual.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Aprovada em 2019 nos EUA para mulheres antes da menopausa com desejo baixo persistente. Em homens, evidência fraca.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Náusea em cerca de 4 em cada 10 mulheres nos estudos; aumento passageiro da pressão.</span></div>
+      <div class="row"><span class="k">Status</span><span>FDA: aprovada só nesse caso. Brasil: sem registro localizado na Anvisa.</span></div></div>
+    <div class="card"><span class="tag t-red">FRACA</span><h3>BPC-157</h3>
+      <div class="row"><span class="k">O que é</span><span>Fragmento derivado de uma proteína do suco gástrico, estudado para cicatrização.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Quase tudo em animais e células. Dados em humanos são mínimos.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Desconhecidos em pessoas. A FDA o listou entre substâncias com possíveis riscos para uso em manipulação.</span></div>
+      <div class="row"><span class="k">Status</span><span>Não aprovado como medicamento. Proibido no esporte (WADA).</span></div></div>
+    <div class="card"><span class="tag t-red">FRACA</span><h3>TB-500</h3>
+      <div class="row"><span class="k">O que é</span><span>Fragmento sintético da timosina beta-4, proteína ligada à migração de células e reparo.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Principalmente em animais e laboratório.</span></div>
+      <div class="row"><span class="k">Riscos</span><span>Segurança em humanos não estabelecida.</span></div>
+      <div class="row"><span class="k">Status</span><span>Não aprovado como medicamento. Proibido no esporte (WADA).</span></div></div>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>5</span></div>
+</section>
+
+<!-- PEPTIDEOS 9-10 + resumo -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 2 · Pele e longevidade</span>
+  <h2 style="font-size:20pt">Os queridinhos da<br><span class="hl">longevidade</span></h2>
+  <div class="pep">
+    <div class="card"><span class="tag t-orange">INICIAL</span><h3>GHK-Cu</h3>
+      <div class="row"><span class="k">O que é</span><span>Tripeptídeo ligado ao cobre, presente naturalmente no sangue; o nível cai com a idade.</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Em uso tópico (cremes), há estudos pequenos sugerindo melhora de colágeno e textura da pele. Para uso injetável, faltam dados em humanos.</span></div>
+      <div class="row"><span class="k">Status</span><span>Usado em cosméticos; não é medicamento aprovado.</span></div></div>
+    <div class="card"><span class="tag t-red">FRACA</span><h3>MOTS-c</h3>
+      <div class="row"><span class="k">O que é</span><span>Peptídeo produzido pelas próprias mitocôndrias, apelidado de "exercício em frasco".</span></div>
+      <div class="row"><span class="k">Estudos</span><span>Em camundongos: melhor resposta à insulina e mais desempenho em animais idosos. Em humanos: o exercício aumenta o MOTS-c do próprio corpo; não há estudo completo com aplicação.</span></div>
+      <div class="row"><span class="k">Status</span><span>Não aprovado como medicamento.</span></div></div>
+  </div>
+  <h3 style="margin-top:6mm">Resumo do guia</h3>
+  <table>
+    <tr><th>Peptídeo</th><th>Evidência</th><th>FDA (EUA)</th><th>Anvisa (BR)</th></tr>
+    <tr><td>Semaglutida</td><td><span class="tag t-green">FORTE</span></td><td>Aprovada</td><td>Aprovada</td></tr>
+    <tr><td>Tirzepatida</td><td><span class="tag t-green">FORTE</span></td><td>Aprovada</td><td>Aprovada</td></tr>
+    <tr><td>Retatrutida</td><td><span class="tag t-blue">MODERADA</span></td><td>Em estudo</td><td>Não aprovada</td></tr>
+    <tr><td>CagriSema</td><td><span class="tag t-blue">MODERADA</span></td><td>Em análise</td><td>Não aprovada</td></tr>
+    <tr><td>Tesamorelina</td><td><span class="tag t-blue">MODERADA</span></td><td>Aprovada (grupo específico)</td><td>Consultar</td></tr>
+    <tr><td>PT-141</td><td><span class="tag t-blue">MODERADA</span></td><td>Aprovada (grupo específico)</td><td>Sem registro localizado</td></tr>
+    <tr><td>GHK-Cu</td><td><span class="tag t-orange">INICIAL</span></td><td>Cosmético</td><td>Cosmético</td></tr>
+    <tr><td>BPC-157 · TB-500 · MOTS-c</td><td><span class="tag t-red">FRACA</span></td><td>Não aprovados</td><td>Não aprovados</td></tr>
+  </table>
+  <p class="small" style="margin-top:2mm">Status verificado em novembro de 2026. Regras mudam: confira sempre nas fontes oficiais (fda.gov e gov.br/anvisa).</p>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>6</span></div>
+</section>
+
+<!-- PERGUNTAS + SINAIS DE ALERTA -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <span class="label">Parte 3 · Antes de qualquer decisão</span>
+  <h2>Leve estas perguntas<br>ao seu <span class="hl">médico</span></h2>
+  <div class="card">
+    <ul style="margin:0">
+      <li>Para o meu objetivo, existe tratamento com evidência <b>forte</b> e aprovado?</li>
+      <li>Quais exames eu deveria fazer antes de pensar em qualquer tratamento?</li>
+      <li>Com a minha saúde e os remédios que já uso, quais riscos são maiores para mim?</li>
+      <li>O que dá para fazer primeiro com sono, alimentação e treino?</li>
+      <li>Como vamos acompanhar o resultado — e quando faz sentido parar?</li>
+    </ul>
+  </div>
+  <span class="label red" style="margin-top:3mm">Sinais de alerta</span>
+  <h3>Desconfie quando aparecer:</h3>
+  <div class="grid2">
+    <div class="card pink"><b>"Só para pesquisa"</b><p class="small" style="margin:1mm 0 0;color:var(--ink)">Produto vendido com esse rótulo não é medicamento e não tem garantia de conteúdo.</p></div>
+    <div class="card pink"><b>Promessa de resultado rápido</b><p class="small" style="margin:1mm 0 0;color:var(--ink)">"Perca X kg em Y dias" é marketing, não ciência.</p></div>
+    <div class="card pink"><b>Venda sem receita</b><p class="small" style="margin:1mm 0 0;color:var(--ink)">Remédio sério exige avaliação e acompanhamento.</p></div>
+    <div class="card pink"><b>"Zero efeitos colaterais"</b><p class="small" style="margin:1mm 0 0;color:var(--ink)">Tudo que tem efeito pode ter efeito colateral.</p></div>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>7</span></div>
+</section>
+
+<!-- FINAL -->
+<section class="page">
+  <div class="top"><span><b>●</b> OBOLARI ACADEMY</span><span>GUIA DOS PEPTÍDEOS</span></div>
+  <div style="margin-top:20mm"><span class="label">Continue aprendendo</span></div>
+  <h1 style="font-size:36pt;margin-top:4mm">Ciência, <span class="hl">sem hype</span>.</h1>
+  <p style="font-size:13pt;margin-top:8mm;max-width:155mm">Toda semana eu explico um peptídeo, vitamina ou tema de longevidade no Instagram — o que é, o que os estudos mostram e o que ainda não se sabe.</p>
+  <div class="card lime" style="margin-top:8mm;max-width:155mm">
+    <div class="mono">Me conta lá nos comentários</div>
+    <p style="font-size:13pt;margin:2mm 0 0"><b>Qual peptídeo você quer que eu explique no próximo vídeo?</b></p>
+  </div>
+  <div style="margin-top:8mm"><span style="display:inline-block;background:var(--ink);color:var(--lime);border:.6mm solid var(--lime);border-radius:8mm;padding:2mm 7mm;font-family:'JetBrains Mono';font-weight:800;font-size:14pt">@obolari_academy</span></div>
+  <div class="card" style="margin-top:14mm;border-left:2mm solid var(--red)">
+    <div class="mono" style="color:var(--red)">Aviso importante</div>
+    <p style="margin:2mm 0 0">Este guia tem caráter exclusivamente educativo. <b>Não é recomendação médica nem sugestão de uso</b> de qualquer substância, e não substitui consulta com profissional de saúde. Fontes: estudos publicados (NEJM, The Lancet, PubMed) e informações oficiais da FDA e da Anvisa, consultadas em novembro de 2026.</p>
+  </div>
+  <div class="foot"><span><b>Conteúdo educativo · Obolari Academy.</b> Não é recomendação médica nem sugestão de uso.</span><span>8</span></div>
+</section>
+</body></html>
