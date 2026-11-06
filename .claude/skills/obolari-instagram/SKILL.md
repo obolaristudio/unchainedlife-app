@@ -26,7 +26,8 @@ description: Manual-mestre da Operação 24 h do Instagram @obolari_academy (Max
 5. **Marca:** sempre "Obolari Academy" (nunca "Obolari Labs"). @ = obolari_academy.
 6. **Sempre pedir para comentar** (pergunta aberta). "Comente PALAVRA" só com material próprio aprovado pelo Maxwell.
 7. **Mínimo 4 h entre posts**; horários de pico padrão 12:10 e 19:40 (BRT), revisados semanalmente.
-8. **Créditos:** avisar o Maxwell quando Higgsfield < 150 ou houver erro de saldo em ElevenLabs/Buzzy/Captions.
+8. **Visual:** pode variar um pouco, mas na mesma paleta e sequência (sem poluição). Em todo vídeo, usar cores de atenção animadas no meio — principalmente **vermelho** em palavra/número/seta/círculo — seguindo `/brand/paleta.md` (seção "Evolução visual").
+9. **Créditos:** avisar o Maxwell quando Higgsfield < 150 ou houver erro de saldo em ElevenLabs/Buzzy/Captions.
 
 ## 3. Ferramentas e IDs
 | Uso | Ferramenta | Detalhe |

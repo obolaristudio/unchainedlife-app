@@ -48,3 +48,21 @@ Se o Maxwell informar os nomes oficiais das fontes, substituir aqui.
 
 ## Música
 Em todo vídeo, sempre: trilha instrumental de fundo **bem baixinha** (~15 dB abaixo da voz, com ducking quando a voz entra, fade in/out), sem vocal, estilo leve/moderno que combine com conteúdo educativo.
+
+## Evolução visual com cores de atenção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
+O visual pode variar um pouco de vídeo para vídeo (layouts de card, tipo de transição, composição), **desde que fique na mesma paleta e na mesma sequência**: barra do topo → gancho → blocos → veredito → aviso → pergunta → @. O objetivo é parecer uma série, não um vídeo diferente a cada post.
+
+**Cores que chamam a atenção no meio do vídeo (liberadas):**
+| Cor | Hex | Onde usar |
+|---|---|---|
+| Vermelho de atenção | `#E53935` (ou o vermelho da marca `#D9503F`) | palavra de impacto, número-chave, seta, sublinhado animado, círculo que "marca" um detalhe, pulso/flash curto no punch-in, selo "MITO" / "ATENÇÃO" |
+| Laranja | `#FF8A3D` | alerta leve, "ainda em estudo" |
+| Azul elétrico | `#3D7BFF` | dados, gráficos, comparações |
+
+**Regras para não poluir:**
+1. Verde-limão continua sendo a cor principal; o fundo nunca muda de cor inteiro (creme ou cena).
+2. **No máximo 1 cor de atenção por cena** (além do verde-limão), e ela aparece em movimento (entra, pulsa, some) — não fica parada a cena toda.
+3. Vermelho para **1–2 palavras ou 1 elemento** por vez, nunca em parágrafo inteiro.
+4. Animações com cor: sublinhado que se desenha, círculo que se fecha em volta de um dado, seta que entra, flash de 0,2 s no punch-in, número que conta subindo em vermelho/verde.
+5. Pelo menos 3–4 momentos de cor de atenção por vídeo (gancho, dado principal, ponto de atenção, veredito), espaçados.
+6. Sempre com a borda preta e a sombra dura do estilo.
