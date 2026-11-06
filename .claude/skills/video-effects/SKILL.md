@@ -127,3 +127,6 @@ Todo vídeo, legenda, PDF e material termina com um aviso curto de que **não é
 - Legenda: "⚠️ Conteúdo educativo: não é recomendação médica nem sugestão de uso. Converse com o seu médico."
 - PDF/material: rodapé em todas as páginas com a mesma frase.
 - Ajustar o tom ao perfil/público em que o conteúdo for publicado (ver ajustes de perfil que o Maxwell enviar), mantendo sempre o sentido "não é recomendação médica nem sugestão de uso".
+
+## Perfil
+Padrão de bio, nome, capa e grid em `perfil-obolari.md` desta pasta.
