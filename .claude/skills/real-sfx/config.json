@@ -9,6 +9,11 @@
       "name": "marca",
       "path": "/home/user/unchainedlife-app/brand/sfx",
       "tier": "extra"
+    },
+    {
+      "name": "earshot",
+      "path": "/home/user/unchainedlife-app/brand/sfx-earshot",
+      "tier": "extra"
     }
   ],
   "uisfx": {

@@ -1,5 +1,5 @@
 {
- "count": 5,
+ "count": 17,
  "libraries": [
   {
    "name": "cc0",
@@ -13,6 +13,13 @@
    "path": "/home/user/unchainedlife-app/brand/sfx",
    "tier": "extra",
    "files": 4,
+   "catalog": false
+  },
+  {
+   "name": "earshot",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot",
+   "tier": "extra",
+   "files": 12,
    "catalog": false
   }
  ],
@@ -34,7 +41,6 @@
    "peak_db": -7.4,
    "mean_db": -41.1,
    "peak_time": 0.05,
-   "lr_corr": 1.0,
    "attack_ms": 50,
    "decay_ms": 370,
    "centroid": 893,
@@ -44,6 +50,7 @@
    "flat": 0.151,
    "bumps": 3.3,
    "active_dur": 0.84,
+   "lr_corr": 1.0,
    "onset_count": 1,
    "words": [
     "soft-attack",
@@ -52,6 +59,402 @@
     "medium"
    ],
    "id": 0
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/impact_deep.wav",
+   "folder": "",
+   "name": "impact deep",
+   "role": "hit",
+   "roles": [
+    "hit"
+   ],
+   "duration": 6.205,
+   "peak_db": -1.0,
+   "mean_db": -21.2,
+   "peak_time": 0.11,
+   "lr_corr": 0.86,
+   "attack_ms": 80,
+   "decay_ms": 1550,
+   "centroid": 107,
+   "rolloff": 109,
+   "low": 0.928,
+   "high": 0.001,
+   "flat": 0.059,
+   "bumps": 2.7,
+   "active_dur": 3.92,
+   "words": [
+    "soft-attack",
+    "sub",
+    "heavy",
+    "tonal",
+    "long",
+    "long-tail"
+   ],
+   "id": 1
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_big_swell.wav",
+   "folder": "",
+   "name": "whoosh big swell",
+   "role": "riser",
+   "roles": [
+    "riser",
+    "whoosh"
+   ],
+   "duration": 1.355,
+   "peak_db": -1.0,
+   "mean_db": -21.5,
+   "peak_time": 0.43,
+   "lr_corr": 0.95,
+   "attack_ms": 210,
+   "decay_ms": 330,
+   "centroid": 374,
+   "rolloff": 484,
+   "low": 0.557,
+   "high": 0.017,
+   "flat": 0.086,
+   "bumps": 2.6,
+   "active_dur": 1.02,
+   "words": [
+    "swelling",
+    "dark",
+    "tonal",
+    "medium"
+   ],
+   "id": 2
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_big_cape.wav",
+   "folder": "",
+   "name": "whoosh big cape",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 1.327,
+   "peak_db": -1.0,
+   "mean_db": -22.6,
+   "peak_time": 0.35,
+   "lr_corr": 0.84,
+   "attack_ms": 400,
+   "decay_ms": 230,
+   "centroid": 299,
+   "rolloff": 500,
+   "low": 0.643,
+   "high": 0.005,
+   "flat": 0.044,
+   "bumps": 9.4,
+   "active_dur": 0.95,
+   "words": [
+    "swelling",
+    "dark",
+    "tonal",
+    "medium",
+    "pulsing"
+   ],
+   "id": 3
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_fast_heavy.wav",
+   "folder": "",
+   "name": "whoosh fast heavy",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 0.765,
+   "peak_db": -1.0,
+   "mean_db": -21.7,
+   "peak_time": 0.13,
+   "lr_corr": 0.97,
+   "attack_ms": 80,
+   "decay_ms": 180,
+   "centroid": 382,
+   "rolloff": 546,
+   "low": 0.302,
+   "high": 0.004,
+   "flat": 0.018,
+   "bumps": 3.3,
+   "active_dur": 0.48,
+   "words": [
+    "soft-attack",
+    "dark",
+    "tonal",
+    "short"
+   ],
+   "id": 4
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/riser_build.wav",
+   "folder": "",
+   "name": "riser build",
+   "role": "riser",
+   "roles": [
+    "riser"
+   ],
+   "duration": 1.758,
+   "peak_db": -1.0,
+   "mean_db": -21.3,
+   "peak_time": 1.21,
+   "lr_corr": 1.0,
+   "attack_ms": 460,
+   "decay_ms": 250,
+   "centroid": 88,
+   "rolloff": 125,
+   "low": 0.971,
+   "high": 0.003,
+   "flat": 0.023,
+   "bumps": 6.8,
+   "active_dur": 1.6,
+   "words": [
+    "slow-build",
+    "sub",
+    "heavy",
+    "tonal",
+    "long"
+   ],
+   "id": 5
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/impact_punch.wav",
+   "folder": "",
+   "name": "impact punch",
+   "role": "hit",
+   "roles": [
+    "hit"
+   ],
+   "duration": 2.845,
+   "peak_db": -1.0,
+   "mean_db": -21.9,
+   "peak_time": 0.01,
+   "lr_corr": 0.86,
+   "attack_ms": 60,
+   "decay_ms": 910,
+   "centroid": 195,
+   "rolloff": 203,
+   "low": 0.895,
+   "high": 0.003,
+   "flat": 0.05,
+   "bumps": 2.9,
+   "active_dur": 1.7,
+   "words": [
+    "soft-attack",
+    "dark",
+    "heavy",
+    "tonal",
+    "long",
+    "long-tail"
+   ],
+   "id": 6
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_fast_crisp.wav",
+   "folder": "",
+   "name": "whoosh fast crisp",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 1.056,
+   "peak_db": -1.0,
+   "mean_db": -21.7,
+   "peak_time": 0.13,
+   "lr_corr": 0.98,
+   "attack_ms": 60,
+   "decay_ms": 210,
+   "centroid": 472,
+   "rolloff": 687,
+   "low": 0.18,
+   "high": 0.006,
+   "flat": 0.032,
+   "bumps": 3.3,
+   "active_dur": 0.56,
+   "words": [
+    "soft-attack",
+    "dark",
+    "tonal",
+    "short"
+   ],
+   "id": 7
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/impact_classic.wav",
+   "folder": "",
+   "name": "impact classic",
+   "role": "hit",
+   "roles": [
+    "hit"
+   ],
+   "duration": 4.797,
+   "peak_db": -1.0,
+   "mean_db": -22.8,
+   "peak_time": 0.07,
+   "lr_corr": 0.73,
+   "attack_ms": 110,
+   "decay_ms": 1600,
+   "centroid": 193,
+   "rolloff": 140,
+   "low": 0.904,
+   "high": 0.003,
+   "flat": 0.067,
+   "bumps": 3.6,
+   "active_dur": 2.95,
+   "words": [
+    "soft-attack",
+    "dark",
+    "heavy",
+    "tonal",
+    "long",
+    "long-tail"
+   ],
+   "id": 8
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_big_gust.wav",
+   "folder": "",
+   "name": "whoosh big gust",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 1.886,
+   "peak_db": -1.0,
+   "mean_db": -23.6,
+   "peak_time": 0.53,
+   "lr_corr": 0.76,
+   "attack_ms": 380,
+   "decay_ms": 310,
+   "centroid": 900,
+   "rolloff": 1546,
+   "low": 0.187,
+   "high": 0.015,
+   "flat": 0.146,
+   "bumps": 6.8,
+   "active_dur": 1.47,
+   "words": [
+    "swelling",
+    "warm",
+    "textured",
+    "medium"
+   ],
+   "id": 9
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/whoosh_big_jet.wav",
+   "folder": "",
+   "name": "whoosh big jet",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 1.649,
+   "peak_db": -1.0,
+   "mean_db": -20.6,
+   "peak_time": 0.55,
+   "lr_corr": 0.94,
+   "attack_ms": 230,
+   "decay_ms": 360,
+   "centroid": 638,
+   "rolloff": 906,
+   "low": 0.187,
+   "high": 0.002,
+   "flat": 0.037,
+   "bumps": 2.4,
+   "active_dur": 1.23,
+   "words": [
+    "swelling",
+    "warm",
+    "tonal",
+    "medium"
+   ],
+   "id": 10
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/riser_tension.wav",
+   "folder": "",
+   "name": "riser tension",
+   "role": "riser",
+   "roles": [
+    "riser"
+   ],
+   "duration": 2.8,
+   "peak_db": -1.0,
+   "mean_db": -18.8,
+   "peak_time": 2.77,
+   "lr_corr": 0.68,
+   "attack_ms": 1680,
+   "decay_ms": 100,
+   "centroid": 2398,
+   "rolloff": 4031,
+   "low": 0.0,
+   "high": 0.151,
+   "flat": 0.453,
+   "bumps": 3.0,
+   "active_dur": 2.8,
+   "words": [
+    "slow-build",
+    "mid",
+    "thin",
+    "textured",
+    "long"
+   ],
+   "id": 11
+  },
+  {
+   "library": "earshot",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx-earshot/riser_rush.wav",
+   "folder": "",
+   "name": "riser rush",
+   "role": "riser",
+   "roles": [
+    "riser",
+    "whoosh"
+   ],
+   "duration": 1.756,
+   "peak_db": -1.0,
+   "mean_db": -22.9,
+   "peak_time": 1.73,
+   "lr_corr": 0.58,
+   "attack_ms": 490,
+   "decay_ms": 10,
+   "centroid": 3136,
+   "rolloff": 5718,
+   "low": 0.011,
+   "high": 0.327,
+   "flat": 0.782,
+   "bumps": 0.0,
+   "active_dur": 1.76,
+   "words": [
+    "slow-build",
+    "bright",
+    "thin",
+    "noisy",
+    "long"
+   ],
+   "id": 12
   },
   {
    "library": "marca",
@@ -84,7 +487,7 @@
     "noisy",
     "short"
    ],
-   "id": 1
+   "id": 13
   },
   {
    "library": "marca",
@@ -119,7 +522,7 @@
     "tonal",
     "short"
    ],
-   "id": 2
+   "id": 14
   },
   {
    "library": "marca",
@@ -152,7 +555,7 @@
     "tonal",
     "medium"
    ],
-   "id": 3
+   "id": 15
   },
   {
    "library": "marca",
@@ -188,7 +591,7 @@
     "tiny",
     "dry"
    ],
-   "id": 4
+   "id": 16
   }
  ]
 }
