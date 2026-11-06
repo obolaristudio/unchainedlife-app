@@ -69,7 +69,8 @@ Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode inst
 - Aprovar gastos grandes e liberar o formato "comente PALAVRA".
 
 ## 7. Pendências (atualizar esta lista)
-- [ ] Guia em PDF original da Obolari Academy (sem doses, aviso em todas as páginas) + automação "comente GUIA" → resposta pública + DM privada com o link (via rotina de hora em hora). **Não** usar o "Peptide pdf ebook.pdf" do Drive: é licença pessoal comprada de terceiro e tem doses.
+- [x] Guia em PDF original (`materiais/Guia-dos-Peptideos-Obolari-Academy.pdf`, link público em `respostas-comentarios.md`) + automação "comente GUIA" ativa na rotina de hora em hora. **Nunca** usar o "Peptide pdf ebook.pdf" do Drive (licença de terceiro, com doses).
+- [ ] Usar "comente GUIA" nos próximos vídeos/legendas; trocar a última linha da bio quando o Maxwell atualizar.
 - [ ] Capas dos destaques (Comece aqui, Peptídeos A–Z, Mito ou verdade, Perguntas, Guia grátis).
 - [ ] Arquivar a Amilina repetida de menor alcance.
 - [ ] Maxwell colar a bio/nome novos e começar o "deixar de seguir".

@@ -20,6 +20,16 @@ Antes dos comentários, uma vez por semana (checar em `research/revisoes.md` se 
 3. Atualizar `operacao-24h.md` com os ajustes (temas a repetir/evitar, ganchos vencedores, horários) e registrar a data em `research/revisoes.md`; commit/push no main.
 4. Relatório curto ao Maxwell: crescimento da semana, top 3 posts com motivo, 3 ajustes aplicados, no máximo 2 decisões para ele, saldo do Higgsfield e alerta de créditos. Nunca inventar números.
 
+
+## Automação "comente GUIA" (aprovada pelo Maxwell em 06/11/2026)
+Link do guia (PDF público, Obolari Academy, sem doses): https://res-prod.buzzy.now/file-service/d40a8bce-65c7-4f18-98b4-612d99ba0b03.pdf
+Em toda execução, ao varrer os comentários dos últimos 7 dias:
+1. Comentário que contenha a palavra **guia** (sem diferenciar maiúscula/acento, ex.: "GUIA", "guia!", "quero o guia") e cujo id ainda não esteja em `research/guia-enviados.md` → enviar **mensagem privada** pela API oficial de Private Replies via `COMPOSIO_PROXY_EXECUTE` (toolkit instagram): `POST https://graph.instagram.com/v21.0/me/messages` com corpo `{"recipient":{"comment_id":"<ID>"},"message":{"text":"Oi! Aqui está o Guia dos Peptídeos da Obolari Academy 📘 <LINK> — conteúdo educativo, não é recomendação médica nem sugestão de uso. Depois me conta qual peptídeo você quer ver no próximo vídeo!"}}`. Só 1 mensagem privada por comentário, em até 7 dias do comentário (regra da Meta).
+2. Se a mensagem privada der certo → responder publicamente ao comentário com uma frase curta e variada (ex.: "Te mandei no direct! 📩", "Enviado na sua DM 😉", "Chegou aí no direct? 📘"), nunca a mesma frase repetida em sequência.
+3. Se a mensagem privada falhar → responder publicamente "Oi! O link do guia está na bio 📌" e avisar o Maxwell uma única vez com o erro (pode faltar permissão de mensagens na conexão).
+4. Registrar o id do comentário, o @ e o resultado em `research/guia-enviados.md` (commit/push no main) para nunca enviar duas vezes.
+5. Máximo de 30 envios por execução, com ~20 s entre eles.
+
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
