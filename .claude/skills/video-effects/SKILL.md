@@ -105,3 +105,6 @@ Objetivo: vídeos mais dinâmicos, com movimento real, e não só cards animados
 
 ## Nome da marca (regra fixa, pedido do Maxwell em nov/2026)
 Todo vídeo e material usa **"Obolari Academy"**: narração ("conteúdo educativo da Obolari Academy"), créditos na tela, aviso fixo, legenda do post, PDFs e documentos. **Nunca usar "Obolari Labs"**, para não confundir o público. Os vídeos de resistência à insulina e de amilina (nov/2026) ainda citam "Obolari Labs"; corrigir se o Maxwell pedir.
+
+## Fechamento sem exagero (pedido do Maxwell, 06/11/2026)
+No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu médico" + a pergunta de engajamento. NÃO repetir "não é aprovado", "não pode ser usado", "não use" etc. O status regulatório, quando entrar, vai uma única vez, no corpo do vídeo, de forma neutra e curta (ex.: "a FDA aprovou para tal grupo"). As travas da Regra nº 1 continuam (sem dose, compra, promessa).
