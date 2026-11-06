@@ -81,3 +81,8 @@ Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode inst
 - [ ] Capas dos destaques (Comece aqui, Peptídeos A–Z, Mito ou verdade, Perguntas, Guia grátis).
 - [ ] Arquivar a Amilina repetida de menor alcance.
 - [ ] Maxwell colar a bio/nome novos e começar o "deixar de seguir".
+
+## Efeitos e som (desde 06/11/2026)
+- Efeitos visuais: skill `efeitos-virais` (20 efeitos HyperFrames, 2 a 4 por Reel).
+- Som: skills `real-sfx` + `earshot` (ver video-effects).
+- Horários de pico no fuso de Nova York (12:10 e 20:10 ET).
