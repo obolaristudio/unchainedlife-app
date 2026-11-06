@@ -117,3 +117,6 @@ No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu
 - **CTA de comentário em todo vídeo e legenda** (pergunta aberta, ex.: "Qual peptídeo eu explico no próximo? Comenta aqui"), nunca palavra-chave em troca de algo.
 - **Captions:** o conector só legenda vídeos gerados dentro dele (sem upload de vídeo externo); usar quando houver vídeo de avatar/Mirage, senão legenda própria.
 - **Créditos:** antes de cada produção checar saldo (Higgsfield `balance`; ElevenLabs pelo custo das gerações) e avisar o Maxwell quando qualquer ferramenta estiver acabando (Higgsfield < 150 créditos, ou qualquer erro de saldo em ElevenLabs, Buzzy ou Captions).
+
+## Referências de perfis
+Antes de planejar série, gancho, capa, bio ou destaques, ler `referencias.md` desta pasta (perfis analisados e como aplicar).
