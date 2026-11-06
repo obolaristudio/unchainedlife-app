@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+@font-face{font-family:"Bricolage";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+:root{--lime:#CBEF4B;--ink:#141414;--cream:#F2EFE6;--card:#FBFAF6;--red:#D9503F;--grid:#E6E3DA}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink)}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bricolage",sans-serif;overflow:hidden}
+#cam{position:absolute;inset:0}
+#foot{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 40%}
+#chart{position:absolute;inset:0;background-color:var(--cream);background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:60px 60px}
+#chart svg{position:absolute;left:0;top:0}
+#pill{position:absolute;right:70px;top:240px;background:var(--red);color:#fff;border:5px solid var(--ink);box-shadow:12px 12px 0 var(--ink);border-radius:24px;padding:20px 40px;text-align:center}
+#pill .n{font-size:170px;font-weight:800;line-height:1}
+#pill .l{font-size:40px;font-weight:700}
+#label{position:absolute;left:70px;top:240px;background:var(--lime);border:5px solid var(--ink);box-shadow:10px 10px 0 var(--ink);border-radius:14px;padding:12px 24px;font-size:52px;font-weight:800;color:var(--ink);max-width:470px}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="6" data-width="1080" data-height="1920">
+  <video id="foot" class="clip" data-start="0" data-duration="6" src="assets/hand.mp4" muted></video>
+  <div id="chart" class="clip" data-start="1.6" data-duration="3.4">
+    <svg width="1080" height="1920" viewBox="0 0 1080 1920"><path id="line" d="M80 1500 C 300 1450, 450 1300, 600 1050 S 900 650, 1000 560" fill="none" stroke="#D9503F" stroke-width="16" stroke-linecap="round"/><circle id="dot" cx="1000" cy="560" r="26" fill="#D9503F" stroke="#141414" stroke-width="6"/></svg>
+    <div id="label">−5 kg de força na mão</div>
+    <div id="pill"><div class="n"><span id="num">0</span>%</div><div class="l">risco de morte</div></div>
+  </div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+// 04 Snap Zoom: 1.0 -> 1.38 em 3 frames, segura, volta
+tl.fromTo("#foot",{scale:1},{scale:1.38,duration:0.1,ease:"expo.out"},0.4);
+tl.to("#foot",{scale:1,duration:0.12,ease:"power2.in"},1.35);
+// 08 Growth Curve
+const L=document.getElementById("line").getTotalLength();
+tl.fromTo("#chart > svg, #label, #pill",{opacity:0},{opacity:1,duration:0.15},1.6);
+tl.fromTo("#chart",{clipPath:"circle(0% at 50% 50%)"},{clipPath:"circle(80% at 50% 50%)",duration:0.35,ease:"power3.out"},1.6);
+tl.fromTo("#line",{strokeDasharray:L,strokeDashoffset:L},{strokeDashoffset:0,duration:1.6,ease:"power2.inOut"},1.8);
+tl.fromTo("#dot",{scale:0,transformOrigin:"50% 50%"},{scale:1,duration:0.25,ease:"back.out(3)"},3.35);
+const c={v:0};tl.to(c,{v:16,duration:1.6,ease:"power2.inOut",onUpdate:()=>{document.getElementById("num").textContent="+"+Math.round(c.v)}},1.8);
+tl.fromTo("#pill",{scale:0.6,rotation:-6},{scale:1,rotation:0,duration:0.35,ease:"back.out(2.5)"},1.7);
+tl.to("#chart",{clipPath:"circle(0% at 50% 50%)",duration:0.3,ease:"power3.in"},4.65);
+window.__timelines["main"]=tl;tl.seek(0);
+</script>
+</body></html>

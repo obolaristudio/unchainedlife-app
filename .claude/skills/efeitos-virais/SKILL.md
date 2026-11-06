@@ -59,5 +59,8 @@ Em negrito: os que mais combinam com o nosso conteúdo (estudos, números, mitos
 
 ## Ferramentas instaladas
 - Skills HyperFrames (Apache-2.0, commit 9acdce4): `hyperframes`, `hyperframes-cli`, `media-use` (transcrição, remoção de fundo, mídia), `reverse-any-video` (reconstruir a estrutura de um viral em camadas editáveis; útil para "replicar a estrutura").
-- Executar o CLI só com versão fixada e depois de revisar: `npx hyperframes@0.9.19 …`.
+- **CLI instalado e testado (06/11/2026)**: `npx -y hyperframes@0.9.19 init|check|render`. Permissão no `.claude/settings.json` só para essa versão; telemetria desligada (HYPERFRAMES_NO_TELEMETRY=1, DO_NOT_TRACK=1). Render 1080x1920 de 6 s em ~18 s.
+- Fluxo: `init <dir> --skip-skills --skill=hyperframes` → copiar clipe para `assets/` e fontes para `assets/fonts/` → escrever `index.html` (root com `data-width=1080 data-height=1920`, clips com `class="clip" data-start data-duration`, timeline GSAP pausada em `window.__timelines["main"]`) → `check --json` → `render -o x.mp4 -q delivery`.
+- Modelo pronto (04 Snap Zoom + 08 Growth Curve): `modelos/snapzoom-growthcurve/index.html`.
+- Para juntar com nosso pipeline: renderizar o trecho do efeito e substituir o segmento correspondente no `bg.mp4` (ou renderizar o overlay inteiro com `--format mov` para ter transparência).
 - Achar novos efeitos: o pack sugere o Klint (tryklint.ai), um MCP pago de dados sociais. Está registrado como sugestão em `research/ferramentas.md`; não foi instalado.
