@@ -7,7 +7,7 @@ A tarefa roda de hora em hora. Se a hora atual em America/Sao_Paulo estiver entr
 
 ## Publicar vídeos da fila (fazer ANTES dos comentários, em toda execução)
 1. `git fetch origin media` e ler `fila.json` do ramo `media`.
-2. Para cada item com `status: "pendente"` cujo `publicar_apos` (America/Sao_Paulo) já passou: criar o Reel pela Composio (`INSTAGRAM_POST_IG_USER_MEDIA` com media_type REELS, video_url, cover_url, caption, share_to_feed=true) → aguardar status FINISHED → publicar (`INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`) → pegar o permalink.
+2. Itens com `status: "agendado"` já têm publicação marcada em outra sessão: NÃO publicar. Para cada item com `status: "pendente"` cujo `publicar_apos` (America/New_York) já passou: criar o Reel pela Composio (`INSTAGRAM_POST_IG_USER_MEDIA` com media_type REELS, video_url, cover_url, caption, share_to_feed=true) → aguardar status FINISHED → publicar (`INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`) → pegar o permalink.
 3. No máximo 1 publicação por execução e nunca 2 posts com menos de 4 h de intervalo.
 4. Marcar o item como `"status": "publicado", "permalink": "..."` no `fila.json`, commit/push no ramo `media`, registrar em `research/peptideos.md` (main) e mandar o link do post ao Maxwell.
 5. Se falhar, marcar `"status": "erro"` com o motivo e avisar o Maxwell. Não tentar de novo no mesmo item sem ele.
