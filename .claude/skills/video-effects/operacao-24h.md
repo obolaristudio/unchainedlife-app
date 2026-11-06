@@ -10,9 +10,9 @@ Objetivo: transformar o perfil numa máquina de crescer seguidores com conteúdo
 | Revisão semanal de crescimento | segunda ~08:47 BRT | lê métricas, ranqueia posts, ajusta temas/horários/ganchos e manda relatório |
 
 ## Linha editorial (mix semanal)
-- **50 % peptídeos** (série "um peptídeo por vídeo", mito × verdade, comparativos).
-- **30 % longevidade** (sono, músculo e envelhecimento, VO2máx, glicose/insulina, inflamação, jejum — sempre com o que a ciência mostra).
-- **20 % vitaminas e bem-estar** (vitamina D, magnésio, ômega-3, creatina, B12, colágeno, probióticos — o que é, para que serve segundo estudos, quem costuma ter deficiência, quando falar com o médico). **Sem dose individual**: no máximo citar a recomendação oficial de ingestão diária (RDA/ANVISA) quando for o ponto do vídeo.
+- **40 % peptídeos** (seguir as regras de alcance de `perfil-obolari.md`) (série "um peptídeo por vídeo", mito × verdade, comparativos).
+- **35 % longevidade** (sono, músculo e envelhecimento, VO2máx, glicose/insulina, inflamação, jejum — sempre com o que a ciência mostra).
+- **25 % vitaminas e bem-estar** (vitamina D, magnésio, ômega-3, creatina, B12, colágeno, probióticos — o que é, para que serve segundo estudos, quem costuma ter deficiência, quando falar com o médico). **Sem dose individual**: no máximo citar a recomendação oficial de ingestão diária (RDA/ANVISA) quando for o ponto do vídeo.
 - Fontes de pesquisa diárias: virais (TikTok/Instagram via gpt_social e yt-dlp), PubMed/estudos novos, FDA/Anvisa/EMA, notícias de saúde confiáveis (NIH, Harvard Health, Examine, The Lancet, NEJM). Registrar em `research/usados.md`.
 
 ## Formatos que fazem crescer
