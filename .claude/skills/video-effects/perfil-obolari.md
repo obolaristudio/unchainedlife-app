@@ -2,7 +2,7 @@
 
 ## Identidade
 - @: **obolari_academy** (mantido; é o mesmo nome usado em todos os vídeos, capas, pílula final e créditos).
-- Nome (campo pesquisável): **Maxwell | Peptídeos sem hype**
+- Nome (campo pesquisável): **Obolari Academy | Peptídeos** (o Maxwell quer manter a marca Obolari Academy porque vai vender um material próprio no link da bio; alternativa: "Maxwell · Obolari Academy | Peptídeos")
 - Bio (≤150 caracteres):
   ```
   🧬 Peptídeos com ciência, sem hype
