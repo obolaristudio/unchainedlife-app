@@ -54,3 +54,16 @@ A `Regra nº 1` do SKILL.md proíbe "comenta X que eu te mando" (risco de ser tr
 | Link /ig | Página de captura só do Instagram para medir conversão |
 | Destaques | Comece aqui · Peptídeos A–Z · Mitos × Verdades · Perguntas de vocês · Links |
 | Rosto | Testar vídeos com o rosto do Maxwell (gravado ou avatar pelo Captions/Mirage com a voz dele) em parte dos posts |
+
+## @hnrlabs (HNR Labs, UK) — analisado em 06/11/2026
+19,7 mil seguidores, 200 posts. Bio: "Research-backed education on peptides, biohacking & longevity. No hype. No medical advice. Just the science."
+**Formato "pôster animado 3D" (o que viraliza):**
+- Reel de **~12 s, 1 plano só**, sem narração e sem corte: animação médica 3D hiper-realista em fundo preto (olho, cérebro, cabelo, músculo), câmera fazendo push-in lento e a "ação" acontecendo no órgão (fibras acendendo, partículas azuis, 2 cores = 2 peptídeos).
+- Texto **fixo** o vídeo inteiro: selo pequeno no topo ("HNR LABS | LONGEVITY"), título gigante branco com brilho (nome do peptídeo), subtítulo de 1 linha, no rodapé um rótulo em fonte mono ("PARTIAL EPIGENETIC REPROGRAMMING"), 1 frase de benefício, "How it works 👇" e @handle.
+- Som: só música ambiente/cinemática (sem voz).
+- **Todo o conteúdo vai na legenda longa** (gancho + seções com emoji 📰🧬⏪ + "Worth knowing" com as limitações + "⚠️ Not medical advice" + "Save this and follow").
+- O vídeo curto e em loop faz a pessoa assistir várias vezes enquanto lê a legenda → muita retenção/visualização.
+- Destaques (stories) com capa por peptídeo, mesmo estilo.
+**Números (top 10):** ER-100 826 mil views; Melanotan 89 mil; GHK-Cu vs AHK-Cu 89 mil; BPC-157 68 mil; Thymalin 68 mil; KPV 67 mil; Semax/Selank 34 mil.
+**Ponto crítico:** engajamento muito baixo (ER-100: 282 curtidas e 4 comentários em 826 mil views = 0,03%). O formato gera alcance, não conversa nem seguidor. Usar como **2º formato** (alcance/descoberta), mantendo os Reels narrados (autoridade + "comente GUIA").
+**Como replicar com nossas ferramentas:** imagem 3D herói (Higgsfield generate_image) → animação 10–12 s com frame inicial/final (Higgsfield Kling 3.0 / Seedance) → texto fixo + selo Obolari Academy via HyperFrames → música + 2–3 SFX (real-sfx) → legenda longa no padrão Obolari (com "comente GUIA" e o aviso). Em português; título com nome do peptídeo + benefício estudado, nunca dose/aplicação.
