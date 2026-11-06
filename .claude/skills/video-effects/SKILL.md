@@ -130,3 +130,6 @@ Todo vídeo, legenda, PDF e material termina com um aviso curto de que **não é
 
 ## Perfil
 Padrão de bio, nome, capa e grid em `perfil-obolari.md` desta pasta.
+
+## Operação 24 h
+Missão, linha editorial, formatos, orçamento de créditos e divisão das tarefas em `operacao-24h.md` desta pasta.

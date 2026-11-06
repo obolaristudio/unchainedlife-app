@@ -1,4 +1,6 @@
-# Rotina da madrugada: pesquisa → 2 vídeos originais → publicação automática
+# Rotina da madrugada: pesquisa → 2 Reels + 1 carrossel → publicação automática
+
+**Ler antes:** `operacao-24h.md` (linha editorial com peptídeos, longevidade, vitaminas e bem-estar; carrossel diário; orçamento de créditos) e `referencias.md` / `perfil-obolari.md`.
 
 Pedido do Maxwell. Roda todo dia de madrugada (America/Sao_Paulo) por tarefa agendada, sem ninguém acompanhando.
 Modo escolhido pelo Maxwell: **100% automático, 2 vídeos por dia**. Seguir também o SKILL.md desta pasta.
