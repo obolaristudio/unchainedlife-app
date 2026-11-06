@@ -12,6 +12,14 @@ A tarefa roda de hora em hora. Se a hora atual em America/Sao_Paulo estiver entr
 4. Marcar o item como `"status": "publicado", "permalink": "..."` no `fila.json`, commit/push no ramo `media`, registrar em `research/peptideos.md` (main) e mandar o link do post ao Maxwell.
 5. Se falhar, marcar `"status": "erro"` com o motivo e avisar o Maxwell. Não tentar de novo no mesmo item sem ele.
 
+
+## Revisão semanal de crescimento (segunda-feira, primeira execução depois das 08:00 BRT)
+Antes dos comentários, uma vez por semana (checar em `research/revisoes.md` se a revisão desta semana já foi feita):
+1. INSTAGRAM_GET_USER_INSIGHTS (últimos 7 dias): seguidores, alcance, views, visitas ao perfil, interações; e INSTAGRAM_GET_IG_MEDIA_INSIGHTS de cada post da semana (views, reach, saves, shares, comments).
+2. Ranquear os posts e identificar o que funcionou (tema, gancho, formato, horário, duração). Usar online_followers, se vier, para revisar os horários de pico.
+3. Atualizar `operacao-24h.md` com os ajustes (temas a repetir/evitar, ganchos vencedores, horários) e registrar a data em `research/revisoes.md`; commit/push no main.
+4. Relatório curto ao Maxwell: crescimento da semana, top 3 posts com motivo, 3 ajustes aplicados, no máximo 2 decisões para ele, saldo do Higgsfield e alerta de créditos. Nunca inventar números.
+
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
