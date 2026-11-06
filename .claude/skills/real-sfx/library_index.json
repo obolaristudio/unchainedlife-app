@@ -1,0 +1,194 @@
+{
+ "count": 5,
+ "libraries": [
+  {
+   "name": "cc0",
+   "path": "/home/user/unchainedlife-app/brand/sfx-cc0",
+   "tier": "main",
+   "files": 1,
+   "catalog": false
+  },
+  {
+   "name": "marca",
+   "path": "/home/user/unchainedlife-app/brand/sfx",
+   "tier": "extra",
+   "files": 4,
+   "catalog": false
+  }
+ ],
+ "sounds": [
+  {
+   "library": "cc0",
+   "tier": "main",
+   "path": "/home/user/unchainedlife-app/brand/sfx-cc0/typewriter_ding_01.wav",
+   "folder": "",
+   "name": "typewriter ding 01",
+   "role": "ui",
+   "roles": [
+    "ui",
+    "foley",
+    "chime",
+    "typing"
+   ],
+   "duration": 1.056,
+   "peak_db": -7.4,
+   "mean_db": -41.1,
+   "peak_time": 0.05,
+   "lr_corr": 1.0,
+   "attack_ms": 50,
+   "decay_ms": 370,
+   "centroid": 893,
+   "rolloff": 1359,
+   "low": 0.326,
+   "high": 0.032,
+   "flat": 0.151,
+   "bumps": 3.3,
+   "active_dur": 0.84,
+   "onset_count": 1,
+   "words": [
+    "soft-attack",
+    "warm",
+    "textured",
+    "medium"
+   ],
+   "id": 0
+  },
+  {
+   "library": "marca",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx/whoosh.mp3",
+   "folder": "",
+   "name": "whoosh",
+   "role": "whoosh",
+   "roles": [
+    "whoosh"
+   ],
+   "duration": 1.0,
+   "peak_db": 0.0,
+   "mean_db": -22.6,
+   "peak_time": 0.17,
+   "attack_ms": 80,
+   "decay_ms": 200,
+   "centroid": 2660,
+   "rolloff": 4515,
+   "low": 0.044,
+   "high": 0.199,
+   "flat": 0.559,
+   "bumps": 3.3,
+   "active_dur": 0.49,
+   "lr_corr": -0.04,
+   "words": [
+    "soft-attack",
+    "mid",
+    "thin",
+    "noisy",
+    "short"
+   ],
+   "id": 1
+  },
+  {
+   "library": "marca",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx/ding.mp3",
+   "folder": "",
+   "name": "ding",
+   "role": "ui",
+   "roles": [
+    "ui",
+    "chime"
+   ],
+   "duration": 1.0,
+   "peak_db": -5.1,
+   "mean_db": -29.1,
+   "peak_time": 0.13,
+   "attack_ms": 130,
+   "decay_ms": 150,
+   "centroid": 5871,
+   "rolloff": 6156,
+   "low": 0.001,
+   "high": 0.925,
+   "flat": 0.033,
+   "bumps": 3.3,
+   "active_dur": 0.58,
+   "lr_corr": 0.87,
+   "onset_count": 2,
+   "words": [
+    "swelling",
+    "airy",
+    "thin",
+    "tonal",
+    "short"
+   ],
+   "id": 2
+  },
+  {
+   "library": "marca",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx/impact.mp3",
+   "folder": "",
+   "name": "impact",
+   "role": "hit",
+   "roles": [
+    "hit"
+   ],
+   "duration": 1.0,
+   "peak_db": -0.0,
+   "mean_db": -14.2,
+   "peak_time": 0.05,
+   "attack_ms": 40,
+   "decay_ms": 420,
+   "centroid": 46,
+   "rolloff": 62,
+   "low": 1.0,
+   "high": 0.0,
+   "flat": 0.001,
+   "bumps": 7.3,
+   "active_dur": 0.75,
+   "lr_corr": 1.0,
+   "words": [
+    "soft-attack",
+    "sub",
+    "heavy",
+    "tonal",
+    "medium"
+   ],
+   "id": 3
+  },
+  {
+   "library": "marca",
+   "tier": "extra",
+   "path": "/home/user/unchainedlife-app/brand/sfx/pop.mp3",
+   "folder": "",
+   "name": "pop",
+   "role": "ui",
+   "roles": [
+    "ui",
+    "pop"
+   ],
+   "duration": 1.0,
+   "peak_db": -2.8,
+   "mean_db": -28.7,
+   "peak_time": 0.01,
+   "attack_ms": 0,
+   "decay_ms": 50,
+   "centroid": 624,
+   "rolloff": 656,
+   "low": 0.018,
+   "high": 0.0,
+   "flat": 0.0,
+   "bumps": 0.0,
+   "active_dur": 0.11,
+   "lr_corr": 1.0,
+   "onset_count": 0,
+   "words": [
+    "punchy",
+    "warm",
+    "thin",
+    "tonal",
+    "tiny",
+    "dry"
+   ],
+   "id": 4
+  }
+ ]
+}

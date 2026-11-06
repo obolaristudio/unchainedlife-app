@@ -113,6 +113,12 @@ No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu
 - **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
 - **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.
 - **Kit de efeitos sonoros** em `brand/sfx/` (ElevenLabs): `impact.mp3` no gancho, `whoosh.mp3` em cada troca de cena, `pop.mp3` quando um card aparece, `ding.mp3` em checklist/dado-chave. Script de mixagem de referência: aplicar com volumes ~0,2–0,55 abaixo da voz.
+- **Skills de som instaladas (usar em todo vídeo):**
+  1. **real-sfx** (`.claude/skills/real-sfx`): sons gravados reais. Fluxo: cue sheet a partir da timeline JSON do vídeo → `from_cues.py` → `mix.py` → `critique.py`. Bibliotecas: `brand/sfx-cc0` (main), `brand/sfx` (extra) e uisfx (1.895 cues CC0; packs `cinematic`, `glass`, `soft`, `minimal`…).
+  2. **earshot** (CLI `earshot`): antes de usar qualquer som novo, `earshot describe arquivo` / `earshot match arquivo "descrição"`; no final, `earshot timeline video.mp4` para conferir sync e loudness. Banco próprio: `earshot sfx list` / `earshot sfx render <id>`.
+  3. **real-sound**: referência de mixagem/master (-14 LUFS, -1 dBTP) e créditos.
+  - Entregar sempre: MP4, WAV só dos SFX, cue sheet e créditos (`brand/sfx-cc0/CREDITOS.csv`).
+  - Container novo? Reinstalar: `pip install scipy soundfile soxr librosa pyloudnorm scikit-learn pillow matplotlib transformers && pip install torch --index-url https://download.pytorch.org/whl/cpu && git clone https://github.com/Leonxlnx/earshot /tmp/earshot && pip install --no-deps /tmp/earshot`.
 - **Retenção:** algo visual novo a cada 2–4 s; padrões que prendem: pergunta no 1º segundo, "mito ou verdade", número grande na tela, checklist, contraste lado a lado, veredito final.
 - **CTA de comentário em todo vídeo e legenda** (pergunta aberta, ex.: "Qual peptídeo eu explico no próximo? Comenta aqui"), nunca palavra-chave em troca de algo.
 - **Captions:** o conector só legenda vídeos gerados dentro dele (sem upload de vídeo externo); usar quando houver vídeo de avatar/Mirage, senão legenda própria.

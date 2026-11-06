@@ -1,0 +1,22 @@
+{
+  "libraries": [
+    {
+      "name": "cc0",
+      "path": "/home/user/unchainedlife-app/brand/sfx-cc0",
+      "tier": "main"
+    },
+    {
+      "name": "marca",
+      "path": "/home/user/unchainedlife-app/brand/sfx",
+      "tier": "extra"
+    }
+  ],
+  "uisfx": {
+    "path": "vendor/node_modules/uisfx",
+    "default_pack": "studio"
+  },
+  "skip_dir_names": [
+    "_mister horse previews"
+  ],
+  "index_path": "library_index.json"
+}
