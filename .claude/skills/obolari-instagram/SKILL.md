@@ -70,14 +70,14 @@ Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode inst
 
 ## 6.1 Loja e materiais (Gumroad)
 - Plataforma de hospedagem e venda: **Gumroad** (conectado na Composio; a API não cria produtos — o Maxwell cria pelo app/site com os pacotes em `materiais/gumroad/`).
-- Loja: hoje `2913514266881.gumroad.com` → trocar usuário para **obolariacademy** e ligar o domínio **obolariacademy.com** (a registrar) como domínio personalizado.
+- Loja: hoje `2913514266881.gumroad.com` → trocar usuário para **obolariacademy** e ligar o domínio **obolariacademy.com** (registrado na GoDaddy em 06/11/2026, 3 anos, renovação automática) como domínio personalizado.
 - Guia grátis = produto US$ 0+ em `/l/guia` (captura e-mail). Quando estiver no ar, trocar o link da automação "GUIA" (respostas-comentarios.md) e da bio.
 - Gumroad também serve de página de venda do material pago; site próprio só se precisar de página longa.
 
 ## 7. Pendências (atualizar esta lista)
 - [x] Guia em PDF original (`materiais/Guia-dos-Peptideos-Obolari-Academy.pdf`, link público em `respostas-comentarios.md`) + automação "comente GUIA" ativa na rotina de hora em hora. **Nunca** usar o "Peptide pdf ebook.pdf" do Drive (licença de terceiro, com doses).
 - [ ] Usar "comente GUIA" nos próximos vídeos/legendas; trocar a última linha da bio quando o Maxwell atualizar.
-- [ ] Maxwell: criar o produto grátis no Gumroad com `materiais/gumroad/`, trocar usuário da loja, registrar obolariacademy.com.
+- [ ] Maxwell: criar o produto grátis no Gumroad com `materiais/gumroad/`, trocar usuário da loja, ligar obolariacademy.com ao Gumroad (DNS na GoDaddy) e criar e-mail contato@obolariacademy.com.
 - [ ] Capas dos destaques (Comece aqui, Peptídeos A–Z, Mito ou verdade, Perguntas, Guia grátis).
 - [ ] Arquivar a Amilina repetida de menor alcance.
 - [ ] Maxwell colar a bio/nome novos e começar o "deixar de seguir".
