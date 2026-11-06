@@ -76,3 +76,29 @@ O Maxwell já perdeu uma conta com 14 mil seguidores por violar políticas sem s
 - **Assinatura discreta:** barra grafite do topo com "● OBOLARI ACADEMY" pequeno (fonte mono, ~24 px) + a série à direita ("PEPTÍDEOS · GHK-Cu"). Na tela final, pílula preta "@obolari_academy" em verde-limão, pequena.
 - **Feed limpo:** mesma paleta e mesmo layout em todos os vídeos e capas, para o grid ficar uniforme.
 - Legendas palavra a palavra: texto preto sobre faixa off-white com borda preta, palavra falada destacada em caixa verde-limão.
+
+## Ferramentas de geração (pedido do Maxwell, nov/2026 — padrão em todo vídeo novo)
+Objetivo: vídeos mais dinâmicos, com movimento real, e não só cards animados. Usar as três ferramentas em conjunto:
+
+| Ferramenta | Conector | Papel no vídeo |
+|---|---|---|
+| **Higgsfield** | `mcp__higgsfield__*` | B-roll cinematográfico e cenas em movimento (texto→vídeo, imagem→vídeo), motion control, reframe 9:16, upscale. Antes de entregar, rodar `virality_predictor` no corte final. Para escolher o modelo, usar `models_explore` com `action:'recommend'`; para vídeos com várias etapas, chamar `get_workflow_instructions` primeiro. |
+| **Buzzy AI** | `mcp__buzzy_ia__*` | Clipes de storyboard/história e cenas de produto. Fluxo: `load_workflow` (catálogo) → skill certa → `create_project` → `generate_image`/`generate_video`, com resolução, proporção e duração copiadas de `list_model` → `get_task` até concluir → `merge_videos`. |
+| **Captions** | `mcp__Captions__*` | Legenda animada final no estilo do app Captions (`captions_list_caption_templates` → `captions_add_captions`). Exige conexão única em app.mcp.ai. Se não estiver conectado, usar as legendas próprias (whisper palavra a palavra) e avisar. |
+
+**Montagem padrão:**
+1. Narração com a voz do Maxwell: ElevenLabs "Maxwell Obolari", `voice_id OzlrOiSmF6F4M3mkabDT`, modelo `eleven_v4`.
+2. Gancho de 0 a 3 s com B-roll forte (Higgsfield).
+3. Corpo: B-roll de Higgsfield ou Buzzy a cada 3–5 s, intercalado com os cards da marca (dados, checklist, gráfico). Os dados continuam nos cards, porque os textos gerados por IA saem errados.
+4. Legendas pelo Captions.
+5. Música baixinha com ducking.
+6. Identidade Obolari na barra do topo e na tela final.
+
+**Custo:** as três cobram créditos. Antes de gerar, pedir a estimativa (estimate/quote), informar o total previsto ao Maxwell e não gerar variações extras sem pedir.
+
+**Regra nº 1 também vale para imagens geradas:**
+- Nada de corpo antes/depois nem de foco em partes do corpo.
+- Nada de seringa, caneta ou aplicação de medicamento.
+- Nada de embalagem ou logo de remédio.
+- Avatar de IA não pode se passar por médico nem por paciente real.
+- Pessoas geradas só em cenas neutras: cozinha, prato, caminhada, academia, exame de sangue genérico.
