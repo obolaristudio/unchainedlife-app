@@ -120,3 +120,10 @@ No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu
 
 ## Referências de perfis
 Antes de planejar série, gancho, capa, bio ou destaques, ler `referencias.md` desta pasta (perfis analisados e como aplicar).
+
+## Aviso final obrigatório (pedido do Maxwell, 06/11/2026 — substitui o fechamento anterior)
+Todo vídeo, legenda, PDF e material termina com um aviso curto de que **não é recomendação médica nem sugestão de uso**. Tom calmo, uma frase só, sem dramatizar e sem "não é aprovado / não use".
+- Vídeo (tela final + narração): "Conteúdo educativo. Não é recomendação médica nem sugestão de uso."
+- Legenda: "⚠️ Conteúdo educativo: não é recomendação médica nem sugestão de uso. Converse com o seu médico."
+- PDF/material: rodapé em todas as páginas com a mesma frase.
+- Ajustar o tom ao perfil/público em que o conteúdo for publicado (ver ajustes de perfil que o Maxwell enviar), mantendo sempre o sentido "não é recomendação médica nem sugestão de uso".
