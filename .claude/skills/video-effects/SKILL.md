@@ -108,3 +108,12 @@ Todo vídeo e material usa **"Obolari Academy"**: narração ("conteúdo educati
 
 ## Fechamento sem exagero (pedido do Maxwell, 06/11/2026)
 No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu médico" + a pergunta de engajamento. NÃO repetir "não é aprovado", "não pode ser usado", "não use" etc. O status regulatório, quando entrar, vai uma única vez, no corpo do vídeo, de forma neutra e curta (ex.: "a FDA aprovou para tal grupo"). As travas da Regra nº 1 continuam (sem dose, compra, promessa).
+
+## Padrão de produção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
+- **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
+- **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.
+- **Kit de efeitos sonoros** em `brand/sfx/` (ElevenLabs): `impact.mp3` no gancho, `whoosh.mp3` em cada troca de cena, `pop.mp3` quando um card aparece, `ding.mp3` em checklist/dado-chave. Script de mixagem de referência: aplicar com volumes ~0,2–0,55 abaixo da voz.
+- **Retenção:** algo visual novo a cada 2–4 s; padrões que prendem: pergunta no 1º segundo, "mito ou verdade", número grande na tela, checklist, contraste lado a lado, veredito final.
+- **CTA de comentário em todo vídeo e legenda** (pergunta aberta, ex.: "Qual peptídeo eu explico no próximo? Comenta aqui"), nunca palavra-chave em troca de algo.
+- **Captions:** o conector só legenda vídeos gerados dentro dele (sem upload de vídeo externo); usar quando houver vídeo de avatar/Mirage, senão legenda própria.
+- **Créditos:** antes de cada produção checar saldo (Higgsfield `balance`; ElevenLabs pelo custo das gerações) e avisar o Maxwell quando qualquer ferramenta estiver acabando (Higgsfield < 150 créditos, ou qualquer erro de saldo em ElevenLabs, Buzzy ou Captions).
