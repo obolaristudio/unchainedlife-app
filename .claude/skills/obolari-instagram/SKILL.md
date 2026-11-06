@@ -29,6 +29,9 @@ description: Manual-mestre da Operação 24 h do Instagram @obolari_academy (Max
 8. **Visual:** pode variar um pouco, mas na mesma paleta e sequência (sem poluição). Em todo vídeo, usar cores de atenção animadas no meio — principalmente **vermelho** em palavra/número/seta/círculo — seguindo `/brand/paleta.md` (seção "Evolução visual").
 9. **Créditos:** avisar o Maxwell quando Higgsfield < 150 ou houver erro de saldo em ElevenLabs/Buzzy/Captions.
 
+## 2.1 Antena ligada
+Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode instalar repositório que agregue (com as travas de segurança de `operacao-24h.md`); ferramenta paga/cadastro → avisar o Maxwell. Registro em `research/ferramentas.md`.
+
 ## 3. Ferramentas e IDs
 | Uso | Ferramenta | Detalhe |
 |---|---|---|

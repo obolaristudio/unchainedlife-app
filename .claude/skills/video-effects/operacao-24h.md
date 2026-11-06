@@ -28,3 +28,9 @@ Objetivo: transformar o perfil numa máquina de crescer seguidores com conteúdo
 
 ## Deixar de seguir (só manual)
 A API do Instagram não permite seguir/deixar de seguir nem listar quem a conta segue; automação não oficial viola os termos e pode derrubar a conta. O Maxwell faz no app: Perfil → Seguindo → "Menos interagidos" → até ~50–100 por dia, mantendo ~50 perfis relevantes (especialistas de evidência, parceiros, referências de nicho).
+
+## Antena ligada: notícias, GitHub e ferramentas (pedido do Maxwell, 06/11/2026)
+- **Todo dia (rotina da madrugada):** varrer o que saiu sobre peptídeos, longevidade, vitaminas e bem-estar — estudos novos (PubMed), decisões FDA/Anvisa/EMA, notícias confiáveis e virais — e usar no conteúdo do dia. Novidade grande (aprovação, estudo de fase 3, alerta de segurança) = prioridade de pauta.
+- **Todo domingo (rotina da madrugada):** varrer o GitHub (`gh api -X GET search/repositories`, ordenar por estrelas, só repositórios ativos nos últimos 6 meses) e a web por repositórios e ferramentas que melhorem a operação (edição de vídeo, legendas, pesquisa científica, automação de Instagram, análise de métricas). Registrar tudo em `research/ferramentas.md`.
+- **Pode instalar repositório** quando agregar, com estas travas de segurança: licença compatível (MIT/Apache/BSD etc.); projeto mantido e com reputação (estrelas, contribuidores); **ler o código antes de rodar**; instalar em pasta separada; versão fixa (commit/tag); nunca dar senhas, tokens ou acesso à conta do Instagram a código de terceiros; nada que automatize seguir/deixar de seguir, curtir em massa ou burlar o Instagram. Registrar em `research/ferramentas.md` como `instalado`.
+- **Ferramenta paga ou que exige cadastro:** não assinar. Avisar o Maxwell com nome, link, para que serve, preço e o ganho esperado; ele faz a assinatura. Registrar como `sugerido ao Maxwell`.
