@@ -83,6 +83,7 @@ Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode inst
 - [ ] Maxwell colar a bio/nome novos e começar o "deixar de seguir".
 
 ## Efeitos e som (desde 06/11/2026)
+- Vídeo do Maxwell falando para a câmera: skill `video-falando` (palavra atrás da cabeça, legendas no quadro exato, camadas 3D).
 - Efeitos visuais: skill `efeitos-virais` (20 efeitos HyperFrames, 2 a 4 por Reel).
 - Som: skills `real-sfx` + `earshot` (ver video-effects).
 - Horários de pico no fuso de Nova York (12:10 e 20:10 ET).
