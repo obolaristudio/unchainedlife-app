@@ -2,7 +2,7 @@
 
 Use no início de TODO vídeo (falado na narração e escrito na tela). Escolha o gancho pelo tipo de conteúdo, adapte o tema e rode na Regra nº 1: sem promessa de resultado, sem dose, sem "cura".
 
-Referência: carrossel "40 ganchos psicológicos que geram engajamento instantâneo" (@tonyramalhocria, 995 curtidas, 217 comentários), salvo pelo Maxwell em 07/11/2026. Só a capa ficou acessível; quando o Maxwell mandar prints dos slides, colar os ganchos originais na seção "Originais do carrossel" e adaptar.
+Referências: carrossel "40 ganchos psicológicos que geram engajamento instantâneo" (@tonyramalhocria, 995 curtidas, 217 comentários), e carrossel "40 ganchos psicológicos que prendem a atenção imediatamente" (@filipe.viana, 276 comentários, https://www.instagram.com/p/DerSx4Lkc0v/), ambos salvos pelo Maxwell em 07/11/2026. Só a capa ficou acessível; quando o Maxwell mandar prints dos slides, colar os ganchos originais na seção "Originais do carrossel" e adaptar.
 
 ## Ganchos que já funcionaram aqui
 - "Seu aperto de mão pode prever quanto tempo você vai viver." (força de preensão: 1,8 mil views e 29 envios em 1 dia)
@@ -72,4 +72,7 @@ Referência: carrossel "40 ganchos psicológicos que geram engajamento instantâ
 - Testar 2 ganchos diferentes para o mesmo tema ao longo da semana e anotar aqui qual ganhou (views 24 h, envios, comentários).
 
 ## Originais do carrossel (@tonyramalhocria)
+(aguardando prints dos slides)
+
+## Originais do carrossel (@filipe.viana)
 (aguardando prints dos slides)
