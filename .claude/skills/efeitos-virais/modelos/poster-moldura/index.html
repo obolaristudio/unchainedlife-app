@@ -22,33 +22,49 @@
 #ben span{color:var(--red)}
 #cta{position:absolute;top:1660px;left:0;right:0;text-align:center}
 #cta span{display:inline-block;background:var(--lime);color:#141414;font-weight:800;font-size:40px;padding:12px 32px;border-radius:40px}
+#lab,#but{position:absolute;top:1430px;left:80px;right:80px;text-align:center}
+#lab .k,#but .k{font-weight:700;font-size:28px;letter-spacing:9px;color:var(--lime)}#but .k{color:var(--red)}
+#lab .t,#but .t{font-weight:800;font-size:50px;line-height:1.12;margin-top:14px}#lab b{color:var(--lime)}#but span{color:var(--red)}
+#cta{top:1500px !important}#cta span{font-size:62px !important;padding:16px 44px !important}
+#how{top:1610px !important;font-size:36px !important;}
 #how{position:absolute;top:1748px;left:0;right:0;text-align:center;font-weight:700;font-size:30px;color:rgba(255,255,255,.75)}
 #foot{position:absolute;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:19px;letter-spacing:2px;color:rgba(255,255,255,.5)}
 #frame{position:absolute;inset:26px;border:3px solid rgba(203,239,75,.55);border-radius:34px;box-shadow:inset 0 0 40px rgba(203,239,75,.12)}
 </style></head><body>
-<div id="root" data-composition-id="main" data-start="0" data-duration="14" data-width="1080" data-height="1920">
-<video id="bg" class="clip" data-start="0" data-duration="14" src="assets/anim.mp4" muted></video>
-<div id="shade" class="clip" data-start="0" data-duration="14"></div>
-<div id="glow" class="clip" data-start="0" data-duration="14"></div>
-<div id="frame" class="clip" data-start="0" data-duration="14"></div>
-<div id="tag" class="clip" data-start="0" data-duration="14"><span class="dot"></span>OBOLARI ACADEMY<span class="sep"></span><span class="cat">LONGEVIDADE</span></div>
-<div id="title" class="clip" data-start="0" data-duration="14">EPITALON</div>
-<div id="sub" class="clip" data-start="0" data-duration="14">pode alongar seus <span>telômeros?</span></div>
-<div id="kick" class="clip" data-start="0" data-duration="14">AS TAMPAS DE PROTEÇÃO DO SEU DNA</div>
-<div id="ben" class="clip" data-start="0" data-duration="14">Elas encurtam com a idade.<br>Em laboratório, <span>ele as alongou.</span></div>
-<div id="cta" class="clip" data-start="0" data-duration="14"><span>Comenta GUIA 📩</span></div>
-<div id="how" class="clip" data-start="0" data-duration="14">Entenda na legenda 👇</div>
-<div id="foot" class="clip" data-start="0" data-duration="14">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+<div id="root" data-composition-id="main" data-start="0" data-duration="28" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="28" src="assets/anim.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="28"></div>
+<div id="glow" class="clip" data-start="0" data-duration="28"></div>
+<div id="frame" class="clip" data-start="0" data-duration="28"></div>
+<div id="tag" class="clip" data-start="0" data-duration="28"><span class="dot"></span>OBOLARI ACADEMY<span class="sep"></span><span class="cat">LONGEVIDADE</span></div>
+<div id="title" class="clip" data-start="0" data-duration="28">EPITALON</div>
+<div id="sub" class="clip" data-start="0" data-duration="28">pode alongar seus <span>telômeros?</span></div>
+<div id="kick" class="clip" data-start="0" data-duration="28">AS TAMPAS DE PROTEÇÃO DO SEU DNA</div>
+<div id="ben" class="clip" data-start="0" data-duration="28">Elas encurtam um pouco<br>a <span>cada divisão</span> das células.</div>
+<div id="lab" class="clip" data-start="0" data-duration="28"><div class="k">EM LABORATÓRIO · 2003</div><div class="t">Em células humanas, ele ativou a <b>telomerase</b> e os telômeros ficaram <b>mais longos</b>.</div></div>
+<div id="but" class="clip" data-start="0" data-duration="28"><div class="k">E EM PESSOAS?</div><div class="t"><span>Ainda não há estudos grandes.</span><br>Não é aprovado pela FDA nem pela Anvisa.</div></div>
+<div id="cta" class="clip" data-start="0" data-duration="28"><span>Comenta GUIA 📩</span></div>
+<div id="how" class="clip" data-start="0" data-duration="28">Entenda tudo na legenda 👇</div>
+<div id="foot" class="clip" data-start="0" data-duration="28">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
 </div>
 <script>
 const tl=gsap.timeline({paused:true});
 tl.fromTo("#title",{opacity:0,scale:1.08},{opacity:1,scale:1,duration:0.6,ease:"power3.out"},0.05);
 tl.fromTo("#tag,#sub",{opacity:0,y:20},{opacity:1,y:0,duration:0.5,stagger:0.12,ease:"power3.out"},0.35);
 tl.fromTo("#frame",{opacity:0},{opacity:1,duration:0.8},0.2);
-tl.fromTo("#kick,#ben",{opacity:0,y:20},{opacity:1,y:0,duration:0.5,stagger:0.12},0.8);
-tl.fromTo("#cta,#how,#foot",{opacity:0},{opacity:1,duration:0.5,stagger:0.08},1.3);
-tl.to("#glow",{opacity:0.5,duration:1.5,yoyo:true,repeat:3,ease:"sine.inOut"},1.5);
-tl.to("#cta span",{scale:1.06,duration:0.5,yoyo:true,repeat:5,ease:"sine.inOut"},6);
-tl.to("#title,#sub,#kick,#ben,#cta,#how",{opacity:0,duration:0.35},13.55);
+tl.fromTo("#foot",{opacity:0},{opacity:1,duration:0.5},1.0);
+tl.set("#lab,#but,#cta,#how",{opacity:0},0);
+tl.fromTo("#kick,#ben",{opacity:0,y:24},{opacity:1,y:0,duration:0.5,stagger:0.12},1.2);
+tl.to("#kick,#ben",{opacity:0,y:-20,duration:0.35},9.2);
+tl.fromTo("#lab",{opacity:0,y:24},{opacity:1,y:0,duration:0.5,ease:"power3.out"},9.6);
+tl.fromTo("#lab .t b",{color:"#ffffff"},{color:"#CBEF4B",duration:0.4,stagger:0.5},10.6);
+tl.to("#lab",{opacity:0,y:-20,duration:0.35},16.6);
+tl.fromTo("#but",{opacity:0,y:24},{opacity:1,y:0,duration:0.5,ease:"power3.out"},17.0);
+tl.to("#but",{opacity:0,y:-20,duration:0.35},22.6);
+tl.fromTo("#cta",{opacity:0,scale:0.7},{opacity:1,scale:1,duration:0.45,ease:"back.out(2.2)"},23.0);
+tl.fromTo("#how",{opacity:0},{opacity:1,duration:0.4},23.4);
+tl.to("#cta span",{scale:1.06,duration:0.5,yoyo:true,repeat:3,ease:"sine.inOut"},23.6);
+tl.to("#glow",{opacity:0.5,duration:1.5,yoyo:true,repeat:7,ease:"sine.inOut"},1.5);
+tl.to("#title,#sub,#cta,#how",{opacity:0,duration:0.35},27.55);
 window.__timelines["main"]=tl;tl.seek(0);
 </script></body></html>
