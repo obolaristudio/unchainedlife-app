@@ -1,0 +1,9 @@
+.claude/skills/real-sfx/vendor/
+.claude/skills/*/node_modules/
+videos/
+brand/sfx*/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
