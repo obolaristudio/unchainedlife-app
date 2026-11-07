@@ -236,13 +236,13 @@
   {
     "id": "2026-11-09-caneta-musculo",
     "status": "agendado",
-    "formato": "acelerado 23s (cortes rápidos)",
+    "formato": "dinâmico 32s (9 cenas inéditas)",
     "publicar_apos": "2026-11-09 20:10",
     "fuso": "America/New_York",
     "stories": true,
-    "video_url": "https://res-prod.buzzy.now/file-service/afc2a75c-9975-4315-b733-e192645d419f.mp4",
-    "cover_url": "https://res-prod.buzzy.now/file-service/05e7b84f-7998-420a-b4a2-47759b07905d.jpg",
+    "video_url": "https://res-prod.buzzy.now/file-service/ca3e76bf-5c55-489a-a03c-2e98b8d842ee.mp4",
+    "cover_url": "https://res-prod.buzzy.now/file-service/81245bd8-90ed-4a4b-8f30-34539145c9c5.jpg",
     "caption": "Perdeu peso com a caneta e o laudo disse que você perdeu músculo? Calma. 💉➡️📉\n\n📩 Comenta GUIA que eu te mando o guia grátis da Obolari Academy.\n\n🔬 O estudo\nPesquisadores na Romênia (Journal of Clinical Medicine, 2026) acompanharam 59 adultos em tratamento para obesidade: 53 com tirzepatida e 6 com semaglutida. Fizeram 2 bioimpedâncias no mesmo aparelho, em jejum.\n\n📊 Em cerca de 7 meses (mediana):\n• Perda total: 13,5 kg\n• Gordura: 9,9 kg\n• O que o aparelho chama de \"músculo\": 2,3 kg\n\n💧 O detalhe que muda tudo\nA bioimpedância não pesa músculo: ela estima pela água do corpo. \"Massa magra\" inclui água, órgãos e o tecido que sustentava a gordura, não só músculo. Prova disso: num paciente, a parte \"de músculo\" passou de 100% da perda, o que é impossível na prática.\n\n⚠️ Os limites\nNão houve grupo de comparação, nem registro de dieta, proteína ou treino, e ninguém mediu força. Por isso o laudo sozinho não diz se a perda foi boa ou ruim.\n\n💪 O que a ciência já associa a proteger o músculo durante o emagrecimento: treino de força, proteína suficiente e acompanhamento profissional. E força (como a da mão) diz mais sobre músculo do que o laudo da balança.\n\n📤 Manda pra quem se assustou com o laudo depois da caneta.\n\nFonte: Tomescu et al., J Clin Med, 2026 (doi.org/10.3390/jcm15208008). Estudo comentado também pelo @dr.staak.\n\n⚠️ Conteúdo educativo: não é recomendação médica nem sugestão de uso. Converse com o seu médico.\n\n#tirzepatida #semaglutida #mounjaro #ozempic #musculo #bioimpedancia #obolariacademy",
-    "obs": "publicação agendada na sessão principal"
+    "obs": "v2 menos acelerada; publicação agendada na sessão principal"
   }
 ]
