@@ -67,3 +67,9 @@ A `Regra nº 1` do SKILL.md proíbe "comenta X que eu te mando" (risco de ser tr
 **Números (top 10):** ER-100 826 mil views; Melanotan 89 mil; GHK-Cu vs AHK-Cu 89 mil; BPC-157 68 mil; Thymalin 68 mil; KPV 67 mil; Semax/Selank 34 mil.
 **Ponto crítico:** engajamento muito baixo (ER-100: 282 curtidas e 4 comentários em 826 mil views = 0,03%). O formato gera alcance, não conversa nem seguidor. Usar como **2º formato** (alcance/descoberta), mantendo os Reels narrados (autoridade + "comente GUIA").
 **Como replicar com nossas ferramentas:** imagem 3D herói (Higgsfield generate_image) → animação 10–12 s com frame inicial/final (Higgsfield Kling 3.0 / Seedance) → texto fixo + selo Obolari Academy via HyperFrames → música + 2–3 SFX (real-sfx) → legenda longa no padrão Obolari (com "comente GUIA" e o aviso). Em português; título com nome do peptídeo + benefício estudado, nunca dose/aplicação.
+
+## @biohackernetwork (113 mil seguidores) — analisado em 07/11/2026
+- Top: MOTS-c + SS-31 (40 mil views, **109 comentários**) usou "Comment NETWORK" na legenda: palavra-chave de comentário multiplica comentários e alcance. AHK-Cu "Dead hair still growing?" 34,6 mil.
+- Fórmula: gancho do dia a dia em forma de pergunta → analogia simples (usina, fotocópia, máquina quebrada) → "é aí que o peptídeo entra na história" → estudo com limite claro → "For learning only".
+- Visual: pôster 3D com texto fixo. Ponto fraco: texto parado o vídeo todo.
+- Nossa versão "pôster 3D 2.0" (`efeitos-virais/modelos/poster-3d-v2/gen.py`): 14 s em loop, 3 momentos de texto (pergunta+analogia → número que sobe com fonte → "Comenta GUIA" na tela), cor de destaque por tema, SFX nos momentos.
