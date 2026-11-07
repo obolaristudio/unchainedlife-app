@@ -73,3 +73,7 @@ A `Regra nº 1` do SKILL.md proíbe "comenta X que eu te mando" (risco de ser tr
 - Fórmula: gancho do dia a dia em forma de pergunta → analogia simples (usina, fotocópia, máquina quebrada) → "é aí que o peptídeo entra na história" → estudo com limite claro → "For learning only".
 - Visual: pôster 3D com texto fixo. Ponto fraco: texto parado o vídeo todo.
 - Nossa versão "pôster 3D 2.0" (`efeitos-virais/modelos/poster-3d-v2/gen.py`): 14 s em loop, 3 momentos de texto (pergunta+analogia → número que sobe com fonte → "Comenta GUIA" na tela), cor de destaque por tema, SFX nos momentos.
+
+## @hnrlabs — Reel "EPITHALON" (15 mil curtidas, 811 comentários, 1.711 envios, 1.957 salvamentos)
+- Pôster estático sobre vídeo 3D vivo (fibra de DNA desfiando em rosa), título em degradê, subtítulo de promessa ("rebuilds your telomeres"), rótulo mono no rodapé + 1 frase + "How it works 👇".
+- Nossa réplica (07/11/2026): moldura na nossa paleta (borda lime, selo, título em degradê creme→lime, destaque vermelho na frase), vídeo central em cores vivas, título como PERGUNTA (sem promessa) + "Comenta GUIA" na tela. Modelo: `efeitos-virais/modelos/poster-moldura/index.html`.
