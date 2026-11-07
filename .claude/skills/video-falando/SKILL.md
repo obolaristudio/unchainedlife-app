@@ -7,6 +7,10 @@ description: Edição de vídeos do Maxwell FALANDO para a câmera (talking head
 
 Fonte: https://ruby-cotija-fb5.notion.site/How-I-edited-my-captions-reel-with-AI-40b28691eca381a3ad10cbc917160c2d (Shaan Johari, @viashaan). Analisado e adaptado em 07/11/2026.
 
+## Roteiros
+- Vídeo para gerar leads (comentários GUIA): usar `roteiro-conversao.md` (estrutura dor → "deixa eu adivinhar" → virada → história do Maxwell → palavra-chave → aviso) e os 3 roteiros prontos.
+- Ganchos: `../video-effects/ganchos.md`.
+
 ## A técnica (o que faz o vídeo parecer "editado por profissional")
 Cada quadro é uma pilha, de trás para frente:
 1. **Fundo** (a sala original, ou um cenário trocado);
