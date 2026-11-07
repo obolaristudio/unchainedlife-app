@@ -1,0 +1,13 @@
+[Unit]
+Description=Hyperliquid EMA bot
+After=network-online.target
+
+[Service]
+User=bot
+WorkingDirectory=/home/bot/hyperliquid-bot
+ExecStart=/home/bot/hyperliquid-bot/venv/bin/python bot.py
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
