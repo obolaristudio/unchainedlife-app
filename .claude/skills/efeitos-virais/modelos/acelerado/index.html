@@ -1,0 +1,72 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+.bgv{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+#dim{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(0,0,0,.35),rgba(0,0,0,.82))}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#frame{position:absolute;inset:26px;border:3px solid rgba(203,239,75,.6);border-radius:34px}
+#tag{position:absolute;top:100px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .dot{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.grp{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;align-items:center;justify-content:center}
+.in{width:940px;text-align:center}
+.lbl{display:inline-block;font-weight:800;font-size:32px;letter-spacing:6px;color:#141414;background:#CBEF4B;padding:10px 24px;border-radius:10px;margin-bottom:28px}
+.lbl.red{background:#E53935;color:#fff}
+.big{font-weight:800;font-size:96px;line-height:1.02;letter-spacing:-2px;text-shadow:0 6px 30px rgba(0,0,0,.8)}
+.huge{font-weight:800;font-size:220px;letter-spacing:-6px;color:#CBEF4B;text-shadow:0 0 50px rgba(203,239,75,.5)}
+.mid{font-weight:700;font-size:44px;line-height:1.2;margin-top:28px;color:#e8e5db;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+.lime{color:#CBEF4B}.red{color:#E53935}
+.bars{background:rgba(14,14,14,.82);border:3px solid #CBEF4B;border-radius:24px;padding:30px 34px;text-align:left}
+.row{display:flex;align-items:center;gap:20px;margin:18px 0}.nm{width:230px;font-weight:800;font-size:40px}
+.bar{flex:1;height:56px;background:#2a2a2a;border-radius:12px;overflow:hidden}.bar i{display:block;height:100%;width:0}
+.v{width:180px;text-align:right;font-weight:800;font-size:46px}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}
+.chips span{background:#CBEF4B;color:#141414;font-weight:800;font-size:60px;padding:14px 34px;border-radius:50px}
+.cta{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:84px;padding:22px 50px;border-radius:70px;white-space:nowrap;box-shadow:0 0 50px rgba(203,239,75,.6)}
+#foot{position:absolute;top:1790px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.6)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="23.4" data-width="1080" data-height="1920">
+<video id="v0" class="clip bgv" data-start="0.00" data-duration="2.60" src="assets/c0.mp4" muted></video><video id="v1" class="clip bgv" data-start="2.60" data-duration="2.60" src="assets/c1.mp4" muted></video><video id="v2" class="clip bgv" data-start="5.20" data-duration="2.60" src="assets/c2.mp4" muted></video><video id="v3" class="clip bgv" data-start="7.80" data-duration="2.60" src="assets/c3.mp4" muted></video><video id="v4" class="clip bgv" data-start="10.40" data-duration="2.60" src="assets/c4.mp4" muted></video><video id="v5" class="clip bgv" data-start="13.00" data-duration="2.60" src="assets/c5.mp4" muted></video><video id="v6" class="clip bgv" data-start="15.60" data-duration="2.60" src="assets/c6.mp4" muted></video><video id="v7" class="clip bgv" data-start="18.20" data-duration="2.60" src="assets/c7.mp4" muted></video><video id="v8" class="clip bgv" data-start="20.80" data-duration="2.60" src="assets/c8.mp4" muted></video>
+<div id="dim" class="clip" data-start="0" data-duration="23.4"></div>
+<div id="g0" class="clip grp" data-start="0.00" data-duration="2.60"><div class="in"><div class="lbl red">VOCÊ USA CANETA?</div><div class="big">Perdeu <span class="lime">13,5 kg</span>?</div></div></div><div id="g1" class="clip grp" data-start="2.60" data-duration="2.60"><div class="in"><div class="lbl">O LAUDO DISSE</div><div class="big">−2,3 kg de<br><span class="red">MÚSCULO</span> 😱</div></div></div><div id="g2" class="clip grp" data-start="5.20" data-duration="2.60"><div class="in"><div class="huge">CALMA.</div></div></div><div id="g3" class="clip grp" data-start="7.80" data-duration="2.60"><div class="in"><div class="lbl">ESTUDO · 59 ADULTOS · 7 MESES</div><div class="bars"><div class="row"><div class="nm">Gordura</div><div class="bar"><i style="--w:73%;background:#CBEF4B"></i></div><div class="v">9,9 kg</div></div><div class="row"><div class="nm">"Músculo"</div><div class="bar"><i style="--w:17%;background:#E53935"></i></div><div class="v">2,3 kg</div></div><div class="row"><div class="nm">Total</div><div class="bar"><i style="--w:100%;background:#F2EFE6"></i></div><div class="v">13,5 kg</div></div></div></div></div><div id="g4" class="clip grp" data-start="10.40" data-duration="2.60"><div class="in"><div class="lbl red">O DETALHE</div><div class="big">A bioimpedância<br><span class="red">não pesa</span> músculo.</div></div></div><div id="g5" class="clip grp" data-start="13.00" data-duration="2.60"><div class="in"><div class="big">Ela lê <span class="lime">ÁGUA</span> 💧</div><div class="mid">Massa magra = água + órgãos<br>+ tecido de sustentação</div></div></div><div id="g6" class="clip grp" data-start="15.60" data-duration="2.60"><div class="in"><div class="lbl">PROVA DISSO</div><div class="big">Num paciente, o "músculo"<br>perdido passou de <span class="red">100%</span><br>da perda 🤯</div></div></div><div id="g7" class="clip grp" data-start="18.20" data-duration="2.60"><div class="in"><div class="lbl">O QUE IMPORTA DE VERDADE</div><div class="chips"><span>💪 Força</span><span>🥩 Proteína</span><span>🏋️ Treino</span></div><div class="mid">Ninguém mediu força nesse estudo.</div></div></div><div id="g8" class="clip grp" data-start="20.80" data-duration="2.60"><div class="in"><div class="cta">Comenta GUIA 📩</div><div class="mid">Tomescu et al., J Clin Med, 2026</div></div></div>
+<div id="flash" class="clip" data-start="0" data-duration="23.4"></div>
+<div id="frame" class="clip" data-start="0" data-duration="23.4"></div>
+<div id="tag" class="clip" data-start="0" data-duration="23.4"><span class="dot"></span>OBOLARI ACADEMY<span class="c">· CANETAS</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="23.4">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo("#v0",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},0.00);
+tl.fromTo("#g0 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},0.02);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},0.00);tl.to("#flash",{opacity:0,duration:0.18},0.05);
+tl.fromTo("#v1",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},2.60);
+tl.fromTo("#g1 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},2.62);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},2.60);tl.to("#flash",{opacity:0,duration:0.18},2.65);
+tl.fromTo("#v2",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},5.20);
+tl.fromTo("#g2 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},5.22);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},5.20);tl.to("#flash",{opacity:0,duration:0.18},5.25);
+tl.fromTo("#g2 .huge",{scale:1},{scale:1.08,duration:0.12,yoyo:true,repeat:5},5.50);
+tl.fromTo("#v3",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},7.80);
+tl.fromTo("#g3 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},7.82);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},7.80);tl.to("#flash",{opacity:0,duration:0.18},7.85);
+tl.fromTo("#g3 .row:nth-child(1) .bar i",{width:"0%"},{width:"73%",duration:0.7,ease:"power3.out"},8.10);tl.fromTo("#g3 .row:nth-child(2) .bar i",{width:"0%"},{width:"17%",duration:0.7,ease:"power3.out"},8.35);tl.fromTo("#g3 .row:nth-child(3) .bar i",{width:"0%"},{width:"100%",duration:0.7,ease:"power3.out"},8.60);
+tl.fromTo("#v4",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},10.40);
+tl.fromTo("#g4 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},10.42);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},10.40);tl.to("#flash",{opacity:0,duration:0.18},10.45);
+tl.fromTo("#v5",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},13.00);
+tl.fromTo("#g5 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},13.02);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},13.00);tl.to("#flash",{opacity:0,duration:0.18},13.05);
+tl.fromTo("#v6",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},15.60);
+tl.fromTo("#g6 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},15.62);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},15.60);tl.to("#flash",{opacity:0,duration:0.18},15.65);
+tl.fromTo("#v7",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},18.20);
+tl.fromTo("#g7 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},18.22);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},18.20);tl.to("#flash",{opacity:0,duration:0.18},18.25);
+tl.fromTo("#g7 .chips span",{opacity:0,y:30,scale:0.7},{opacity:1,y:0,scale:1,duration:0.3,stagger:0.25,ease:"back.out(2.5)"},18.50);
+tl.fromTo("#v8",{scale:1.25},{scale:1.05,duration:2.6,ease:"power1.out"},20.80);
+tl.fromTo("#g8 .in",{opacity:0,scale:1.4,filter:"blur(14px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:0.28,ease:"expo.out"},20.82);
+tl.fromTo("#flash",{opacity:0.0},{opacity:0.55,duration:0.04},20.80);tl.to("#flash",{opacity:0,duration:0.18},20.85);
+tl.to("#g8 .cta",{scale:1.07,duration:0.35,yoyo:true,repeat:5,ease:"sine.inOut"},21.15);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
