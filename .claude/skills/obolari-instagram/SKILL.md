@@ -86,3 +86,8 @@ Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode inst
 - Efeitos visuais: skill `efeitos-virais` (20 efeitos HyperFrames, 2 a 4 por Reel).
 - Som: skills `real-sfx` + `earshot` (ver video-effects).
 - Horários de pico no fuso de Nova York (12:10 e 20:10 ET).
+
+## Espelhar no YouTube Shorts (pedido do Maxwell em 06/11/2026)
+- Todo Reel publicado no Instagram também vai para o YouTube como Short (Composio, toolkit youtube, `YOUTUBE_MULTIPART_UPLOAD_VIDEO`, privacyStatus public, categoryId 27 Educação). Título até 100 caracteres com #Shorts; descrição = legenda do Instagram adaptada ("comente GUIA" vira "link do guia no perfil"), com o aviso médico.
+- **Conta correta:** ainda não confirmada. NUNCA usar `youtube_tapis-toyer` (canal OliBari Kids, infantil). A `youtube_gane-teeth` deu "quotaExceeded" ao listar o canal em 06/11; confirmar com `YOUTUBE_LIST_CHANNELS mine=true` que é o canal da Obolari Academy antes do primeiro upload.
+- Upload só uma vez por vídeo (reexecutar cria vídeo duplicado); guardar o videoId na fila.json (`youtube_id`).
