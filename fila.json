@@ -262,5 +262,23 @@
     "ig_media_id": "18034202147904929",
     "publicado_em": "2026-11-07T20:59:02Z",
     "obs": "postado manualmente pelo Maxwell"
+  },
+  {
+    "id": "2026-11-08-kpv",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@6e7b63a198afdedab46b3140d0589d64e781852e/reel_2026-11-08_kpv.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@6e7b63a198afdedab46b3140d0589d64e781852e/capa_2026-11-08_kpv.jpg",
+    "caption": "KPV, o peptídeo anti-inflamatório do intestino: fato ou promessa?\n\nÉ um fragmento de 3 aminoácidos do hormônio natural alfa-MSH. Em células e em ratos com colite, reduziu sinais de inflamação. Até hoje não há estudo publicado em humanos.\n\n🇺🇸 FDA: não aprovado como medicamento. Em out/2026, o HHS adotou uma política interina que permite a farmácias de manipulação prepará-lo com receita (via oral ou pele); não é aprovação.\n🇧🇷 Anvisa: só autoriza peptídeos presentes em medicamentos registrados; não há medicamento registrado com KPV.\n\n⚠️ Conteúdo educativo: não é recomendação médica nem sugestão de uso. Converse com o seu médico.\n\nQual peptídeo você quer que eu explique no próximo? Comenta aqui.\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #kpv",
+    "peptideo": "KPV",
+    "publicar_apos": "2026-11-08 16:10",
+    "status": "agendado"
+  },
+  {
+    "id": "2026-11-10-dsip",
+    "video_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@6e7b63a198afdedab46b3140d0589d64e781852e/reel_2026-11-08_dsip.mp4",
+    "cover_url": "https://cdn.jsdelivr.net/gh/obolaristudio/unchainedlife-app@6e7b63a198afdedab46b3140d0589d64e781852e/capa_2026-11-08_dsip.jpg",
+    "caption": "DSIP, o peptídeo do sono, funciona mesmo?\n\nPeptídeo de 9 aminoácidos descrito nos anos 1970 em coelhos. Os estudos controlados em humanos somam cerca de 60 a 70 pessoas; o mais citado (14 pessoas com insônia) não tinha grupo placebo.\n\n🇺🇸 FDA: nenhum medicamento aprovado contém DSIP; em jul/2026 o comitê consultivo votou 6 a 7 contra incluí-lo na lista de manipulação.\n🇧🇷 Anvisa: só autoriza peptídeos presentes em medicamentos registrados; não há medicamento registrado com DSIP.\n\n⚠️ Conteúdo educativo: não é recomendação médica nem sugestão de uso. Converse com o seu médico.\n\nQual peptídeo você quer que eu explique no próximo? Comenta aqui.\n\n#peptideos #educacaoemsaude #ciencia #saudebaseadaemevidencias #dsip",
+    "peptideo": "DSIP",
+    "publicar_apos": "2026-11-10 12:10",
+    "status": "agendado"
   }
 ]
