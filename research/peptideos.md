@@ -25,3 +25,6 @@
 - Brasil: sem mudança (sem registro na Anvisa).
 - Fontes: https://www.ajmc.com/view/5-things-to-know-about-hhs-s-interim-peptide-compounding-policy · https://peptidescouter.com/blog/hhs-peptide-compounding-policy-october-2026 · https://www.medicaldaily.com/hhs-allows-compounding-six-unapproved-peptides-480563
 - Pauta: acompanhar o resultado da consulta (pós 13/11) e a revisão de fev/2027 → novos vídeos.
+
+## Rotina 08/11/2026
+- KPV (fila 08/11 16:10 ET) e DSIP (fila 10/11 12:10 ET): vídeos feitos. Anvisa: não achei norma citando KPV/DSIP pelo nome; afirmação "sem medicamento registrado" é inferência da regra geral (confirmar em consultas.anvisa.gov.br).
