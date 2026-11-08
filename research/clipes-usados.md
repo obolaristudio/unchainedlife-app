@@ -10,4 +10,4 @@
 | Epitalon | DNA rosa (2 cenas) |
 | notícia HHS | portão com 6 peptídeos |
 | caneta e músculo (v2) | 9 cenas novas: balança, laudo, gota d'água, silhueta em camadas, bioimpedância, água no tecido, ponteiro, mulher agachamento, homem 50+ orla |
-- 2026-11-08 · cravo (Mito ou verdade: "faxina da noite") · imagem Higgsfield gpt_image_2_6 job a87243a9-49f2-4ce9-916d-3c35b7983667 (cravos sobre ardósia, partículas douradas) · vídeo kling3_0 12 s job 9f0f65ff-0cf9-4876-8955-ab2678026bc8 (desacelerado para 21 s) · música video/music.mp3 trecho 20–41 s
+| cravo-da-índia (mito ou verdade) | cravos flutuando sobre ardósia, vapor âmbar (img a87243a9, Kling 9f0f65ff) |
