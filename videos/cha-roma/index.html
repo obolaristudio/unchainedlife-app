@@ -4,111 +4,66 @@
 @font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
 *{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
 #root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
-.bg,.fg{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 55%}
-.bg{z-index:1}.nm{z-index:2}.fg{z-index:3}
-.nm{position:absolute;left:0;top:790px;line-height:1;white-space:nowrap;width:max-content}
-.nm .l1{font-weight:800;font-size:120px;letter-spacing:-3px;color:#CBEF4B;text-shadow:0 8px 30px rgba(0,0,0,.35)}
-.nm .l2{font-weight:800;letter-spacing:-0.035em;color:#F7F4EC;text-shadow:0 10px 40px rgba(0,0,0,.4)}
-.pill{position:absolute;z-index:5;left:0;right:0;top:640px;text-align:center}
-.pill span{display:inline-block;font-weight:800;font-size:32px;letter-spacing:6px;color:#141414;background:#CBEF4B;padding:8px 22px;border-radius:12px}
-#flash{position:absolute;inset:0;z-index:6;background:#FFF6E8;opacity:0}
-#vig{position:absolute;inset:0;z-index:4;background:radial-gradient(ellipse at 50% 50%,rgba(0,0,0,0) 55%,rgba(0,0,0,.35) 100%),linear-gradient(rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 16%,rgba(0,0,0,0) 82%,rgba(0,0,0,.5) 100%)}
+#v{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+.pill{position:absolute;z-index:5;background:#CBEF4B;color:#141414;font-weight:800;font-size:46px;line-height:1.05;letter-spacing:-.5px;padding:14px 26px;border-radius:18px;box-shadow:0 8px 28px rgba(0,0,0,.45);white-space:nowrap}
+.ln{position:absolute;z-index:4;height:4px;background:#F7F4EC;transform-origin:0 50%;box-shadow:0 0 8px rgba(0,0,0,.5)}
+.dot{position:absolute;z-index:4;width:28px;height:28px;border-radius:50%;background:#CBEF4B;border:4px solid #F7F4EC;box-shadow:0 0 14px rgba(0,0,0,.5)}
+#shade{position:absolute;inset:0;z-index:2;background:linear-gradient(rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 85%,rgba(0,0,0,.45) 100%)}
 #frame{position:absolute;inset:26px;z-index:7;border:4px solid #CBEF4B;border-radius:34px;box-shadow:0 0 0 40px #0E0E0E}
 #tag{position:absolute;z-index:8;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
-#tag .dot{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
-#hook{position:absolute;z-index:5;left:60px;right:60px;top:230px;text-align:center}
-#hook .a{font-weight:800;font-size:112px;line-height:.98;letter-spacing:-3px;text-shadow:0 8px 30px rgba(0,0,0,.7)}
+#tag .dot2{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+#hook{position:absolute;z-index:5;left:60px;right:60px;top:200px;text-align:center}
+#hook .a{font-weight:800;font-size:104px;line-height:.98;letter-spacing:-3px;text-shadow:0 8px 30px rgba(0,0,0,.75)}
 #hook .a span{color:#CBEF4B}
 #hook .b{font-weight:700;font-size:44px;margin-top:20px;text-shadow:0 4px 20px rgba(0,0,0,.8)}
-#mid{position:absolute;z-index:5;left:60px;right:60px;top:240px;text-align:center;font-weight:800;font-size:80px;line-height:1;letter-spacing:-2px;text-shadow:0 8px 30px rgba(0,0,0,.7)}
-#mid span{color:#CBEF4B}
-#end{position:absolute;z-index:5;left:60px;right:60px;top:230px;text-align:center}
-#end .a{font-weight:800;font-size:96px;line-height:1;letter-spacing:-2px;text-shadow:0 8px 30px rgba(0,0,0,.7)}
-#end .p{display:inline-block;margin-top:30px;background:#CBEF4B;color:#141414;font-weight:800;font-size:64px;padding:16px 44px;border-radius:60px;box-shadow:0 0 40px rgba(203,239,75,.55)}
+#end{position:absolute;z-index:5;left:60px;right:60px;top:200px;text-align:center}
+#end .a{font-weight:800;font-size:92px;line-height:1;letter-spacing:-2px;text-shadow:0 8px 30px rgba(0,0,0,.75)}
+#end .p{display:inline-block;margin-top:28px;background:#CBEF4B;color:#141414;font-weight:800;font-size:62px;padding:16px 44px;border-radius:60px;box-shadow:0 0 40px rgba(203,239,75,.55)}
 #foot{position:absolute;z-index:8;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
 </style></head><body>
-<div id="root" data-composition-id="main" data-start="0" data-duration="30.036" data-width="1080" data-height="1920">
-<video id="v0" class="clip bg" data-start="0" data-duration="2.6" src="assets/00_hook.mp4" muted></video>
-<video id="v1" class="clip bg" data-start="2.6" data-duration="3.833" src="assets/01_canela.mp4" muted></video>
-<video id="f1" class="clip fg" data-start="2.6" data-duration="3.833" src="assets/01_canela_fg.webm" muted></video>
-<video id="v2" class="clip bg" data-start="6.433" data-duration="4.333" src="assets/02_sementes.mp4" muted></video>
-<video id="f2" class="clip fg" data-start="6.433" data-duration="4.333" src="assets/02_sementes_fg.webm" muted></video>
-<video id="v3" class="clip bg" data-start="10.766" data-duration="4.48" src="assets/03_menta.mp4" muted></video>
-<video id="f3" class="clip fg" data-start="10.766" data-duration="4.48" src="assets/03_menta_fg.webm" muted></video>
-<video id="v4" class="clip bg" data-start="15.246" data-duration="5.857" src="assets/04_cha.mp4" muted></video>
-<video id="f4" class="clip fg" data-start="15.246" data-duration="5.857" src="assets/04_cha_fg.webm" muted></video>
-<video id="v5" class="clip bg" data-start="21.103" data-duration="2.933" src="assets/05_tampa.mp4" muted></video>
-<video id="v6" class="clip bg" data-start="24.036" data-duration="6.0" src="assets/06_final.mp4" muted></video>
-<div id="n1" class="clip nm" data-start="2.6" data-duration="3.833"><div class="l2" style="font-size:247px">CANELA</div></div>
-<div id="p1" class="clip pill" data-start="2.6" data-duration="3.833"><span>01 · PAU DE</span></div>
-<div id="n2" class="clip nm" data-start="6.433" data-duration="4.333"><div class="l2" style="font-size:260px">ROMÃ</div></div>
-<div id="p2" class="clip pill" data-start="6.433" data-duration="4.333"><span>02 · SEMENTES DE</span></div>
-<div id="n3" class="clip nm" data-start="10.766" data-duration="4.48"><div class="l2" style="font-size:260px">MENTA</div></div>
-<div id="p3" class="clip pill" data-start="10.766" data-duration="4.48"><span>03 · FOLHAS DE</span></div>
-<div id="n4" class="clip nm" data-start="15.246" data-duration="5.857"><div class="l2" style="font-size:122px">CASCA DE ROMÃ</div></div>
-<div id="p4" class="clip pill" data-start="15.246" data-duration="5.857"><span>04 · O CHÁ DA</span></div>
-<div id="vig" class="clip" data-start="0" data-duration="30.036"></div>
-<div id="hook" class="clip" data-start="0" data-duration="2.6"><div class="a">Você joga fora<br>a <span>melhor parte</span><br>da romã?</div><div class="b">O chá da casca 👇</div></div>
-<div id="mid" class="clip" data-start="21.103" data-duration="2.933">Tampa, canudo<br>e <span>pronto.</span></div>
-<div id="end" class="clip" data-start="24.036" data-duration="6.0"><div class="a">Salva essa<br>receita 💾</div><div class="p">Comenta GUIA 📩</div></div>
-<div id="flash" class="clip" data-start="0" data-duration="30.036"></div>
-<div id="frame" class="clip" data-start="0" data-duration="30.036"></div>
-<div id="tag" class="clip" data-start="0" data-duration="30.036"><span class="dot"></span>OBOLARI ACADEMY<span class="c">· BEM-ESTAR</span></div>
-<div id="foot" class="clip" data-start="0" data-duration="30.036">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+<div id="root" data-composition-id="main" data-start="0" data-duration="41.0" data-width="1080" data-height="1920">
+<video id="v" class="clip" data-start="0" data-duration="41.0" src="assets/orig.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="41.0"></div>
+<div id="pc" class="clip pill" data-start="4.2" data-duration="5.0" style="left:60px;top:1680px">PAU DE CANELA</div>
+<div id="lc" class="clip ln" data-start="4.2" data-duration="5.0" style="left:100px;top:1678px;width:367px;transform:rotate(-25.9deg)"></div>
+<div id="dc" class="clip dot" data-start="4.2" data-duration="5.0" style="left:416px;top:1506px"></div>
+<div id="ps" class="clip pill" data-start="9.6" data-duration="5.6" style="left:640px;top:1440px">SEMENTES<br>DE ROMÃ</div>
+<div id="ls" class="clip ln" data-start="9.6" data-duration="5.6" style="left:680px;top:1438px;width:186px;transform:rotate(-36.3deg)"></div>
+<div id="ds" class="clip dot" data-start="9.6" data-duration="5.6" style="left:816px;top:1316px"></div>
+<div id="pm" class="clip pill" data-start="15.6" data-duration="6.0" style="left:560px;top:1470px">FOLHAS<br>DE MENTA</div>
+<div id="lm" class="clip ln" data-start="15.6" data-duration="6.0" style="left:560px;top:1508px;width:252px;transform:rotate(-123.7deg)"></div>
+<div id="dm" class="clip dot" data-start="15.6" data-duration="6.0" style="left:406px;top:1286px"></div>
+<div id="pt" class="clip pill" data-start="22.2" data-duration="8.8" style="left:50px;top:1500px">CHÁ DA CASCA<br>DE ROMÃ</div>
+<div id="lt" class="clip ln" data-start="22.2" data-duration="8.8" style="left:90px;top:1498px;width:388px;transform:rotate(-11.9deg)"></div>
+<div id="dt" class="clip dot" data-start="22.2" data-duration="8.8" style="left:456px;top:1406px"></div>
+<div id="hook" class="clip" data-start="0" data-duration="3.8"><div class="a">Você joga fora<br>a <span>melhor parte</span><br>da romã?</div><div class="b">O chá da casca 👇</div></div>
+<div id="end" class="clip" data-start="34.8" data-duration="6.2"><div class="a">Salva essa<br>receita 💾</div><div class="p">Comenta GUIA 📩</div></div>
+<div id="frame" class="clip" data-start="0" data-duration="41.0"></div>
+<div id="tag" class="clip" data-start="0" data-duration="41.0"><span class="dot2"></span>OBOLARI ACADEMY<span class="c">· BEM-ESTAR</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="41.0">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
 </div><script>
 const tl=gsap.timeline({paused:true});
-tl.set("#flash",{opacity:0},0);
-tl.fromTo("#hook .a",{scale:1.5,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"power4.out"},0.05);
-tl.fromTo("#hook .b",{y:30,opacity:0},{y:0,opacity:1,duration:0.3},0.5);
-tl.fromTo("#hook .a span",{color:"#ffffff"},{color:"#CBEF4B",duration:0.2},0.7);
-tl.fromTo("#mid",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2)"},21.303);
-tl.fromTo("#end .a",{y:40,opacity:0},{y:0,opacity:1,duration:0.4,ease:"power3.out"},24.286);
-tl.fromTo("#end .p",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.45,ease:"back.out(2.2)"},24.836000000000002);
-tl.to("#end .p",{scale:1.07,duration:0.45,yoyo:true,repeat:5,ease:"sine.inOut"},25.436);
-tl.fromTo("#v0",{scale:1.08},{scale:1.0,duration:2.6,ease:"none"},0);
-tl.to("#v0",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},2.380);
-tl.fromTo("#n1",{x:1100,opacity:0,filter:"blur(18px)"},{x:107,opacity:1,filter:"blur(0px)",duration:0.45,ease:"power4.out"},2.75);
-tl.to("#n1",{x:17,duration:2.883,ease:"none"},3.2);
-tl.to("#n1",{x:-683,opacity:0,filter:"blur(18px)",duration:0.3,ease:"power3.in"},6.083);
-tl.fromTo("#p1",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.5)"},2.95);
-tl.to("#p1",{opacity:0,duration:0.2},6.133);
-tl.fromTo("#v1,#f1",{scale:1.0},{scale:1.07,duration:3.833,ease:"none"},2.6);
-tl.fromTo("#v1,#f1",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},2.6);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},2.6);
-tl.to("#v1,#f1",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},6.213);
-tl.fromTo("#n2",{x:1100,opacity:0,filter:"blur(18px)"},{x:198,opacity:1,filter:"blur(0px)",duration:0.45,ease:"power4.out"},6.583);
-tl.to("#n2",{x:108,duration:3.383,ease:"none"},7.0329999999999995);
-tl.to("#n2",{x:-592,opacity:0,filter:"blur(18px)",duration:0.3,ease:"power3.in"},10.416);
-tl.fromTo("#p2",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.5)"},6.7829999999999995);
-tl.to("#p2",{opacity:0,duration:0.2},10.466);
-tl.fromTo("#v2,#f2",{scale:1.0},{scale:1.07,duration:4.333,ease:"none"},6.433);
-tl.fromTo("#v2,#f2",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},6.433);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},6.433);
-tl.to("#v2,#f2",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},10.546);
-tl.fromTo("#n3",{x:1100,opacity:0,filter:"blur(18px)"},{x:135,opacity:1,filter:"blur(0px)",duration:0.45,ease:"power4.out"},10.916);
-tl.to("#n3",{x:45,duration:3.530,ease:"none"},11.366);
-tl.to("#n3",{x:-655,opacity:0,filter:"blur(18px)",duration:0.3,ease:"power3.in"},14.896);
-tl.fromTo("#p3",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.5)"},11.116);
-tl.to("#p3",{opacity:0,duration:0.2},14.946);
-tl.fromTo("#v3,#f3",{scale:1.0},{scale:1.07,duration:4.48,ease:"none"},10.766);
-tl.fromTo("#v3,#f3",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},10.766);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},10.766);
-tl.to("#v3,#f3",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},15.026);
-tl.fromTo("#n4",{x:1100,opacity:0,filter:"blur(18px)"},{x:105,opacity:1,filter:"blur(0px)",duration:0.45,ease:"power4.out"},15.396);
-tl.to("#n4",{x:15,duration:4.907,ease:"none"},15.846);
-tl.to("#n4",{x:-685,opacity:0,filter:"blur(18px)",duration:0.3,ease:"power3.in"},20.753);
-tl.fromTo("#p4",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.5)"},15.596);
-tl.to("#p4",{opacity:0,duration:0.2},20.803);
-tl.fromTo("#v4,#f4",{scale:1.0},{scale:1.07,duration:5.857,ease:"none"},15.246);
-tl.fromTo("#v4,#f4",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},15.246);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},15.246);
-tl.to("#v4,#f4",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},20.883);
-tl.fromTo("#v5",{scale:1.08},{scale:1.0,duration:2.933,ease:"none"},21.103);
-tl.fromTo("#v5",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},21.103);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},21.103);
-tl.to("#v5",{filter:"blur(14px) brightness(1.4)",duration:0.22,ease:"power2.in"},23.816);
-tl.fromTo("#v6",{scale:1.08},{scale:1.0,duration:6.0,ease:"none"},24.036);
-tl.fromTo("#v6",{filter:"blur(14px) brightness(1.4)"},{filter:"blur(0px) brightness(1)",duration:0.3,ease:"power2.out"},24.036);
-tl.fromTo("#flash",{opacity:0.75},{opacity:0,duration:0.28,ease:"power2.out"},24.036);
+tl.fromTo("#hook .a",{y:30,opacity:0},{y:0,opacity:1,duration:0.4,ease:"power3.out"},0.1);
+tl.fromTo("#hook .b",{opacity:0},{opacity:1,duration:0.3},0.6);
+tl.to("#hook",{opacity:0,duration:0.3},3.5);
+tl.fromTo("#end .a",{y:30,opacity:0},{y:0,opacity:1,duration:0.4,ease:"power3.out"},35.0);
+tl.fromTo("#end .p",{scale:0.7,opacity:0},{scale:1,opacity:1,duration:0.4,ease:"back.out(2)"},35.6);
+tl.to("#end .p",{scale:1.06,duration:0.5,yoyo:true,repeat:5,ease:"sine.inOut"},36.2);
+tl.fromTo("#dc",{scale:0},{scale:1,duration:0.3,ease:"back.out(3)"},4.2);
+tl.fromTo("#lc",{scaleX:0},{scaleX:1,duration:0.35,ease:"power2.out"},4.3);
+tl.fromTo("#pc",{opacity:0,y:20},{opacity:1,y:0,duration:0.35,ease:"power3.out"},4.5);
+tl.to("#pc,#lc,#dc",{opacity:0,duration:0.3},8.90);
+tl.fromTo("#ds",{scale:0},{scale:1,duration:0.3,ease:"back.out(3)"},9.6);
+tl.fromTo("#ls",{scaleX:0},{scaleX:1,duration:0.35,ease:"power2.out"},9.7);
+tl.fromTo("#ps",{opacity:0,y:20},{opacity:1,y:0,duration:0.35,ease:"power3.out"},9.9);
+tl.to("#ps,#ls,#ds",{opacity:0,duration:0.3},14.90);
+tl.fromTo("#dm",{scale:0},{scale:1,duration:0.3,ease:"back.out(3)"},15.6);
+tl.fromTo("#lm",{scaleX:0},{scaleX:1,duration:0.35,ease:"power2.out"},15.7);
+tl.fromTo("#pm",{opacity:0,y:20},{opacity:1,y:0,duration:0.35,ease:"power3.out"},15.9);
+tl.to("#pm,#lm,#dm",{opacity:0,duration:0.3},21.30);
+tl.fromTo("#dt",{scale:0},{scale:1,duration:0.3,ease:"back.out(3)"},22.2);
+tl.fromTo("#lt",{scaleX:0},{scaleX:1,duration:0.35,ease:"power2.out"},22.3);
+tl.fromTo("#pt",{opacity:0,y:20},{opacity:1,y:0,duration:0.35,ease:"power3.out"},22.5);
+tl.to("#pt,#lt,#dt",{opacity:0,duration:0.3},30.70);
 window.__timelines["main"]=tl;tl.seek(0);
 </script></body></html>

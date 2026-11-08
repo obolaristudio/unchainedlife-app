@@ -143,3 +143,9 @@ Padrão de bio, nome, capa e grid em `perfil-obolari.md` desta pasta.
 
 ## Operação 24 h
 Missão, linha editorial, formatos, orçamento de créditos e divisão das tarefas em `operacao-24h.md` desta pasta.
+
+## Regra do Maxwell (08/11/2026): vídeos de receita gravados por ele
+- Manter o vídeo ORIGINAL contínuo (sem cortes, sem acelerar, sem zoom/desfoque nas trocas).
+- Nome de cada item AO LADO do item: etiqueta lime + linha fina + ponto no item, aparecendo quando ele mostra o ingrediente.
+- NÃO usar "texto atrás dos objetos" com recorte por cor/IA em vídeo de cozinha: falha (vidro, mãos) e ele reprovou.
+- Modelo pronto: videos/cha-roma/gen2.py.
