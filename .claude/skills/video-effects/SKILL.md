@@ -149,3 +149,8 @@ Missão, linha editorial, formatos, orçamento de créditos e divisão das taref
 - Nome de cada item AO LADO do item: etiqueta lime + linha fina + ponto no item, aparecendo quando ele mostra o ingrediente.
 - NÃO usar "texto atrás dos objetos" com recorte por cor/IA em vídeo de cozinha: falha (vidro, mãos) e ele reprovou.
 - Modelo pronto: videos/cha-roma/gen2.py.
+
+## Regra do Maxwell (09/11/2026): imagens REAIS, não "cara de IA"
+- Para notícia/estudo: preferir vídeos reais de banco (Mixkit: assets.mixkit.co/videos/<id>/<id>-720.mp4, licença livre; Wikimedia Commons). Pexels/Pixabay pedem chave de API.
+- Clipes horizontais: painel central nítido (1080x1100, y=420) + mesmo clipe desfocado ao fundo; título em cima, legenda sincronizada embaixo. Modelo: videos/vrx-0075/ (scenes.py + gen.py).
+- Nunca usar clipe com seringa/frasco aplicando (Regra nº 1).

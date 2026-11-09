@@ -1,0 +1,238 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#panel{position:absolute;left:0;top:420px;width:1080px;height:1100px;z-index:2;box-shadow:inset 0 0 0 3px rgba(203,239,75,.0);background:linear-gradient(rgba(0,0,0,.0) 70%,rgba(0,0,0,.55) 100%)}
+#frame{position:absolute;inset:26px;z-index:9;border:4px solid #CBEF4B;border-radius:34px;box-shadow:0 0 0 40px #0E0E0E}
+#tag{position:absolute;z-index:9;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.hd{position:absolute;z-index:6;left:40px;right:40px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hd .s{font-weight:700;font-size:44px;color:#F2EFE6}
+.hd .b{font-weight:800;font-size:150px;line-height:.95;letter-spacing:-5px;color:#CBEF4B;text-shadow:0 0 40px rgba(203,239,75,.35)}
+.hd .m{font-weight:800;font-size:84px;line-height:1;letter-spacing:-2px}
+.hd .m span{color:#CBEF4B} .hd .r{color:#E53935}
+.cap{position:absolute;z-index:6;left:60px;right:60px;top:1555px;text-align:center;font-weight:800;font-size:62px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+.cap .k{color:#CBEF4B}
+#chips{position:absolute;z-index:5;left:50px;right:50px;top:1280px;display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.chip{background:#CBEF4B;color:#141414;font-weight:800;font-size:40px;padding:10px 22px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.stamp{position:absolute;z-index:5;left:0;right:0;top:1180px;text-align:center}
+.stamp span{display:inline-block;border:8px solid #E53935;color:#E53935;background:rgba(14,14,14,.82);font-weight:800;font-size:96px;letter-spacing:2px;padding:8px 34px;border-radius:18px;transform:rotate(-6deg)}
+#cmp{position:absolute;z-index:5;left:90px;right:90px;top:1150px;background:rgba(14,14,14,.85);border-radius:24px;padding:26px 32px}
+#cmp .row{display:flex;align-items:center;gap:18px;margin:10px 0;font-weight:800;font-size:36px}
+#cmp .lab{width:270px} #cmp .bar{height:42px;border-radius:10px;transform-origin:0 50%}
+#cmp .n{font-weight:700;font-size:24px;color:rgba(255,255,255,.7);margin-top:10px;text-align:center}
+#badge{position:absolute;z-index:5;left:0;right:0;top:1290px;text-align:center}
+#badge span{display:inline-block;background:rgba(14,14,14,.85);border:3px solid #CBEF4B;font-weight:800;font-size:40px;padding:14px 28px;border-radius:16px}
+#badge b{color:#CBEF4B}
+#cta{position:absolute;z-index:6;left:0;right:0;top:1250px;text-align:center}
+#cta span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:72px;padding:18px 48px;border-radius:60px;box-shadow:0 0 50px rgba(203,239,75,.6)}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0}
+#foot{position:absolute;z-index:9;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="39.6" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="39.6" src="assets/bg.mp4" muted></video>
+<div id="panel" class="clip" data-start="0" data-duration="39.6"></div>
+<div id="h1" class="clip hd" data-start="0" data-duration="3.9"><div class="s">Você já ouviu falar do</div><div class="b" id="vrx">VRX-0075?</div></div>
+<div id="h2" class="clip hd" data-start="3.9" data-duration="3.1"><div class="s">o apelido da internet</div><div class="m"><span>“GLP-5”</span></div></div>
+<div id="h3" class="clip hd" data-start="7.0" data-duration="5.5"><div class="m">1 molécula<br><span>5 alvos</span> hormonais</div></div>
+<div id="chips" class="clip" data-start="8.6" data-duration="3.9"><span class="chip" id="ch0">GLP-1</span><span class="chip" id="ch1">GIP</span><span class="chip" id="ch2">GLUCAGON</span><span class="chip" id="ch3">AMILINA</span><span class="chip" id="ch4">CALCITONINA</span></div>
+<div id="h4" class="clip hd" data-start="12.5" data-duration="5.1"><div class="m">Novo estudo<br><span>ADA 2026</span></div></div>
+<div id="badge" class="clip" data-start="12.8" data-duration="4.8"><span>Revista <b>Diabetes</b> · resumo 2839-LB</span></div>
+<div id="h5" class="clip hd" data-start="17.6" data-duration="3.7"><div class="m">Mais perda de peso<br>que a <span>retatrutida</span></div></div>
+<div id="cmp" class="clip" data-start="17.9" data-duration="3.4"><div class="row"><div class="lab">VRX-0075</div><div class="bar" id="b1" style="width:520px;background:#CBEF4B"></div></div><div class="row"><div class="lab">Retatrutida</div><div class="bar" id="b2" style="width:400px;background:#9AA0A6"></div></div><div class="n">em ratos obesos · ilustrativo, sem escala</div></div>
+<div id="h6" class="clip hd" data-start="21.3" data-duration="2.5"><div class="m r">Mas atenção</div></div>
+<div id="st1" class="clip stamp" data-start="21.9" data-duration="1.9"><span>SÓ EM RATOS</span></div>
+<div id="h7" class="clip hd" data-start="23.8" data-duration="5.2"><div class="m"><span class="r" style="color:#E53935">0</span> estudos<br>em humanos</div></div>
+<div id="st2" class="clip stamp" data-start="26.5" data-duration="2.5"><span>NÃO APROVADO</span></div>
+<div id="h8" class="clip hd" data-start="29.0" data-duration="4.6"><div class="m r">⚠️ Cuidado<br><span style="color:#fff">com quem vende</span></div></div>
+<div id="h9" class="clip hd" data-start="33.6" data-duration="6.0"><div class="m">Peptídeos<br><span>explicados com ciência</span></div></div>
+<div id="cta" class="clip" data-start="33.7" data-duration="5.9"><span>Comenta GUIA 📩</span></div>
+<div id="cg0" class="clip cap" data-start="0.00" data-duration="0.54"><span class="w" id="c0_0">Você</span> <span class="w" id="c0_1">já</span> <span class="w" id="c0_2">ouviu</span> </div>
+<div id="cg1" class="clip cap" data-start="0.54" data-duration="3.42"><span class="w" id="c1_0">falar</span> <span class="w" id="c1_1">do</span> <span class="w k" id="c1_2">VRX-0075?</span> </div>
+<div id="cg2" class="clip cap" data-start="3.96" data-duration="0.80"><span class="w" id="c2_0">Na</span> <span class="w" id="c2_1">internet,</span> </div>
+<div id="cg3" class="clip cap" data-start="4.76" data-duration="0.82"><span class="w" id="c3_0">estão</span> <span class="w" id="c3_1">chamando</span> <span class="w" id="c3_2">de</span> </div>
+<div id="cg4" class="clip cap" data-start="5.58" data-duration="1.48"><span class="w k" id="c4_0">“GLP-5”.</span> </div>
+<div id="cg5" class="clip cap" data-start="7.06" data-duration="0.62"><span class="w" id="c5_0">É</span> <span class="w" id="c5_1">uma</span> <span class="w" id="c5_2">única</span> </div>
+<div id="cg6" class="clip cap" data-start="7.68" data-duration="1.04"><span class="w" id="c6_0">molécula</span> <span class="w" id="c6_1">que</span> <span class="w" id="c6_2">ativa</span> </div>
+<div id="cg7" class="clip cap" data-start="8.72" data-duration="1.36"><span class="w k" id="c7_0">cinco</span> <span class="w" id="c7_1">alvos</span> <span class="w" id="c7_2">hormonais</span> </div>
+<div id="cg8" class="clip cap" data-start="10.08" data-duration="1.18"><span class="w" id="c8_0">ligados</span> <span class="w" id="c8_1">ao</span> <span class="w" id="c8_2">apetite</span> </div>
+<div id="cg9" class="clip cap" data-start="11.26" data-duration="1.32"><span class="w" id="c9_0">e</span> <span class="w" id="c9_1">ao</span> <span class="w" id="c9_2">metabolismo.</span> </div>
+<div id="cg10" class="clip cap" data-start="12.58" data-duration="1.04"><span class="w" id="c10_0">Num</span> <span class="w" id="c10_1">estudo</span> <span class="w" id="c10_2">apresentado</span> </div>
+<div id="cg11" class="clip cap" data-start="13.62" data-duration="0.96"><span class="w" id="c11_0">no</span> <span class="w" id="c11_1">maior</span> <span class="w" id="c11_2">Congresso</span> </div>
+<div id="cg12" class="clip cap" data-start="14.58" data-duration="0.84"><span class="w" id="c12_0">de</span> <span class="w" id="c12_1">Diabetes</span> <span class="w" id="c12_2">dos</span> </div>
+<div id="cg13" class="clip cap" data-start="15.42" data-duration="1.00"><span class="w" id="c13_0">Estados</span> <span class="w" id="c13_1">Unidos</span> <span class="w" id="c13_2">em</span> </div>
+<div id="cg14" class="clip cap" data-start="16.42" data-duration="1.24"><span class="w k" id="c14_0">2026,</span> </div>
+<div id="cg15" class="clip cap" data-start="17.66" data-duration="0.78"><span class="w" id="c15_0">ele</span> <span class="w" id="c15_1">fez</span> <span class="w k" id="c15_2">ratos</span> </div>
+<div id="cg16" class="clip cap" data-start="18.44" data-duration="1.22"><span class="w k" id="c16_0">obesos</span> <span class="w" id="c16_1">perderem</span> <span class="w" id="c16_2">mais</span> </div>
+<div id="cg17" class="clip cap" data-start="19.66" data-duration="0.70"><span class="w" id="c17_0">peso</span> <span class="w" id="c17_1">que</span> <span class="w" id="c17_2">a</span> </div>
+<div id="cg18" class="clip cap" data-start="20.36" data-duration="1.04"><span class="w k" id="c18_0">retatrutida.</span> </div>
+<div id="cg19" class="clip cap" data-start="21.40" data-duration="0.98"><span class="w" id="c19_0">Mas</span> <span class="w" id="c19_1">atenção,</span> </div>
+<div id="cg20" class="clip cap" data-start="22.38" data-duration="0.52"><span class="w" id="c20_0">isso</span> <span class="w" id="c20_1">foi</span> <span class="w" id="c20_2">em</span> </div>
+<div id="cg21" class="clip cap" data-start="22.90" data-duration="0.92"><span class="w" id="c21_0">ratos.</span> </div>
+<div id="cg22" class="clip cap" data-start="23.82" data-duration="0.62"><span class="w" id="c22_0">Ainda</span> <span class="w" id="c22_1">não</span> <span class="w" id="c22_2">existe</span> </div>
+<div id="cg23" class="clip cap" data-start="24.44" data-duration="0.90"><span class="w" id="c23_0">nenhum</span> <span class="w" id="c23_1">estudo</span> <span class="w" id="c23_2">em</span> </div>
+<div id="cg24" class="clip cap" data-start="25.34" data-duration="0.62"><span class="w k" id="c24_0">humanos,</span> </div>
+<div id="cg25" class="clip cap" data-start="25.96" data-duration="0.66"><span class="w" id="c25_0">e</span> <span class="w" id="c25_1">ele</span> <span class="w" id="c25_2">não</span> </div>
+<div id="cg26" class="clip cap" data-start="26.62" data-duration="0.90"><span class="w" id="c26_0">é</span> <span class="w k" id="c26_1">aprovado</span> <span class="w" id="c26_2">pela</span> </div>
+<div id="cg27" class="clip cap" data-start="27.52" data-duration="1.14"><span class="w k" id="c27_0">FDA</span> <span class="w" id="c27_1">nem</span> <span class="w" id="c27_2">pela</span> </div>
+<div id="cg28" class="clip cap" data-start="28.66" data-duration="0.40"><span class="w k" id="c28_0">Anvisa.</span> </div>
+<div id="cg29" class="clip cap" data-start="29.06" data-duration="0.86"><span class="w" id="c29_0">Se</span> <span class="w" id="c29_1">alguém</span> <span class="w" id="c29_2">está</span> </div>
+<div id="cg30" class="clip cap" data-start="29.92" data-duration="1.38"><span class="w" id="c30_0">vendendo</span> <span class="w" id="c30_1">esse</span> <span class="w" id="c30_2">peptídeo,</span> </div>
+<div id="cg31" class="clip cap" data-start="31.30" data-duration="0.82"><span class="w" id="c31_0">não</span> <span class="w" id="c31_1">existe</span> <span class="w" id="c31_2">nenhuma</span> </div>
+<div id="cg32" class="clip cap" data-start="32.12" data-duration="0.84"><span class="w k" id="c32_0">garantia</span> <span class="w" id="c32_1">do</span> <span class="w" id="c32_2">que</span> </div>
+<div id="cg33" class="clip cap" data-start="32.96" data-duration="0.78"><span class="w" id="c33_0">tem</span> <span class="w" id="c33_1">dentro.</span> </div>
+<div id="cg34" class="clip cap" data-start="33.74" data-duration="0.86"><span class="w" id="c34_0">Comenta</span> <span class="w k" id="c34_1">GUIA,</span> </div>
+<div id="cg35" class="clip cap" data-start="34.60" data-duration="0.22"><span class="w" id="c35_0">que</span> <span class="w" id="c35_1">eu</span> <span class="w" id="c35_2">te</span> </div>
+<div id="cg36" class="clip cap" data-start="34.82" data-duration="0.58"><span class="w" id="c36_0">mando</span> <span class="w" id="c36_1">o</span> <span class="w" id="c36_2">guia</span> </div>
+<div id="cg37" class="clip cap" data-start="35.40" data-duration="1.36"><span class="w" id="c37_0">dos</span> <span class="w" id="c37_1">peptídeos</span> <span class="w" id="c37_2">explicado</span> </div>
+<div id="cg38" class="clip cap" data-start="36.76" data-duration="2.64"><span class="w" id="c38_0">com</span> <span class="w" id="c38_1">ciência.</span> </div>
+<div id="flash" class="clip" data-start="0" data-duration="39.6"></div>
+<div id="frame" class="clip" data-start="0" data-duration="39.6"></div>
+<div id="tag" class="clip" data-start="0" data-duration="39.6"><span class="d"></span>OBOLARI ACADEMY<span class="c">· PEPTÍDEOS</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="39.6">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+tl.fromTo("#vrx",{scale:2.2,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"power4.out"},1.0);
+tl.fromTo("#flash",{opacity:0.6},{opacity:0,duration:0.25},1.0);
+tl.fromTo("#h1 .s",{y:20,opacity:0},{y:0,opacity:1,duration:0.3},0.05);
+tl.to("#vrx",{scale:1.05,duration:0.4,yoyo:true,repeat:3,ease:"sine.inOut"},1.5);
+tl.fromTo("#h2",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},3.9);
+tl.fromTo("#h3",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},7.0);
+tl.fromTo("#h4",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},12.5);
+tl.fromTo("#h5",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},17.6);
+tl.fromTo("#h6",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},21.3);
+tl.fromTo("#h7",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},23.8);
+tl.fromTo("#h8",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},29.0);
+tl.fromTo("#h9",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},33.6);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},3.9);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},7.0);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},9.4);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},12.5);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},15.0);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},17.6);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},19.6);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},21.3);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},23.8);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},26.3);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},29.0);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},31.3);
+tl.fromTo("#flash",{opacity:0.35},{opacity:0,duration:0.18},33.6);
+tl.fromTo("#badge",{opacity:0,y:20},{opacity:1,y:0,duration:0.35},12.8);
+tl.fromTo("#cmp",{opacity:0},{opacity:1,duration:0.25},17.9);
+tl.fromTo("#b1",{scaleX:0},{scaleX:1,duration:0.8,ease:"power2.out"},18.1);
+tl.fromTo("#b2",{scaleX:0},{scaleX:1,duration:0.8,ease:"power2.out"},18.3);
+tl.fromTo("#st1 span",{scale:2.5,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power3.in"},21.9);
+tl.fromTo("#st2 span",{scale:2.5,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power3.in"},26.5);
+tl.fromTo("#cta span",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.4,ease:"back.out(2.2)"},33.8);
+tl.to("#cta span",{scale:1.06,duration:0.45,yoyo:true,repeat:7,ease:"sine.inOut"},34.4);
+tl.fromTo("#c0_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.00);
+tl.fromTo("#c0_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.14);
+tl.fromTo("#c0_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.34);
+tl.fromTo("#c1_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.54);
+tl.fromTo("#c1_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.76);
+tl.fromTo("#c1_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.04);
+tl.fromTo("#c2_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.96);
+tl.fromTo("#c2_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.12);
+tl.fromTo("#c3_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.76);
+tl.fromTo("#c3_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.96);
+tl.fromTo("#c3_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.38);
+tl.fromTo("#c4_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.58);
+tl.fromTo("#c5_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.06);
+tl.fromTo("#c5_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.14);
+tl.fromTo("#c5_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.28);
+tl.fromTo("#c6_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.68);
+tl.fromTo("#c6_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.30);
+tl.fromTo("#c6_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.42);
+tl.fromTo("#c7_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.72);
+tl.fromTo("#c7_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.16);
+tl.fromTo("#c7_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.54);
+tl.fromTo("#c8_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.08);
+tl.fromTo("#c8_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.54);
+tl.fromTo("#c8_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.72);
+tl.fromTo("#c9_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.26);
+tl.fromTo("#c9_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.56);
+tl.fromTo("#c9_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.66);
+tl.fromTo("#c10_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.58);
+tl.fromTo("#c10_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.74);
+tl.fromTo("#c10_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.04);
+tl.fromTo("#c11_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.62);
+tl.fromTo("#c11_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.78);
+tl.fromTo("#c11_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.04);
+tl.fromTo("#c12_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.58);
+tl.fromTo("#c12_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.78);
+tl.fromTo("#c12_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.12);
+tl.fromTo("#c13_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.42);
+tl.fromTo("#c13_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.70);
+tl.fromTo("#c13_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.16);
+tl.fromTo("#c14_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.42);
+tl.fromTo("#c15_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.66);
+tl.fromTo("#c15_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.84);
+tl.fromTo("#c15_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.04);
+tl.fromTo("#c16_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.44);
+tl.fromTo("#c16_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.90);
+tl.fromTo("#c16_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.34);
+tl.fromTo("#c17_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.66);
+tl.fromTo("#c17_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.10);
+tl.fromTo("#c17_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.28);
+tl.fromTo("#c18_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.36);
+tl.fromTo("#c19_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.40);
+tl.fromTo("#c19_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.50);
+tl.fromTo("#c20_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.38);
+tl.fromTo("#c20_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.56);
+tl.fromTo("#c20_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.78);
+tl.fromTo("#c21_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.90);
+tl.fromTo("#c22_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.82);
+tl.fromTo("#c22_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.02);
+tl.fromTo("#c22_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.16);
+tl.fromTo("#c23_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.44);
+tl.fromTo("#c23_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.84);
+tl.fromTo("#c23_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.24);
+tl.fromTo("#c24_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.34);
+tl.fromTo("#c25_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.96);
+tl.fromTo("#c25_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.26);
+tl.fromTo("#c25_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.38);
+tl.fromTo("#c26_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.62);
+tl.fromTo("#c26_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.80);
+tl.fromTo("#c26_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.28);
+tl.fromTo("#c27_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.52);
+tl.fromTo("#c27_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.88);
+tl.fromTo("#c27_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.44);
+tl.fromTo("#c28_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.66);
+tl.fromTo("#c29_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.06);
+tl.fromTo("#c29_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.54);
+tl.fromTo("#c29_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.74);
+tl.fromTo("#c30_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.92);
+tl.fromTo("#c30_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.40);
+tl.fromTo("#c30_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.54);
+tl.fromTo("#c31_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.30);
+tl.fromTo("#c31_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.42);
+tl.fromTo("#c31_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.72);
+tl.fromTo("#c32_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.12);
+tl.fromTo("#c32_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.78);
+tl.fromTo("#c32_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.84);
+tl.fromTo("#c33_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.96);
+tl.fromTo("#c33_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.12);
+tl.fromTo("#c34_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.74);
+tl.fromTo("#c34_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.22);
+tl.fromTo("#c35_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.60);
+tl.fromTo("#c35_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.66);
+tl.fromTo("#c35_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.76);
+tl.fromTo("#c36_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.82);
+tl.fromTo("#c36_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.16);
+tl.fromTo("#c36_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.16);
+tl.fromTo("#c37_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.40);
+tl.fromTo("#c37_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.46);
+tl.fromTo("#c37_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.20);
+tl.fromTo("#c38_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.76);
+tl.fromTo("#c38_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.00);
+tl.fromTo("#ch0",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2.5)"},8.75);
+tl.fromTo("#ch1",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2.5)"},9.2);
+tl.fromTo("#ch2",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2.5)"},9.6);
+tl.fromTo("#ch3",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2.5)"},10.1);
+tl.fromTo("#ch4",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2.5)"},10.6);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
