@@ -291,5 +291,15 @@
     "peptideo": "DSIP",
     "publicar_apos": "2026-11-10 12:10",
     "status": "agendado"
+  },
+  {
+    "id": "2026-11-10-reta",
+    "titulo": "A disputa para liberar a reta (1 aminoácido = 12 anos)",
+    "status": "agendado",
+    "quando": "2026-11-10T20:10:00-05:00",
+    "video_url": "https://res-prod.buzzy.now/file-service/aa1e39b0-3e3d-4e63-a295-94ad5e13e780.mp4",
+    "cover_url": "https://res-prod.buzzy.now/file-service/7396bcc9-4df9-4344-98cb-639d8c5d87bb.jpg",
+    "legenda": "videos/reta-disputa/legenda.txt",
+    "trigger_id": "trig_01PDsJTnK3Jq6yx1ayoUMWp1"
   }
 ]
