@@ -1,0 +1,354 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#shade{position:absolute;left:0;top:420px;width:1080px;height:1100px;z-index:2;background:linear-gradient(rgba(0,0,0,0) 55%,rgba(0,0,0,.6) 100%)}
+#frame{position:absolute;inset:26px;z-index:9;border:4px solid #CBEF4B;border-radius:34px;box-shadow:0 0 0 40px #0E0E0E}
+#tag{position:absolute;z-index:9;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.hd{position:absolute;z-index:6;left:40px;right:40px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hd .s{font-weight:700;font-size:42px;color:#F2EFE6}
+.hd .m{font-weight:800;font-size:84px;line-height:1;letter-spacing:-2px}
+.hd .m span,.hd .s span{color:#CBEF4B} .r{color:#E53935!important}
+.cap{position:absolute;z-index:6;left:60px;right:60px;top:1555px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+.cap .k{color:#CBEF4B}
+.ov{position:absolute;z-index:5;left:60px;right:60px;top:1180px;text-align:center}
+.pill{display:inline-block;background:rgba(14,14,14,.86);border:3px solid #CBEF4B;font-weight:800;font-size:40px;padding:12px 26px;border-radius:16px}
+.pill.red{border-color:#E53935;color:#fff} .pill b{color:#CBEF4B} .pill.red b{color:#E53935}
+.beads{display:flex;justify-content:center;gap:12px;background:rgba(14,14,14,.8);padding:22px;border-radius:24px}
+.beads i{display:block;width:58px;height:58px;border-radius:50%;box-shadow:inset -6px -6px 0 rgba(0,0,0,.18)}
+.beads i.x{opacity:.25;outline:5px solid #E53935;outline-offset:3px}
+.cards{display:flex;gap:22px;justify-content:center}
+.card{flex:1;background:rgba(14,14,14,.88);border-radius:22px;padding:22px;text-align:left;border:3px solid #B388FF}
+.card.g{border-color:#4DB6AC} .card .t{font-weight:800;font-size:28px;letter-spacing:3px;color:#B388FF} .card.g .t{color:#4DB6AC}
+.card .n{font-weight:800;font-size:56px;line-height:1.05;margin:6px 0} .card .d{font-weight:700;font-size:28px;color:rgba(255,255,255,.85)}
+.count{display:flex;justify-content:center;gap:60px}
+.cnt{background:rgba(14,14,14,.88);border-radius:22px;padding:18px 40px;text-align:center;min-width:330px}
+.cnt .who{font-weight:800;font-size:34px;letter-spacing:3px} .cnt .num{font-weight:800;font-size:150px;line-height:1} .cnt .d{font-weight:700;font-size:26px;color:rgba(255,255,255,.8)}
+.stamp span{display:inline-block;border:8px solid #E53935;color:#E53935;background:rgba(14,14,14,.85);font-weight:800;font-size:76px;padding:6px 30px;border-radius:18px;transform:rotate(-5deg);line-height:1.05}
+.trio{display:flex;justify-content:space-around;align-items:flex-end;background:rgba(14,14,14,.85);border-radius:22px;padding:20px}
+.trio div{font-weight:800;font-size:40px} .trio .cons{color:#FFB74D;font-size:52px}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0}
+#end{position:absolute;z-index:7;left:60px;right:60px;top:1150px;text-align:center;background:rgba(14,14,14,.9);border-radius:22px;padding:24px;font-weight:700;font-size:28px;line-height:1.35;color:rgba(255,255,255,.9)}
+#end b{color:#CBEF4B}
+#foot{position:absolute;z-index:9;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="61.5" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="61.5" src="assets/bg.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="61.5"></div>
+<div id="h0" class="clip hd" data-start="0" data-duration="2.0"><div class="m">A disputa para<br>liberar a <span>reta</span></div><div class="s">Lilly × FDA</div></div>
+<div id="h1" class="clip hd" data-start="2.0" data-duration="5.7"><div class="m"><span>RETA</span></div><div class="s">remédio novo para emagrecer</div></div>
+<div id="o1" class="clip ov" data-start="5.9" data-duration="1.8"><span class="pill red"><b>EM TESTE</b> · ainda não aprovado</span></div>
+<div id="h2" class="clip hd" data-start="7.7" data-duration="5.2"><div class="m">Correntinha de<br><span>aminoácidos</span></div></div>
+<div id="o2" class="clip ov" data-start="8.3" data-duration="4.6"><div class="beads"><i id="bd0" style="background:#E53935"></i><i id="bd1" style="background:#F4C430"></i><i id="bd2" style="background:#CBEF4B"></i><i id="bd3" style="background:#4FC3F7"></i><i id="bd4" style="background:#B388FF"></i><i id="bd5" style="background:#FF8A65"></i><i id="bd6" style="background:#81C784"></i><i id="bd7" style="background:#F06292"></i><i id="bd8" style="background:#64B5F6"></i><i id="bd9" style="background:#FFD54F"></i><i id="bd10" style="background:#4DB6AC"></i></div></div>
+<div id="h3" class="clip hd" data-start="12.9" data-duration="13.9"><div class="m">A lei das <span>contas</span></div></div>
+<div id="o3" class="clip ov" data-start="14.8" data-duration="12.0"><div class="cards"><div class="card"><div class="t">&gt; 40 CONTAS</div><div class="n">Biologic</div><div class="d">remédio especial<br>só a Lilly pode fazer</div></div><div class="card g" id="cg2"><div class="t">≤ 40 CONTAS</div><div class="n">Comum</div><div class="d">depois de aprovado,<br>outras podem copiar</div></div></div></div>
+<div id="h4" class="clip hd" data-start="26.8" data-duration="13.4"><div class="m">Quem conta<br>as <span>contas</span>?</div></div>
+<div id="o4" class="clip ov" data-start="27.2" data-duration="10.2"><div class="count"><div class="cnt" id="cl"><div class="who" style="color:#B388FF">LILLY</div><div class="num" style="color:#B388FF">41</div><div class="d">"é biologic, é meu"</div></div><div class="cnt" id="cf"><div class="who" style="color:#4DB6AC">FDA</div><div class="num" style="color:#4DB6AC">40</div><div class="d">"uma não conta"</div></div></div></div>
+<div id="o5" class="clip ov" data-start="37.4" data-duration="2.8"><div class="beads"><i class="" style="background:#E53935"></i><i class="" style="background:#F4C430"></i><i class="" style="background:#CBEF4B"></i><i class="" style="background:#4FC3F7"></i><i class="" style="background:#B388FF"></i><i class="" style="background:#FF8A65"></i><i class="x" style="background:#81C784"></i><i class="" style="background:#F06292"></i><i class="" style="background:#64B5F6"></i><i class="" style="background:#FFD54F"></i><i class="" style="background:#4DB6AC"></i></div><div style="margin-top:14px"><span class="pill"><b>FDA:</b> não é biologic</span></div></div>
+<div id="o6" class="clip ov stamp" data-start="40.4" data-duration="3.9"><span>SEM APROVAÇÃO<br><small style="font-size:40px">ninguém fabrica nem vende</small></span></div>
+<div id="h5" class="clip hd" data-start="44.3" data-duration="9.4"><div class="m">Processo nas<br><span>lojas online</span></div></div>
+<div id="o7" class="clip ov" data-start="45.2" data-duration="8.5"><span class="pill red"><b>AÇÃO JUDICIAL</b> · remédio sem aprovação</span></div>
+<div id="h6" class="clip hd" data-start="53.7" data-duration="7.8"><div class="m">Quem controla<br>o <span>remédio</span>?</div></div>
+<div id="o8" class="clip ov" data-start="54.0" data-duration="5.3"><div class="trio"><div style="color:#B388FF">LILLY</div><div class="cons">CONSUMIDOR</div><div style="color:#4DB6AC">FDA</div></div></div>
+<div id="end" class="clip" data-start="59.3" data-duration="2.2">Retatrutida: em fase 3 de testes, <b>sem aprovação</b> da FDA ou da Anvisa.<br>Fonte: processo Eli Lilly × FDA (7º Circuito, EUA, 2026).<br><b>Conteúdo educativo: não é recomendação médica nem sugestão de uso.</b></div>
+<div id="cg0" class="clip cap" data-start="0.00" data-duration="0.88"><span class="" id="c0_0">A</span> <span class="" id="c0_1">disputa</span> <span class="" id="c0_2">para</span> </div>
+<div id="cg1" class="clip cap" data-start="0.88" data-duration="1.22"><span class="" id="c1_0">liberar</span> <span class="" id="c1_1">a</span> <span class="k" id="c1_2">reta.</span> </div>
+<div id="cg2" class="clip cap" data-start="2.10" data-duration="0.72"><span class="" id="c2_0">A</span> <span class="" id="c2_1">Lilly</span> <span class="" id="c2_2">está</span> </div>
+<div id="cg3" class="clip cap" data-start="2.82" data-duration="0.86"><span class="" id="c3_0">testando</span> <span class="" id="c3_1">um</span> <span class="" id="c3_2">remédio</span> </div>
+<div id="cg4" class="clip cap" data-start="3.68" data-duration="1.44"><span class="" id="c4_0">novo</span> <span class="" id="c4_1">para</span> <span class="" id="c4_2">emagrecer,</span> </div>
+<div id="cg5" class="clip cap" data-start="5.12" data-duration="1.14"><span class="" id="c5_0">chamado</span> <span class="k" id="c5_1">reta.</span> </div>
+<div id="cg6" class="clip cap" data-start="6.26" data-duration="0.54"><span class="" id="c6_0">Ele</span> <span class="" id="c6_1">ainda</span> <span class="" id="c6_2">não</span> </div>
+<div id="cg7" class="clip cap" data-start="6.80" data-duration="0.98"><span class="" id="c7_0">foi</span> <span class="k" id="c7_1">aprovado.</span> </div>
+<div id="cg8" class="clip cap" data-start="7.78" data-duration="0.42"><span class="" id="c8_0">Ele</span> <span class="" id="c8_1">é</span> <span class="" id="c8_2">feito</span> </div>
+<div id="cg9" class="clip cap" data-start="8.20" data-duration="0.88"><span class="" id="c9_0">de</span> <span class="" id="c9_1">uma</span> <span class="" id="c9_2">correntinha</span> </div>
+<div id="cg10" class="clip cap" data-start="9.08" data-duration="1.10"><span class="" id="c10_0">de</span> <span class="" id="c10_1">pedrinhas</span> <span class="" id="c10_2">chamadas</span> </div>
+<div id="cg11" class="clip cap" data-start="10.18" data-duration="1.28"><span class="k" id="c11_0">aminoácidos,</span> </div>
+<div id="cg12" class="clip cap" data-start="11.46" data-duration="0.84"><span class="" id="c12_0">tipo</span> <span class="" id="c12_1">contas</span> <span class="" id="c12_2">de</span> </div>
+<div id="cg13" class="clip cap" data-start="12.30" data-duration="0.62"><span class="" id="c13_0">colar.</span> </div>
+<div id="cg14" class="clip cap" data-start="12.92" data-duration="0.94"><span class="" id="c14_0">A</span> <span class="" id="c14_1">lei</span> <span class="" id="c14_2">diz,</span> </div>
+<div id="cg15" class="clip cap" data-start="13.86" data-duration="0.68"><span class="" id="c15_0">se</span> <span class="" id="c15_1">a</span> <span class="" id="c15_2">correntinha</span> </div>
+<div id="cg16" class="clip cap" data-start="14.54" data-duration="0.78"><span class="" id="c16_0">tiver</span> <span class="" id="c16_1">mais</span> <span class="" id="c16_2">de</span> </div>
+<div id="cg17" class="clip cap" data-start="15.32" data-duration="1.16"><span class="k" id="c17_0">40</span> <span class="" id="c17_1">contas,</span> </div>
+<div id="cg18" class="clip cap" data-start="16.48" data-duration="0.50"><span class="" id="c18_0">é</span> <span class="" id="c18_1">um</span> <span class="" id="c18_2">remédio</span> </div>
+<div id="cg19" class="clip cap" data-start="16.98" data-duration="1.80"><span class="" id="c19_0">especial</span> <span class="" id="c19_1">chamado</span> <span class="k" id="c19_2">biologic</span> </div>
+<div id="cg20" class="clip cap" data-start="18.78" data-duration="0.72"><span class="" id="c20_0">e</span> <span class="" id="c20_1">só</span> <span class="" id="c20_2">a</span> </div>
+<div id="cg21" class="clip cap" data-start="19.50" data-duration="1.04"><span class="" id="c21_0">Lilly</span> <span class="" id="c21_1">pode</span> <span class="" id="c21_2">fazer.</span> </div>
+<div id="cg22" class="clip cap" data-start="20.54" data-duration="0.72"><span class="" id="c22_0">Se</span> <span class="" id="c22_1">tiver</span> <span class="k" id="c22_2">40</span> </div>
+<div id="cg23" class="clip cap" data-start="21.26" data-duration="0.98"><span class="" id="c23_0">ou</span> <span class="" id="c23_1">menos,</span> </div>
+<div id="cg24" class="clip cap" data-start="22.24" data-duration="0.70"><span class="" id="c24_0">é</span> <span class="" id="c24_1">remédio</span> <span class="" id="c24_2">comum</span> </div>
+<div id="cg25" class="clip cap" data-start="22.94" data-duration="0.68"><span class="" id="c25_0">e,</span> </div>
+<div id="cg26" class="clip cap" data-start="23.62" data-duration="1.22"><span class="" id="c26_0">depois</span> <span class="" id="c26_1">de</span> <span class="k" id="c26_2">aprovado,</span> </div>
+<div id="cg27" class="clip cap" data-start="24.84" data-duration="1.20"><span class="" id="c27_0">outras</span> <span class="" id="c27_1">farmácias</span> <span class="" id="c27_2">também</span> </div>
+<div id="cg28" class="clip cap" data-start="26.04" data-duration="0.82"><span class="" id="c28_0">poderiam</span> <span class="" id="c28_1">copiar.</span> </div>
+<div id="cg29" class="clip cap" data-start="26.86" data-duration="0.90"><span class="" id="c29_0">A</span> <span class="" id="c29_1">Lilly</span> <span class="" id="c29_2">conta</span> </div>
+<div id="cg30" class="clip cap" data-start="27.76" data-duration="0.86"><span class="" id="c30_0">e</span> <span class="" id="c30_1">diz,</span> </div>
+<div id="cg31" class="clip cap" data-start="28.62" data-duration="1.62"><span class="" id="c31_0">são</span> <span class="k" id="c31_1">41</span> <span class="" id="c31_2">contas,</span> </div>
+<div id="cg32" class="clip cap" data-start="30.24" data-duration="1.32"><span class="" id="c32_0">então</span> <span class="" id="c32_1">é</span> <span class="k" id="c32_2">biologic,</span> </div>
+<div id="cg33" class="clip cap" data-start="31.56" data-duration="0.60"><span class="" id="c33_0">é</span> <span class="" id="c33_1">meu.</span> </div>
+<div id="cg34" class="clip cap" data-start="32.16" data-duration="0.96"><span class="" id="c34_0">A</span> <span class="k" id="c34_1">FDA</span> <span class="" id="c34_2">conta</span> </div>
+<div id="cg35" class="clip cap" data-start="33.12" data-duration="0.92"><span class="" id="c35_0">e</span> <span class="" id="c35_1">diz,</span> </div>
+<div id="cg36" class="clip cap" data-start="34.04" data-duration="0.52"><span class="" id="c36_0">não,</span> </div>
+<div id="cg37" class="clip cap" data-start="34.56" data-duration="1.06"><span class="" id="c37_0">são</span> <span class="" id="c37_1">só</span> <span class="" id="c37_2">40,</span> </div>
+<div id="cg38" class="clip cap" data-start="35.62" data-duration="0.62"><span class="" id="c38_0">porque</span> <span class="" id="c38_1">uma</span> <span class="" id="c38_2">das</span> </div>
+<div id="cg39" class="clip cap" data-start="36.24" data-duration="1.18"><span class="" id="c39_0">contas</span> <span class="" id="c39_1">não</span> <span class="" id="c39_2">conta.</span> </div>
+<div id="cg40" class="clip cap" data-start="37.42" data-duration="0.68"><span class="" id="c40_0">Por</span> <span class="" id="c40_1">isso,</span> </div>
+<div id="cg41" class="clip cap" data-start="38.10" data-duration="0.80"><span class="" id="c41_0">para</span> <span class="" id="c41_1">a</span> <span class="k" id="c41_2">FDA,</span> </div>
+<div id="cg42" class="clip cap" data-start="38.90" data-duration="0.56"><span class="" id="c42_0">ele</span> <span class="" id="c42_1">não</span> <span class="" id="c42_2">é</span> </div>
+<div id="cg43" class="clip cap" data-start="39.46" data-duration="0.74"><span class="k" id="c43_0">biologic.</span> </div>
+<div id="cg44" class="clip cap" data-start="40.20" data-duration="0.36"><span class="" id="c44_0">Mas,</span> </div>
+<div id="cg45" class="clip cap" data-start="40.56" data-duration="0.80"><span class="" id="c45_0">enquanto</span> <span class="" id="c45_1">não</span> <span class="" id="c45_2">for</span> </div>
+<div id="cg46" class="clip cap" data-start="41.36" data-duration="0.76"><span class="k" id="c46_0">aprovado,</span> </div>
+<div id="cg47" class="clip cap" data-start="42.12" data-duration="1.22"><span class="" id="c47_0">ninguém</span> <span class="" id="c47_1">pode</span> <span class="" id="c47_2">fabricar</span> </div>
+<div id="cg48" class="clip cap" data-start="43.34" data-duration="1.04"><span class="" id="c48_0">nem</span> <span class="k" id="c48_1">vender.</span> </div>
+<div id="cg49" class="clip cap" data-start="44.38" data-duration="0.60"><span class="" id="c49_0">A</span> <span class="" id="c49_1">Lilly</span> <span class="" id="c49_2">também</span> </div>
+<div id="cg50" class="clip cap" data-start="44.98" data-duration="1.00"><span class="" id="c50_0">está</span> <span class="k" id="c50_1">processando</span> <span class="" id="c50_2">as</span> </div>
+<div id="cg51" class="clip cap" data-start="45.98" data-duration="0.84"><span class="" id="c51_0">lojas</span> <span class="" id="c51_1">que</span> <span class="" id="c51_2">vendem</span> </div>
+<div id="cg52" class="clip cap" data-start="46.82" data-duration="0.54"><span class="" id="c52_0">a</span> <span class="" id="c52_1">reta</span> <span class="" id="c52_2">na</span> </div>
+<div id="cg53" class="clip cap" data-start="47.36" data-duration="0.74"><span class="" id="c53_0">internet,</span> </div>
+<div id="cg54" class="clip cap" data-start="48.10" data-duration="0.36"><span class="" id="c54_0">porque</span> <span class="" id="c54_1">é</span> <span class="" id="c54_2">um</span> </div>
+<div id="cg55" class="clip cap" data-start="48.46" data-duration="1.52"><span class="" id="c55_0">remédio</span> <span class="" id="c55_1">sem</span> <span class="k" id="c55_2">aprovação.</span> </div>
+<div id="cg56" class="clip cap" data-start="49.98" data-duration="0.44"><span class="" id="c56_0">Do</span> <span class="" id="c56_1">jeito</span> <span class="" id="c56_2">que</span> </div>
+<div id="cg57" class="clip cap" data-start="50.42" data-duration="0.64"><span class="" id="c57_0">ela</span> <span class="" id="c57_1">quer,</span> </div>
+<div id="cg58" class="clip cap" data-start="51.06" data-duration="0.98"><span class="" id="c58_0">ninguém</span> <span class="" id="c58_1">mais</span> <span class="" id="c58_2">toca</span> </div>
+<div id="cg59" class="clip cap" data-start="52.04" data-duration="0.96"><span class="" id="c59_0">nesse</span> <span class="" id="c59_1">remédio</span> <span class="" id="c59_2">sem</span> </div>
+<div id="cg60" class="clip cap" data-start="53.00" data-duration="0.74"><span class="k" id="c60_0">permissão</span> <span class="k" id="c60_1">dela.</span> </div>
+<div id="cg61" class="clip cap" data-start="53.74" data-duration="0.82"><span class="" id="c61_0">No</span> <span class="" id="c61_1">fim,</span> </div>
+<div id="cg62" class="clip cap" data-start="54.56" data-duration="0.58"><span class="" id="c62_0">é</span> <span class="" id="c62_1">uma</span> <span class="" id="c62_2">briga</span> </div>
+<div id="cg63" class="clip cap" data-start="55.14" data-duration="0.54"><span class="" id="c63_0">de</span> <span class="" id="c63_1">quem</span> <span class="" id="c63_2">vai</span> </div>
+<div id="cg64" class="clip cap" data-start="55.68" data-duration="1.00"><span class="" id="c64_0">controlar</span> <span class="" id="c64_1">o</span> <span class="" id="c64_2">remédio</span> </div>
+<div id="cg65" class="clip cap" data-start="56.68" data-duration="1.04"><span class="" id="c65_0">quando</span> <span class="" id="c65_1">ele</span> <span class="" id="c65_2">chegar.</span> </div>
+<div id="cg66" class="clip cap" data-start="57.72" data-duration="0.64"><span class="" id="c66_0">E</span> <span class="" id="c66_1">o</span> <span class="k" id="c66_2">consumidor</span> </div>
+<div id="cg67" class="clip cap" data-start="58.36" data-duration="3.04"><span class="" id="c67_0">fica</span> <span class="" id="c67_1">no</span> <span class="k" id="c67_2">meio.</span> </div>
+<div id="flash" class="clip" data-start="0" data-duration="61.5"></div>
+<div id="frame" class="clip" data-start="0" data-duration="61.5"></div>
+<div id="tag" class="clip" data-start="0" data-duration="61.5"><span class="d"></span>OBOLARI ACADEMY<span class="c">· NOTÍCIA</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="61.5">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+tl.fromTo("#h0 .m",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"power4.out"},0.05);
+tl.fromTo("#h1",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},2.0);
+tl.fromTo("#h2",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},7.7);
+tl.fromTo("#h3",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},12.9);
+tl.fromTo("#h4",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},26.8);
+tl.fromTo("#h5",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},44.3);
+tl.fromTo("#h6",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},53.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},2.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},6.2);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},7.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},12.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},16.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},20.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},23.6);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},26.8);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},32.1);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},37.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},40.2);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},44.3);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},47.2);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},49.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},53.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},57.6);
+tl.fromTo("#o1",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},5.9);
+tl.fromTo("#o2",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},8.3);
+tl.fromTo("#o5",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},37.4);
+tl.fromTo("#o7",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},45.2);
+tl.fromTo("#o8",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},54.0);
+tl.fromTo("#end",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},59.3);
+tl.fromTo("#o3 .card",{opacity:0,y:30},{opacity:1,y:0,duration:0.35},14.8);
+tl.fromTo("#cg2",{opacity:0,y:30},{opacity:1,y:0,duration:0.35},20.6);
+tl.fromTo("#cl",{opacity:0,scale:0.6},{opacity:1,scale:1,duration:0.35,ease:"back.out(2)"},27.3);
+tl.fromTo("#cf",{opacity:0,scale:0.6},{opacity:1,scale:1,duration:0.35,ease:"back.out(2)"},32.3);
+tl.fromTo("#o6 span",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power3.in"},40.4);
+tl.fromTo("#c0_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.00);
+tl.fromTo("#c0_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.12);
+tl.fromTo("#c0_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.68);
+tl.fromTo("#c1_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.88);
+tl.fromTo("#c1_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.34);
+tl.fromTo("#c1_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.46);
+tl.fromTo("#c2_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.10);
+tl.fromTo("#c2_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.26);
+tl.fromTo("#c2_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.50);
+tl.fromTo("#c3_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.82);
+tl.fromTo("#c3_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.24);
+tl.fromTo("#c3_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.36);
+tl.fromTo("#c4_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.68);
+tl.fromTo("#c4_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.00);
+tl.fromTo("#c4_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.26);
+tl.fromTo("#c5_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.12);
+tl.fromTo("#c5_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.46);
+tl.fromTo("#c6_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.26);
+tl.fromTo("#c6_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.40);
+tl.fromTo("#c6_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.62);
+tl.fromTo("#c7_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.80);
+tl.fromTo("#c7_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.04);
+tl.fromTo("#c8_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.78);
+tl.fromTo("#c8_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.90);
+tl.fromTo("#c8_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.02);
+tl.fromTo("#c9_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.20);
+tl.fromTo("#c9_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.42);
+tl.fromTo("#c9_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.52);
+tl.fromTo("#c10_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.08);
+tl.fromTo("#c10_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.20);
+tl.fromTo("#c10_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.68);
+tl.fromTo("#c11_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.18);
+tl.fromTo("#c12_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.46);
+tl.fromTo("#c12_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.72);
+tl.fromTo("#c12_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.18);
+tl.fromTo("#c13_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.30);
+tl.fromTo("#c14_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.92);
+tl.fromTo("#c14_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.00);
+tl.fromTo("#c14_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.14);
+tl.fromTo("#c15_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.86);
+tl.fromTo("#c15_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.96);
+tl.fromTo("#c15_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.02);
+tl.fromTo("#c16_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.54);
+tl.fromTo("#c16_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.78);
+tl.fromTo("#c16_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.18);
+tl.fromTo("#c17_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.32);
+tl.fromTo("#c17_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.66);
+tl.fromTo("#c18_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.48);
+tl.fromTo("#c18_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.60);
+tl.fromTo("#c18_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.68);
+tl.fromTo("#c19_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.98);
+tl.fromTo("#c19_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.48);
+tl.fromTo("#c19_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.96);
+tl.fromTo("#c20_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.78);
+tl.fromTo("#c20_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.06);
+tl.fromTo("#c20_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.32);
+tl.fromTo("#c21_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.50);
+tl.fromTo("#c21_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.62);
+tl.fromTo("#c21_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.86);
+tl.fromTo("#c22_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.54);
+tl.fromTo("#c22_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.66);
+tl.fromTo("#c22_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.90);
+tl.fromTo("#c23_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.26);
+tl.fromTo("#c23_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.66);
+tl.fromTo("#c24_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.24);
+tl.fromTo("#c24_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.40);
+tl.fromTo("#c24_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.68);
+tl.fromTo("#c25_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.94);
+tl.fromTo("#c26_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.62);
+tl.fromTo("#c26_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.92);
+tl.fromTo("#c26_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.04);
+tl.fromTo("#c27_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.84);
+tl.fromTo("#c27_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.08);
+tl.fromTo("#c27_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.64);
+tl.fromTo("#c28_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.04);
+tl.fromTo("#c28_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.48);
+tl.fromTo("#c29_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.86);
+tl.fromTo("#c29_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.30);
+tl.fromTo("#c29_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.44);
+tl.fromTo("#c30_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.76);
+tl.fromTo("#c30_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.14);
+tl.fromTo("#c31_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.62);
+tl.fromTo("#c31_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.92);
+tl.fromTo("#c31_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.42);
+tl.fromTo("#c32_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.24);
+tl.fromTo("#c32_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.54);
+tl.fromTo("#c32_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.82);
+tl.fromTo("#c33_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.56);
+tl.fromTo("#c33_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.68);
+tl.fromTo("#c34_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.16);
+tl.fromTo("#c34_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.28);
+tl.fromTo("#c34_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.62);
+tl.fromTo("#c35_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.12);
+tl.fromTo("#c35_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.46);
+tl.fromTo("#c36_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.04);
+tl.fromTo("#c37_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.56);
+tl.fromTo("#c37_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.76);
+tl.fromTo("#c37_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.94);
+tl.fromTo("#c38_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.62);
+tl.fromTo("#c38_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.84);
+tl.fromTo("#c38_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.12);
+tl.fromTo("#c39_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.24);
+tl.fromTo("#c39_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.66);
+tl.fromTo("#c39_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.84);
+tl.fromTo("#c40_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.42);
+tl.fromTo("#c40_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.62);
+tl.fromTo("#c41_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.10);
+tl.fromTo("#c41_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.16);
+tl.fromTo("#c41_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.22);
+tl.fromTo("#c42_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.90);
+tl.fromTo("#c42_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.06);
+tl.fromTo("#c42_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.28);
+tl.fromTo("#c43_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.46);
+tl.fromTo("#c44_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.20);
+tl.fromTo("#c45_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.56);
+tl.fromTo("#c45_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.84);
+tl.fromTo("#c45_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.14);
+tl.fromTo("#c46_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.36);
+tl.fromTo("#c47_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.12);
+tl.fromTo("#c47_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.40);
+tl.fromTo("#c47_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.72);
+tl.fromTo("#c48_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},43.34);
+tl.fromTo("#c48_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},43.72);
+tl.fromTo("#c49_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.38);
+tl.fromTo("#c49_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.54);
+tl.fromTo("#c49_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.70);
+tl.fromTo("#c50_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.98);
+tl.fromTo("#c50_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.30);
+tl.fromTo("#c50_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.84);
+tl.fromTo("#c51_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.98);
+tl.fromTo("#c51_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.26);
+tl.fromTo("#c51_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.46);
+tl.fromTo("#c52_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.82);
+tl.fromTo("#c52_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.98);
+tl.fromTo("#c52_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.24);
+tl.fromTo("#c53_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.36);
+tl.fromTo("#c54_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.10);
+tl.fromTo("#c54_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.34);
+tl.fromTo("#c54_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.42);
+tl.fromTo("#c55_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.46);
+tl.fromTo("#c55_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.82);
+tl.fromTo("#c55_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.08);
+tl.fromTo("#c56_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.98);
+tl.fromTo("#c56_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.06);
+tl.fromTo("#c56_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.26);
+tl.fromTo("#c57_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.42);
+tl.fromTo("#c57_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.52);
+tl.fromTo("#c58_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.06);
+tl.fromTo("#c58_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.40);
+tl.fromTo("#c58_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.74);
+tl.fromTo("#c59_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.04);
+tl.fromTo("#c59_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.28);
+tl.fromTo("#c59_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.74);
+tl.fromTo("#c60_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.00);
+tl.fromTo("#c60_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.48);
+tl.fromTo("#c61_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.74);
+tl.fromTo("#c61_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.08);
+tl.fromTo("#c62_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.56);
+tl.fromTo("#c62_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.72);
+tl.fromTo("#c62_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.84);
+tl.fromTo("#c63_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.14);
+tl.fromTo("#c63_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.28);
+tl.fromTo("#c63_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.54);
+tl.fromTo("#c64_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.68);
+tl.fromTo("#c64_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.12);
+tl.fromTo("#c64_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.24);
+tl.fromTo("#c65_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.68);
+tl.fromTo("#c65_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.80);
+tl.fromTo("#c65_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.98);
+tl.fromTo("#c66_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.72);
+tl.fromTo("#c66_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.74);
+tl.fromTo("#c66_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.80);
+tl.fromTo("#c67_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.36);
+tl.fromTo("#c67_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.76);
+tl.fromTo("#c67_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.92);
+tl.fromTo("#bd0",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},8.50);
+tl.fromTo("#bd1",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},8.68);
+tl.fromTo("#bd2",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},8.86);
+tl.fromTo("#bd3",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.04);
+tl.fromTo("#bd4",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.22);
+tl.fromTo("#bd5",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.40);
+tl.fromTo("#bd6",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.58);
+tl.fromTo("#bd7",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.76);
+tl.fromTo("#bd8",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},9.94);
+tl.fromTo("#bd9",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},10.12);
+tl.fromTo("#bd10",{scale:0},{scale:1,duration:0.2,ease:"back.out(3)"},10.30);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
