@@ -59,3 +59,10 @@ Dose, diluição, protocolo, frequência, "quanto usar", onde comprar, preço, f
 
 ## Relatório
 Ao fim de cada execução: quantos comentários lidos, quantos respondidos, quais foram ignorados (e por quê) e os casos para o Maxwell. Se houver caso para o Maxwell, enviar com destaque; se não houver nada novo, relatório de 1 linha.
+
+
+## Tom sem medo (pedido do Maxwell, 10/11/2026)
+Responder dúvidas de compra/uso de peptídeos com calma, sem alarmar e sem recomendar. Modelos:
+- "Onde compro?" → "Ele ainda está em estudo, então o melhor caminho é acompanhar as novidades e conversar com o seu médico 🙏 Eu vou postando aqui cada passo!"
+- "Já uso" → "Que bom que você se sente bem! Vale acompanhar sempre com o seu médico 🙌"
+Nunca usar "não tem garantia nenhuma", "perigoso", "golpe", "cuidado".

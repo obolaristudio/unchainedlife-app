@@ -109,6 +109,15 @@ Todo vídeo e material usa **"Obolari Academy"**: narração ("conteúdo educati
 ## Fechamento sem exagero (pedido do Maxwell, 06/11/2026)
 No final do vídeo e da legenda: só "Conteúdo educativo" + "Converse com o seu médico" + a pergunta de engajamento. NÃO repetir "não é aprovado", "não pode ser usado", "não use" etc. O status regulatório, quando entrar, vai uma única vez, no corpo do vídeo, de forma neutra e curta (ex.: "a FDA aprovou para tal grupo"). As travas da Regra nº 1 continuam (sem dose, compra, promessa).
 
+## Tom sobre peptídeos: sem medo, sem recomendação (pedido do Maxwell, 10/11/2026)
+O Maxwell vê os peptídeos como uma área em avanço, com regulação andando (política interina do HHS, revisões da FDA marcadas). O conteúdo deve ser **curioso e otimista com os pés no chão**:
+- **Nunca alarmar:** nada de carimbo vermelho "PERIGO", "cuidado!", "não existe garantia nenhuma", "risco", caveira, tom de denúncia ou de golpe. Vermelho só como cor de atenção em número/palavra-chave, não para assustar.
+- **Nunca recomendar:** sem dose, protocolo, "vale a pena usar", onde comprar, promessa de resultado (a Regra nº 1 continua).
+- **Status regulatório em tom de notícia, uma vez só:** "ainda está em estudo", "a FDA deve revisar em fevereiro de 2027", "a regulação está avançando". Em vez de "não aprovado, sem garantia", preferir "ainda em estudo; acompanhe com o seu médico".
+- **Mostrar o lado promissor primeiro** (o que os estudos já mostraram), depois o que ainda falta saber, como próximo capítulo, não como ameaça.
+- **Não afirmar datas de aprovação** que não estejam numa fonte (ex.: não dizer "vai ser aprovado em breve"); falar do que está em andamento.
+- Vale para roteiro, tela, legenda, respostas de comentários e DMs.
+
 ## Padrão de produção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
 - **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
 - **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.
