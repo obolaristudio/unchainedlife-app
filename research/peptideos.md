@@ -17,6 +17,8 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-10 | Sermorelina (na fila: 16:10 ET) | — |
+| 2026-11-10 | Semax (na fila: 20:10 ET) | — |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -25,3 +27,6 @@
 - Brasil: sem mudança (sem registro na Anvisa).
 - Fontes: https://www.ajmc.com/view/5-things-to-know-about-hhs-s-interim-peptide-compounding-policy · https://peptidescouter.com/blog/hhs-peptide-compounding-policy-october-2026 · https://www.medicaldaily.com/hhs-allows-compounding-six-unapproved-peptides-480563
 - Pauta: acompanhar o resultado da consulta (pós 13/11) e a revisão de fev/2027 → novos vídeos.
+
+## Aviso da rotina de 10/11/2026
+Esta lista estava desatualizada: o `fila.json` do ramo media mostra que GHK-Cu (30/10, 07/11, 09/11), BPC-157 (31/10), TB-500, Tirzepatida, Insulina, CJC-1295, Ipamorelina, Tesamorelina, MOTS-c, PT-141, Retatrutida, Epitalon, KPV e DSIP já foram feitos ou agendados. Conferir o `fila.json` antes de escolher o peptídeo.

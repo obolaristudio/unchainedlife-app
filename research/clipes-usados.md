@@ -11,3 +11,4 @@
 | notícia HHS | portão com 6 peptídeos |
 | caneta e músculo (v2) | 9 cenas novas: balança, laudo, gota d'água, silhueta em camadas, bioimpedância, água no tecido, ponteiro, mulher agachamento, homem 50+ orla |
 | cravo-da-índia (mito ou verdade) | cravos flutuando sobre ardósia, vapor âmbar (img a87243a9, Kling 9f0f65ff) |
+| sermorelina e semax (10/11/2026) | Seedance 2.5 480p: molécula em cadeia azul, frasco no laboratório, páginas de periódico, mesa de reunião, líquido âmbar, células azuis, lupa, pipeta, homem no computador, molécula de cobre, mesa do médico, bobina de cobre, mulher caminhando, luz na sala/calendário, calendário na parede. Não usados (sobraram): pote de creme (j14). |
