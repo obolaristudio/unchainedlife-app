@@ -33,3 +33,4 @@ Taxas por 1.000 views. Os posts têm idades diferentes (13 h a 37 h), então os 
 ## Reel da reta (DfiyhRgkmZ_), publicado 10/11 02:04 UTC
 - +20 min (02:24 UTC): nenhum comentário de outras pessoas ainda. Votos: LILLY 0 × FDA 0. Nenhum GUIA.
 - +40 min (02:44 UTC): ainda nenhum comentário de outras pessoas. Votos: LILLY 0 × FDA 0.
+- +60 min (03:04 UTC): sem comentários de terceiros (só o nosso placar). Votos 0 × 0. Insights 1ª hora: 54 views · 18 contas alcançadas · 1 curtida · 0 salvamentos · 0 envios · tempo médio 15,2 s (de 61,5 s, ~25%). Distribuição ainda não decolou (horário 21h ET de segunda, já fora do pico).
