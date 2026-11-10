@@ -133,6 +133,16 @@ Todo vídeo, tela e legenda precisa ser entendido por alguém sem nenhum estudo 
 - Números redondos e concretos ("1 em cada 5 pessoas", "metade") em vez de jargão estatístico.
 - Teste final: se a mãe ou a avó do Maxwell não entenderia a frase, reescrever.
 
+## Dinamismo e surpresa em todo vídeo (pedido do Maxwell, 10/11/2026)
+Nada de vídeo "sempre igual". Cada vídeo precisa de movimento constante e de pelo menos uma surpresa:
+- **O que é falado aparece:** cada objeto ou ideia citada surge na tela no mesmo instante, com animação (pop, slide, zoom): fechadura e chave para receptor, contas de colar para aminoácidos, balança, cérebro, relógio, bandeira do país citado, caixa de remédio, Erlenmeyer de laboratório. Imagens reais quando houver; ícone ou objeto 3D animado quando não houver.
+- **Letras vivas:** legenda palavra por palavra com destaque na palavra-chave, números contando (0 → 41), palavras gigantes que entram com impacto, riscado/círculo vermelho animado.
+- **Troca a cada 1,5–3,5 s:** corte, zoom, mudança de enquadramento ou elemento novo. Uma "quebra de padrão" a cada 5–7 s (flash, zoom-through, mudança de cor, tela dividida).
+- **Pelo menos 1 surpresa por vídeo:** virada de informação ("mas na Rússia já é remédio de farmácia"), contador, comparação lado a lado, mapa com países acendendo, enquete na tela.
+- **Rodízio de formatos:** não repetir a mesma estrutura em 2 vídeos seguidos (alternar: mito ou verdade, contador, mapa-mundi, "explicado com objetos", tela dividida, notícia). Registrar o formato usado em `research/clipes-usados.md`.
+- **Som em tudo que se move:** whoosh, pop, tick e impacto (real-sfx/earshot), baixo sob a voz.
+- **Exceção da Regra nº 1:** frasco de injeção, seringa, agulha e aplicação NUNCA aparecem, nem em ícone. "Frasco" na fala vira caixa de remédio, frasco de comprimidos ou vidraria de laboratório (Erlenmeyer, tubo de ensaio).
+
 ## Padrão de produção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
 - **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
 - **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.

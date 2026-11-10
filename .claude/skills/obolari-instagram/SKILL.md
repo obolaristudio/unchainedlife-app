@@ -31,6 +31,7 @@ description: Manual-mestre da Operação 24 h do Instagram @obolari_academy (Max
 10. **Tom equilibrado sobre peptídeos (pedido do Maxwell, 10/11/2026):** nunca criar medo nem alarme, e nunca recomendar. Ver "Tom sobre peptídeos" em `video-effects/SKILL.md`.
 11. **Status pelo mundo, não só EUA:** sempre dizer onde o peptídeo já é aprovado (Rússia, Europa, China etc.) além de FDA e Anvisa, com fonte. Ver `video-effects/SKILL.md`.
 12. **Linguagem de leigo:** frases curtas, termos explicados com comparações do dia a dia, em todo vídeo e legenda.
+13. **Dinamismo e surpresa:** o que é falado aparece animado na hora, letras vivas, troca a cada 1,5–3,5 s, 1 surpresa por vídeo, rodízio de formatos (sem seringa/frasco de injeção). Ver `video-effects/SKILL.md`.
 
 ## 2.1 Antena ligada
 Notícias e estudos todo dia; GitHub e novas ferramentas todo domingo. Pode instalar repositório que agregue (com as travas de segurança de `operacao-24h.md`); ferramenta paga/cadastro → avisar o Maxwell. Registro em `research/ferramentas.md`.
