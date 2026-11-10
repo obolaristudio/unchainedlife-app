@@ -28,3 +28,7 @@ A "Regra nº 1: conta segura" do SKILL.md é trava obrigatória: vídeo que falh
 8. **Fila de publicação (send_later NÃO existe nas sessões agendadas):** não publicar na madrugada. Adicionar cada vídeo aprovado na checagem ao arquivo `fila.json` do ramo `media` (lista de itens: `{"id", "video_url", "cover_url", "caption", "peptideo", "publicar_apos": "<data> 12:10" ou "<data> 20:10" (America/New_York), "status": "pendente"}`) e fazer commit/push. Quem publica é a tarefa "Respostas comentários Instagram", nos horários de pico (ver `respostas-comentarios.md`).
 9. **Relatório da manhã:** os 3 virais (link + por que viralizaram), os 2 vídeos (SendUserFile), os horários em que vão ao ar, "Checagem de políticas: OK" ou o que foi bloqueado, créditos gastos. Registrar os virais em `research/usados.md`.
 10. Se algo travar (Instagram desconectado, créditos, download), não inventar resultado: parar aquele vídeo e explicar o que o Maxwell precisa fazer.
+
+
+## Regras de conteúdo adicionadas pelo Maxwell (10/11/2026)
+Antes de roteirizar, seguir em `SKILL.md`: "Tom sobre peptídeos: sem medo, sem recomendação", "Visão mundial do status regulatório" e "Linguagem simples, para qualquer pessoa". Preferir o formato vencedor: voz do Maxwell + imagens reais + gancho de curiosidade, 35–45 s.

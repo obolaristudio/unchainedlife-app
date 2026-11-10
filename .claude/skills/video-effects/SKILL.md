@@ -118,6 +118,21 @@ O Maxwell vê os peptídeos como uma área em avanço, com regulação andando (
 - **Não afirmar datas de aprovação** que não estejam numa fonte (ex.: não dizer "vai ser aprovado em breve"); falar do que está em andamento.
 - Vale para roteiro, tela, legenda, respostas de comentários e DMs.
 
+## Visão mundial do status regulatório (pedido do Maxwell, 10/11/2026)
+Nunca olhar só para os EUA. Muitos peptídeos sem aprovação na FDA são **aprovados como medicamento em outros países** (ex.: Semax e Selank na Rússia; timosina alfa-1 em dezenas de países, como China e Itália). Em todo vídeo e legenda:
+- Checar o status em **EUA (FDA), Brasil (Anvisa), Rússia, União Europeia (EMA)** e, quando houver, China, Japão e Austrália. Fonte primária (bula, registro oficial, agência, PubMed); se não achar fonte, não citar o país.
+- Dizer de forma clara e simples: "Na Rússia, já é remédio de farmácia desde [ano]. Nos EUA e no Brasil, ainda está em estudo."
+- Aprovação em outro país não vira recomendação: continua sem dose, sem compra e sem promessa (Regra nº 1).
+- Registrar o que for confirmado em `research/peptideos.md` (seção "Status pelo mundo") para reaproveitar.
+
+## Linguagem simples, para qualquer pessoa (pedido do Maxwell, 10/11/2026)
+Todo vídeo, tela e legenda precisa ser entendido por alguém sem nenhum estudo de biologia:
+- Frases curtas (até ~15 palavras), uma ideia por frase, palavras do dia a dia.
+- Todo termo técnico vem explicado na hora, com comparação do cotidiano: "aminoácidos são como as contas de um colar"; "receptor é como uma fechadura, e o peptídeo é a chave".
+- Evitar siglas sem explicação (dizer "a agência de remédios dos EUA, a FDA").
+- Números redondos e concretos ("1 em cada 5 pessoas", "metade") em vez de jargão estatístico.
+- Teste final: se a mãe ou a avó do Maxwell não entenderia a frase, reescrever.
+
 ## Padrão de produção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
 - **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
 - **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.

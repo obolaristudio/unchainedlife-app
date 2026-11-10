@@ -25,3 +25,11 @@
 - Brasil: sem mudança (sem registro na Anvisa).
 - Fontes: https://www.ajmc.com/view/5-things-to-know-about-hhs-s-interim-peptide-compounding-policy · https://peptidescouter.com/blog/hhs-peptide-compounding-policy-october-2026 · https://www.medicaldaily.com/hhs-allows-compounding-six-unapproved-peptides-480563
 - Pauta: acompanhar o resultado da consulta (pós 13/11) e a revisão de fev/2027 → novos vídeos.
+
+
+## Status pelo mundo (preencher só com fonte primária confirmada)
+| Peptídeo | EUA (FDA) | Brasil (Anvisa) | Rússia | Outros | Fonte |
+|---|---|---|---|---|---|
+| Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
+| Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
