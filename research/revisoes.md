@@ -29,3 +29,6 @@ Taxas por 1.000 views. Os posts têm idades diferentes (13 h a 37 h), então os 
 1. Formato padrão: narrado de 25 a 35 s com gancho de número ou estudo + efeitos, postado só às 12:10 ou 20:10 ET, 1 por horário.
 2. Pôster 3D: no máximo 1 por semana.
 3. Testar música em alta (manual pelo Maxwell) nos narrados.
+
+## Reel da reta (DfiyhRgkmZ_), publicado 10/11 02:04 UTC
+- +20 min (02:24 UTC): nenhum comentário de outras pessoas ainda. Votos: LILLY 0 × FDA 0. Nenhum GUIA.
