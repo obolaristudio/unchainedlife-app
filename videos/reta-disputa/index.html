@@ -11,7 +11,7 @@
 #tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
 .hd{position:absolute;z-index:6;left:40px;right:40px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .hd .s{font-weight:700;font-size:42px;color:#F2EFE6}
-.hd .m{font-weight:800;font-size:84px;line-height:1;letter-spacing:-2px}
+.hd .m{font-weight:800;font-size:80px;line-height:1;letter-spacing:-2px}
 .hd .m span,.hd .s span{color:#CBEF4B} .r{color:#E53935!important}
 .cap{position:absolute;z-index:6;left:60px;right:60px;top:1555px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
 .cap .k{color:#CBEF4B}
@@ -39,7 +39,7 @@
 <div id="root" data-composition-id="main" data-start="0" data-duration="61.5" data-width="1080" data-height="1920">
 <video id="bg" class="clip" data-start="0" data-duration="61.5" src="assets/bg.mp4" muted></video>
 <div id="shade" class="clip" data-start="0" data-duration="61.5"></div>
-<div id="h0" class="clip hd" data-start="0" data-duration="2.0"><div class="m">A disputa para<br>liberar a <span>reta</span></div><div class="s">Lilly × FDA</div></div>
+<div id="h0" class="clip hd" data-start="0" data-duration="2.0"><div class="m"><span>1 aminoácido</span> =<br>12 anos de exclusividade</div><div class="s">Lilly × FDA 👀</div></div>
 <div id="h1" class="clip hd" data-start="2.0" data-duration="5.7"><div class="m"><span>RETA</span></div><div class="s">remédio novo para emagrecer</div></div>
 <div id="o1" class="clip ov" data-start="5.9" data-duration="1.8"><span class="pill red"><b>EM TESTE</b> · ainda não aprovado</span></div>
 <div id="h2" class="clip hd" data-start="7.7" data-duration="5.2"><div class="m">Correntinha de<br><span>aminoácidos</span></div></div>
@@ -130,7 +130,8 @@
 </div><script>
 const tl=gsap.timeline({paused:true});
 tl.set("#flash",{opacity:0},0);
-tl.fromTo("#h0 .m",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"power4.out"},0.05);
+tl.fromTo("#h0 .m",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"power4.out"},0.0);
+tl.fromTo("#flash",{opacity:0.5},{opacity:0,duration:0.25},0.0);
 tl.fromTo("#h1",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},2.0);
 tl.fromTo("#h2",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},7.7);
 tl.fromTo("#h3",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},12.9);

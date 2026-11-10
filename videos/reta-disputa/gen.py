@@ -60,7 +60,7 @@ H=f'''<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name=
 <div id="root" data-composition-id="main" data-start="0" data-duration="{T}" data-width="1080" data-height="1920">
 <video id="bg" class="clip" data-start="0" data-duration="{T}" src="assets/bg.mp4" muted></video>
 <div id="shade" class="clip" data-start="0" data-duration="{T}"></div>
-{hd('h0',0,2.0,'<div class="m">A disputa para<br>liberar a <span>reta</span></div><div class="s">Lilly × FDA</div>')}
+{hd('h0',0,2.0,'<div class="m"><span>1 aminoácido</span> =<br>12 anos de exclusividade</div><div class="s">Lilly × FDA 👀</div>')}
 {hd('h1',2.0,7.7,'<div class="m"><span>RETA</span></div><div class="s">remédio novo para emagrecer</div>')}
 <div id="o1" class="clip ov" data-start="5.9" data-duration="1.8"><span class="pill red"><b>EM TESTE</b> · ainda não aprovado</span></div>
 {hd('h2',7.7,12.9,'<div class="m">Correntinha de<br><span>aminoácidos</span></div>')}
@@ -84,7 +84,7 @@ H=f'''<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name=
 </div><script>
 const tl=gsap.timeline({{paused:true}});
 tl.set("#flash",{{opacity:0}},0);
-tl.fromTo("#h0 .m",{{scale:1.6,opacity:0}},{{scale:1,opacity:1,duration:0.35,ease:"power4.out"}},0.05);
+tl.fromTo("#h0 .m",{{scale:1.6,opacity:0}},{{scale:1,opacity:1,duration:0.3,ease:"power4.out"}},0.0);\ntl.fromTo("#flash",{{opacity:0.5}},{{opacity:0,duration:0.25}},0.0);
 '''
 for h,t in [('#h1',2.0),('#h2',7.7),('#h3',12.9),('#h4',26.8),('#h5',44.3),('#h6',53.7)]:
     H+=f'tl.fromTo("{h}",{{y:30,opacity:0}},{{y:0,opacity:1,duration:0.3,ease:"power3.out"}},{t});\n'
