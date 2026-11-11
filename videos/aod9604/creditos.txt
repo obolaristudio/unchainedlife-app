@@ -1,0 +1,3 @@
+Imagens reais: Mixkit (licença gratuita Mixkit) — IDs usados em aod9604/scenes.json (arquivos /tmp stock/<id>.mp4).
+Narração: voz clonada Maxwell Obolari (ElevenLabs eleven_v4, 1 geração). Música: ElevenLabs Music (instrumental, sem voz — verificado por transcrição).
+SFX: brand/sfx (ElevenLabs). Fontes: Bricolage Grotesque (OFL).
