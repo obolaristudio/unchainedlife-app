@@ -1,5 +1,7 @@
 # Respostas automáticas a comentários (@obolari_academy)
 
+> **PASSO 0 — OBRIGATÓRIO EM TODA EXECUÇÃO, ANTES DOS COMENTÁRIOS (pedido do Maxwell, 11/11/2026):** buscar o ramo `media` (`git fetch origin media` e ler `fila.json`) e publicar cada item com `status: "pendente"` cujo `publicar_apos` (America/New_York) já passou, conforme a seção da fila mais abaixo, respeitando 4 h entre posts. Em 10/11 essa etapa foi pulada e 2 Reels não saíram. Itens `agendado` não são publicados aqui. Se não publicar nada, diga no relatório "fila verificada: nada pendente".
+
 Pedido do Maxwell: responder os comentários dos posts por ele. Roda por tarefa agendada várias vezes ao dia. A "Regra nº 1: conta segura" do SKILL.md vale aqui também.
 
 ## Horário de silêncio (economia)
