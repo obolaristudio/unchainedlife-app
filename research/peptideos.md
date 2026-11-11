@@ -18,6 +18,9 @@
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
 
+| 2026-11-11 | Timosina alfa-1 | agendado 16:10 ET (fila.json) |
+| 2026-11-11 | AOD-9604 | agendado 20:10 ET (fila.json) |
+
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
 - NÃO é aprovação da FDA; HHS diz que não estabelece segurança/eficácia. Contrariou os cientistas da FDA (PCAC jul/2026 votou a favor; revisores técnicos contra). Consulta pública até ~13/11/2026. Petição contrária da Partnership for Safe Medicines.
@@ -32,4 +35,4 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
-| Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
+| Timosina alfa-1 | não aprovado (briefing FDA PCAC 04/12/2024) | sem registro encontrado (não confirmado em fonte oficial) | — | Itália (adjuvante vacina gripe, AIFA); Índia (hepatite B crônica); Hong Kong — citados no briefing da FDA (fda.gov/media/183820/download); China não confirmada em fonte primária | briefing FDA 2024 |
