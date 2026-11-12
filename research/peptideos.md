@@ -1,6 +1,7 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
+- DSIP (pedido de @renatosdpaula, 12/11)
 - GHK-Cu
 - BPC-157
 - Retatrutida
@@ -17,6 +18,7 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-12 | AOD-9604 | https://www.instagram.com/reel/Dfo8w82GbWQ/ |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
