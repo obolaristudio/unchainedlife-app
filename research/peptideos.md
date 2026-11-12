@@ -33,3 +33,5 @@
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
+
+- 2026-11-12: Reel Selank publicado (https://www.instagram.com/reel/DfqBeWpiMqv/), fila.json atualizado no ramo media.
