@@ -17,6 +17,10 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-12 | Selank (fila: publicar_apos 16:10 ET) | pendente |
+| 2026-11-12 | Liraglutida (fila: publicar_apos 20:10 ET) | pendente |
+
+Obs.: o histórico completo está em `fila.json` do ramo `media` (GHK-Cu, BPC-157, TB-500, CJC-1295, etc. já publicados).
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -32,4 +36,6 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Selank | não aprovado | sem registro (resolução Anvisa 10/2026 contra anúncios; nota CRM-PR) | registrado como medicamento (gotas nasais, ansiedade) — fontes secundárias, a confirmar no GRLS | — | superpower.com, Wikipedia, CRM-PR |
+| Liraglutida | Victoza 2010 (DM2), Saxenda 2014 (peso) | Saxenda 02/2016; receita retida desde 2025 | — | — | Anvisa/Conitec, FDA |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |

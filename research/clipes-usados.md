@@ -12,3 +12,4 @@
 | caneta e músculo (v2) | 9 cenas novas: balança, laudo, gota d'água, silhueta em camadas, bioimpedância, água no tecido, ponteiro, mulher agachamento, homem 50+ orla |
 | cravo-da-índia (mito ou verdade) | cravos flutuando sobre ardósia, vapor âmbar (img a87243a9, Kling 9f0f65ff) |
 | resveratrol (uva) | Mixkit 24745 26559 24744 17782 4719 8292 45698 22733 22734 22744 28149 29341 22743 + Coverr blood-pressure-6184 · formato: objetos + ESPERA + contador |
+| Selank / liraglutida (12/11/2026) | só cards da marca animados em HTML (sem clipes de terceiros, sem Higgsfield/Buzzy) · trilha ElevenLabs Music · SFX brand/sfx |
