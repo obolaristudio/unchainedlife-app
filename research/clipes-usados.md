@@ -12,3 +12,4 @@
 | caneta e músculo (v2) | 9 cenas novas: balança, laudo, gota d'água, silhueta em camadas, bioimpedância, água no tecido, ponteiro, mulher agachamento, homem 50+ orla |
 | cravo-da-índia (mito ou verdade) | cravos flutuando sobre ardósia, vapor âmbar (img a87243a9, Kling 9f0f65ff) |
 | resveratrol (uva) | Mixkit 24745 26559 24744 17782 4719 8292 45698 22733 22734 22744 28149 29341 22743 + Coverr blood-pressure-6184 · formato: objetos + ESPERA + contador |
+| BPC-157 (80 s) | Mixkit 609 14988 47993 45697 31563 24147 32062 735 22148 32813 40711 30703 18033 44358 + Coverr croatia-2195 · formato: aula curta + ESPERA + carimbo antidoping |
