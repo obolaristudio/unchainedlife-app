@@ -1,6 +1,7 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
+- MOTS-c (sugestão de @elciosanches em 12/11/2026)
 - GHK-Cu
 - BPC-157
 - Retatrutida
