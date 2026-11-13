@@ -144,6 +144,12 @@ Nada de vídeo "sempre igual". Cada vídeo precisa de movimento constante e de p
 - **Som em tudo que se move:** whoosh, pop, tick e impacto (real-sfx/earshot), baixo sob a voz.
 - **Exceção da Regra nº 1:** frasco de injeção, seringa, agulha e aplicação NUNCA aparecem, nem em ícone. "Frasco" na fala vira caixa de remédio, frasco de comprimidos ou vidraria de laboratório (Erlenmeyer, tubo de ensaio).
 
+## Vídeos de peptídeo: mais longos, explicativos e com menos objeção (pedido do Maxwell, 13/11/2026)
+- **Duração 60–90 s**, estrutura de aula curta: gancho (0–3 s) → o que é (nome, de onde vem, quantos aminoácidos, comparação simples) → como age no corpo (1 analogia) → história (quem descobriu, onde, quando) → o que os estudos mostraram (o lado promissor, com números) → status pelo mundo, em tom de notícia → curiosidade final/surpresa → CTA.
+- **Menos objeção:** no máximo UMA frase curta sobre limites ("em pessoas, os estudos ainda são poucos") no corpo do vídeo, e o aviso padrão só no rodapé fixo e no fim da legenda. Nada de listas de "mas", "porém", "cuidado", "não comprovado" repetidas.
+- Menos objeção não é promessa: continua sem dose, sem forma de aplicar, sem onde comprar, sem "funciona/cura/garante" (Regra nº 1). Falar o que os ESTUDOS mostraram ("em ratos, ajudou a cicatrizar tendões"), nunca o que o espectador vai sentir.
+- Formato vencedor (dados de 13/11): voz do Maxwell + imagens reais + gancho de curiosidade (Reta: 4,8 mil views, 133 envios, 25 s de tempo médio) supera os vídeos em telas de texto (300–950 views, 7–14 s).
+
 ## Padrão de produção (pedido do Maxwell, 06/11/2026 — vale para todo vídeo)
 - **Estrutura do viral:** sempre identificar a estrutura que fez o viral funcionar (tipo de gancho, ordem dos blocos, ritmo, virada, CTA) e reconstruir o vídeo com ESSA estrutura. Roteiro, imagens e áudio são sempre originais (nunca copiar fala, vídeo ou imagem do criador).
 - **Camadas obrigatórias:** cenas em movimento (Higgsfield/Buzzy) + imagens de banco livre (Openverse com licença CC0/PDM: `https://api.openverse.org/v1/images/?q=<termo>&license=cc0,pdm`; registrar a fonte) + cards da marca + transições com zoom + efeitos sonoros + música baixinha + legenda palavra a palavra.

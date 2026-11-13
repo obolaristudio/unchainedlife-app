@@ -32,3 +32,5 @@ A "Regra nº 1: conta segura" do SKILL.md é trava obrigatória: vídeo que falh
 
 ## Regras de conteúdo adicionadas pelo Maxwell (10/11/2026)
 Antes de roteirizar, seguir em `SKILL.md`: "Tom sobre peptídeos: sem medo, sem recomendação", "Visão mundial do status regulatório" e "Linguagem simples, para qualquer pessoa". Preferir o formato vencedor: voz do Maxwell + imagens reais + gancho de curiosidade, 35–45 s.
+
+- (13/11/2026) Vídeos de peptídeo com 60–90 s, explicativos e com no máximo UMA frase de limite: ver "Vídeos de peptídeo: mais longos, explicativos e com menos objeção" em SKILL.md.
