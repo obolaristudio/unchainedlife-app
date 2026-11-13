@@ -1,0 +1,449 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#stage{position:absolute;inset:0;z-index:1}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#shade{position:absolute;left:0;top:420px;width:1080px;height:1100px;z-index:2;background:linear-gradient(rgba(0,0,0,0) 55%,rgba(0,0,0,.6) 100%)}
+#frame{position:absolute;inset:26px;z-index:9;border:4px solid #CBEF4B;border-radius:34px;box-shadow:0 0 0 40px #0E0E0E}
+#tag{position:absolute;z-index:9;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.hd{position:absolute;z-index:6;left:40px;right:40px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hd .s{font-weight:700;font-size:42px;color:#F2EFE6}
+.hd .m{font-weight:800;font-size:80px;line-height:1;letter-spacing:-2px}
+.hd .m span,.hd .s span{color:#CBEF4B}
+.cap{position:absolute;z-index:6;left:60px;right:60px;top:1555px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+.cap .k{color:#CBEF4B}
+.ov{position:absolute;z-index:5;left:60px;right:60px;top:1200px;text-align:center}
+.pill{display:inline-block;background:rgba(14,14,14,.86);border:3px solid #CBEF4B;font-weight:800;font-size:44px;padding:12px 28px;border-radius:18px}
+.pill b{color:#CBEF4B} .pill.v{border-color:#B388FF} .pill.v b{color:#B388FF}
+.big{font-weight:800;font-size:150px;line-height:1;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+.chips{display:flex;flex-direction:column;gap:16px;align-items:center}
+.chip{display:inline-block;background:rgba(14,14,14,.88);border:3px solid #CBEF4B;font-weight:800;font-size:46px;padding:10px 26px;border-radius:16px}
+.arr{font-weight:800;font-size:60px;color:#CBEF4B} .beads{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;background:rgba(14,14,14,.82);padding:18px;border-radius:22px;max-width:760px;margin:0 auto} .beads i{display:block;width:62px;height:62px;border-radius:50%;box-shadow:inset -6px -6px 0 rgba(0,0,0,.2)}
+#stamp,#stamp2{position:absolute;z-index:7;left:0;right:0;top:820px;text-align:center} #stamp2 span{display:inline-block;border:8px solid #E53935;color:#fff;background:rgba(14,14,14,.88);font-weight:800;font-size:70px;padding:10px 30px;border-radius:20px;transform:rotate(-5deg)} #stamp2 b{color:#E53935}
+#stamp span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:150px;padding:6px 40px;border-radius:24px;transform:rotate(-4deg);box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0}
+#cta{position:absolute;z-index:6;left:0;right:0;top:1230px;text-align:center}
+#cta span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:70px;padding:18px 46px;border-radius:60px;box-shadow:0 0 50px rgba(203,239,75,.6)}
+#foot{position:absolute;z-index:9;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="80.5" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="80.5" src="assets/bg.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="80.5"></div>
+<div id="h0" class="clip hd" data-start="0" data-duration="3.5"><div class="m">Carboidrato vira<br><span>gordura?</span> 🍞➡️🧈</div></div>
+<div id="h1" class="clip hd" data-start="3.5" data-duration="4.0"><div class="m">A resposta tem<br><span>2 partes</span></div><div class="s">e a segunda quase ninguém conta</div></div>
+<div id="h2" class="clip hd" data-start="7.5" data-duration="7.5"><div class="m">PARTE 1:<br><span>a química</span> 🧪</div></div>
+<div id="sim" class="clip ov" data-start="8.8" data-duration="1.9"><div class="big" style="color:#CBEF4B">SIM ✅</div></div>
+<div id="o1" class="clip ov" data-start="10.6" data-duration="4.4"><span class="pill">glicose do <b>pão</b> e do <b>arroz</b> → pode virar gordura</span></div>
+<div id="h3" class="clip hd" data-start="15.0" data-duration="6.6"><div class="m">Como uma<br><span>fábrica</span> 🏭</div></div>
+<div id="o2" class="clip ov" data-start="15.0" data-duration="6.6"><div class="chips" style="flex-direction:row;flex-wrap:wrap;justify-content:center;gap:10px;align-items:center"><span class="chip" id="f1">🍞 glicose</span><span class="arr" id="a1">➜</span><span class="chip" id="f2">⚙️ malonil-CoA</span><span class="arr" id="a2">➜</span><span class="chip" id="f3" style="border-color:#F4C430">🧈 gordura</span></div></div>
+<div id="h4" class="clip hd" data-start="21.6" data-duration="9.1"><div class="m">PARTE 2:<br><span>a vida real</span> 🧍</div></div>
+<div id="o3" class="clip ov" data-start="23.4" data-duration="4.8"><span class="pill">o corpo <b>quase não usa</b> essa fábrica 🏭💤</span></div>
+<div id="o4" class="clip ov" data-start="28.2" data-duration="2.5"><div class="big">🔥</div><span class="pill">prefere <b>QUEIMAR</b> o carboidrato</span></div>
+<div id="h5" class="clip hd" data-start="30.7" data-duration="8.6"><div class="m">Só fabrica muita<br>gordura <span>quando…</span></div></div>
+<div id="o5" class="clip ov" data-start="35.0" data-duration="4.3"><span class="pill">você come <b>muito além</b> do que gasta</span><div style="margin-top:14px"><span class="pill">por <b>vários dias seguidos</b> 📅</span></div></div>
+<div id="h6" class="clip hd" data-start="39.3" data-duration="4.7"><div class="m">Então carboidrato<br><span>não engorda?</span> 🤔</div></div>
+<div id="stamp" class="clip" data-start="41.5" data-duration="2.5"><span>ESPERA…</span></div>
+<div id="h7" class="clip hd" data-start="44.0" data-duration="10.7"><div class="m">Efeito <span>poupador</span><br>de gordura</div></div>
+<div id="o6" class="clip ov" data-start="44.1" data-duration="4.8"><div class="big">🔋</div><span class="pill">carboidrato = <b>energia do momento</b></span><div style="margin-top:14px" id="o6b"><span class="pill">a gordura do prato <b>fica sobrando</b> 🧈</span></div></div>
+<div id="o7" class="clip ov" data-start="50.3" data-duration="4.4"><div class="big" id="keyi">🔑</div><span class="pill"><b>insulina</b> = chave que abre o depósito de gordura</span></div>
+<div id="h8" class="clip hd" data-start="54.7" data-duration="4.1"><div class="m"><span>Resultado:</span></div></div>
+<div id="o8" class="clip ov" data-start="54.8" data-duration="4.0"><span class="pill">a gordura da comida é <b>guardada</b> com mais facilidade 📦</span></div>
+<div id="h9" class="clip hd" data-start="58.8" data-duration="7.6"><div class="m"><span>Resumindo</span> 📝</div></div>
+<div id="o9" class="clip ov" data-start="59.6" data-duration="6.8"><div class="chips"><span class="chip" id="v1">🔥 carboidrato extra: mais <b style="color:#CBEF4B">QUEIMADO</b></span><span class="chip" id="v2" style="border-color:#F4C430">📦 ajuda a <b style="color:#F4C430">GUARDAR</b> a gordura que vem junto</span></div></div>
+<div id="h10" class="clip hd" data-start="66.4" data-duration="4.9"><div class="m">A dupla do <span>prato</span> 🍽️</div><div class="s">carboidrato + gordura juntos</div></div>
+<div id="o10" class="clip ov" data-start="66.4" data-duration="4.9"><div class="chips" style="flex-direction:row;flex-wrap:wrap;justify-content:center;gap:12px"><span class="chip" id="p1">🍞🧈 pão com manteiga</span><span class="chip" id="p2">🍕 pizza</span><span class="chip" id="p3">🍟 batata frita</span></div></div>
+<div id="h11" class="clip hd" data-start="71.3" data-duration="9.2"><div class="m">Salva e <span>manda</span> 📤</div><div class="s">pra quem acha que "carboidrato vira gordura e ponto"</div></div>
+<div id="cta" class="clip" data-start="75.4" data-duration="5.1"><span>Comenta GUIA 📩</span></div>
+<div id="cg0" class="clip cap" data-start="0.00" data-duration="1.20"><span class="" id="c0_0">Comer</span> <span class="k" id="c0_1">muito</span> <span class="" id="c0_2">carboidrato</span> </div>
+<div id="cg1" class="clip cap" data-start="1.20" data-duration="0.62"><span class="" id="c1_0">faz</span> <span class="" id="c1_1">o</span> <span class="" id="c1_2">seu</span> </div>
+<div id="cg2" class="clip cap" data-start="1.82" data-duration="1.66"><span class="" id="c2_0">corpo</span> <span class="" id="c2_1">fabricar</span> <span class="k" id="c2_2">gordura?</span> </div>
+<div id="cg3" class="clip cap" data-start="3.48" data-duration="0.76"><span class="" id="c3_0">A</span> <span class="" id="c3_1">resposta</span> <span class="" id="c3_2">tem</span> </div>
+<div id="cg4" class="clip cap" data-start="4.24" data-duration="1.04"><span class="" id="c4_0">duas</span> <span class="k" id="c4_1">partes,</span> </div>
+<div id="cg5" class="clip cap" data-start="5.28" data-duration="0.56"><span class="" id="c5_0">e</span> <span class="" id="c5_1">a</span> <span class="" id="c5_2">segunda</span> </div>
+<div id="cg6" class="clip cap" data-start="5.84" data-duration="1.70"><span class="" id="c6_0">quase</span> <span class="" id="c6_1">ninguém</span> <span class="" id="c6_2">conta.</span> </div>
+<div id="cg7" class="clip cap" data-start="7.54" data-duration="0.82"><span class="" id="c7_0">Parte</span> <span class="" id="c7_1">1</span> <span class="" id="c7_2">–</span> </div>
+<div id="cg8" class="clip cap" data-start="8.36" data-duration="1.30"><span class="" id="c8_0">A</span> <span class="k" id="c8_1">química</span> <span class="" id="c8_2">Sim,</span> </div>
+<div id="cg9" class="clip cap" data-start="9.66" data-duration="0.88"><span class="" id="c9_0">é</span> <span class="k" id="c9_1">possível.</span> </div>
+<div id="cg10" class="clip cap" data-start="10.54" data-duration="0.56"><span class="" id="c10_0">A</span> <span class="k" id="c10_1">glicose</span> <span class="" id="c10_2">do</span> </div>
+<div id="cg11" class="clip cap" data-start="11.10" data-duration="0.40"><span class="" id="c11_0">pão</span> <span class="" id="c11_1">e</span> <span class="" id="c11_2">do</span> </div>
+<div id="cg12" class="clip cap" data-start="11.50" data-duration="0.92"><span class="" id="c12_0">arroz</span> <span class="" id="c12_1">pode</span> <span class="" id="c12_2">ser</span> </div>
+<div id="cg13" class="clip cap" data-start="12.42" data-duration="1.30"><span class="" id="c13_0">transformada</span> <span class="" id="c13_1">passo</span> <span class="" id="c13_2">a</span> </div>
+<div id="cg14" class="clip cap" data-start="13.72" data-duration="1.30"><span class="" id="c14_0">passo</span> <span class="" id="c14_1">em</span> <span class="k" id="c14_2">gordura.</span> </div>
+<div id="cg15" class="clip cap" data-start="15.02" data-duration="0.42"><span class="" id="c15_0">É</span> <span class="" id="c15_1">como</span> <span class="" id="c15_2">uma</span> </div>
+<div id="cg16" class="clip cap" data-start="15.44" data-duration="0.76"><span class="k" id="c16_0">fábrica.</span> </div>
+<div id="cg17" class="clip cap" data-start="16.20" data-duration="1.16"><span class="" id="c17_0">A</span> <span class="k" id="c17_1">glicose</span> <span class="" id="c17_2">entra,</span> </div>
+<div id="cg18" class="clip cap" data-start="17.36" data-duration="0.64"><span class="" id="c18_0">vira</span> <span class="" id="c18_1">uma</span> <span class="" id="c18_2">peça</span> </div>
+<div id="cg19" class="clip cap" data-start="18.00" data-duration="1.64"><span class="" id="c19_0">chamada</span> <span class="" id="c19_1">malonil-</span> <span class="" id="c19_2">CoA</span> </div>
+<div id="cg20" class="clip cap" data-start="19.64" data-duration="0.58"><span class="" id="c20_0">e</span> <span class="" id="c20_1">no</span> <span class="" id="c20_2">fim</span> </div>
+<div id="cg21" class="clip cap" data-start="20.22" data-duration="0.72"><span class="" id="c21_0">da</span> <span class="" id="c21_1">linha</span> <span class="" id="c21_2">sai</span> </div>
+<div id="cg22" class="clip cap" data-start="20.94" data-duration="0.66"><span class="k" id="c22_0">gordura.</span> </div>
+<div id="cg23" class="clip cap" data-start="21.60" data-duration="1.02"><span class="" id="c23_0">Parte</span> <span class="k" id="c23_1">2</span> <span class="" id="c23_2">–</span> </div>
+<div id="cg24" class="clip cap" data-start="22.62" data-duration="0.66"><span class="" id="c24_0">A</span> <span class="k" id="c24_1">vida</span> <span class="k" id="c24_2">real</span> </div>
+<div id="cg25" class="clip cap" data-start="23.28" data-duration="0.90"><span class="" id="c25_0">O</span> <span class="" id="c25_1">corpo</span> <span class="" id="c25_2">humano</span> </div>
+<div id="cg26" class="clip cap" data-start="24.18" data-duration="1.10"><span class="" id="c26_0">quase</span> <span class="" id="c26_1">não</span> <span class="" id="c26_2">usa</span> </div>
+<div id="cg27" class="clip cap" data-start="25.28" data-duration="0.64"><span class="" id="c27_0">essa</span> <span class="k" id="c27_1">fábrica.</span> </div>
+<div id="cg28" class="clip cap" data-start="25.92" data-duration="0.86"><span class="" id="c28_0">Quando</span> <span class="" id="c28_1">você</span> <span class="" id="c28_2">come</span> </div>
+<div id="cg29" class="clip cap" data-start="26.78" data-duration="1.12"><span class="" id="c29_0">mais</span> <span class="" id="c29_1">carboidrato,</span> </div>
+<div id="cg30" class="clip cap" data-start="27.90" data-duration="0.96"><span class="" id="c30_0">ele</span> <span class="" id="c30_1">prefere</span> <span class="k" id="c30_2">queimar</span> </div>
+<div id="cg31" class="clip cap" data-start="28.86" data-duration="1.00"><span class="" id="c31_0">esse</span> <span class="" id="c31_1">carboidrato</span> <span class="" id="c31_2">como</span> </div>
+<div id="cg32" class="clip cap" data-start="29.86" data-duration="0.86"><span class="k" id="c32_0">combustível.</span> </div>
+<div id="cg33" class="clip cap" data-start="30.72" data-duration="0.90"><span class="" id="c33_0">Os</span> <span class="" id="c33_1">estudos</span> <span class="" id="c33_2">mostram</span> </div>
+<div id="cg34" class="clip cap" data-start="31.62" data-duration="0.48"><span class="" id="c34_0">que</span> <span class="" id="c34_1">o</span> <span class="" id="c34_2">corpo</span> </div>
+<div id="cg35" class="clip cap" data-start="32.10" data-duration="1.14"><span class="" id="c35_0">só</span> <span class="" id="c35_1">fabrica</span> <span class="" id="c35_2">muita</span> </div>
+<div id="cg36" class="clip cap" data-start="33.24" data-duration="0.98"><span class="" id="c36_0">gordura</span> <span class="" id="c36_1">a</span> <span class="" id="c36_2">partir</span> </div>
+<div id="cg37" class="clip cap" data-start="34.22" data-duration="1.16"><span class="" id="c37_0">do</span> <span class="" id="c37_1">carboidrato</span> <span class="" id="c37_2">quando</span> </div>
+<div id="cg38" class="clip cap" data-start="35.38" data-duration="0.70"><span class="" id="c38_0">a</span> <span class="" id="c38_1">pessoa</span> <span class="" id="c38_2">come</span> </div>
+<div id="cg39" class="clip cap" data-start="36.08" data-duration="0.88"><span class="k" id="c39_0">muito</span> <span class="" id="c39_1">além</span> <span class="" id="c39_2">do</span> </div>
+<div id="cg40" class="clip cap" data-start="36.96" data-duration="0.88"><span class="" id="c40_0">que</span> <span class="" id="c40_1">gasta</span> <span class="" id="c40_2">por</span> </div>
+<div id="cg41" class="clip cap" data-start="37.84" data-duration="1.44"><span class="k" id="c41_0">vários</span> <span class="k" id="c41_1">dias</span> <span class="" id="c41_2">seguidos.</span> </div>
+<div id="cg42" class="clip cap" data-start="39.28" data-duration="0.86"><span class="" id="c42_0">Então,</span> </div>
+<div id="cg43" class="clip cap" data-start="40.14" data-duration="1.42"><span class="" id="c43_0">carboidrato</span> <span class="" id="c43_1">não</span> <span class="k" id="c43_2">engorda?</span> </div>
+<div id="cg44" class="clip cap" data-start="41.56" data-duration="0.70"><span class="k" id="c44_0">Espera,</span> </div>
+<div id="cg45" class="clip cap" data-start="42.26" data-duration="0.56"><span class="" id="c45_0">aqui</span> <span class="" id="c45_1">vem</span> <span class="" id="c45_2">a</span> </div>
+<div id="cg46" class="clip cap" data-start="42.82" data-duration="1.16"><span class="" id="c46_0">parte</span> <span class="" id="c46_1">interessante.</span> </div>
+<div id="cg47" class="clip cap" data-start="43.98" data-duration="0.70"><span class="" id="c47_0">Com</span> <span class="" id="c47_1">o</span> <span class="" id="c47_2">carboidrato</span> </div>
+<div id="cg48" class="clip cap" data-start="44.68" data-duration="0.76"><span class="" id="c48_0">virando</span> <span class="" id="c48_1">a</span> <span class="" id="c48_2">fonte</span> </div>
+<div id="cg49" class="clip cap" data-start="45.44" data-duration="0.90"><span class="" id="c49_0">de</span> <span class="" id="c49_1">energia,</span> </div>
+<div id="cg50" class="clip cap" data-start="46.34" data-duration="0.60"><span class="" id="c50_0">a</span> <span class="" id="c50_1">gordura</span> <span class="" id="c50_2">que</span> </div>
+<div id="cg51" class="clip cap" data-start="46.94" data-duration="0.58"><span class="" id="c51_0">vem</span> <span class="" id="c51_1">junto</span> <span class="" id="c51_2">no</span> </div>
+<div id="cg52" class="clip cap" data-start="47.52" data-duration="1.44"><span class="" id="c52_0">prato</span> <span class="" id="c52_1">fica</span> <span class="k" id="c52_2">sobrando.</span> </div>
+<div id="cg53" class="clip cap" data-start="48.96" data-duration="0.78"><span class="" id="c53_0">E</span> <span class="" id="c53_1">o</span> <span class="" id="c53_2">carboidrato</span> </div>
+<div id="cg54" class="clip cap" data-start="49.74" data-duration="1.46"><span class="" id="c54_0">aumenta</span> <span class="" id="c54_1">a</span> <span class="k" id="c54_2">insulina,</span> </div>
+<div id="cg55" class="clip cap" data-start="51.20" data-duration="0.56"><span class="" id="c55_0">um</span> <span class="" id="c55_1">hormônio</span> <span class="" id="c55_2">que</span> </div>
+<div id="cg56" class="clip cap" data-start="51.76" data-duration="0.82"><span class="" id="c56_0">funciona</span> <span class="" id="c56_1">como</span> <span class="" id="c56_2">uma</span> </div>
+<div id="cg57" class="clip cap" data-start="52.58" data-duration="1.02"><span class="k" id="c57_0">chave</span> <span class="" id="c57_1">que</span> <span class="" id="c57_2">abre</span> </div>
+<div id="cg58" class="clip cap" data-start="53.60" data-duration="0.68"><span class="" id="c58_0">o</span> <span class="k" id="c58_1">depósito</span> <span class="" id="c58_2">de</span> </div>
+<div id="cg59" class="clip cap" data-start="54.28" data-duration="0.44"><span class="k" id="c59_0">gordura.</span> </div>
+<div id="cg60" class="clip cap" data-start="54.72" data-duration="1.06"><span class="" id="c60_0">Resultado,</span> </div>
+<div id="cg61" class="clip cap" data-start="55.78" data-duration="0.54"><span class="" id="c61_0">a</span> <span class="" id="c61_1">gordura</span> <span class="" id="c61_2">da</span> </div>
+<div id="cg62" class="clip cap" data-start="56.32" data-duration="1.14"><span class="" id="c62_0">comida</span> <span class="" id="c62_1">é</span> <span class="k" id="c62_2">guardada</span> </div>
+<div id="cg63" class="clip cap" data-start="57.46" data-duration="1.32"><span class="" id="c63_0">com</span> <span class="" id="c63_1">mais</span> <span class="" id="c63_2">facilidade.</span> </div>
+<div id="cg64" class="clip cap" data-start="58.78" data-duration="0.78"><span class="" id="c64_0">Resumindo,</span> </div>
+<div id="cg65" class="clip cap" data-start="59.56" data-duration="1.02"><span class="" id="c65_0">o</span> <span class="" id="c65_1">carboidrato</span> <span class="" id="c65_2">extra</span> </div>
+<div id="cg66" class="clip cap" data-start="60.58" data-duration="1.10"><span class="" id="c66_0">é</span> <span class="" id="c66_1">mais</span> <span class="k" id="c66_2">queimado</span> </div>
+<div id="cg67" class="clip cap" data-start="61.68" data-duration="0.88"><span class="" id="c67_0">do</span> <span class="" id="c67_1">que</span> <span class="" id="c67_2">transformado</span> </div>
+<div id="cg68" class="clip cap" data-start="62.56" data-duration="0.76"><span class="" id="c68_0">em</span> <span class="" id="c68_1">gordura,</span> </div>
+<div id="cg69" class="clip cap" data-start="63.32" data-duration="1.14"><span class="" id="c69_0">mas</span> <span class="" id="c69_1">ajuda</span> <span class="" id="c69_2">a</span> </div>
+<div id="cg70" class="clip cap" data-start="64.46" data-duration="0.80"><span class="k" id="c70_0">guardar</span> <span class="" id="c70_1">a</span> <span class="" id="c70_2">gordura</span> </div>
+<div id="cg71" class="clip cap" data-start="65.26" data-duration="0.56"><span class="" id="c71_0">que</span> <span class="" id="c71_1">você</span> <span class="" id="c71_2">come</span> </div>
+<div id="cg72" class="clip cap" data-start="65.82" data-duration="0.54"><span class="k" id="c72_0">junto.</span> </div>
+<div id="cg73" class="clip cap" data-start="66.36" data-duration="1.06"><span class="" id="c73_0">Pão</span> <span class="" id="c73_1">com</span> <span class="k" id="c73_2">manteiga,</span> </div>
+<div id="cg74" class="clip cap" data-start="67.42" data-duration="0.64"><span class="k" id="c74_0">pizza,</span> </div>
+<div id="cg75" class="clip cap" data-start="68.06" data-duration="1.06"><span class="" id="c75_0">batata</span> <span class="k" id="c75_1">frita,</span> </div>
+<div id="cg76" class="clip cap" data-start="69.12" data-duration="1.12"><span class="" id="c76_0">carboidrato</span> <span class="" id="c76_1">e</span> <span class="" id="c76_2">gordura</span> </div>
+<div id="cg77" class="clip cap" data-start="70.24" data-duration="1.10"><span class="" id="c77_0">no</span> <span class="" id="c77_1">mesmo</span> <span class="" id="c77_2">prato.</span> </div>
+<div id="cg78" class="clip cap" data-start="71.34" data-duration="0.82"><span class="" id="c78_0">Salve</span> <span class="" id="c78_1">esse</span> <span class="" id="c78_2">vídeo</span> </div>
+<div id="cg79" class="clip cap" data-start="72.16" data-duration="0.60"><span class="" id="c79_0">e</span> <span class="" id="c79_1">manda</span> <span class="" id="c79_2">para</span> </div>
+<div id="cg80" class="clip cap" data-start="72.76" data-duration="0.56"><span class="" id="c80_0">quem</span> <span class="" id="c80_1">acha</span> <span class="" id="c80_2">que</span> </div>
+<div id="cg81" class="clip cap" data-start="73.32" data-duration="1.38"><span class="" id="c81_0">carboidrato</span> <span class="" id="c81_1">vira</span> <span class="" id="c81_2">gordura</span> </div>
+<div id="cg82" class="clip cap" data-start="74.70" data-duration="0.80"><span class="" id="c82_0">e</span> <span class="" id="c82_1">ponto.</span> </div>
+<div id="cg83" class="clip cap" data-start="75.50" data-duration="0.86"><span class="" id="c83_0">Comenta</span> <span class="k" id="c83_1">GUIA,</span> </div>
+<div id="cg84" class="clip cap" data-start="76.36" data-duration="0.24"><span class="" id="c84_0">que</span> <span class="" id="c84_1">eu</span> <span class="" id="c84_2">te</span> </div>
+<div id="cg85" class="clip cap" data-start="76.60" data-duration="0.50"><span class="" id="c85_0">mando</span> <span class="" id="c85_1">o</span> <span class="" id="c85_2">guia</span> </div>
+<div id="cg86" class="clip cap" data-start="77.10" data-duration="1.02"><span class="" id="c86_0">gratuito</span> <span class="" id="c86_1">da</span> <span class="" id="c86_2">Obolari</span> </div>
+<div id="cg87" class="clip cap" data-start="78.12" data-duration="2.28"><span class="" id="c87_0">Academy.</span> </div>
+<div id="flash" class="clip" data-start="0" data-duration="80.5"></div>
+<div id="frame" class="clip" data-start="0" data-duration="80.5"></div>
+<div id="tag" class="clip" data-start="0" data-duration="80.5"><span class="d"></span>OBOLARI ACADEMY<span class="c">· METABOLISMO</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="80.5">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+tl.fromTo("#h0 .m",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"power4.out"},0.0);
+tl.fromTo("#flash",{opacity:0.5},{opacity:0,duration:0.25},0.0);
+tl.fromTo("#h1",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},3.5);
+tl.fromTo("#h2",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},7.5);
+tl.fromTo("#h3",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},15.0);
+tl.fromTo("#h4",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},21.6);
+tl.fromTo("#h5",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},30.7);
+tl.fromTo("#h6",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},39.3);
+tl.fromTo("#h7",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},44.0);
+tl.fromTo("#h8",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},54.7);
+tl.fromTo("#h9",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},58.8);
+tl.fromTo("#h10",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},66.4);
+tl.fromTo("#h11",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},71.3);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},3.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},7.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},10.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},15.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},21.6);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},25.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},30.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},39.3);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},44.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},48.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},54.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},58.8);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},66.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},67.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},68.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},71.3);
+tl.fromTo("#o1",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},10.6);
+tl.fromTo("#o3",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},23.4);
+tl.fromTo("#o8",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},54.8);
+tl.fromTo("#sim .big",{scale:2.5,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"back.out(2)"},8.8);
+tl.fromTo("#f1",{opacity:0,scale:0.4},{opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"},16.2);
+tl.fromTo("#a1",{opacity:0,x:-40},{opacity:1,x:0,duration:0.3},17.2);
+tl.fromTo("#f2",{opacity:0,scale:0.4},{opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"},18.4);
+tl.fromTo("#a2",{opacity:0,x:-40},{opacity:1,x:0,duration:0.3},20.2);
+tl.fromTo("#f3",{opacity:0,scale:0.4},{opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"},20.9);
+tl.fromTo("#o4 .big",{y:300,scale:0.3,opacity:0},{y:0,scale:1.2,opacity:1,duration:0.4,ease:"back.out(2)"},28.2);
+tl.fromTo("#o4 .pill",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},28.5);
+tl.fromTo("#o5",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},35.0);
+tl.fromTo("#o5 > div",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},37.5);
+tl.fromTo("#bg",{x:0},{x:-30,duration:0.05,yoyo:true,repeat:5},41.5);
+tl.fromTo("#bg",{filter:"grayscale(0) brightness(1)"},{filter:"grayscale(1) brightness(0.6)",duration:0.15},41.5);
+tl.to("#bg",{filter:"grayscale(0) brightness(1)",duration:0.2},43.9);
+tl.fromTo("#flash",{opacity:0.8},{opacity:0,duration:0.3},41.5);
+tl.fromTo("#stamp span",{scale:3,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power3.in"},41.55);
+tl.fromTo("#o6 .big",{scale:0,opacity:0},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.5)"},44.1);
+tl.fromTo("#o6 > .pill",{opacity:0},{opacity:1,duration:0.3},44.4);
+tl.fromTo("#o6b",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},46.4);
+tl.fromTo("#keyi",{x:-700,rotation:-90,opacity:0},{x:0,rotation:0,opacity:1,duration:0.5,ease:"power3.out"},50.3);
+tl.to("#keyi",{rotation:90,duration:0.35,ease:"power2.inOut"},53.3);
+tl.fromTo("#o7 .pill",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},51.2);
+tl.fromTo("#v1",{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"},59.6);
+tl.fromTo("#v2",{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.3,ease:"back.out(2.5)"},63.3);
+tl.fromTo("#p1",{opacity:0,y:-300},{opacity:1,y:0,duration:0.4,ease:"bounce.out"},66.4);
+tl.fromTo("#p2",{opacity:0,y:-300},{opacity:1,y:0,duration:0.4,ease:"bounce.out"},67.4);
+tl.fromTo("#p3",{opacity:0,y:-300},{opacity:1,y:0,duration:0.4,ease:"bounce.out"},68.0);
+tl.fromTo("#cta span",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.4,ease:"back.out(2.2)"},75.5);
+tl.to("#cta span",{scale:1.06,duration:0.45,yoyo:true,repeat:5,ease:"sine.inOut"},76.0);
+tl.fromTo("#c0_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.00);
+tl.fromTo("#c0_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.24);
+tl.fromTo("#c0_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.52);
+tl.fromTo("#c1_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.20);
+tl.fromTo("#c1_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.58);
+tl.fromTo("#c1_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.76);
+tl.fromTo("#c2_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.82);
+tl.fromTo("#c2_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.14);
+tl.fromTo("#c2_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.62);
+tl.fromTo("#c3_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.48);
+tl.fromTo("#c3_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.56);
+tl.fromTo("#c3_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.86);
+tl.fromTo("#c4_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.24);
+tl.fromTo("#c4_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.56);
+tl.fromTo("#c5_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.28);
+tl.fromTo("#c5_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.44);
+tl.fromTo("#c5_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.52);
+tl.fromTo("#c6_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.84);
+tl.fromTo("#c6_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.38);
+tl.fromTo("#c6_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.78);
+tl.fromTo("#c7_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.54);
+tl.fromTo("#c7_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.70);
+tl.fromTo("#c7_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.98);
+tl.fromTo("#c8_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.36);
+tl.fromTo("#c8_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.38);
+tl.fromTo("#c8_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.82);
+tl.fromTo("#c9_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.66);
+tl.fromTo("#c9_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},9.78);
+tl.fromTo("#c10_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.54);
+tl.fromTo("#c10_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.60);
+tl.fromTo("#c10_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.92);
+tl.fromTo("#c11_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.10);
+tl.fromTo("#c11_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.32);
+tl.fromTo("#c11_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.44);
+tl.fromTo("#c12_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.50);
+tl.fromTo("#c12_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.76);
+tl.fromTo("#c12_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.20);
+tl.fromTo("#c13_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.42);
+tl.fromTo("#c13_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.12);
+tl.fromTo("#c13_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.56);
+tl.fromTo("#c14_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.72);
+tl.fromTo("#c14_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.00);
+tl.fromTo("#c14_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.32);
+tl.fromTo("#c15_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.02);
+tl.fromTo("#c15_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.12);
+tl.fromTo("#c15_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.26);
+tl.fromTo("#c16_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.44);
+tl.fromTo("#c17_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.20);
+tl.fromTo("#c17_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.28);
+tl.fromTo("#c17_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.62);
+tl.fromTo("#c18_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.36);
+tl.fromTo("#c18_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.54);
+tl.fromTo("#c18_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.68);
+tl.fromTo("#c19_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.00);
+tl.fromTo("#c19_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.44);
+tl.fromTo("#c19_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.00);
+tl.fromTo("#c20_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.64);
+tl.fromTo("#c20_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.94);
+tl.fromTo("#c20_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.04);
+tl.fromTo("#c21_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.22);
+tl.fromTo("#c21_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.32);
+tl.fromTo("#c21_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.56);
+tl.fromTo("#c22_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.94);
+tl.fromTo("#c23_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.60);
+tl.fromTo("#c23_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.74);
+tl.fromTo("#c23_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.08);
+tl.fromTo("#c24_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.62);
+tl.fromTo("#c24_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.64);
+tl.fromTo("#c24_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.92);
+tl.fromTo("#c25_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.28);
+tl.fromTo("#c25_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.64);
+tl.fromTo("#c25_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.82);
+tl.fromTo("#c26_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.18);
+tl.fromTo("#c26_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.66);
+tl.fromTo("#c26_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.96);
+tl.fromTo("#c27_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.28);
+tl.fromTo("#c27_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.46);
+tl.fromTo("#c28_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.92);
+tl.fromTo("#c28_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.30);
+tl.fromTo("#c28_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.58);
+tl.fromTo("#c29_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.78);
+tl.fromTo("#c29_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.08);
+tl.fromTo("#c30_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.90);
+tl.fromTo("#c30_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.06);
+tl.fromTo("#c30_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.42);
+tl.fromTo("#c31_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.86);
+tl.fromTo("#c31_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.08);
+tl.fromTo("#c31_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.66);
+tl.fromTo("#c32_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.86);
+tl.fromTo("#c33_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.72);
+tl.fromTo("#c33_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.86);
+tl.fromTo("#c33_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.20);
+tl.fromTo("#c34_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.62);
+tl.fromTo("#c34_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.76);
+tl.fromTo("#c34_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.86);
+tl.fromTo("#c35_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.10);
+tl.fromTo("#c35_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.46);
+tl.fromTo("#c35_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.94);
+tl.fromTo("#c36_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.24);
+tl.fromTo("#c36_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.76);
+tl.fromTo("#c36_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.94);
+tl.fromTo("#c37_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.22);
+tl.fromTo("#c37_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.38);
+tl.fromTo("#c37_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.00);
+tl.fromTo("#c38_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.38);
+tl.fromTo("#c38_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.48);
+tl.fromTo("#c38_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.76);
+tl.fromTo("#c39_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.08);
+tl.fromTo("#c39_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.52);
+tl.fromTo("#c39_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.78);
+tl.fromTo("#c40_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.96);
+tl.fromTo("#c40_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.08);
+tl.fromTo("#c40_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.46);
+tl.fromTo("#c41_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.84);
+tl.fromTo("#c41_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.26);
+tl.fromTo("#c41_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.52);
+tl.fromTo("#c42_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.28);
+tl.fromTo("#c43_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.14);
+tl.fromTo("#c43_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.50);
+tl.fromTo("#c43_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.80);
+tl.fromTo("#c44_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.56);
+tl.fromTo("#c45_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.26);
+tl.fromTo("#c45_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.54);
+tl.fromTo("#c45_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.72);
+tl.fromTo("#c46_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.82);
+tl.fromTo("#c46_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},43.04);
+tl.fromTo("#c47_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},43.98);
+tl.fromTo("#c47_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.10);
+tl.fromTo("#c47_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.20);
+tl.fromTo("#c48_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.68);
+tl.fromTo("#c48_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.06);
+tl.fromTo("#c48_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.18);
+tl.fromTo("#c49_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.44);
+tl.fromTo("#c49_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.58);
+tl.fromTo("#c50_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.34);
+tl.fromTo("#c50_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.46);
+tl.fromTo("#c50_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.78);
+tl.fromTo("#c51_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.94);
+tl.fromTo("#c51_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.06);
+tl.fromTo("#c51_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.34);
+tl.fromTo("#c52_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.52);
+tl.fromTo("#c52_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.92);
+tl.fromTo("#c52_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.20);
+tl.fromTo("#c53_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.96);
+tl.fromTo("#c53_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.08);
+tl.fromTo("#c53_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.14);
+tl.fromTo("#c54_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.74);
+tl.fromTo("#c54_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.30);
+tl.fromTo("#c54_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.40);
+tl.fromTo("#c55_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.20);
+tl.fromTo("#c55_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.30);
+tl.fromTo("#c55_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.64);
+tl.fromTo("#c56_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.76);
+tl.fromTo("#c56_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.14);
+tl.fromTo("#c56_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.38);
+tl.fromTo("#c57_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.58);
+tl.fromTo("#c57_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.08);
+tl.fromTo("#c57_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.34);
+tl.fromTo("#c58_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.60);
+tl.fromTo("#c58_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.70);
+tl.fromTo("#c58_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.16);
+tl.fromTo("#c59_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.28);
+tl.fromTo("#c60_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.72);
+tl.fromTo("#c61_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.78);
+tl.fromTo("#c61_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.86);
+tl.fromTo("#c61_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.22);
+tl.fromTo("#c62_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.32);
+tl.fromTo("#c62_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.64);
+tl.fromTo("#c62_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.92);
+tl.fromTo("#c63_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.46);
+tl.fromTo("#c63_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.62);
+tl.fromTo("#c63_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},57.86);
+tl.fromTo("#c64_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.78);
+tl.fromTo("#c65_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},59.56);
+tl.fromTo("#c65_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},59.64);
+tl.fromTo("#c65_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},60.22);
+tl.fromTo("#c66_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},60.58);
+tl.fromTo("#c66_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},60.84);
+tl.fromTo("#c66_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.10);
+tl.fromTo("#c67_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.68);
+tl.fromTo("#c67_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.80);
+tl.fromTo("#c67_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.92);
+tl.fromTo("#c68_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},62.56);
+tl.fromTo("#c68_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},62.64);
+tl.fromTo("#c69_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},63.32);
+tl.fromTo("#c69_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},63.64);
+tl.fromTo("#c69_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.24);
+tl.fromTo("#c70_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.46);
+tl.fromTo("#c70_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.80);
+tl.fromTo("#c70_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.84);
+tl.fromTo("#c71_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.26);
+tl.fromTo("#c71_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.36);
+tl.fromTo("#c71_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.62);
+tl.fromTo("#c72_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.82);
+tl.fromTo("#c73_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.36);
+tl.fromTo("#c73_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.48);
+tl.fromTo("#c73_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.58);
+tl.fromTo("#c74_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},67.42);
+tl.fromTo("#c75_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},68.06);
+tl.fromTo("#c75_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},68.32);
+tl.fromTo("#c76_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},69.12);
+tl.fromTo("#c76_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},69.74);
+tl.fromTo("#c76_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},69.80);
+tl.fromTo("#c77_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},70.24);
+tl.fromTo("#c77_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},70.38);
+tl.fromTo("#c77_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},70.66);
+tl.fromTo("#c78_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},71.34);
+tl.fromTo("#c78_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},71.70);
+tl.fromTo("#c78_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},71.84);
+tl.fromTo("#c79_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},72.16);
+tl.fromTo("#c79_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},72.34);
+tl.fromTo("#c79_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},72.66);
+tl.fromTo("#c80_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},72.76);
+tl.fromTo("#c80_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},72.92);
+tl.fromTo("#c80_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},73.16);
+tl.fromTo("#c81_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},73.32);
+tl.fromTo("#c81_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},73.96);
+tl.fromTo("#c81_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},74.20);
+tl.fromTo("#c82_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},74.70);
+tl.fromTo("#c82_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},74.86);
+tl.fromTo("#c83_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},75.50);
+tl.fromTo("#c83_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},75.80);
+tl.fromTo("#c84_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.36);
+tl.fromTo("#c84_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.44);
+tl.fromTo("#c84_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.54);
+tl.fromTo("#c85_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.60);
+tl.fromTo("#c85_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.90);
+tl.fromTo("#c85_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},76.94);
+tl.fromTo("#c86_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},77.10);
+tl.fromTo("#c86_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},77.60);
+tl.fromTo("#c86_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},77.76);
+tl.fromTo("#c87_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},78.12);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
