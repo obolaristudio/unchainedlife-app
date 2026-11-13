@@ -9,3 +9,5 @@
 | 2026-11-09 | 18101960414418443 | (sem @ na API) | Reel VRX-0075 (18106774823636570) | DM enviada + resposta pública |
 | 2026-11-09 | 18220248718344898 | (sem @ na API) | Reel Epitalon DffQ2PBlcwa | DM enviada + resposta pública |
 | 2026-11-09 | 18132161524773155 | (sem @ na API) | Reel células zumbi (18101795384427318) | DM enviada + resposta pública (mesma pessoa do anterior) |
+| 2026-11-13 | 17970539172214060 | (sem @ na API) | Reel VRX-0075 (18106774823636570) | DM enviada + resposta pública |
+| 2026-11-13 | 17986488957103149 | (sem @ na API) | Reel Epitalon (18154676344526474) | DM enviada + resposta pública |
