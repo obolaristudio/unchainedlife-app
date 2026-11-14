@@ -36,3 +36,8 @@ Taxas por 1.000 views. Os posts têm idades diferentes (13 h a 37 h), então os 
 - +60 min (03:04 UTC): sem comentários de terceiros (só o nosso placar). Votos 0 × 0. Insights 1ª hora: 54 views · 18 contas alcançadas · 1 curtida · 0 salvamentos · 0 envios · tempo médio 15,2 s (de 61,5 s, ~25%). Distribuição ainda não decolou (horário 21h ET de segunda, já fora do pico).
 - **24 h (01:16 UTC 11/11):** 3.865 views · 2.905 contas · 131 curtidas · 7 comentários · 24 salvamentos · **99 envios** · tempo médio **24,5 s** (de 61,5 s). Por 1.000 views: **25,6 envios** (força de preensão: 22,9 → novo recorde), 6,2 salvamentos, 33,9 curtidas. Votos LILLY × FDA: nenhum voto explícito (comentários: "Já foi aprovado aqui em casa 🤣", "Paraguai tá bombeando de vender", "Por isso eu amo a China", "🔥🔥"). Decolou depois da 1ª hora (54 views em 1 h → 3,9 mil em 24 h). Recomendação: fazer a Parte 2.
 - Falha de processo: a rotina "Respostas comentários Instagram" não lia a fila.json → Sermorelina (16:10) e Semax (20:10) não saíram em 10/11. Semax publicado manualmente às 20:19 ET; Cravo e Sermorelina agendados por send_later nesta sessão; prompt da rotina corrigido.
+
+## Carboidrato vira gordura? (Dfsx29QAYD8) — 24 h (23:15 UTC 14/11)
+4.818 views · 3.873 contas · 139 curtidas · 15 comentários · 40 salvamentos · 81 envios · tempo médio **25,6 s** (recorde; Reta 24,9 s).
+Por 1.000 views: 16,8 envios (Reta 25,6), 8,3 salvamentos (Reta 5,6), 28,9 curtidas. 4 pedidos de GUIA, todos atendidos pela rotina.
+Votação: pão com manteiga 1 · churrasco 1 (fora da lista). Conclusão: formato longo (80 s) + voz + imagens reais + gancho "2 partes" segura atenção; salva mais que a Reta, compartilha menos (tema menos polêmico).
