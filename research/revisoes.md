@@ -41,3 +41,16 @@ Taxas por 1.000 views. Os posts têm idades diferentes (13 h a 37 h), então os 
 4.818 views · 3.873 contas · 139 curtidas · 15 comentários · 40 salvamentos · 81 envios · tempo médio **25,6 s** (recorde; Reta 24,9 s).
 Por 1.000 views: 16,8 envios (Reta 25,6), 8,3 salvamentos (Reta 5,6), 28,9 curtidas. 4 pedidos de GUIA, todos atendidos pela rotina.
 Votação: pão com manteiga 1 · churrasco 1 (fora da lista). Conclusão: formato longo (80 s) + voz + imagens reais + gancho "2 partes" segura atenção; salva mais que a Reta, compartilha menos (tema menos polêmico).
+
+## BPC-157 — 24 h (lido em 15/11 23:41 UTC) · https://www.instagram.com/reel/DfvZjQUjnWS/
+| Métrica | BPC-157 | Reta | Carboidrato |
+|---|---|---|---|
+| Views | 323 | 4.826 | 4.818 |
+| Alcance | 268 | — | — |
+| Tempo médio | **28,0 s** (recorde; vídeo 80 s) | 24,9 s | 25,6 s |
+| Envios/1k | 12,4 (4) | 25,6 | 16,8 |
+| Salvos/1k | 3,1 (1) | — | 8,3 |
+| Curtidas / comentários | 5 / 0 de seguidores | — | — |
+Enquete "Você já tinha ouvido falar do BPC-157? SIM/NÃO": 0 respostas.
+Leitura: retenção excelente (quem vê, assiste), mas a distribuição não saiu da base (alcance ≈ seguidores). Hipótese: gancho com nome técnico ("BPC-157") não puxa quem não conhece; Reta e Carboidrato abriram com curiosidade ampla. Possível também filtro de tema "substância/antidoping" — não confirmado.
+Decisão: próximos da série abrem com benefício/curiosidade em linguagem leiga e só depois dizem o nome do peptídeo.
