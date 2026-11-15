@@ -9,3 +9,6 @@
 | 2026-11-09 | 18101960414418443 | (sem @ na API) | Reel VRX-0075 (18106774823636570) | DM enviada + resposta pública |
 | 2026-11-09 | 18220248718344898 | (sem @ na API) | Reel Epitalon DffQ2PBlcwa | DM enviada + resposta pública |
 | 2026-11-09 | 18132161524773155 | (sem @ na API) | Reel células zumbi (18101795384427318) | DM enviada + resposta pública (mesma pessoa do anterior) |
+| 2026-11-15 | 17901123732397373 | @norbertodalmas | Reel cobre (18644058412053163) | DM enviada + resposta pública |
+| 2026-11-15 | 17994368367064568 | @ssandra_simoes | Reel cobre (18644058412053163) | DM enviada + resposta pública |
+| 2026-11-15 | 18004244787013185 | @chacomessencias | Reel cobre (18644058412053163) | DM enviada + resposta pública |
