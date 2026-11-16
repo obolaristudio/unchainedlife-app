@@ -1,0 +1,299 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#1D3324}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden;background:#1D3324}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#fade{position:absolute;left:0;top:1000px;width:1080px;height:420px;z-index:2;background:linear-gradient(rgba(29,51,36,0),#1D3324 92%)}
+#bar{position:absolute;left:0;top:0;width:1080px;height:150px;z-index:9;background:linear-gradient(rgba(18,32,22,.85),rgba(18,32,22,0));display:flex;align-items:center;justify-content:center;font-weight:800;font-size:46px;letter-spacing:-.5px;padding-top:20px}
+#bar i{display:inline-block;width:18px;height:18px;border-radius:50%;background:#CBEF4B;margin-right:14px;box-shadow:0 0 12px #CBEF4B}
+.tx{position:absolute;z-index:6;left:70px;right:70px;top:1290px;height:380px;display:flex;align-items:center;justify-content:center;text-align:center}
+.tx p{font-weight:800;font-size:60px;line-height:1.22;letter-spacing:-1px} .tx .k{color:#CBEF4B}
+.big{position:absolute;z-index:7;left:0;right:0;text-align:center;font-weight:800;color:#CBEF4B;text-shadow:0 10px 40px rgba(0,0,0,.75)}
+.stamp{position:absolute;z-index:7;left:0;right:0;top:560px;text-align:center}
+.stamp span{display:inline-block;background:#E53935;color:#fff;font-weight:800;font-size:110px;padding:10px 44px;border-radius:24px;transform:rotate(-4deg);box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0}
+#cta{position:absolute;z-index:7;left:0;right:0;top:1130px;text-align:center}
+#cta span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:64px;padding:16px 44px;border-radius:60px;box-shadow:0 0 50px rgba(203,239,75,.5)}
+#foot{position:absolute;z-index:9;top:1820px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.55)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="77.7" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="77.7" src="assets/bg.mp4" muted></video>
+<div id="fade" class="clip" data-start="0" data-duration="77.7"></div>
+<div id="nm" class="clip big" data-start="7.3" data-duration="0.9" style="top:520px;font-size:150px">ESPIRULINA</div>
+<div id="n3b" class="clip big" data-start="17.7" data-duration="1.8" style="top:500px;font-size:170px;line-height:1"><span id="n3">0</span> bilhões<div style="font-size:70px;color:#fff">de anos</div></div>
+<div id="p50" class="clip big" data-start="29.3" data-duration="5.0" style="top:520px;font-size:200px;line-height:1">+<span id="n50">0</span>%<div style="font-size:60px;color:#fff">do peso seco é proteína</div></div>
+<div id="fake" class="clip stamp" data-start="60.0" data-duration="4.8"><span>B12 "FALSA" ❌</span></div>
+<div id="cta" class="clip" data-start="75.3" data-duration="2.4"><span>Comenta aqui 💬</span></div>
+<div id="t0" class="clip tx" data-start="0.00" data-duration="4.94"><p><span class="" id="w0_0">Esse</span> <span class="" id="w0_1">pó</span> <span class="k" id="w0_2">azul</span> <span class="" id="w0_3">esverdeado</span> <span class="" id="w0_4">vem</span> <span class="" id="w0_5">de</span> <span class="" id="w0_6">um</span> <span class="" id="w0_7">dos</span> <span class="" id="w0_8">seres</span> <span class="" id="w0_9">vivos</span> <span class="" id="w0_10">mais</span> <span class="" id="w0_11">antigos</span> <span class="" id="w0_12">da</span> <span class="k" id="w0_13">Terra.</span> </p></div>
+<div id="t1" class="clip tx" data-start="4.94" data-duration="2.08"><p><span class="" id="w1_0">E</span> <span class="" id="w1_1">ele</span> <span class="" id="w1_2">consegue</span> <span class="" id="w1_3">deixar</span> <span class="" id="w1_4">a</span> <span class="" id="w1_5">água</span> <span class="k" id="w1_6">azul.</span> </p></div>
+<div id="t2" class="clip tx" data-start="7.02" data-duration="3.26"><p><span class="" id="w2_0">É</span> <span class="" id="w2_1">a</span> <span class="k" id="w2_2">espirulina.</span> <span class="" id="w2_3">A</span> <span class="k" id="w2_4">espirulina</span> <span class="" id="w2_5">não</span> <span class="" id="w2_6">é</span> <span class="" id="w2_7">uma</span> <span class="k" id="w2_8">planta.</span> </p></div>
+<div id="t3" class="clip tx" data-start="10.28" data-duration="5.16"><p><span class="" id="w3_0">É</span> <span class="" id="w3_1">uma</span> <span class="k" id="w3_2">cianobactéria,</span> <span class="" id="w3_3">um</span> <span class="" id="w3_4">micro-organismo</span> <span class="" id="w3_5">que</span> <span class="" id="w3_6">faz</span> <span class="k" id="w3_7">fotossíntese,</span> <span class="" id="w3_8">como</span> <span class="" id="w3_9">as</span> <span class="" id="w3_10">plantas.</span> </p></div>
+<div id="t4" class="clip tx" data-start="15.44" data-duration="4.14"><p><span class="" id="w4_0">E</span> <span class="" id="w4_1">as</span> <span class="" id="w4_2">cianobactérias</span> <span class="" id="w4_3">existem</span> <span class="" id="w4_4">há</span> <span class="" id="w4_5">mais</span> <span class="" id="w4_6">de</span> <span class="k" id="w4_7">3</span> <span class="k" id="w4_8">bilhões</span> <span class="" id="w4_9">de</span> <span class="k" id="w4_10">anos.</span> </p></div>
+<div id="t5" class="clip tx" data-start="19.58" data-duration="3.40"><p><span class="" id="w5_0">O</span> <span class="k" id="w5_1">azul</span> <span class="" id="w5_2">vem</span> <span class="" id="w5_3">de</span> <span class="" id="w5_4">um</span> <span class="" id="w5_5">pigmento</span> <span class="" id="w5_6">chamado</span> <span class="k" id="w5_7">ficocianina.</span> </p></div>
+<div id="t6" class="clip tx" data-start="22.98" data-duration="4.12"><p><span class="" id="w6_0">É</span> <span class="" id="w6_1">ele</span> <span class="" id="w6_2">que</span> <span class="" id="w6_3">pinta</span> <span class="" id="w6_4">a</span> <span class="" id="w6_5">água</span> <span class="" id="w6_6">e</span> <span class="" id="w6_7">muitos</span> <span class="" id="w6_8">doces</span> <span class="" id="w6_9">azuis</span> <span class="" id="w6_10">naturais.</span> </p></div>
+<div id="t7" class="clip tx" data-start="27.10" data-duration="2.28"><p><span class="" id="w7_0">E</span> <span class="" id="w7_1">a</span> <span class="" id="w7_2">fama</span> <span class="" id="w7_3">de</span> <span class="k" id="w7_4">proteína</span> <span class="" id="w7_5">é</span> <span class="" id="w7_6">verdadeira.</span> </p></div>
+<div id="t8" class="clip tx" data-start="29.38" data-duration="5.92"><p><span class="" id="w8_0">Mais</span> <span class="" id="w8_1">da</span> <span class="k" id="w8_2">metade</span> <span class="" id="w8_3">do</span> <span class="" id="w8_4">peso</span> <span class="" id="w8_5">seco</span> <span class="" id="w8_6">dela</span> <span class="" id="w8_7">é</span> <span class="k" id="w8_8">proteína,</span> <span class="" id="w8_9">com</span> <span class="" id="w8_10">todos</span> <span class="" id="w8_11">os</span> <span class="" id="w8_12">aminoácidos</span> <span class="k" id="w8_13">essenciais.</span> </p></div>
+<div id="t9" class="clip tx" data-start="35.30" data-duration="4.76"><p><span class="" id="w9_0">Por</span> <span class="" id="w9_1">isso,</span> <span class="" id="w9_2">a</span> <span class="k" id="w9_3">NASA</span> <span class="" id="w9_4">estudou</span> <span class="" id="w9_5">a</span> <span class="k" id="w9_6">espirulina</span> <span class="" id="w9_7">como</span> <span class="" id="w9_8">comida</span> <span class="" id="w9_9">para</span> <span class="" id="w9_10">missões</span> <span class="" id="w9_11">longas</span> <span class="" id="w9_12">no</span> <span class="k" id="w9_13">espaço.</span> </p></div>
+<div id="t10" class="clip tx" data-start="40.06" data-duration="2.74"><p><span class="" id="w10_0">Ela</span> <span class="" id="w10_1">cresce</span> <span class="" id="w10_2">rápido</span> <span class="" id="w10_3">e</span> <span class="" id="w10_4">ainda</span> <span class="" id="w10_5">produz</span> <span class="k" id="w10_6">oxigênio.</span> </p></div>
+<div id="t11" class="clip tx" data-start="42.80" data-duration="1.28"><p><span class="" id="w11_0">E</span> <span class="" id="w11_1">em</span> <span class="k" id="w11_2">pessoas?</span> </p></div>
+<div id="t12" class="clip tx" data-start="44.08" data-duration="4.40"><p><span class="" id="w12_0">Estudos</span> <span class="" id="w12_1">pequenos</span> <span class="" id="w12_2">mostraram</span> <span class="" id="w12_3">uma</span> <span class="" id="w12_4">leve</span> <span class="" id="w12_5">queda</span> <span class="" id="w12_6">no</span> <span class="k" id="w12_7">colesterol</span> <span class="" id="w12_8">e</span> <span class="" id="w12_9">na</span> <span class="k" id="w12_10">pressão.</span> </p></div>
+<div id="t13" class="clip tx" data-start="48.48" data-duration="4.56"><p><span class="" id="w13_0">Já</span> <span class="" id="w13_1">os</span> <span class="" id="w13_2">estudos</span> <span class="" id="w13_3">de</span> <span class="k" id="w13_4">câncer</span> <span class="" id="w13_5">com</span> <span class="" id="w13_6">a</span> <span class="k" id="w13_7">ficocianina</span> <span class="" id="w13_8">são</span> <span class="" id="w13_9">de</span> <span class="k" id="w13_10">laboratório</span> <span class="" id="w13_11">e</span> <span class="" id="w13_12">em</span> <span class="k" id="w13_13">animais.</span> </p></div>
+<div id="t14" class="clip tx" data-start="53.04" data-duration="5.12"><p><span class="" id="w14_0">Agora,</span> <span class="" id="w14_1">a</span> <span class="k" id="w14_2">surpresa.</span> <span class="" id="w14_3">Muita</span> <span class="" id="w14_4">gente</span> <span class="" id="w14_5">acha</span> <span class="" id="w14_6">que</span> <span class="" id="w14_7">a</span> <span class="k" id="w14_8">espirulina</span> <span class="" id="w14_9">é</span> <span class="" id="w14_10">fonte</span> <span class="" id="w14_11">de</span> <span class="" id="w14_12">vitamina</span> <span class="k" id="w14_13">B12.</span> </p></div>
+<div id="t15" class="clip tx" data-start="58.16" data-duration="6.72"><p><span class="" id="w15_0">Mas</span> <span class="" id="w15_1">a</span> <span class="" id="w15_2">maior</span> <span class="" id="w15_3">parte</span> <span class="" id="w15_4">dela</span> <span class="" id="w15_5">é</span> <span class="" id="w15_6">uma</span> <span class="k" id="w15_7">pseudovitamina,</span> <span class="" id="w15_8">uma</span> <span class="k" id="w15_9">B12</span> <span class="k" id="w15_10">falsa,</span> <span class="" id="w15_11">que</span> <span class="" id="w15_12">o</span> <span class="" id="w15_13">corpo</span> <span class="" id="w15_14">não</span> <span class="" id="w15_15">consegue</span> <span class="k" id="w15_16">usar.</span> </p></div>
+<div id="t16" class="clip tx" data-start="64.88" data-duration="5.06"><p><span class="" id="w16_0">Resumindo,</span> <span class="" id="w16_1">alimento</span> <span class="" id="w16_2">antigo,</span> <span class="" id="w16_3">rico</span> <span class="" id="w16_4">em</span> <span class="k" id="w16_5">proteína,</span> <span class="" id="w16_6">mas</span> <span class="" id="w16_7">não</span> <span class="" id="w16_8">é</span> <span class="" id="w16_9">fonte</span> <span class="" id="w16_10">de</span> <span class="k" id="w16_11">B12.</span> </p></div>
+<div id="t17" class="clip tx" data-start="69.94" data-duration="2.50"><p><span class="" id="w17_0">Conteúdo</span> <span class="" id="w17_1">educativo</span> <span class="" id="w17_2">da</span> <span class="" id="w17_3">Obolari</span> <span class="" id="w17_4">Academy.</span> </p></div>
+<div id="t18" class="clip tx" data-start="72.44" data-duration="2.90"><p><span class="" id="w18_0">Não</span> <span class="" id="w18_1">é</span> <span class="" id="w18_2">recomendação</span> <span class="" id="w18_3">médica</span> <span class="" id="w18_4">nem</span> <span class="" id="w18_5">sugestão</span> <span class="" id="w18_6">de</span> <span class="" id="w18_7">uso.</span> </p></div>
+<div id="t19" class="clip tx" data-start="75.34" data-duration="1.46"><p><span class="" id="w19_0">Você</span> <span class="" id="w19_1">já</span> <span class="" id="w19_2">provou</span> <span class="k" id="w19_3">espirulina?</span> </p></div>
+<div id="t20" class="clip tx" data-start="76.80" data-duration="0.90"><p><span class="k" id="w20_0">Comenta</span> <span class="k" id="w20_1">aqui.</span> </p></div>
+<div id="flash" class="clip" data-start="0" data-duration="77.7"></div>
+<div id="bar" class="clip" data-start="0" data-duration="77.7"><i></i>obolari_academy</div>
+<div id="foot" class="clip" data-start="0" data-duration="77.7">CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA NEM SUGESTÃO DE USO</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},8.2);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},15.4);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},19.5);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},27.1);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},35.3);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},42.8);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},53.0);
+tl.fromTo("#flash",{opacity:0.25},{opacity:0,duration:0.2},64.8);
+tl.fromTo("#nm",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power4.out"},7.38);
+tl.fromTo("#n3b",{scale:2,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power4.out"},17.7);
+tl.fromTo("#n3",{textContent:0},{textContent:3,duration:0.5,snap:{textContent:1}},17.78);
+tl.fromTo("#p50",{scale:2,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power4.out"},29.3);
+tl.fromTo("#n50",{textContent:0},{textContent:50,duration:1.0,ease:"power2.out",snap:{textContent:1}},29.4);
+tl.fromTo("#fake span",{y:-1100,rotation:-25},{y:0,rotation:-4,duration:0.5,ease:"bounce.out"},60.0);
+tl.fromTo("#bg",{x:0},{x:-24,duration:0.05,yoyo:true,repeat:5},60.4);
+tl.fromTo("#flash",{opacity:0.7},{opacity:0,duration:0.25},60.4);
+tl.fromTo("#cta span",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.4,ease:"back.out(2.2)"},75.35);
+tl.fromTo("#bg",{scale:1.0},{scale:1.05,duration:77.7,ease:"none",transformOrigin:"50% 30%"},0);
+tl.fromTo("#t0 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},0.00);
+tl.fromTo("#w0_0",{opacity:0.28},{opacity:1,duration:0.15},0.00);
+tl.fromTo("#w0_1",{opacity:0.28},{opacity:1,duration:0.15},0.22);
+tl.fromTo("#w0_2",{opacity:0.28},{opacity:1,duration:0.15},0.52);
+tl.fromTo("#w0_3",{opacity:0.28},{opacity:1,duration:0.15},0.90);
+tl.fromTo("#w0_4",{opacity:0.28},{opacity:1,duration:0.15},1.70);
+tl.fromTo("#w0_5",{opacity:0.28},{opacity:1,duration:0.15},2.08);
+tl.fromTo("#w0_6",{opacity:0.28},{opacity:1,duration:0.15},2.22);
+tl.fromTo("#w0_7",{opacity:0.28},{opacity:1,duration:0.15},2.30);
+tl.fromTo("#w0_8",{opacity:0.28},{opacity:1,duration:0.15},2.42);
+tl.fromTo("#w0_9",{opacity:0.28},{opacity:1,duration:0.15},2.68);
+tl.fromTo("#w0_10",{opacity:0.28},{opacity:1,duration:0.15},3.10);
+tl.fromTo("#w0_11",{opacity:0.28},{opacity:1,duration:0.15},3.56);
+tl.fromTo("#w0_12",{opacity:0.28},{opacity:1,duration:0.15},4.18);
+tl.fromTo("#w0_13",{opacity:0.28},{opacity:1,duration:0.15},4.40);
+tl.fromTo("#t1 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},4.94);
+tl.fromTo("#w1_0",{opacity:0.28},{opacity:1,duration:0.15},4.94);
+tl.fromTo("#w1_1",{opacity:0.28},{opacity:1,duration:0.15},5.16);
+tl.fromTo("#w1_2",{opacity:0.28},{opacity:1,duration:0.15},5.30);
+tl.fromTo("#w1_3",{opacity:0.28},{opacity:1,duration:0.15},5.70);
+tl.fromTo("#w1_4",{opacity:0.28},{opacity:1,duration:0.15},6.08);
+tl.fromTo("#w1_5",{opacity:0.28},{opacity:1,duration:0.15},6.24);
+tl.fromTo("#w1_6",{opacity:0.28},{opacity:1,duration:0.15},6.44);
+tl.fromTo("#t2 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},7.02);
+tl.fromTo("#w2_0",{opacity:0.28},{opacity:1,duration:0.15},7.02);
+tl.fromTo("#w2_1",{opacity:0.28},{opacity:1,duration:0.15},7.28);
+tl.fromTo("#w2_2",{opacity:0.28},{opacity:1,duration:0.15},7.38);
+tl.fromTo("#w2_3",{opacity:0.28},{opacity:1,duration:0.15},8.26);
+tl.fromTo("#w2_4",{opacity:0.28},{opacity:1,duration:0.15},8.48);
+tl.fromTo("#w2_5",{opacity:0.28},{opacity:1,duration:0.15},9.06);
+tl.fromTo("#w2_6",{opacity:0.28},{opacity:1,duration:0.15},9.34);
+tl.fromTo("#w2_7",{opacity:0.28},{opacity:1,duration:0.15},9.50);
+tl.fromTo("#w2_8",{opacity:0.28},{opacity:1,duration:0.15},9.64);
+tl.fromTo("#t3 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},10.28);
+tl.fromTo("#w3_0",{opacity:0.28},{opacity:1,duration:0.15},10.28);
+tl.fromTo("#w3_1",{opacity:0.28},{opacity:1,duration:0.15},10.48);
+tl.fromTo("#w3_2",{opacity:0.28},{opacity:1,duration:0.15},10.64);
+tl.fromTo("#w3_3",{opacity:0.28},{opacity:1,duration:0.15},11.88);
+tl.fromTo("#w3_4",{opacity:0.28},{opacity:1,duration:0.15},12.16);
+tl.fromTo("#w3_5",{opacity:0.28},{opacity:1,duration:0.15},13.02);
+tl.fromTo("#w3_6",{opacity:0.28},{opacity:1,duration:0.15},13.16);
+tl.fromTo("#w3_7",{opacity:0.28},{opacity:1,duration:0.15},13.46);
+tl.fromTo("#w3_8",{opacity:0.28},{opacity:1,duration:0.15},14.46);
+tl.fromTo("#w3_9",{opacity:0.28},{opacity:1,duration:0.15},14.66);
+tl.fromTo("#w3_10",{opacity:0.28},{opacity:1,duration:0.15},14.78);
+tl.fromTo("#t4 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},15.44);
+tl.fromTo("#w4_0",{opacity:0.28},{opacity:1,duration:0.15},15.44);
+tl.fromTo("#w4_1",{opacity:0.28},{opacity:1,duration:0.15},15.64);
+tl.fromTo("#w4_2",{opacity:0.28},{opacity:1,duration:0.15},15.82);
+tl.fromTo("#w4_3",{opacity:0.28},{opacity:1,duration:0.15},16.66);
+tl.fromTo("#w4_4",{opacity:0.28},{opacity:1,duration:0.15},17.08);
+tl.fromTo("#w4_5",{opacity:0.28},{opacity:1,duration:0.15},17.26);
+tl.fromTo("#w4_6",{opacity:0.28},{opacity:1,duration:0.15},17.50);
+tl.fromTo("#w4_7",{opacity:0.28},{opacity:1,duration:0.15},17.78);
+tl.fromTo("#w4_8",{opacity:0.28},{opacity:1,duration:0.15},18.06);
+tl.fromTo("#w4_9",{opacity:0.28},{opacity:1,duration:0.15},18.84);
+tl.fromTo("#w4_10",{opacity:0.28},{opacity:1,duration:0.15},19.04);
+tl.fromTo("#t5 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},19.58);
+tl.fromTo("#w5_0",{opacity:0.28},{opacity:1,duration:0.15},19.58);
+tl.fromTo("#w5_1",{opacity:0.28},{opacity:1,duration:0.15},19.88);
+tl.fromTo("#w5_2",{opacity:0.28},{opacity:1,duration:0.15},20.24);
+tl.fromTo("#w5_3",{opacity:0.28},{opacity:1,duration:0.15},20.64);
+tl.fromTo("#w5_4",{opacity:0.28},{opacity:1,duration:0.15},20.74);
+tl.fromTo("#w5_5",{opacity:0.28},{opacity:1,duration:0.15},20.82);
+tl.fromTo("#w5_6",{opacity:0.28},{opacity:1,duration:0.15},21.36);
+tl.fromTo("#w5_7",{opacity:0.28},{opacity:1,duration:0.15},21.78);
+tl.fromTo("#t6 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},22.98);
+tl.fromTo("#w6_0",{opacity:0.28},{opacity:1,duration:0.15},22.98);
+tl.fromTo("#w6_1",{opacity:0.28},{opacity:1,duration:0.15},23.18);
+tl.fromTo("#w6_2",{opacity:0.28},{opacity:1,duration:0.15},23.40);
+tl.fromTo("#w6_3",{opacity:0.28},{opacity:1,duration:0.15},23.58);
+tl.fromTo("#w6_4",{opacity:0.28},{opacity:1,duration:0.15},23.94);
+tl.fromTo("#w6_5",{opacity:0.28},{opacity:1,duration:0.15},24.12);
+tl.fromTo("#w6_6",{opacity:0.28},{opacity:1,duration:0.15},24.36);
+tl.fromTo("#w6_7",{opacity:0.28},{opacity:1,duration:0.15},24.60);
+tl.fromTo("#w6_8",{opacity:0.28},{opacity:1,duration:0.15},24.98);
+tl.fromTo("#w6_9",{opacity:0.28},{opacity:1,duration:0.15},25.42);
+tl.fromTo("#w6_10",{opacity:0.28},{opacity:1,duration:0.15},25.96);
+tl.fromTo("#t7 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},27.10);
+tl.fromTo("#w7_0",{opacity:0.28},{opacity:1,duration:0.15},27.10);
+tl.fromTo("#w7_1",{opacity:0.28},{opacity:1,duration:0.15},27.38);
+tl.fromTo("#w7_2",{opacity:0.28},{opacity:1,duration:0.15},27.52);
+tl.fromTo("#w7_3",{opacity:0.28},{opacity:1,duration:0.15},27.84);
+tl.fromTo("#w7_4",{opacity:0.28},{opacity:1,duration:0.15},27.94);
+tl.fromTo("#w7_5",{opacity:0.28},{opacity:1,duration:0.15},28.46);
+tl.fromTo("#w7_6",{opacity:0.28},{opacity:1,duration:0.15},28.68);
+tl.fromTo("#t8 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},29.38);
+tl.fromTo("#w8_0",{opacity:0.28},{opacity:1,duration:0.15},29.38);
+tl.fromTo("#w8_1",{opacity:0.28},{opacity:1,duration:0.15},29.98);
+tl.fromTo("#w8_2",{opacity:0.28},{opacity:1,duration:0.15},30.12);
+tl.fromTo("#w8_3",{opacity:0.28},{opacity:1,duration:0.15},30.62);
+tl.fromTo("#w8_4",{opacity:0.28},{opacity:1,duration:0.15},30.76);
+tl.fromTo("#w8_5",{opacity:0.28},{opacity:1,duration:0.15},31.02);
+tl.fromTo("#w8_6",{opacity:0.28},{opacity:1,duration:0.15},31.44);
+tl.fromTo("#w8_7",{opacity:0.28},{opacity:1,duration:0.15},31.70);
+tl.fromTo("#w8_8",{opacity:0.28},{opacity:1,duration:0.15},31.94);
+tl.fromTo("#w8_9",{opacity:0.28},{opacity:1,duration:0.15},32.72);
+tl.fromTo("#w8_10",{opacity:0.28},{opacity:1,duration:0.15},33.06);
+tl.fromTo("#w8_11",{opacity:0.28},{opacity:1,duration:0.15},33.44);
+tl.fromTo("#w8_12",{opacity:0.28},{opacity:1,duration:0.15},33.64);
+tl.fromTo("#w8_13",{opacity:0.28},{opacity:1,duration:0.15},34.28);
+tl.fromTo("#t9 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},35.30);
+tl.fromTo("#w9_0",{opacity:0.28},{opacity:1,duration:0.15},35.30);
+tl.fromTo("#w9_1",{opacity:0.28},{opacity:1,duration:0.15},35.52);
+tl.fromTo("#w9_2",{opacity:0.28},{opacity:1,duration:0.15},36.00);
+tl.fromTo("#w9_3",{opacity:0.28},{opacity:1,duration:0.15},36.08);
+tl.fromTo("#w9_4",{opacity:0.28},{opacity:1,duration:0.15},36.38);
+tl.fromTo("#w9_5",{opacity:0.28},{opacity:1,duration:0.15},36.88);
+tl.fromTo("#w9_6",{opacity:0.28},{opacity:1,duration:0.15},37.04);
+tl.fromTo("#w9_7",{opacity:0.28},{opacity:1,duration:0.15},37.54);
+tl.fromTo("#w9_8",{opacity:0.28},{opacity:1,duration:0.15},37.80);
+tl.fromTo("#w9_9",{opacity:0.28},{opacity:1,duration:0.15},38.28);
+tl.fromTo("#w9_10",{opacity:0.28},{opacity:1,duration:0.15},38.52);
+tl.fromTo("#w9_11",{opacity:0.28},{opacity:1,duration:0.15},38.88);
+tl.fromTo("#w9_12",{opacity:0.28},{opacity:1,duration:0.15},39.36);
+tl.fromTo("#w9_13",{opacity:0.28},{opacity:1,duration:0.15},39.48);
+tl.fromTo("#t10 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},40.06);
+tl.fromTo("#w10_0",{opacity:0.28},{opacity:1,duration:0.15},40.06);
+tl.fromTo("#w10_1",{opacity:0.28},{opacity:1,duration:0.15},40.38);
+tl.fromTo("#w10_2",{opacity:0.28},{opacity:1,duration:0.15},40.72);
+tl.fromTo("#w10_3",{opacity:0.28},{opacity:1,duration:0.15},41.18);
+tl.fromTo("#w10_4",{opacity:0.28},{opacity:1,duration:0.15},41.44);
+tl.fromTo("#w10_5",{opacity:0.28},{opacity:1,duration:0.15},41.60);
+tl.fromTo("#w10_6",{opacity:0.28},{opacity:1,duration:0.15},42.00);
+tl.fromTo("#t11 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},42.80);
+tl.fromTo("#w11_0",{opacity:0.28},{opacity:1,duration:0.15},42.80);
+tl.fromTo("#w11_1",{opacity:0.28},{opacity:1,duration:0.15},43.10);
+tl.fromTo("#w11_2",{opacity:0.28},{opacity:1,duration:0.15},43.22);
+tl.fromTo("#t12 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},44.08);
+tl.fromTo("#w12_0",{opacity:0.28},{opacity:1,duration:0.15},44.08);
+tl.fromTo("#w12_1",{opacity:0.28},{opacity:1,duration:0.15},44.50);
+tl.fromTo("#w12_2",{opacity:0.28},{opacity:1,duration:0.15},45.10);
+tl.fromTo("#w12_3",{opacity:0.28},{opacity:1,duration:0.15},45.68);
+tl.fromTo("#w12_4",{opacity:0.28},{opacity:1,duration:0.15},45.88);
+tl.fromTo("#w12_5",{opacity:0.28},{opacity:1,duration:0.15},46.24);
+tl.fromTo("#w12_6",{opacity:0.28},{opacity:1,duration:0.15},46.64);
+tl.fromTo("#w12_7",{opacity:0.28},{opacity:1,duration:0.15},46.80);
+tl.fromTo("#w12_8",{opacity:0.28},{opacity:1,duration:0.15},47.32);
+tl.fromTo("#w12_9",{opacity:0.28},{opacity:1,duration:0.15},47.60);
+tl.fromTo("#w12_10",{opacity:0.28},{opacity:1,duration:0.15},47.72);
+tl.fromTo("#t13 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},48.48);
+tl.fromTo("#w13_0",{opacity:0.28},{opacity:1,duration:0.15},48.48);
+tl.fromTo("#w13_1",{opacity:0.28},{opacity:1,duration:0.15},48.60);
+tl.fromTo("#w13_2",{opacity:0.28},{opacity:1,duration:0.15},48.78);
+tl.fromTo("#w13_3",{opacity:0.28},{opacity:1,duration:0.15},49.16);
+tl.fromTo("#w13_4",{opacity:0.28},{opacity:1,duration:0.15},49.32);
+tl.fromTo("#w13_5",{opacity:0.28},{opacity:1,duration:0.15},49.78);
+tl.fromTo("#w13_6",{opacity:0.28},{opacity:1,duration:0.15},49.94);
+tl.fromTo("#w13_7",{opacity:0.28},{opacity:1,duration:0.15},50.08);
+tl.fromTo("#w13_8",{opacity:0.28},{opacity:1,duration:0.15},50.80);
+tl.fromTo("#w13_9",{opacity:0.28},{opacity:1,duration:0.15},51.04);
+tl.fromTo("#w13_10",{opacity:0.28},{opacity:1,duration:0.15},51.16);
+tl.fromTo("#w13_11",{opacity:0.28},{opacity:1,duration:0.15},51.92);
+tl.fromTo("#w13_12",{opacity:0.28},{opacity:1,duration:0.15},52.12);
+tl.fromTo("#w13_13",{opacity:0.28},{opacity:1,duration:0.15},52.26);
+tl.fromTo("#t14 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},53.04);
+tl.fromTo("#w14_0",{opacity:0.28},{opacity:1,duration:0.15},53.04);
+tl.fromTo("#w14_1",{opacity:0.28},{opacity:1,duration:0.15},53.70);
+tl.fromTo("#w14_2",{opacity:0.28},{opacity:1,duration:0.15},53.78);
+tl.fromTo("#w14_3",{opacity:0.28},{opacity:1,duration:0.15},54.58);
+tl.fromTo("#w14_4",{opacity:0.28},{opacity:1,duration:0.15},55.00);
+tl.fromTo("#w14_5",{opacity:0.28},{opacity:1,duration:0.15},55.18);
+tl.fromTo("#w14_6",{opacity:0.28},{opacity:1,duration:0.15},55.60);
+tl.fromTo("#w14_7",{opacity:0.28},{opacity:1,duration:0.15},55.74);
+tl.fromTo("#w14_8",{opacity:0.28},{opacity:1,duration:0.15},55.82);
+tl.fromTo("#w14_9",{opacity:0.28},{opacity:1,duration:0.15},56.40);
+tl.fromTo("#w14_10",{opacity:0.28},{opacity:1,duration:0.15},56.62);
+tl.fromTo("#w14_11",{opacity:0.28},{opacity:1,duration:0.15},56.98);
+tl.fromTo("#w14_12",{opacity:0.28},{opacity:1,duration:0.15},57.12);
+tl.fromTo("#w14_13",{opacity:0.28},{opacity:1,duration:0.15},57.56);
+tl.fromTo("#t15 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},58.16);
+tl.fromTo("#w15_0",{opacity:0.28},{opacity:1,duration:0.15},58.16);
+tl.fromTo("#w15_1",{opacity:0.28},{opacity:1,duration:0.15},58.60);
+tl.fromTo("#w15_2",{opacity:0.28},{opacity:1,duration:0.15},58.70);
+tl.fromTo("#w15_3",{opacity:0.28},{opacity:1,duration:0.15},58.96);
+tl.fromTo("#w15_4",{opacity:0.28},{opacity:1,duration:0.15},59.34);
+tl.fromTo("#w15_5",{opacity:0.28},{opacity:1,duration:0.15},59.68);
+tl.fromTo("#w15_6",{opacity:0.28},{opacity:1,duration:0.15},59.86);
+tl.fromTo("#w15_7",{opacity:0.28},{opacity:1,duration:0.15},60.00);
+tl.fromTo("#w15_8",{opacity:0.28},{opacity:1,duration:0.15},61.32);
+tl.fromTo("#w15_9",{opacity:0.28},{opacity:1,duration:0.15},61.62);
+tl.fromTo("#w15_10",{opacity:0.28},{opacity:1,duration:0.15},62.08);
+tl.fromTo("#w15_11",{opacity:0.28},{opacity:1,duration:0.15},62.94);
+tl.fromTo("#w15_12",{opacity:0.28},{opacity:1,duration:0.15},63.18);
+tl.fromTo("#w15_13",{opacity:0.28},{opacity:1,duration:0.15},63.24);
+tl.fromTo("#w15_14",{opacity:0.28},{opacity:1,duration:0.15},63.52);
+tl.fromTo("#w15_15",{opacity:0.28},{opacity:1,duration:0.15},63.78);
+tl.fromTo("#w15_16",{opacity:0.28},{opacity:1,duration:0.15},64.26);
+tl.fromTo("#t16 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},64.88);
+tl.fromTo("#w16_0",{opacity:0.28},{opacity:1,duration:0.15},64.88);
+tl.fromTo("#w16_1",{opacity:0.28},{opacity:1,duration:0.15},65.66);
+tl.fromTo("#w16_2",{opacity:0.28},{opacity:1,duration:0.15},66.08);
+tl.fromTo("#w16_3",{opacity:0.28},{opacity:1,duration:0.15},66.96);
+tl.fromTo("#w16_4",{opacity:0.28},{opacity:1,duration:0.15},67.20);
+tl.fromTo("#w16_5",{opacity:0.28},{opacity:1,duration:0.15},67.32);
+tl.fromTo("#w16_6",{opacity:0.28},{opacity:1,duration:0.15},68.04);
+tl.fromTo("#w16_7",{opacity:0.28},{opacity:1,duration:0.15},68.38);
+tl.fromTo("#w16_8",{opacity:0.28},{opacity:1,duration:0.15},68.66);
+tl.fromTo("#w16_9",{opacity:0.28},{opacity:1,duration:0.15},68.80);
+tl.fromTo("#w16_10",{opacity:0.28},{opacity:1,duration:0.15},69.12);
+tl.fromTo("#w16_11",{opacity:0.28},{opacity:1,duration:0.15},69.24);
+tl.fromTo("#t17 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},69.94);
+tl.fromTo("#w17_0",{opacity:0.28},{opacity:1,duration:0.15},69.94);
+tl.fromTo("#w17_1",{opacity:0.28},{opacity:1,duration:0.15},70.42);
+tl.fromTo("#w17_2",{opacity:0.28},{opacity:1,duration:0.15},71.06);
+tl.fromTo("#w17_3",{opacity:0.28},{opacity:1,duration:0.15},71.22);
+tl.fromTo("#w17_4",{opacity:0.28},{opacity:1,duration:0.15},71.76);
+tl.fromTo("#t18 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},72.44);
+tl.fromTo("#w18_0",{opacity:0.28},{opacity:1,duration:0.15},72.44);
+tl.fromTo("#w18_1",{opacity:0.28},{opacity:1,duration:0.15},72.72);
+tl.fromTo("#w18_2",{opacity:0.28},{opacity:1,duration:0.15},72.84);
+tl.fromTo("#w18_3",{opacity:0.28},{opacity:1,duration:0.15},73.46);
+tl.fromTo("#w18_4",{opacity:0.28},{opacity:1,duration:0.15},73.94);
+tl.fromTo("#w18_5",{opacity:0.28},{opacity:1,duration:0.15},74.22);
+tl.fromTo("#w18_6",{opacity:0.28},{opacity:1,duration:0.15},74.74);
+tl.fromTo("#w18_7",{opacity:0.28},{opacity:1,duration:0.15},74.88);
+tl.fromTo("#t19 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},75.34);
+tl.fromTo("#w19_0",{opacity:0.28},{opacity:1,duration:0.15},75.34);
+tl.fromTo("#w19_1",{opacity:0.28},{opacity:1,duration:0.15},75.58);
+tl.fromTo("#w19_2",{opacity:0.28},{opacity:1,duration:0.15},75.70);
+tl.fromTo("#w19_3",{opacity:0.28},{opacity:1,duration:0.15},76.06);
+tl.fromTo("#t20 p",{opacity:0,y:24},{opacity:1,y:0,duration:0.25,ease:"power2.out"},76.80);
+tl.fromTo("#w20_0",{opacity:0.28},{opacity:1,duration:0.15},76.80);
+tl.fromTo("#w20_1",{opacity:0.28},{opacity:1,duration:0.15},77.28);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
