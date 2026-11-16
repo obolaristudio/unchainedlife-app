@@ -4,3 +4,12 @@ graphify-out/cost.json
 
 # Saidas da skill /olhos (videos de terceiros, so para estudo)
 olhos/
+
+# Arquivos de trabalho dos Reels
+videos/*/stock/
+videos/*/hf/
+videos/*/render.log
+videos/*/voz*.wav
+videos/*/voz.json
+videos/*/musica.mp3
+videos/*/mix.wav
