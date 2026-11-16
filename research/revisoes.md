@@ -54,3 +54,7 @@ Votação: pão com manteiga 1 · churrasco 1 (fora da lista). Conclusão: forma
 Enquete "Você já tinha ouvido falar do BPC-157? SIM/NÃO": 0 respostas.
 Leitura: retenção excelente (quem vê, assiste), mas a distribuição não saiu da base (alcance ≈ seguidores). Hipótese: gancho com nome técnico ("BPC-157") não puxa quem não conhece; Reta e Carboidrato abriram com curiosidade ampla. Possível também filtro de tema "substância/antidoping" — não confirmado.
 Decisão: próximos da série abrem com benefício/curiosidade em linguagem leiga e só depois dizem o nome do peptídeo.
+
+## Cobre — ~42 h (lido em 16/11 01:00 UTC; postado pelo Maxwell em 15/11 01:47 ET) · https://www.instagram.com/reel/DfwKzuDsIuB/
+Views 3.603 · alcance 3.033 · envios 120 (**33,3/1k, recorde**) · salvos 37 (**10,3/1k, recorde**) · comentários 29 · curtidas 147 · tempo médio 17,8 s (vídeo 88 s).
+Leitura: gancho amplo ("mineral que mata bactérias só de encostar") + vídeo real do Maxwell na abertura → saiu da base (alcance 11× o do BPC). Retenção menor que BPC/Carbo: testar versão mais curta (60 s).
