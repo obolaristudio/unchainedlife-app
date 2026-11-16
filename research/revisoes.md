@@ -58,3 +58,14 @@ Decisão: próximos da série abrem com benefício/curiosidade em linguagem leig
 ## Cobre — ~42 h (lido em 16/11 01:00 UTC; postado pelo Maxwell em 15/11 01:47 ET) · https://www.instagram.com/reel/DfwKzuDsIuB/
 Views 3.603 · alcance 3.033 · envios 120 (**33,3/1k, recorde**) · salvos 37 (**10,3/1k, recorde**) · comentários 29 · curtidas 147 · tempo médio 17,8 s (vídeo 88 s).
 Leitura: gancho amplo ("mineral que mata bactérias só de encostar") + vídeo real do Maxwell na abertura → saiu da base (alcance 11× o do BPC). Retenção menor que BPC/Carbo: testar versão mais curta (60 s).
+
+## Revisão semanal 16/11/2026 (lida 13:40 UTC; janela 9–16/11)
+Conta, 7 dias (API): alcance 14.742 · views 21.822 · visitas ao perfil 147. Seguidores: não lido nesta revisão.
+Top 3 (lifetime; views · envios · salvos · tempo médio):
+1. Carboidrato/pão (Dfsx29QAYD8): 5.261 · 94 · 47 · 26,0 s. Enquete + tema do dia a dia.
+2. Reta, 1 aminoácido (DfiyhRgkmZ_): 4.907 · 134 · 28 · 25,0 s. Gancho de número + votação.
+3. Cobre (DfwKzuDsIuB): 4.473 · 128 · 41 · 16,8 s (ainda crescendo). Gancho amplo + vídeo real.
+Piores: Cravo 429, Sermorelina 393, Semax 365, Liraglutida 358, SS-31 307 (3,7 s de tempo médio). Peptídeo com nome no gancho: ~300–1.000 views; tema amplo: 4–5 mil.
+Exceção: BPC-157 (DfvZjQUjnWS) 326 views, mas 27,7 s de tempo médio.
+Ajustes: (1) abrir com benefício/curiosidade, nome do peptídeo depois; (2) manter enquete/pergunta na legenda; (3) evitar vários Reels próximos no mesmo dia.
+Decisões para o Maxwell: (a) peptídeo com nome só 1 por semana, priorizando temas amplos? (b) post de enquete no feed (corpo 1–4) teve 135 views: manter?

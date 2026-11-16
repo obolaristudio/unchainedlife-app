@@ -34,3 +34,8 @@ A API do Instagram não permite seguir/deixar de seguir nem listar quem a conta 
 - **Todo domingo (rotina da madrugada):** varrer o GitHub (`gh api -X GET search/repositories`, ordenar por estrelas, só repositórios ativos nos últimos 6 meses) e a web por repositórios e ferramentas que melhorem a operação (edição de vídeo, legendas, pesquisa científica, automação de Instagram, análise de métricas). Registrar tudo em `research/ferramentas.md`.
 - **Pode instalar repositório** quando agregar, com estas travas de segurança: licença compatível (MIT/Apache/BSD etc.); projeto mantido e com reputação (estrelas, contribuidores); **ler o código antes de rodar**; instalar em pasta separada; versão fixa (commit/tag); nunca dar senhas, tokens ou acesso à conta do Instagram a código de terceiros; nada que automatize seguir/deixar de seguir, curtir em massa ou burlar o Instagram. Registrar em `research/ferramentas.md` como `instalado`.
 - **Ferramenta paga ou que exige cadastro:** não assinar. Avisar o Maxwell com nome, link, para que serve, preço e o ganho esperado; ele faz a assinatura. Registrar como `sugerido ao Maxwell`.
+
+## Ajustes da revisão semanal de 16/11/2026
+- Tema amplo/cotidiano (pão, cobre, aminoácido da Reta) rendeu 4–5 mil views; peptídeo com nome no gancho, 300–1.000. Abrir com benefício/curiosidade e só depois nomear o peptídeo.
+- Manter enquete/pergunta de comentário (mais comentários e envios).
+- Evitar vários Reels no mesmo dia em horários próximos; o alcance cai.
