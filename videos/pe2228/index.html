@@ -1,0 +1,410 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#shade{position:absolute;left:0;top:420px;width:1080px;height:1100px;z-index:2;background:linear-gradient(rgba(0,0,0,0) 55%,rgba(0,0,0,.6) 100%)}
+#tag{position:absolute;z-index:9;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.hd{position:absolute;z-index:6;left:40px;right:40px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hd .s{font-weight:700;font-size:42px;color:#F2EFE6}
+.hd .m{font-weight:800;font-size:80px;line-height:1;letter-spacing:-2px}
+.hd .m span,.hd .s span{color:#CBEF4B}
+.cap{position:absolute;z-index:6;left:60px;right:60px;top:1555px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+.cap .k{color:#CBEF4B}
+.ov{position:absolute;z-index:5;left:60px;right:60px;top:1200px;text-align:center}
+.pill{display:inline-block;background:rgba(14,14,14,.86);border:3px solid #CBEF4B;font-weight:800;font-size:44px;padding:12px 28px;border-radius:18px}
+.pill b{color:#CBEF4B} .pill.o{border-color:#FF8A3D} .pill.o b{color:#FF8A3D} .pill.r{border-color:#E53935} .pill.r b{color:#E53935}
+.big{font-weight:800;font-size:150px;line-height:1;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+.chips{display:flex;flex-direction:row;flex-wrap:wrap;gap:14px;justify-content:center}
+.chip{display:inline-block;background:rgba(14,14,14,.88);border:3px solid #CBEF4B;font-weight:800;font-size:46px;padding:10px 26px;border-radius:16px}
+.beads{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;background:rgba(14,14,14,.82);padding:18px;border-radius:22px;max-width:820px;margin:0 auto}
+.beads i{display:flex;align-items:center;justify-content:center;width:62px;height:62px;border-radius:50%;background:#3D7BFF;box-shadow:inset -6px -6px 0 rgba(0,0,0,.25);font-style:normal;font-weight:800;font-size:40px;color:#141414}
+.beads i.L{background:#CBEF4B;border:3px solid #fff}
+.charge{display:flex;justify-content:center;align-items:center;gap:40px}
+.ball{width:250px;height:250px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;border:6px solid #141414;box-shadow:8px 8px 0 #141414}
+.ball b{font-size:130px;line-height:.9} .ball small{font-size:32px}
+.ball.neg{background:#E53935} .ball.pos{background:#CBEF4B;color:#141414}
+.study{display:inline-block;max-width:900px;background:#FBFAF6;color:#141414;border:4px solid #141414;box-shadow:10px 10px 0 #141414;border-radius:16px;padding:24px 30px;text-align:left}
+.study .j{font-family:monospace;font-size:26px;letter-spacing:3px;color:#555} .study .t{font-weight:800;font-size:44px;line-height:1.1;margin-top:8px} .study .t mark{background:#CBEF4B;padding:0 6px}
+.steps{display:flex;flex-direction:column;gap:14px;align-items:center}
+#days span{display:inline-block;color:#E53935;-webkit-text-stroke:4px #fff;font-size:190px}
+#crack{position:absolute;inset:0;z-index:8;opacity:0}
+#stampS{position:absolute;z-index:8;left:0;right:0;top:760px;text-align:center}
+#stampS span{display:inline-block;background:#E53935;color:#fff;font-weight:800;font-size:120px;padding:6px 40px;border-radius:24px;border:6px solid #141414;transform:rotate(-4deg);box-shadow:14px 14px 0 #141414}
+#vitd{position:absolute;z-index:6;left:0;right:0;top:820px;text-align:center}
+#vitd span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:130px;padding:6px 40px;border-radius:24px;border:6px solid #141414;box-shadow:14px 14px 0 #141414}
+#sum{position:absolute;z-index:6;left:0;right:0;top:700px;text-align:center;font-weight:800;font-size:130px;line-height:1.05;letter-spacing:-3px;text-shadow:0 10px 40px rgba(0,0,0,.7)}
+#sum span{color:#CBEF4B}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0}
+#cta{position:absolute;z-index:6;left:0;right:0;top:1230px;text-align:center}
+#cta span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:70px;padding:18px 46px;border-radius:60px;box-shadow:0 0 50px rgba(203,239,75,.6)}
+#handle{position:absolute;z-index:6;left:0;right:0;top:1400px;text-align:center}
+#handle span{display:inline-block;background:#141414;color:#CBEF4B;font-family:monospace;font-weight:700;font-size:34px;letter-spacing:4px;padding:10px 26px;border-radius:40px}
+#foot{position:absolute;z-index:9;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
+.beads.sm i{width:44px;height:44px;background:#555} .beads.sm i.g{background:#3D7BFF}
+.brake{display:inline-flex;align-items:center;gap:18px;background:#FBFAF6;color:#141414;border:5px solid #141414;box-shadow:10px 10px 0 #141414;border-radius:20px;padding:16px 30px;font-weight:800;font-size:62px;position:relative}
+#bline{position:absolute;left:-10px;right:-10px;top:50%;height:12px;background:#E53935;transform-origin:left center;transform:scaleX(0) rotate(-8deg)}
+.bars{display:flex;flex-direction:column;gap:22px;background:rgba(14,14,14,.86);border:3px solid #CBEF4B;border-radius:22px;padding:26px 30px;max-width:900px;margin:0 auto;text-align:left}
+.bar .l{font-weight:800;font-size:40px;margin-bottom:8px} .bar .tr{height:58px;background:rgba(255,255,255,.12);border-radius:12px;overflow:hidden}
+.bar .f{height:100%;border-radius:12px;transform-origin:left center;display:flex;align-items:center;justify-content:flex-end;padding-right:16px;font-weight:800;font-size:40px;color:#141414}
+#d4{position:absolute;z-index:7;left:0;right:0;top:880px;text-align:center}
+#d4 span{display:inline-block;color:#E53935;-webkit-text-stroke:5px #fff;font-weight:800;font-size:210px}
+#clock{position:absolute;z-index:7;left:0;right:0;top:560px;text-align:center;font-size:200px}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="69.0" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="69.0" src="assets/bg.mp4" muted></video>
+<div id="shade" class="clip" data-start="0" data-duration="69.0"></div>
+<div id="h0" class="clip hd" data-start="0" data-duration="3.5"><div class="s">Antidepressivos costumam levar</div><div class="m" style="font-size:130px"><span>SEMANAS</span> ⏳</div></div>
+<div id="h1" class="clip hd" data-start="3.5" data-duration="4.9"><div class="m">Mas em <span>camundongos</span>…</div><div class="s">um peptídeo agiu em</div></div>
+<div id="d4" class="clip" data-start="7.45" data-duration="0.95"><span>4 DIAS</span></div>
+<div id="h2" class="clip hd" data-start="8.4" data-duration="2.2"><div class="s">o nome dele:</div><div class="m" style="font-size:140px"><span>PE-22-28</span></div></div>
+<div id="h3" class="clip hd" data-start="10.6" data-duration="3.8"><div class="m">só <span>7</span> aminoácidos</div><div class="s">um colar de 7 contas 📿</div></div>
+<div id="o1" class="clip ov" data-start="12.8" data-duration="1.6"><div class="beads"><i id="bd0"></i><i id="bd1"></i><i id="bd2"></i><i id="bd3"></i><i id="bd4"></i><i id="bd5"></i><i id="bd6"></i></div></div>
+<div id="h4" class="clip hd" data-start="14.4" data-duration="4.3"><div class="m">um pedaço do <span>spadin</span></div><div class="s">peptídeo que o próprio corpo produz</div></div>
+<div id="o2" class="clip ov" data-start="15.5" data-duration="3.2" style="top:1080px"><div class="beads sm"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="g"></i><i class="g"></i><i class="g"></i><i class="g"></i><i class="g"></i><i class="g"></i><i class="g"></i></div><div style="margin-top:18px"><span class="pill">spadin: 17 contas → <b>PE-22-28: as 7 do fim</b></span></div></div>
+<div id="h5" class="clip hd" data-start="18.7" data-duration="10.3"><div class="m">Como ele <span>age</span>?</div></div>
+<div id="o3" class="clip ov" data-start="21.9" data-duration="7.1" style="top:1050px"><div class="brake" id="brk">🛑 TREK-1<span id="bline"></span></div><div style="margin-top:28px"><span class="pill" id="p1">um <b>freio</b> que deixa o neurônio quieto 😴</span></div><div style="margin-top:16px"><span class="pill" id="p2">PE-22-28 <b>solta o freio</b> 🟢</span></div></div>
+<div id="h6" class="clip hd" data-start="29.0" data-duration="4.9"><div class="m"><span>Serotonina</span> mais ativa</div><div class="s">com o spadin, em camundongos</div></div>
+<div id="o4" class="clip ov" data-start="31.3" data-duration="2.6"><span class="pill">neurônios de <b>serotonina</b> ficaram mais ativos ⚡</span></div>
+<div id="h7" class="clip hd" data-start="33.9" data-duration="13.5"><div class="m">Estudo de <span>2017</span> 🐭</div><div class="s">em camundongos</div></div>
+<div id="o5" class="clip ov" data-start="34.5" data-duration="3.0" style="top:1080px"><div class="study"><div class="j">FRONTIERS IN PHARMACOLOGY · 2017</div><div class="t">PE 22-28: efeito <mark>antidepressivo</mark> em camundongos</div></div></div>
+<div id="o6" class="clip ov" data-start="38.0" data-duration="9.4" style="top:1030px"><div class="chips" style="flex-direction:column;align-items:center"><span class="chip" id="q1">🏊 desistiram menos no teste de nado</span><span class="chip" id="q2">🧠 neurônios novos no hipocampo</span><span class="chip" id="q3" style="border-color:#3D7BFF">🔗 mais conexões <span style="color:#3D7BFF">(em laboratório)</span></span></div></div>
+<div id="clock" class="clip" data-start="47.45" data-duration="1.0">⏰</div>
+<div id="h8" class="clip hd" data-start="47.4" data-duration="5.1"><div class="m">E tem <span>mais</span>…</div><div class="s">quanto tempo o efeito durou</div></div>
+<div id="o7" class="clip ov" data-start="48.3" data-duration="4.2" style="top:1060px"><div class="bars"><div class="bar"><div class="l">spadin</div><div class="tr"><div class="f" id="b1" style="width:30%;background:#888">7 h</div></div></div><div class="bar"><div class="l" style="color:#CBEF4B">PE-22-28</div><div class="tr"><div class="f" id="b2" style="width:100%;background:#CBEF4B"><span id="n23">0</span>&nbsp;h</div></div></div></div></div>
+<div id="h9" class="clip hd" data-start="52.5" data-duration="3.0"><div class="m">E em <span>pessoas</span>?</div></div>
+<div id="o8" class="clip ov" data-start="53.6" data-duration="1.9"><span class="pill o">ainda <b>não testado</b> · em estudo</span></div>
+<div id="sum" class="clip" data-start="55.5" data-duration="4.5"><div id="sa">PE-22-28</div><div id="sb"><span>solta o freio</span></div><div id="sc">do neurônio 🧠</div></div>
+<div id="h10" class="clip hd" data-start="60.0" data-duration="9.0"><div class="m">Qual peptídeo do <span>cérebro</span>?</div><div class="s">conteúdo educativo</div></div>
+<div id="cta" class="clip" data-start="65.2" data-duration="3.8"><span>Comenta aqui 💬</span></div>
+<div id="handle" class="clip" data-start="65.4" data-duration="3.6"><span>@obolari_academy</span></div>
+<div id="cg0" class="clip cap" data-start="0.00" data-duration="1.68"><span class="" id="c0_0">Antidepressivos</span> <span class="" id="c0_1">costumam</span> <span class="" id="c0_2">levar</span> </div>
+<div id="cg1" class="clip cap" data-start="1.68" data-duration="1.22"><span class="k" id="c1_0">semanas</span> <span class="" id="c1_1">para</span> <span class="" id="c1_2">fazer</span> </div>
+<div id="cg2" class="clip cap" data-start="2.90" data-duration="0.68"><span class="" id="c2_0">efeito.</span> </div>
+<div id="cg3" class="clip cap" data-start="3.58" data-duration="1.28"><span class="" id="c3_0">Mas</span> <span class="" id="c3_1">cientistas</span> <span class="" id="c3_2">acharam</span> </div>
+<div id="cg4" class="clip cap" data-start="4.86" data-duration="1.06"><span class="" id="c4_0">um</span> <span class="" id="c4_1">peptídeo</span> <span class="" id="c4_2">que,</span> </div>
+<div id="cg5" class="clip cap" data-start="5.92" data-duration="1.00"><span class="" id="c5_0">em</span> <span class="k" id="c5_1">camundongos,</span> </div>
+<div id="cg6" class="clip cap" data-start="6.92" data-duration="0.86"><span class="" id="c6_0">agiu</span> <span class="" id="c6_1">em</span> <span class="k" id="c6_2">quatro</span> </div>
+<div id="cg7" class="clip cap" data-start="7.78" data-duration="0.68"><span class="k" id="c7_0">dias.</span> </div>
+<div id="cg8" class="clip cap" data-start="8.46" data-duration="2.20"><span class="" id="c8_0">É</span> <span class="" id="c8_1">o</span> <span class="k" id="c8_2">PE-22-28.</span> </div>
+<div id="cg9" class="clip cap" data-start="10.66" data-duration="0.62"><span class="" id="c9_0">Ele</span> <span class="" id="c9_1">tem</span> <span class="" id="c9_2">só</span> </div>
+<div id="cg10" class="clip cap" data-start="11.28" data-duration="1.38"><span class="k" id="c10_0">sete</span> <span class="" id="c10_1">aminoácidos,</span> </div>
+<div id="cg11" class="clip cap" data-start="12.66" data-duration="0.68"><span class="" id="c11_0">como</span> <span class="" id="c11_1">um</span> <span class="" id="c11_2">colar</span> </div>
+<div id="cg12" class="clip cap" data-start="13.34" data-duration="1.10"><span class="" id="c12_0">de</span> <span class="k" id="c12_1">sete</span> <span class="k" id="c12_2">contas.</span> </div>
+<div id="cg13" class="clip cap" data-start="14.44" data-duration="0.40"><span class="" id="c13_0">E</span> <span class="" id="c13_1">é</span> <span class="" id="c13_2">um</span> </div>
+<div id="cg14" class="clip cap" data-start="14.84" data-duration="1.56"><span class="" id="c14_0">pedacinho</span> <span class="" id="c14_1">do</span> <span class="k" id="c14_2">spadin,</span> </div>
+<div id="cg15" class="clip cap" data-start="16.40" data-duration="0.86"><span class="" id="c15_0">um</span> <span class="" id="c15_1">peptídeo</span> <span class="" id="c15_2">que</span> </div>
+<div id="cg16" class="clip cap" data-start="17.26" data-duration="0.82"><span class="" id="c16_0">o</span> <span class="" id="c16_1">próprio</span> <span class="" id="c16_2">corpo</span> </div>
+<div id="cg17" class="clip cap" data-start="18.08" data-duration="0.68"><span class="" id="c17_0">produz.</span> </div>
+<div id="cg18" class="clip cap" data-start="18.76" data-duration="0.78"><span class="" id="c18_0">E</span> <span class="" id="c18_1">como</span> <span class="" id="c18_2">ele</span> </div>
+<div id="cg19" class="clip cap" data-start="19.54" data-duration="0.42"><span class="" id="c19_0">age?</span> </div>
+<div id="cg20" class="clip cap" data-start="19.96" data-duration="1.08"><span class="" id="c20_0">No</span> <span class="k" id="c20_1">cérebro</span> <span class="" id="c20_2">existe</span> </div>
+<div id="cg21" class="clip cap" data-start="21.04" data-duration="0.96"><span class="" id="c21_0">um</span> <span class="" id="c21_1">canal</span> <span class="" id="c21_2">chamado</span> </div>
+<div id="cg22" class="clip cap" data-start="22.00" data-duration="1.06"><span class="k" id="c22_0">TREK-1.</span> </div>
+<div id="cg23" class="clip cap" data-start="23.06" data-duration="0.78"><span class="" id="c23_0">Ele</span> <span class="" id="c23_1">funciona</span> <span class="" id="c23_2">como</span> </div>
+<div id="cg24" class="clip cap" data-start="23.84" data-duration="0.78"><span class="" id="c24_0">um</span> <span class="k" id="c24_1">freio,</span> </div>
+<div id="cg25" class="clip cap" data-start="24.62" data-duration="0.50"><span class="" id="c25_0">que</span> <span class="" id="c25_1">deixa</span> <span class="" id="c25_2">o</span> </div>
+<div id="cg26" class="clip cap" data-start="25.12" data-duration="1.14"><span class="" id="c26_0">neurônio</span> <span class="" id="c26_1">mais</span> <span class="k" id="c26_2">quieto.</span> </div>
+<div id="cg27" class="clip cap" data-start="26.26" data-duration="2.18"><span class="" id="c27_0">O</span> <span class="k" id="c27_1">PE-22-28</span> <span class="" id="c27_2">solta</span> </div>
+<div id="cg28" class="clip cap" data-start="28.44" data-duration="0.58"><span class="" id="c28_0">esse</span> <span class="k" id="c28_1">freio.</span> </div>
+<div id="cg29" class="clip cap" data-start="29.02" data-duration="1.14"><span class="" id="c29_0">Com</span> <span class="" id="c29_1">o</span> <span class="k" id="c29_2">spadin,</span> </div>
+<div id="cg30" class="clip cap" data-start="30.16" data-duration="1.10"><span class="" id="c30_0">a</span> <span class="" id="c30_1">versão</span> <span class="" id="c30_2">maior,</span> </div>
+<div id="cg31" class="clip cap" data-start="31.26" data-duration="0.70"><span class="" id="c31_0">os</span> <span class="" id="c31_1">neurônios</span> <span class="" id="c31_2">de</span> </div>
+<div id="cg32" class="clip cap" data-start="31.96" data-duration="1.30"><span class="k" id="c32_0">serotonina</span> <span class="" id="c32_1">ficaram</span> <span class="" id="c32_2">mais</span> </div>
+<div id="cg33" class="clip cap" data-start="33.26" data-duration="0.74"><span class="k" id="c33_0">ativos.</span> </div>
+<div id="cg34" class="clip cap" data-start="34.00" data-duration="0.60"><span class="" id="c34_0">Num</span> <span class="" id="c34_1">estudo</span> <span class="" id="c34_2">de</span> </div>
+<div id="cg35" class="clip cap" data-start="34.60" data-duration="1.24"><span class="k" id="c35_0">2017,</span> </div>
+<div id="cg36" class="clip cap" data-start="35.84" data-duration="0.78"><span class="" id="c36_0">depois</span> <span class="" id="c36_1">de</span> <span class="k" id="c36_2">quatro</span> </div>
+<div id="cg37" class="clip cap" data-start="36.62" data-duration="0.84"><span class="k" id="c37_0">dias,</span> </div>
+<div id="cg38" class="clip cap" data-start="37.46" data-duration="1.20"><span class="" id="c38_0">os</span> <span class="" id="c38_1">camundongos</span> <span class="" id="c38_2">desistiram</span> </div>
+<div id="cg39" class="clip cap" data-start="38.66" data-duration="0.96"><span class="" id="c39_0">menos</span> <span class="" id="c39_1">num</span> <span class="" id="c39_2">teste</span> </div>
+<div id="cg40" class="clip cap" data-start="39.62" data-duration="0.62"><span class="" id="c40_0">de</span> <span class="k" id="c40_1">nado.</span> </div>
+<div id="cg41" class="clip cap" data-start="40.24" data-duration="1.04"><span class="" id="c41_0">E</span> <span class="" id="c41_1">o</span> <span class="k" id="c41_2">hipocampo,</span> </div>
+<div id="cg42" class="clip cap" data-start="41.28" data-duration="0.44"><span class="" id="c42_0">a</span> <span class="" id="c42_1">área</span> <span class="" id="c42_2">da</span> </div>
+<div id="cg43" class="clip cap" data-start="41.72" data-duration="0.68"><span class="" id="c43_0">memória,</span> </div>
+<div id="cg44" class="clip cap" data-start="42.40" data-duration="1.66"><span class="" id="c44_0">ganhou</span> <span class="" id="c44_1">neurônios</span> <span class="k" id="c44_2">novos.</span> </div>
+<div id="cg45" class="clip cap" data-start="44.06" data-duration="0.88"><span class="" id="c45_0">No</span> <span class="" id="c45_1">laboratório,</span> </div>
+<div id="cg46" class="clip cap" data-start="44.94" data-duration="0.92"><span class="" id="c46_0">ele</span> <span class="" id="c46_1">também</span> <span class="" id="c46_2">aumentou</span> </div>
+<div id="cg47" class="clip cap" data-start="45.86" data-duration="0.90"><span class="" id="c47_0">as</span> <span class="k" id="c47_1">conexões</span> <span class="" id="c47_2">entre</span> </div>
+<div id="cg48" class="clip cap" data-start="46.76" data-duration="0.74"><span class="" id="c48_0">os</span> <span class="" id="c48_1">neurônios.</span> </div>
+<div id="cg49" class="clip cap" data-start="47.50" data-duration="0.80"><span class="" id="c49_0">E</span> <span class="" id="c49_1">tem</span> <span class="" id="c49_2">mais.</span> </div>
+<div id="cg50" class="clip cap" data-start="48.30" data-duration="1.02"><span class="" id="c50_0">O</span> <span class="" id="c50_1">efeito</span> <span class="" id="c50_2">durou</span> </div>
+<div id="cg51" class="clip cap" data-start="49.32" data-duration="1.42"><span class="k" id="c51_0">23</span> <span class="k" id="c51_1">horas.</span> </div>
+<div id="cg52" class="clip cap" data-start="50.74" data-duration="0.82"><span class="" id="c52_0">O</span> <span class="" id="c52_1">do</span> <span class="k" id="c52_2">spadin</span> </div>
+<div id="cg53" class="clip cap" data-start="51.56" data-duration="1.08"><span class="" id="c53_0">durava</span> <span class="k" id="c53_1">sete.</span> </div>
+<div id="cg54" class="clip cap" data-start="52.64" data-duration="0.94"><span class="" id="c54_0">Em</span> <span class="k" id="c54_1">pessoas,</span> </div>
+<div id="cg55" class="clip cap" data-start="53.58" data-duration="0.52"><span class="" id="c55_0">ainda</span> <span class="" id="c55_1">não</span> <span class="" id="c55_2">foi</span> </div>
+<div id="cg56" class="clip cap" data-start="54.10" data-duration="0.76"><span class="k" id="c56_0">testado.</span> </div>
+<div id="cg57" class="clip cap" data-start="54.86" data-duration="0.72"><span class="" id="c57_0">Está</span> <span class="" id="c57_1">em</span> <span class="k" id="c57_2">estudo.</span> </div>
+<div id="cg58" class="clip cap" data-start="55.58" data-duration="1.14"><span class="" id="c58_0">Resumindo,</span> </div>
+<div id="cg59" class="clip cap" data-start="56.72" data-duration="2.14"><span class="" id="c59_0">o</span> <span class="k" id="c59_1">PE-22-28</span> <span class="" id="c59_2">solta</span> </div>
+<div id="cg60" class="clip cap" data-start="58.86" data-duration="0.50"><span class="" id="c60_0">o</span> <span class="" id="c60_1">freio</span> <span class="" id="c60_2">do</span> </div>
+<div id="cg61" class="clip cap" data-start="59.36" data-duration="0.66"><span class="k" id="c61_0">neurônio.</span> </div>
+<div id="cg62" class="clip cap" data-start="60.02" data-duration="1.24"><span class="" id="c62_0">Conteúdo</span> <span class="" id="c62_1">educativo</span> <span class="" id="c62_2">da</span> </div>
+<div id="cg63" class="clip cap" data-start="61.26" data-duration="1.12"><span class="" id="c63_0">Obolari</span> <span class="" id="c63_1">Academy.</span> </div>
+<div id="cg64" class="clip cap" data-start="62.38" data-duration="1.04"><span class="" id="c64_0">Não</span> <span class="" id="c64_1">é</span> <span class="" id="c64_2">recomendação</span> </div>
+<div id="cg65" class="clip cap" data-start="63.42" data-duration="1.18"><span class="" id="c65_0">médica</span> <span class="" id="c65_1">nem</span> <span class="" id="c65_2">sugestão</span> </div>
+<div id="cg66" class="clip cap" data-start="64.60" data-duration="0.58"><span class="" id="c66_0">de</span> <span class="" id="c66_1">uso.</span> </div>
+<div id="cg67" class="clip cap" data-start="65.18" data-duration="0.84"><span class="" id="c67_0">Qual</span> <span class="" id="c67_1">peptídeo</span> <span class="" id="c67_2">do</span> </div>
+<div id="cg68" class="clip cap" data-start="66.02" data-duration="0.88"><span class="k" id="c68_0">cérebro</span> <span class="" id="c68_1">você</span> <span class="" id="c68_2">quer</span> </div>
+<div id="cg69" class="clip cap" data-start="66.90" data-duration="0.50"><span class="" id="c69_0">que</span> <span class="" id="c69_1">eu</span> <span class="" id="c69_2">explique</span> </div>
+<div id="cg70" class="clip cap" data-start="67.40" data-duration="0.68"><span class="" id="c70_0">no</span> <span class="" id="c70_1">próximo?</span> </div>
+<div id="cg71" class="clip cap" data-start="68.08" data-duration="0.82"><span class="k" id="c71_0">Comenta</span> <span class="" id="c71_1">aqui.</span> </div>
+<div id="flash" class="clip" data-start="0" data-duration="69.0"></div>
+<div id="tag" class="clip" data-start="0" data-duration="69.0"><span class="d"></span>OBOLARI ACADEMY<span class="c">· PEPTÍDEOS</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="69.0">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+tl.fromTo("#h0 .m",{scale:1.6,opacity:0},{scale:1,opacity:1,duration:0.3,ease:"power4.out"},0.0);
+tl.fromTo("#flash",{opacity:0.5},{opacity:0,duration:0.25},0.0);
+tl.fromTo("#h1",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},3.5);
+tl.fromTo("#h3",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},10.6);
+tl.fromTo("#h4",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},14.4);
+tl.fromTo("#h5",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},18.7);
+tl.fromTo("#h6",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},29.0);
+tl.fromTo("#h7",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},33.9);
+tl.fromTo("#h8",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},47.4);
+tl.fromTo("#h9",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},52.5);
+tl.fromTo("#h10",{y:30,opacity:0},{y:0,opacity:1,duration:0.3,ease:"power3.out"},60.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},3.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},8.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},10.6);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},14.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},18.7);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},22.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},26.2);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},29.0);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},33.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},37.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},40.2);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},43.9);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},47.4);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},52.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},55.5);
+tl.fromTo("#flash",{opacity:0.3},{opacity:0,duration:0.18},60.0);
+tl.fromTo("#o4",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},31.3);
+tl.fromTo("#o8",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},53.6);
+tl.fromTo("#d4 span",{scale:2.8,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"power4.out"},7.45);
+tl.fromTo("#flash",{opacity:0.55},{opacity:0,duration:0.2},7.45);
+tl.fromTo("#h2 .m",{scale:2.4,opacity:0},{scale:1,opacity:1,duration:0.28,ease:"power4.out"},8.9);
+tl.fromTo("#h2 .s",{opacity:0},{opacity:1,duration:0.2},8.4);
+tl.fromTo("#flash",{opacity:0.45},{opacity:0,duration:0.2},8.9);
+tl.fromTo("#o2 .beads",{opacity:0},{opacity:1,duration:0.25},15.5);
+tl.to("#o2 .beads i:not(.g)",{opacity:0.25,duration:0.3},16.6);
+tl.fromTo("#o2 .pill",{opacity:0,y:20},{opacity:1,y:0,duration:0.3,ease:"back.out(2)"},16.6);
+tl.fromTo("#brk",{opacity:0,scale:0.4},{opacity:1,scale:1,duration:0.35,ease:"back.out(2.5)"},22.0);
+tl.fromTo("#p1",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},24.0);
+tl.fromTo("#bline",{scaleX:0},{scaleX:1,duration:0.3,ease:"power3.out"},27.75);
+tl.to("#brk",{x:-14,duration:0.05,yoyo:true,repeat:5},27.75);
+tl.fromTo("#p2",{opacity:0,x:200},{opacity:1,x:0,duration:0.35,ease:"back.out(1.8)"},27.9);
+tl.fromTo("#flash",{opacity:0.45},{opacity:0,duration:0.2},27.75);
+tl.fromTo("#o5 .study",{opacity:0,y:120,rotation:-6},{opacity:1,y:0,rotation:-2,duration:0.4,ease:"back.out(1.8)"},34.5);
+tl.fromTo("#q1",{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.25,ease:"back.out(2.5)"},38.1);
+tl.fromTo("#q2",{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.25,ease:"back.out(2.5)"},42.4);
+tl.fromTo("#q3",{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.25,ease:"back.out(2.5)"},45.3);
+tl.fromTo("#clock",{y:-900,rotation:-30},{y:0,rotation:0,duration:0.55,ease:"bounce.out"},47.45);
+tl.fromTo("#bg",{x:0},{x:-24,duration:0.05,yoyo:true,repeat:5},47.95);
+tl.fromTo("#flash",{opacity:0.6},{opacity:0,duration:0.25},47.95);
+tl.fromTo("#o7",{opacity:0},{opacity:1,duration:0.2},48.3);
+tl.fromTo("#b1",{scaleX:0},{scaleX:1,duration:0.6,ease:"power2.out"},48.4);
+tl.fromTo("#b2",{scaleX:0},{scaleX:1,duration:1.0,ease:"power2.out"},49.3);
+tl.fromTo("#n23",{textContent:0},{textContent:23,duration:1.0,ease:"power2.out",snap:{textContent:1}},49.3);
+tl.fromTo("#sa",{opacity:0,x:-300},{opacity:1,x:0,duration:0.3,ease:"back.out(2)"},56.7);
+tl.fromTo("#sb",{opacity:0,scale:2.2},{opacity:1,scale:1,duration:0.25,ease:"power4.out"},58.1);
+tl.fromTo("#sc",{opacity:0,y:30},{opacity:1,y:0,duration:0.3},59.2);
+tl.fromTo("#flash",{opacity:0.5},{opacity:0,duration:0.2},58.1);
+tl.fromTo("#cta span",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.4,ease:"back.out(2.2)"},65.2);
+tl.to("#cta span",{scale:1.06,duration:0.45,yoyo:true,repeat:3,ease:"sine.inOut"},65.7);
+tl.fromTo("#handle span",{opacity:0,y:20},{opacity:1,y:0,duration:0.3},65.4);
+tl.fromTo("#bg",{scale:1.0},{scale:1.06,duration:69.0,ease:"none"},0);
+tl.fromTo("#c0_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.00);
+tl.fromTo("#c0_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},0.94);
+tl.fromTo("#c0_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.42);
+tl.fromTo("#c1_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},1.68);
+tl.fromTo("#c1_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.36);
+tl.fromTo("#c1_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.64);
+tl.fromTo("#c2_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},2.90);
+tl.fromTo("#c3_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.58);
+tl.fromTo("#c3_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},3.82);
+tl.fromTo("#c3_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.44);
+tl.fromTo("#c4_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},4.86);
+tl.fromTo("#c4_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.00);
+tl.fromTo("#c4_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.58);
+tl.fromTo("#c5_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},5.92);
+tl.fromTo("#c5_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.12);
+tl.fromTo("#c6_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},6.92);
+tl.fromTo("#c6_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.26);
+tl.fromTo("#c6_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.48);
+tl.fromTo("#c7_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},7.78);
+tl.fromTo("#c8_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.46);
+tl.fromTo("#c8_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.74);
+tl.fromTo("#c8_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},8.90);
+tl.fromTo("#c9_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.66);
+tl.fromTo("#c9_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},10.86);
+tl.fromTo("#c9_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.04);
+tl.fromTo("#c10_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.28);
+tl.fromTo("#c10_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},11.78);
+tl.fromTo("#c11_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.66);
+tl.fromTo("#c11_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},12.90);
+tl.fromTo("#c11_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.00);
+tl.fromTo("#c12_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.34);
+tl.fromTo("#c12_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.48);
+tl.fromTo("#c12_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},13.88);
+tl.fromTo("#c13_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.44);
+tl.fromTo("#c13_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.72);
+tl.fromTo("#c13_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.78);
+tl.fromTo("#c14_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},14.84);
+tl.fromTo("#c14_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.50);
+tl.fromTo("#c14_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},15.64);
+tl.fromTo("#c15_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.40);
+tl.fromTo("#c15_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},16.58);
+tl.fromTo("#c15_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.14);
+tl.fromTo("#c16_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.26);
+tl.fromTo("#c16_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.38);
+tl.fromTo("#c16_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},17.72);
+tl.fromTo("#c17_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.08);
+tl.fromTo("#c18_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},18.76);
+tl.fromTo("#c18_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.06);
+tl.fromTo("#c18_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.34);
+tl.fromTo("#c19_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.54);
+tl.fromTo("#c20_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},19.96);
+tl.fromTo("#c20_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.20);
+tl.fromTo("#c20_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},20.70);
+tl.fromTo("#c21_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.04);
+tl.fromTo("#c21_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.20);
+tl.fromTo("#c21_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},21.52);
+tl.fromTo("#c22_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},22.00);
+tl.fromTo("#c23_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.06);
+tl.fromTo("#c23_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.22);
+tl.fromTo("#c23_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.64);
+tl.fromTo("#c24_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},23.84);
+tl.fromTo("#c24_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.02);
+tl.fromTo("#c25_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.62);
+tl.fromTo("#c25_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},24.72);
+tl.fromTo("#c25_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.04);
+tl.fromTo("#c26_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.12);
+tl.fromTo("#c26_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.48);
+tl.fromTo("#c26_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},25.70);
+tl.fromTo("#c27_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.26);
+tl.fromTo("#c27_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},26.42);
+tl.fromTo("#c27_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},27.72);
+tl.fromTo("#c28_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.44);
+tl.fromTo("#c28_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},28.64);
+tl.fromTo("#c29_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.02);
+tl.fromTo("#c29_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.38);
+tl.fromTo("#c29_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},29.54);
+tl.fromTo("#c30_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.16);
+tl.fromTo("#c30_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.26);
+tl.fromTo("#c30_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},30.54);
+tl.fromTo("#c31_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.26);
+tl.fromTo("#c31_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.40);
+tl.fromTo("#c31_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.84);
+tl.fromTo("#c32_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},31.96);
+tl.fromTo("#c32_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},32.58);
+tl.fromTo("#c32_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.00);
+tl.fromTo("#c33_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},33.26);
+tl.fromTo("#c34_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.00);
+tl.fromTo("#c34_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.14);
+tl.fromTo("#c34_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.46);
+tl.fromTo("#c35_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},34.60);
+tl.fromTo("#c36_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},35.84);
+tl.fromTo("#c36_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.08);
+tl.fromTo("#c36_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.30);
+tl.fromTo("#c37_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},36.62);
+tl.fromTo("#c38_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.46);
+tl.fromTo("#c38_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},37.52);
+tl.fromTo("#c38_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.12);
+tl.fromTo("#c39_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},38.66);
+tl.fromTo("#c39_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.10);
+tl.fromTo("#c39_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.28);
+tl.fromTo("#c40_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.62);
+tl.fromTo("#c40_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},39.82);
+tl.fromTo("#c41_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.24);
+tl.fromTo("#c41_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.46);
+tl.fromTo("#c41_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},40.54);
+tl.fromTo("#c42_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.28);
+tl.fromTo("#c42_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.44);
+tl.fromTo("#c42_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.60);
+tl.fromTo("#c43_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},41.72);
+tl.fromTo("#c44_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.40);
+tl.fromTo("#c44_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},42.78);
+tl.fromTo("#c44_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},43.32);
+tl.fromTo("#c45_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.06);
+tl.fromTo("#c45_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.22);
+tl.fromTo("#c46_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},44.94);
+tl.fromTo("#c46_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.08);
+tl.fromTo("#c46_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.32);
+tl.fromTo("#c47_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.86);
+tl.fromTo("#c47_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},45.98);
+tl.fromTo("#c47_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.54);
+tl.fromTo("#c48_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.76);
+tl.fromTo("#c48_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},46.86);
+tl.fromTo("#c49_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.50);
+tl.fromTo("#c49_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.64);
+tl.fromTo("#c49_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},47.78);
+tl.fromTo("#c50_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.30);
+tl.fromTo("#c50_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.58);
+tl.fromTo("#c50_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},48.98);
+tl.fromTo("#c51_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.32);
+tl.fromTo("#c51_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},49.94);
+tl.fromTo("#c52_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.74);
+tl.fromTo("#c52_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},50.98);
+tl.fromTo("#c52_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.08);
+tl.fromTo("#c53_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.56);
+tl.fromTo("#c53_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},51.92);
+tl.fromTo("#c54_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.64);
+tl.fromTo("#c54_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},52.82);
+tl.fromTo("#c55_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.58);
+tl.fromTo("#c55_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.80);
+tl.fromTo("#c55_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},53.94);
+tl.fromTo("#c56_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.10);
+tl.fromTo("#c57_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},54.86);
+tl.fromTo("#c57_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.04);
+tl.fromTo("#c57_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.18);
+tl.fromTo("#c58_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},55.58);
+tl.fromTo("#c59_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.72);
+tl.fromTo("#c59_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},56.78);
+tl.fromTo("#c59_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.10);
+tl.fromTo("#c60_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.86);
+tl.fromTo("#c60_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},58.98);
+tl.fromTo("#c60_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},59.26);
+tl.fromTo("#c61_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},59.36);
+tl.fromTo("#c62_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},60.02);
+tl.fromTo("#c62_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},60.50);
+tl.fromTo("#c62_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.10);
+tl.fromTo("#c63_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.26);
+tl.fromTo("#c63_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},61.76);
+tl.fromTo("#c64_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},62.38);
+tl.fromTo("#c64_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},62.70);
+tl.fromTo("#c64_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},62.82);
+tl.fromTo("#c65_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},63.42);
+tl.fromTo("#c65_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},63.88);
+tl.fromTo("#c65_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.10);
+tl.fromTo("#c66_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.60);
+tl.fromTo("#c66_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},64.74);
+tl.fromTo("#c67_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.18);
+tl.fromTo("#c67_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.38);
+tl.fromTo("#c67_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},65.92);
+tl.fromTo("#c68_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.02);
+tl.fromTo("#c68_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.48);
+tl.fromTo("#c68_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.72);
+tl.fromTo("#c69_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},66.90);
+tl.fromTo("#c69_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},67.00);
+tl.fromTo("#c69_2",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},67.08);
+tl.fromTo("#c70_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},67.40);
+tl.fromTo("#c70_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},67.52);
+tl.fromTo("#c71_0",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},68.08);
+tl.fromTo("#c71_1",{opacity:0.25,y:8},{opacity:1,y:0,duration:0.12},68.50);
+tl.fromTo("#bd0",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},12.90);
+tl.fromTo("#bd1",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},12.99);
+tl.fromTo("#bd2",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},13.08);
+tl.fromTo("#bd3",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},13.17);
+tl.fromTo("#bd4",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},13.26);
+tl.fromTo("#bd5",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},13.35);
+tl.fromTo("#bd6",{scale:0},{scale:1,duration:0.16,ease:"back.out(3)"},13.44);
+window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
