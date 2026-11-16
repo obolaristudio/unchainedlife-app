@@ -33,3 +33,10 @@
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
+
+## Blends GLOW / KLOW (checado em 16/11/2026)
+- GLOW = GHK-Cu + BPC-157 + TB-500. KLOW = GLOW + KPV. Nomes criados por vendedores; nenhum estudo publicado da mistura (células, animais ou humanos).
+- KPV (Lys-Pro-Val): tripeptídeo natural, anti-inflamatório em colite de camundongos (Dalmasso et al., Gastroenterology 2008).
+- GHK-Cu: Gly-His-Lys + cobre, presente no soro humano; estimula colágeno em fibroblastos; evidência humana sobretudo tópica.
+- TB-500: derivado da timosina beta-4; proibido pela WADA (S2.3) em 2026 e mantido na lista de 2027 (fontes secundárias; conferir em wada-ama.org).
+- Política HHS out/2026: manipulação de BPC-157, TB-500 e KPV só como produto de ingrediente único → blends ficam de fora. GHK-Cu não foi incluído (revisão fev/2027).
