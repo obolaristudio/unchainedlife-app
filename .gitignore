@@ -21,3 +21,6 @@ videos/*/render.mp4
 videos/*/snaps/
 videos/*/thumbs/
 videos/*/final/
+videos/*/clips/
+videos/*/ia/
+videos/*/carrossel/*.html

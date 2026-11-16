@@ -20,3 +20,4 @@
 | KLOW — o que a ciência sabe (78 s) | Mixkit 42191 42195 42185 5485 50426 23629 24658 3951 8764 5763 17497 42091 588 · formato: quebra-cabeça 4 peças + cards peça por peça + "0 ESTUDOS" + surpresa EUA "MISTURA: FORA" + carimbo antidoping |
 | GHK-Cu × GLOW × KLOW (70 s) | Mixkit 42184 22333 5579 31115 5511 5661 50422 42189 40749 36949 33376 · formato: 3 nomes + equações que se montam + tabela-resumo + carimbo "NUNCA estudadas juntas" |
 | Espirulina (78 s, estrutura do carrossel de "só verde*") | Mixkit 51799 52005 3775 3959 50165 676 8228 24897 47401 44888 5618 34625 51807 51804 988 · formato: curiosidades em sequência + contador "3 bilhões" + "+50% proteína" + MITO? + carimbo "B12 FALSA" |
+| Espirulina, versão IA (78 s) + carrossel 9 slides | 9 imagens Higgsfield gpt_image_2_6 (jobs 77aae377 4fd20250 22fad8f1 0396a27b b6e3e63b 7b665c66 663df275 2a20e8bc 3ad17553) animadas com kling3_0 · estilo editorial verde-escuro (referência @soverde.pt) |
