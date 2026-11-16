@@ -13,3 +13,11 @@ videos/*/voz*.wav
 videos/*/voz.json
 videos/*/musica.mp3
 videos/*/mix.wav
+videos/*/voz_raw.mp3
+videos/*/w.log
+videos/*/.render.hf-transaction-*/
+videos/*/work-*/
+videos/*/render.mp4
+videos/*/snaps/
+videos/*/thumbs/
+videos/*/final/
