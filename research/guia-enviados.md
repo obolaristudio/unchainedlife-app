@@ -12,3 +12,4 @@
 | 2026-11-15 | 17901123732397373 | @norbertodalmas | Reel cobre (18644058412053163) | DM enviada + resposta pública |
 | 2026-11-15 | 17994368367064568 | @ssandra_simoes | Reel cobre (18644058412053163) | DM enviada + resposta pública |
 | 2026-11-15 | 18004244787013185 | @chacomessencias | Reel cobre (18644058412053163) | DM enviada + resposta pública |
+| 2026-11-16 | 18119815655105722 | @messias_ungido | Reel cobre (18644058412053163) | DM enviada + resposta pública |
