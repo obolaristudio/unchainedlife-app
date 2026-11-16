@@ -19,3 +19,4 @@
 | PE-22-28 — freio do neurônio (69 s, roteiro do Maxwell ajustado) | Mixkit 28889 32060 5580 23903 5663 5637 48733 5644 5636 46748 43064 5643 28892 33353 · formato: contador 4 DIAS + colar 7/17 contas + freio TREK-1 riscado + checklist + barras 7 h × 23 h + relógio caindo |
 | KLOW — o que a ciência sabe (78 s) | Mixkit 42191 42195 42185 5485 50426 23629 24658 3951 8764 5763 17497 42091 588 · formato: quebra-cabeça 4 peças + cards peça por peça + "0 ESTUDOS" + surpresa EUA "MISTURA: FORA" + carimbo antidoping |
 | GHK-Cu × GLOW × KLOW (70 s) | Mixkit 42184 22333 5579 31115 5511 5661 50422 42189 40749 36949 33376 · formato: 3 nomes + equações que se montam + tabela-resumo + carimbo "NUNCA estudadas juntas" |
+| Espirulina (78 s, estrutura do carrossel de "só verde*") | Mixkit 51799 52005 3775 3959 50165 676 8228 24897 47401 44888 5618 34625 51807 51804 988 · formato: curiosidades em sequência + contador "3 bilhões" + "+50% proteína" + MITO? + carimbo "B12 FALSA" |
