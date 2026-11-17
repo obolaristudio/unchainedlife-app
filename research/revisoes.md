@@ -58,3 +58,9 @@ Decisão: próximos da série abrem com benefício/curiosidade em linguagem leig
 ## Cobre — ~42 h (lido em 16/11 01:00 UTC; postado pelo Maxwell em 15/11 01:47 ET) · https://www.instagram.com/reel/DfwKzuDsIuB/
 Views 3.603 · alcance 3.033 · envios 120 (**33,3/1k, recorde**) · salvos 37 (**10,3/1k, recorde**) · comentários 29 · curtidas 147 · tempo médio 17,8 s (vídeo 88 s).
 Leitura: gancho amplo ("mineral que mata bactérias só de encostar") + vídeo real do Maxwell na abertura → saiu da base (alcance 11× o do BPC). Retenção menor que BPC/Carbo: testar versão mais curta (60 s).
+
+## Resveratrol — 24 h (lido em 17/11 01:16 UTC; postado 15/11 20:10 ET) · https://www.instagram.com/reel/DfyIMA7mfV0/
+Views 1.609 · alcance 1.398 · envios 34 (21,1/1k) · salvos 4 (2,5/1k) · comentários 5 · curtidas 47 · tempo médio 12,6 s.
+Comparação: Cobre 33,3 envios/1k e 10,3 salv/1k (cobre atualizado em 17/11: 4.504 views, 129 envios = 28,6/1k, 42 salvos = 9,3/1k) · Carboidrato 16,8 e 8,3 · BPC-157 12,4 e 3,1.
+Leitura: compartilhável (2º melhor envios/1k depois do cobre), mas pouco salvo e retenção baixa. Gancho "parte da uva vai pro lixo" puxa clique; conteúdo (estudos com efeito pequeno) não dá motivo para salvar. Postado num domingo à noite.
+Decisão: manter ganchos de curiosidade ampla; incluir algo "útil para guardar" (lista prática de alimentos/checklist) para subir salvos; vídeos mais curtos (≤60 s) quando o tema for menos denso.
