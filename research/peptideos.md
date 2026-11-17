@@ -1,6 +1,9 @@
 # Série "um peptídeo por vídeo"
 
+> ATENÇÃO (17/11/2026): esta lista estava desatualizada. Antes de escolher peptídeo, conferir também o `fila.json` do ramo `media` (todos os itens `publicado`/`agendado`). Já publicados até 16/11: retatrutida, GHK-Cu (3 vídeos), semaglutida, BPC-157 (2), TB-500, tirzepatida, insulina, CJC-1295, ipamorelina, PT-141, tesamorelina, MOTS-c, epitalon, KPV, DSIP, sermorelina, semax, timosina alfa-1, AOD-9604, selank, liraglutida. Na rotina de 17/11 gastei créditos de voz com GHK-Cu e sermorelina por não ter conferido isso (áudios descartados).
+
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
+- (novos candidatos 17/11) LL-37, Dihexa (ambos na revisão do comitê da FDA prevista para 2027), Oxitocina e Elamipretida (feitos em 17/11)
 - GHK-Cu
 - BPC-157
 - Retatrutida
@@ -17,6 +20,8 @@
 | Data | Peptídeo | Link do post |
 |---|---|---|
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
+| 2026-11-17 | Ocitocina ("hormônio do amor") | (link após publicar, ver fila.json) |
+| 2026-11-17 | Elamipretida / SS-31 | (link após publicar, ver fila.json) |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
