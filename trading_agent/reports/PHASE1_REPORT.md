@@ -108,6 +108,20 @@ Os resultados por janela de 6 meses estão em `phase1_results.json` (`candidates
 | B. Reduzir custo antes de tudo | Confirmar a sua taxa real na Crypto.com e usar ordens limit (maker). Se a taxa real ficar perto de 0,075%, rodo a validação de novo | Barato e com alto impacto: o custo é o principal motivo da reprovação |
 | C. Parar aqui | Para uma conta de R$ 5 mil, um aporte mensal fixo (DCA) em BTC com a regra de tendência só para reduzir a exposição em quedas | Muitas vezes é a decisão financeira certa |
 
+
+### Opção B executada: sensibilidade à taxa (18/11/2026)
+Validação completa refeita para cada faixa de taxa (custo = taxa + 0,05% de slippage). Tabela em `fee_sensitivity.md`.
+
+| Taxa por lado | SMA_TREND | TSMOM |
+|---|---|---|
+| 0,075% (maker, faixa baixa) | Sharpe 0,95 · 6/7 · DSR 0,65 · **WATCHLIST** | Sharpe 0,82 · 6/7 · DSR 0,53 · **WATCHLIST** |
+| 0,10% | Sharpe 0,92 · 6/7 · DSR 0,60 · **WATCHLIST** | Sharpe 0,81 · 6/7 · DSR 0,49 · **WATCHLIST** |
+| 0,15% | 5/7 · REJECT | 4/7 · REJECT |
+| 0,25% | 5/7 · REJECT | 5/7 · REJECT |
+| 0,50% (taker de varejo) | 4/7 · REJECT (perde para o buy-and-hold) | 4/7 · REJECT |
+
+**Linha de corte: taxa de até 0,10% por lado.** Acima disso, as duas reprovam. Abaixo disso, passam em 6 dos 7 critérios e falham só no DSR (máximo de 0,65 contra 0,95). Mesmo no melhor caso, **dinheiro real continua vetado**. A taxa define se vale ir para a simulação (Opção A).
+
 ### Se você aprovar a Opção A, estas regras já ficam travadas no código da Fase 2
 - **Dimensionamento:** volatilidade-alvo de 10% ao ano (e não 20%), o que reduz pela metade os drawdowns da tabela (estimativa: −10% a −16%). **[ESTIMATIVA]** Ainda é preciso validar se isso fica abaixo do kill switch. Teto de 30% da conta em BTC; frações de Kelly (nunca Kelly cheio) só depois de existir histórico real.
 - **Limites, todos em código:** perda diária máxima de 3%; **drawdown máximo de 15%, que zera todas as posições e trava o sistema**; dado com mais de 26h é considerado velho e bloqueia ordens; 3 erros de API seguidos param o sistema; o kill switch é checado antes de **toda** ordem.

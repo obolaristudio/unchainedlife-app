@@ -59,7 +59,7 @@ def funding_snapshot():
     return out
 
 
-def main(refresh: bool) -> None:
+def main(refresh: bool, tag: str = "", quiet: bool = False) -> dict:
     REPORTS.mkdir(exist_ok=True)
     results = {"generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                "cost_base_per_side": bt.BASE_COST, "cost_stress_per_side": bt.STRESS_COST,
@@ -151,8 +151,10 @@ def main(refresh: bool) -> None:
             and checks["survives_2x_costs"] and checks["robust_parameters"] else "REJECT")
     results["candidates"] = rows
 
-    (REPORTS / "phase1_results.json").write_text(json.dumps(results, indent=2, default=str))
-    write_tables(results)
+    (REPORTS / f"phase1_results{tag}.json").write_text(json.dumps(results, indent=2, default=str))
+    write_tables(results, tag)
+    if quiet:
+        return results
     print(f"variants tested: {n_trials}")
     for r in sorted(rows, key=lambda x: -x["sharpe"]):
         print(f"{r['asset']} {r['strategy']:<22} SR {r['sharpe']:>5} SR2x {r['sharpe_2x_cost']:>5} "
@@ -160,9 +162,10 @@ def main(refresh: bool) -> None:
               f"pass {r['passed']}/7 {r['verdict']}")
     for a, v in results["assets"].items():
         print(a, "B&H", v["buy_hold"], "VT-B&H", v["voltarget_hold"])
+    return results
 
 
-def write_tables(res: dict) -> None:
+def write_tables(res: dict, tag: str = "") -> None:
     L = [f"_Gerado em {res['generated_utc']} por `python research.py`. Variantes testadas: "
          f"{res['total_variants_tested']}._", ""]
     L += ["| Ativo | Estratégia | Sharpe | Sharpe 2x custo | CAGR % | Max DD % | Trades | Win % | PF | DSR | Testes ok | Veredito |",
@@ -175,7 +178,7 @@ def write_tables(res: dict) -> None:
         L.append(f"| {r['asset']} | {r['strategy']} | {r['sharpe']} | {r['sharpe_2x_cost']} | {r['cagr_pct']} | "
                  f"{r['max_dd_pct']} | {r['trades']} | {r['win_rate_pct']} | {r['profit_factor']} | {r['dsr']} | "
                  f"{r['passed']}/7 | {r['verdict']} |")
-    (REPORTS / "phase1_tables.md").write_text("\n".join(L) + "\n")
+    (REPORTS / f"phase1_tables{tag}.md").write_text("\n".join(L) + "\n")
 
 
 if __name__ == "__main__":
