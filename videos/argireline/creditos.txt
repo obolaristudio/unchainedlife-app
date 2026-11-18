@@ -1,0 +1,4 @@
+Música: Mixkit #159 (Mixkit Free License)
+Clipes: Mixkit (ver research/clipes-usados.md)
+SFX: brand/sfx-earshot, brand/sfx
+Voz: ElevenLabs "Maxwell Obolari" (eleven_v4)

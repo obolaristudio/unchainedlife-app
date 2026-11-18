@@ -19,6 +19,8 @@
 | 2026-10-31 | Semaglutida | https://www.instagram.com/reel/DfKephWjcyv/ |
 | 2026-11-17 | Elamipretida (SS-31) | https://www.instagram.com/reel/Df2sDqJmfIG/ |
 | 2026-11-17 | Ocitocina | https://www.instagram.com/reel/Df3UyYUmJJD/ |
+| 2026-11-18 | Argireline (acetil hexapeptídeo-8, cosmético) | na fila: 18/11 11:10 ET |
+| 2026-11-18 | Humanina | na fila: 18/11 18:10 ET |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -34,4 +36,6 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Argireline | ingrediente cosmético (FDA não aprova cosmético antes da venda) | cosmético regularizado pela Anvisa | — | UE: ingrediente cosmético | FDA (cosméticos) · Anvisa (cosméticos) |
+| Humanina | não aprovada (pesquisa) | sem registro | — | sem aprovação encontrada em nenhum país (18/11/2026) | busca 18/11/2026 |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
