@@ -35,7 +35,10 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
-3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS` com `fields: "id,text,from,parent_id,timestamp"` (traz comentários E respostas da conversa). O autor vem em `from.username`; `INSTAGRAM_GET_IG_COMMENT_REPLIES` NÃO traz o autor, então não usar para decidir se já respondemos.
+   - **Anti-duplicata (bug de 11–17/11/2026: 57 respostas repetidas na mesma conversa):** agrupar por conversa (comentário principal + itens com `parent_id` igual ao id dele). Uma conversa só recebe resposta se a última mensagem dela for de outra pessoa, for mais nova que a nossa última resposta ali, E trouxer pergunta ou conteúdo novo. Reação solta ("👏", "🫡", "@obolari_academy", emoji) dentro de conversa já respondida → não responder.
+   - Comentário com `parent_id` nunca é tratado como comentário novo por si só (ele nunca tem respostas próprias, então sempre pareceria "não respondido").
+   - Máximo de 1 resposta nossa por conversa por dia.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
