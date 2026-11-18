@@ -23,7 +23,7 @@ from agent.walkforward import make_folds, walk_forward
 
 ROOT = Path(__file__).resolve().parent
 REPORTS = ROOT / "reports"
-ASSETS = {"BTC": ("BTCUSDT", "BTC_USD"), "ETH": ("ETHUSDT", "ETH_USD")}
+ASSETS = {"BTC": ("BTCUSDT", "BTC_USD")}  # BTC-only by owner decision (2026-11-18)
 SIZING_TARGET_VOL = 0.20
 
 # Pre-registered verdict rules (fixed before looking at results).
