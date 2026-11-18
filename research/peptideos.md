@@ -1,6 +1,7 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
+- MOTS-c (parte 2; pedido de @walarcao no Reel da elamipretida, 18/11/2026; o 1º vídeo saiu em 06/11)
 - GHK-Cu
 - BPC-157
 - Retatrutida
