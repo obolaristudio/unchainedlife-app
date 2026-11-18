@@ -36,6 +36,8 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
 3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+   - **Conversa já respondida não recebe nova resposta (18/11/2026):** se @obolari_academy já tem QUALQUER resposta naquela conversa, ela está fechada. Respostas de outras pessoas DENTRO da conversa (ex.: "@obolari_academy 👏", "🫡") NÃO são comentários novos e não recebem resposta, nem que sejam posteriores à nossa. Só se responde a comentário de primeiro nível (sem `parent_id`) sem nenhuma resposta nossa. Entre 11 e 18/11 essa falha gerou cerca de 57 respostas repetidas em 6 conversas (apagadas em 18/11).
+   - **Uma rotina por vez:** se aparecerem respostas nossas em pares com ~1 min de diferença, há duas tarefas agendadas rodando juntas; avisar o Maxwell.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
