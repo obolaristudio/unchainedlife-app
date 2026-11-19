@@ -477,5 +477,15 @@
     "obs": "Capa C escolhida pelo Maxwell (Glicose normal / Insulina lá em cima). Aguardando horário.",
     "ig_media_id": "18135960100672408",
     "permalink": "https://www.instagram.com/reel/Df56T1fGZ_g/"
+  },
+  {
+    "id": "2026-11-19-dmso",
+    "status": "agendado",
+    "publicar_apos": "2026-11-19 12:10",
+    "video_url": "https://res-prod.buzzy.now/file-service/3717c8ff-c94e-4132-afa4-af4b79378719.mp4",
+    "cover_url": "https://res-prod.buzzy.now/file-service/1b3d1bb0-5743-4b6f-9018-bde70dc5047f.jpg",
+    "legenda_arquivo": "videos/dmso/legenda.txt (ramo main)",
+    "trigger": "trig_013FhZsg9gW95DVNGhypvpFj",
+    "obs": "Agendado nesta sessão via send_later; a rotina horária NÃO deve publicar (status agendado)."
   }
 ]
