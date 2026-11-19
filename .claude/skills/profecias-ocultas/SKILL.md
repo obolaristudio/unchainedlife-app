@@ -20,7 +20,7 @@ description: Linha editorial do segundo Instagram do Maxwell, sobre profecias b�
 3. Roteiro novo com a mesma estrutura e o mesmo ritmo (texto, imagens e áudio originais). De 60 a 90 s.
 4. Voz: ElevenLabs, voice "Maxwell Obolari" `OzlrOiSmF6F4M3mkabDT`, `eleven_v4`, 1 versão → `silenceremove` + `atempo=1.07`.
 5. Cenas: Higgsfield `gpt_image_2_6` (9:16, cinematográfico escuro com vermelho) + `kling3_0` 5 s nas 5–6 cenas-chave. Não usar o rosto de pessoas reais; usar símbolos (chip, marca na mão/testa, filas, telas, Bíblia à luz de vela).
-6. Montagem: `build.py` (modelo no scratchpad da sessão de 19/11): legenda palavra a palavra Inter ExtraBold com palavras-chave em vermelho `#E53935`, títulos no topo nos pontos-chave, whoosh nos cortes, riser + impacto na virada profética, trilha sombria baixa com ducking, -14 LUFS, 1080×1920.
+6. Montagem: `build.py` (`.claude/skills/profecias-ocultas/build.py`, trocar a lista `cuts` e os `card(...)` a cada vídeo): legenda palavra a palavra Inter ExtraBold com palavras-chave em vermelho `#E53935`, títulos no topo nos pontos-chave, whoosh nos cortes, riser + impacto na virada profética, trilha sombria baixa com ducking, -14 LUFS, 1080×1920.
 7. Entregar o MP4 + legenda do post (gancho, 2–3 linhas, versículo, pergunta, 5 hashtags). Não postar sem o Maxwell pedir.
 
 ## CTA padrão
