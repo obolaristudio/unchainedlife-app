@@ -468,12 +468,14 @@
   },
   {
     "id": "2026-11-19-resistencia-insulina",
-    "status": "pronto",
-    "publicar_apos": null,
+    "status": "publicado",
+    "publicar_apos": "2026-11-18 20:35",
     "video_url": "https://res-prod.buzzy.now/file-service/ae7db0b5-7703-4c9c-b016-72092a8699d6.mp4",
     "cover_url": "https://res-prod.buzzy.now/file-service/3fa60c23-4af5-421c-9a62-d5a0028afe03.jpg",
     "legenda_arquivo": "videos/resistencia-insulina/legenda.txt (ramo main)",
     "comentario_fixado": "Qual desses sinais você já percebeu em você? Me conta aqui 👇",
-    "obs": "Capa C escolhida pelo Maxwell (Glicose normal / Insulina lá em cima). Aguardando horário."
+    "obs": "Capa C escolhida pelo Maxwell (Glicose normal / Insulina lá em cima). Aguardando horário.",
+    "ig_media_id": "18135960100672408",
+    "permalink": "https://www.instagram.com/reel/Df56T1fGZ_g/"
   }
 ]
