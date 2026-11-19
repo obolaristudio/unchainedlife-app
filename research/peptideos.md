@@ -20,6 +20,9 @@
 | 2026-11-17 | Elamipretida (SS-31) | https://www.instagram.com/reel/Df2sDqJmfIG/ |
 | 2026-11-17 | Ocitocina | https://www.instagram.com/reel/Df3UyYUmJJD/ |
 | 2026-11-18 | Argireline (acetil hexapeptídeo-8) | https://www.instagram.com/reel/Df472Kmj3P6/ |
+| 2026-11-18 | Humanina | https://www.instagram.com/reel/Df5r2TBglMB/ |
+| 2026-11-19 | Mazdutida | (na fila: 19/11 16:10 ET) |
+| 2026-11-19 | LL-37 (catelicidina) | (na fila: 19/11 20:10 ET) |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -35,4 +38,6 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Mazdutida | em estudo (Lilly, LY3305677) | sem registro | — | China: aprovada pela NMPA em 27/06/2025 (controle de peso, Innovent) | biospace.com (press release Innovent) |
+| LL-37 | não aprovado; PCAC deve revisar em 2027 | sem registro | — | UE: produto em investigação (Promore Pharma, EudraCT 2018-000536-10) | clinicaltrialsregister.eu; PubMed 34687253 |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
