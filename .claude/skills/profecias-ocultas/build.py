@@ -7,11 +7,10 @@ END = DUR + 0.6
 
 # (start, src) ; src: "img/NN.png" or "vid/NN.mp4"
 cuts = [
- (0.00, "vid/00.mp4"), (3.66, "vid/01.mp4"), (9.68, "img/02.png"), (16.20, "img/03.png"),
- (24.60, "img/04.png"), (33.84, "vid/05.mp4"), (41.32, "img/06.png"), (43.68, "vid/07.mp4"),
- (49.52, "img/08.png"), (56.58, "vid/01.mp4"), (60.24, "img/09.png"), (65.64, "vid/10.mp4"),
- (72.10, "vid/11.mp4"), (75.20, "img/09.png"), (78.30, "vid/00.mp4"), (80.50, "vid/11.mp4"),
- (83.04, "vid/01.mp4"),
+ (0.00,"vid/09.mp4"),(6.46,"vid/03.mp4"),(10.30,"img/30.png"),(14.98,"vid/01.mp4"),(22.18,"vid/02.mp4"),
+ (28.18,"img/31.png"),(32.80,"vid/07.mp4"),(35.88,"img/32.png"),(40.42,"img/04.png"),(46.98,"vid/21.mp4"),
+ (51.20,"vid/22.mp4"),(54.66,"img/33.png"),(58.00,"vid/05.mp4"),(61.42,"img/05.png"),(64.44,"img/09.png"),
+ (68.58,"vid/06.mp4"),(80.66,"img/07.png"),(87.78,"img/04.png"),(90.14,"img/34.png"),(92.36,"vid/08.mp4"),
 ]
 os.makedirs("seg", exist_ok=True)
 segs = []
@@ -39,9 +38,9 @@ subprocess.run(["ffmpeg","-loglevel","error","-y","-f","concat","-safe","0","-i"
 
 # ---------- captions (ASS) ----------
 W = json.load(open("words.json"))
-RED = {"chip","cérebro","pedir","problema","solução","empregos","renda","universal","alta","neuralink","20","paralisado",
-       "inteligência","artificial","máquina","perder","cheque","apocalipse","13","sinal","mão","direita","testa","comprar","vender",
-       "impossível","existe","teoria","sinais","trabalhar","comentários","musk"}
+RED = {"demônio","2014","musk","mit","pentagrama","benta","funciona","perigosa","nucleares","openai","neuralink","chips","cérebro",
+       "simbiose","fundir","máquina","mente","bilhões","simulação","observando","bíblia","efésios","6","12","principados","potestades",
+       "trevas","poderosos","controle","você","avisou","ouvindo","sabe"}
 def t(x):
     h=int(x//3600); m=int(x%3600//60); s=x%60
     return f"{h}:{m:02d}:{s:05.2f}"
@@ -68,13 +67,15 @@ for gi,g in enumerate(groups):
         ev.append(f"Dialogue: 1,{t(ws)},{t(we)},Cap,,0,0,0,,"+" ".join(parts))
 def card(a,b,txt,style="Top"):
     ev.append(f"Dialogue: 2,{t(a)},{t(b)},{style},,0,0,0,,{{\\fad(150,150)}}{txt}")
-card(0.0,3.6,r"O CHIP NO {\c&H3539E5&}SEU CÉREBRO")
-card(9.68,16.2,r"CRIE O {\c&H3539E5&}PROBLEMA{\c&HFFFFFF&}\NVENDA A {\c&H3539E5&}SOLUÇÃO")
-card(26.7,33.8,r"RENDA UNIVERSAL {\c&H3539E5&}ALTA{\c&HFFFFFF&}\N{\fs40}Musk, abril/2026")
-card(37.8,43.6,r"NEURALINK: {\c&H3539E5&}20+{\c&HFFFFFF&} PACIENTES")
-card(63.0,75.1,r"{\c&H3539E5&}APOCALIPSE 13:16-17")
-card(80.5,83.0,r"É UMA {\c&H3539E5&}TEORIA")
-card(83.04,END,r"VOCÊ COLOCARIA\N{\c&H3539E5&}O CHIP?{\c&HFFFFFF&}\N{\fs44}comenta aqui ↓")
+card(0.0,6.4,r"{\c&H3539E5&}“ESTAMOS INVOCANDO\NO DEMÔNIO”")
+card(10.3,14.9,r"ELON MUSK\N{\fs44}MIT · outubro de 2014")
+card(22.18,28.1,r"IA {\c&H3539E5&}>{\c&HFFFFFF&} ARMAS NUCLEARES\N{\fs44}Musk · SXSW 2018")
+card(35.88,40.4,r"{\c&H3539E5&}NEURALINK{\c&HFFFFFF&}\N{\fs44}chips no cérebro humano")
+card(40.42,46.9,r"“SIMBIOSE COM A {\c&H3539E5&}IA{\c&HFFFFFF&}”")
+card(58.0,64.4,r"REALIDADE VERDADEIRA?\N{\c&H3539E5&}1 EM BILHÕES")
+card(68.58,80.6,r"{\c&H3539E5&}EFÉSIOS 6:12")
+card(90.14,94.4,r"VOCÊ ESTÁ {\c&H3539E5&}OUVINDO?")
+card(94.44,END,r"O MUSK SABE MAIS\N{\c&H3539E5&}DO QUE FALA?{\c&HFFFFFF&}\N{\fs44}comenta aqui ↓")
 ass = """[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
@@ -96,8 +97,8 @@ R = "/home/user/unchainedlife-app/brand"
 sfx = [(0.0,f"{R}/sfx-earshot/impact_deep.wav",0.7)]
 for st,_ in cuts[1:]:
     sfx.append((max(st-0.25,0),f"{R}/sfx-earshot/whoosh_fast_crisp.wav",0.22))
-sfx += [(60.5,f"{R}/sfx-earshot/riser_tension.wav",0.35),(63.0,f"{R}/sfx-earshot/impact_punch.wav",0.6),
-        (80.45,f"{R}/sfx-earshot/impact_classic.wav",0.5),(83.0,f"{R}/sfx/ding.mp3",0.4)]
+sfx += [(6.35,f"{R}/sfx-earshot/impact_deep.wav",0.6),(67.6,f"{R}/sfx-earshot/riser_tension.wav",0.35),
+        (68.5,f"{R}/sfx-earshot/impact_punch.wav",0.6),(90.1,f"{R}/sfx-earshot/impact_classic.wav",0.45),(94.4,f"{R}/sfx/ding.mp3",0.4)]
 inputs=["-i","voz2.wav","-f","lavfi","-t",f"{END}","-i",
         "aevalsrc='0.5*sin(2*PI*55*t)*(0.6+0.4*sin(2*PI*0.25*t))+0.25*sin(2*PI*82.4*t)+0.12*sin(2*PI*110*t)*(0.5+0.5*sin(2*PI*1.1*t))':s=44100"]
 fc=["[0:a]aformat=sample_rates=44100:channel_layouts=stereo,asplit=2[v][vsc]",
