@@ -1,0 +1,47 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script><style>
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-800.ttf");font-weight:800}
+@font-face{font-family:"Bric";src:url("assets/fonts/Bricolage-700.ttf");font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0E0E}
+#root{position:relative;width:1080px;height:1920px;font-family:"Bric",sans-serif;color:#fff;overflow:hidden}
+#bg{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+#tsh{position:absolute;left:0;top:0;width:1080px;height:430px;z-index:3;background:rgba(0,0,0,.55)} #bsh{position:absolute;left:0;top:1520px;width:1080px;height:400px;z-index:3;background:rgba(0,0,0,.6)}
+#frame{position:absolute;inset:26px;z-index:9;border:4px solid #CBEF4B;border-radius:34px;box-shadow:0 0 0 40px #0E0E0E}
+#tag{position:absolute;z-index:9;top:80px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:16px;font-weight:700;font-size:26px;letter-spacing:8px}
+#tag .d{width:18px;height:18px;border-radius:50%;background:#CBEF4B;box-shadow:0 0 14px #CBEF4B}#tag .c{color:#CBEF4B}
+.hd{position:absolute;z-index:6;left:50px;right:50px;top:150px;height:260px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.hd .m{font-weight:800;font-size:76px;line-height:1.02;letter-spacing:-2px}
+.hd .m span{color:#CBEF4B}
+.cap{position:absolute;z-index:6;left:60px;right:60px;top:1560px;text-align:center;font-weight:800;font-size:60px;line-height:1.1;letter-spacing:-1px;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+.cap span{display:inline-block}.cap .k{color:#141414;background:#CBEF4B;padding:0 10px;border-radius:10px;text-shadow:none}
+.ov{position:absolute;z-index:5;left:50px;right:50px;text-align:center}
+.chips{display:flex;flex-direction:column;gap:16px;align-items:center}
+.pill{display:inline-block;background:rgba(14,14,14,.88);border:3px solid #CBEF4B;font-weight:800;font-size:42px;padding:12px 26px;border-radius:18px;box-shadow:6px 6px 0 #CBEF4B}
+.pill b{color:#CBEF4B}.pill.v{border-color:#7B5CFF;box-shadow:6px 6px 0 #7B5CFF}.pill.v b{color:#B9A8FF}
+.big{font-weight:800;font-size:150px;line-height:1;text-shadow:0 10px 40px rgba(0,0,0,.7)}
+.cnt{display:inline-flex;flex-direction:column;align-items:center;background:rgba(14,14,14,.86);border:4px solid #CBEF4B;border-radius:26px;padding:14px 40px;box-shadow:8px 8px 0 #CBEF4B}.cnt .cl{font-weight:700;font-size:40px;color:#F2EFE6}.cnt .big{font-size:120px;color:#CBEF4B}
+.bars{background:rgba(14,14,14,.9);border:4px solid #CBEF4B;border-radius:26px;padding:24px 30px;box-shadow:8px 8px 0 #CBEF4B;text-align:left}
+.bh{font-weight:700;font-size:32px;letter-spacing:3px;color:#CBEF4B;margin-bottom:14px}
+.br{margin:12px 0}.bl{font-weight:800;font-size:38px;margin-bottom:6px}.bt{display:flex;align-items:center;gap:16px}.bf{height:54px;border-radius:10px;border:3px solid #000;transform-origin:left center}.bv{font-weight:800;font-size:46px}
+.stamp{position:absolute;z-index:7;left:0;right:0;top:830px;text-align:center}
+.stamp span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:120px;padding:6px 40px;border-radius:24px;transform:rotate(-4deg);box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#flash{position:absolute;inset:0;z-index:8;background:#fff;opacity:0;pointer-events:none}
+.cta{position:absolute;z-index:6;left:0;right:0;top:1180px;text-align:center}
+.cta span{display:inline-block;background:#CBEF4B;color:#141414;font-weight:800;font-size:68px;padding:18px 46px;border-radius:60px;box-shadow:0 0 50px rgba(203,239,75,.6)}
+.handle{display:table;margin:26px auto 0;background:#141414;color:#CBEF4B;font-weight:700;font-size:34px;padding:8px 26px;border-radius:40px;border:2px solid #CBEF4B}
+#foot{position:absolute;z-index:9;top:1800px;left:0;right:0;text-align:center;font-weight:700;font-size:20px;letter-spacing:2px;color:rgba(255,255,255,.75)}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="%T%" data-width="1080" data-height="1920">
+<video id="bg" class="clip" data-start="0" data-duration="%T%" src="assets/bg.mp4" muted></video>
+<div id="tsh" class="clip" data-start="0" data-duration="%T%"></div><div id="bsh" class="clip" data-start="0" data-duration="%T%"></div>
+%BODY%
+<div id="flash" class="clip" data-start="0" data-duration="%T%"></div>
+<div id="frame" class="clip" data-start="0" data-duration="%T%"></div>
+<div id="tag" class="clip" data-start="0" data-duration="%T%"><span class="d"></span>OBOLARI ACADEMY<span class="c">%TAG%</span></div>
+<div id="foot" class="clip" data-start="0" data-duration="%T%">@OBOLARI_ACADEMY · CONTEÚDO EDUCATIVO · NÃO É RECOMENDAÇÃO MÉDICA</div>
+</div><script>
+const tl=gsap.timeline({paused:true});
+tl.set("#flash",{opacity:0},0);
+%JS%
+window.__timelines=window.__timelines||{};window.__timelines["main"]=tl;tl.seek(0);
+</script></body></html>
