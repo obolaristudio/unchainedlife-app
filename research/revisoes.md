@@ -75,3 +75,9 @@ Leitura: nenhum dos dois saiu da base (alcance ≈ seguidores). Retenção caiu 
 3. Saturação: 4 Reels em ~24 h (Argireline 11:29, humanina 18:28, resistência 20:35, DMSO 12:13 do dia seguinte), 2 com <4 h de distância.
 4. Os dois temas são "educação geral"; cobre/reta tinham revelação concreta (58%, "1 aminoácido = 12 anos").
 Decisão: testar próximo vídeo com a revelação concreta já no 1º segundo (sem cartão "Você sabia?" parado — no máximo como texto sobre a cena), ≤75 s, e respeitar 1 Reel a cada ≥6 h.
+
+## DMSO — 24 h (lido 20/11 17:21 UTC; postado 19/11 12:13 ET) · https://www.instagram.com/reel/Df7ltEPlfLi/
+Views 247 · alcance 223 · envios 0 · salvos 0 · comentários 1 (só o nosso) · curtidas 4 · tempo médio 7,7 s de 72 s.
+Praticamente parou depois das 8 h (239 → 247). Mesmo padrão da resistência à insulina: não saiu da base, retenção ~7 s.
+Contexto: desde o DMSO saíram mais 3 Reels pela rotina em <24 h (19/11 16:28 ET, 20/11 20:29 ET de 19/11, 20/11 11:28 ET) → ritmo de ~4 Reels/dia.
+Leitura consolidada (3 vídeos seguidos ~7 s): problema comum é a abertura + volume de posts, não o tema isolado.
