@@ -64,3 +64,14 @@ Views 1.609 · alcance 1.398 · envios 34 (21,1/1k) · salvos 4 (2,5/1k) · come
 Comparação: Cobre 33,3 envios/1k e 10,3 salv/1k (cobre atualizado em 17/11: 4.504 views, 129 envios = 28,6/1k, 42 salvos = 9,3/1k) · Carboidrato 16,8 e 8,3 · BPC-157 12,4 e 3,1.
 Leitura: compartilhável (2º melhor envios/1k depois do cobre), mas pouco salvo e retenção baixa. Gancho "parte da uva vai pro lixo" puxa clique; conteúdo (estudos com efeito pequeno) não dá motivo para salvar. Postado num domingo à noite.
 Decisão: manter ganchos de curiosidade ampla; incluir algo "útil para guardar" (lista prática de alimentos/checklist) para subir salvos; vídeos mais curtos (≤60 s) quando o tema for menos denso.
+
+## Resistência à insulina — 24 h (lido 20/11 01:41 UTC; postado 18/11 20:35 ET) · https://www.instagram.com/reel/Df56T1fGZ_g/
+Views 281 · alcance 257 · envios 2 (7,1/1k) · salvos 0 · comentários 1 (só o nosso) · curtidas 5 · tempo médio 7,1 s de 138 s (5%).
+Parcial DMSO (~8 h, postado 19/11 12:13 ET): views 239 · alcance 217 · envios 0 · salvos 0 · tempo médio 6,9 s de 72 s.
+Comparação: Cobre 28,6 envios/1k e 17,8 s · Resveratrol 21,1 e 12,6 s · Carboidrato 16,8 e 25,6 s.
+Leitura: nenhum dos dois saiu da base (alcance ≈ seguidores). Retenção caiu pela metade vs. cobre (7 s). Hipóteses, em ordem:
+1. Abertura "Você sabia?" + 1,3 s de cartão parado antes do conteúdo: os vencedores (cobre, reta, carboidrato) entram direto na afirmação forte no 1º segundo.
+2. Formato longo (138 s) sem promessa de recompensa no início.
+3. Saturação: 4 Reels em ~24 h (Argireline 11:29, humanina 18:28, resistência 20:35, DMSO 12:13 do dia seguinte), 2 com <4 h de distância.
+4. Os dois temas são "educação geral"; cobre/reta tinham revelação concreta (58%, "1 aminoácido = 12 anos").
+Decisão: testar próximo vídeo com a revelação concreta já no 1º segundo (sem cartão "Você sabia?" parado — no máximo como texto sobre a cena), ≤75 s, e respeitar 1 Reel a cada ≥6 h.
