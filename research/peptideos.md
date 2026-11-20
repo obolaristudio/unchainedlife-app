@@ -20,6 +20,7 @@
 | 2026-11-17 | Elamipretida (SS-31) | https://www.instagram.com/reel/Df2sDqJmfIG/ |
 | 2026-11-17 | Ocitocina | https://www.instagram.com/reel/Df3UyYUmJJD/ |
 | 2026-11-18 | Argireline (acetil hexapeptídeo-8) | https://www.instagram.com/reel/Df472Kmj3P6/ |
+| 2026-11-20 | Teriparatida | https://www.instagram.com/reel/Df-FZ6KnNKM/ |
 | 2026-11-19 | LL-37 (catelicidina) | https://www.instagram.com/reel/Df8ed_yDcaC/ |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
