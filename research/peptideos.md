@@ -1,11 +1,11 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
+- Retatrutida (pedido de seguidor 21/11: novidades dos estudos)
+- Tesamorelina (pedido de seguidor 21/11)
 - GHK-Cu
 - BPC-157
-- Retatrutida
 - Tirzepatida (Mounjaro/Zepbound)
-- Tesamorelina
 - Sermorelina
 - AOD-9604
 - TB-500 (timosina beta-4)
