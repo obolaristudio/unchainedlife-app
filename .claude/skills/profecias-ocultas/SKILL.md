@@ -12,8 +12,8 @@ description: Linha editorial do perfil "Obolari Teorias" do Maxwell — vídeos 
 2. **Base bíblica em todo vídeo.** Pesquisar e acrescentar passagens que se aplicam ao tema (ARC/ACF). Citar o texto na narração.
 3. **Fechamento com a referência.** No final, a narração diz onde está na Bíblia: "Está escrito em [Livro], capítulo X, versículo Y". A referência também aparece como título na tela.
 4. **Recriar, não copiar.** Mesma estrutura, gancho e ritmo do vídeo de referência; roteiro, imagens e áudio novos, com a voz do Maxwell.
-5. **Capas em vermelho e preto.** Fundo escuro, título branco Inter Black em caixa alta, 1–2 palavras em vermelho brilhante (`#FF2D2D` com brilho), selo vermelho no topo do título (ex.: "APOCALIPSE 13"), sub-linha curta. Entregar 3 opções + recomendação.
-6. **Legenda do post** pronta: gancho = texto da capa, 3–5 linhas, versículo por extenso, pergunta, "salve e envie", 10 hashtags e, na última linha, `obolari teorias`.
+5. **Capas em vermelho e preto.** Fundo escuro, título branco Inter Black em caixa alta, 1–2 palavras em vermelho brilhante (`#FF2D2D` com brilho), selo vermelho no topo do título (ex.: "APOCALIPSE 13"), sub-linha curta. Entregar 3 opções + recomendação. **Critério de escolha (decidido com o Maxwell em 21/11/2026):** vence a capa que abre uma pergunta sem responder ("quem? por quê? o quê?") e mostra uma história ou rosto que a pessoa não conhece; evitar capa que entrega a revelação do vídeo. Ex.: vídeo 6 → "ELES TINHAM TUDO. E SE APAGARAM." (Universo 25).
+6. **Legenda do post** pronta: gancho = texto da capa, 3–5 linhas, versículo por extenso, pergunta, pedido de envio sem soar como pedido de engajamento, **no máximo 5 hashtags** (limite atual do Instagram; mais que isso não é aceito) e, na última linha, `obolari teorias`.
 
 ## Regra anti-repetição (pedido do Maxwell, 21/11/2026)
 Cada vídeo tem que soar novo: palavras novas, teoria nova, estrutura nova.
