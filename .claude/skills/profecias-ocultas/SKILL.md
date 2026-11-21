@@ -15,6 +15,50 @@ description: Linha editorial do perfil "Obolari Teorias" do Maxwell — vídeos 
 5. **Capas em vermelho e preto.** Fundo escuro, título branco Inter Black em caixa alta, 1–2 palavras em vermelho brilhante (`#FF2D2D` com brilho), selo vermelho no topo do título (ex.: "APOCALIPSE 13"), sub-linha curta. Entregar 3 opções + recomendação.
 6. **Legenda do post** pronta: gancho = texto da capa, 3–5 linhas, versículo por extenso, pergunta, "salve e envie", 10 hashtags e, na última linha, `obolari teorias`.
 
+## Regra anti-repetição (pedido do Maxwell, 21/11/2026)
+Cada vídeo tem que soar novo: palavras novas, teoria nova, estrutura nova.
+1. **Antes de escrever**, ler `historico.md`. Nada que aparece lá (frase-chave, versículo central, teoria central, pessoa em destaque, estrutura, CTA) se repete nos 5 vídeos seguintes. As "frases proibidas" de lá não voltam.
+2. **Sempre trazer 1 teoria nova** além do que está no vídeo de referência (banco abaixo ou pesquisa nova), com o fato real que a sustenta.
+3. **Variar a estrutura** em rodízio: lista numerada · linha do tempo · investigação de caso · antes × depois · perguntas e respostas · contagem regressiva · "o que não te contaram" · carta/depoimento · profecia × manchete lado a lado.
+4. **Variar gancho, transições, virada bíblica, fechamento e CTA** usando os bancos abaixo; nunca o mesmo item em 2 vídeos seguidos.
+5. **Variar versículos:** no máximo 1 vídeo a cada 4 com Apocalipse 13. Preferir passagens ainda não usadas.
+6. **Depois de entregar**, acrescentar a linha do vídeo em `historico.md` (e commitar).
+
+### Banco de ganchos
+"Isso foi aprovado enquanto você dormia." · "Ninguém votou nisso." · "Guarde esta data." · "Existe um detalhe que a imprensa cortou." · "Três notícias desta semana. Uma profecia." · "O que eles chamam de progresso, Daniel chamou de outra coisa." · "Isso não é ficção científica. É contrato assinado." · "Você está usando isso agora mesmo." · "Há 2.600 anos um profeta descreveu esta foto."
+
+### Banco de transições (trocar sempre)
+"Só que o detalhe está no rodapé." · "O que ninguém juntou foi isto." · "Coloque as duas peças lado a lado." · "Aqui a história vira." · "Vamos ao documento." · "Agora a parte que incomoda." · "E é aqui que a Escritura entra."
+
+### Banco de viradas bíblicas
+"O profeta não tinha essa palavra, mas descreveu exatamente isso." · "Leia devagar, porque cada palavra pesa." · "Jesus deu esse sinal para quem estivesse vivo neste tempo." · "Isso foi escrito antes de existir eletricidade." · "Paulo chamou isso pelo nome."
+
+### Banco de fechamentos (referência sempre dita, fórmula variada)
+"Abra em [livro X:Y] e leia hoje à noite." · "Anote: [livro X:Y]." · "A referência está na tela: [livro X:Y]." · "Quem quiser conferir: [livro X:Y]." · "Não acredite em mim. Leia [livro X:Y]."
+
+### Banco de CTAs
+Pergunta de escolha ("A ou B?") · "Qual dessas notícias você já tinha visto?" · "Você confiaria nisso para o seu filho?" · "Manda para a pessoa que ri quando você fala disso." · "Escreve AMÉM se você entendeu o recado." (usar com moderação) · "Em que ano você acha que isso chega no Brasil?"
+
+### Banco de teorias e passagens ainda não usadas (escolher pelo tema do link)
+- **Dias de Noé** (Mt 24:37; Gn 6): transumanismo, edição genética, "misturar o que Deus separou".
+- **Ferro e barro** (Dn 2:43): homem + máquina que não se misturam; reinos frágeis no fim.
+- **Babel digital** (Gn 11): uma só língua (tradução instantânea por IA), um só sistema.
+- **Feitiçarias / pharmakeia** (Ap 18:23): o mundo enganado por "feitiçarias" — a palavra grega é *pharmakeia*.
+- **Moeda digital e controle de compra** (Ap 13:17 com ângulo novo: CBDC, Pix/Drex, dinheiro programável).
+- **Trigo por um denário** (Ap 6:6): inflação de alimentos, fome com mercado cheio.
+- **"Paz e segurança"** (1Ts 5:3): acordos globais de paz anunciados antes da ruína.
+- **Rio Eufrates secando** (Ap 16:12): fato documentado da seca do Eufrates.
+- **Absinto** (Ap 8:10-11): a estrela que amarga as águas; Chernobyl = "absinto" em ucraniano.
+- **As duas testemunhas vistas por todos** (Ap 11:9): transmissão ao vivo global.
+- **Fogo do céu** (Ap 13:13): armas de energia, lasers, sinais fabricados.
+- **Gafanhotos com rosto de homem** (Ap 9:7-10): drones e enxames autônomos.
+- **Fome da Palavra** (Am 8:11): censura, algoritmos que escondem o Evangelho.
+- **Os últimos dias** (2Tm 3:1-5): "amantes de si mesmos", geração do celular.
+- **O mistério da iniquidade** (2Ts 2:7) e a "operação do erro" (2Ts 2:11): deepfakes, mentira que parece verdade.
+- **Gogue e Magogue** (Ez 38): alianças militares do norte contra Israel.
+- **Damasco em ruínas** (Is 17:1).
+- **O Evangelho a todas as nações** (Mt 24:14): satélites, internet, tradução — o lado bom do sinal.
+
 ## Tom
 - Convicto e de alerta: "a máscara caiu", "os sinais estão aí", "abra os olhos", "a Bíblia avisou".
 - Sem frases que enfraqueçam ("é só uma teoria", "pode não ser").
@@ -28,6 +72,7 @@ description: Linha editorial do perfil "Obolari Teorias" do Maxwell — vídeos 
 - 2 Tessalonicenses 2:3-4 e 2:9-10 (o homem do pecado, sinais e prodígios de mentira). Daniel 12:4 (a ciência se multiplicará). 1 João 2:18 (muitos anticristos).
 
 ## Fluxo para cada link
+0. Ler `historico.md` e escolher: estrutura, teoria nova, versículo e CTA que não estejam lá.
 1. Baixar (`yt-dlp`) → transcrever (faster-whisper, áudio em PCM via ffmpeg; script `tx.py`/`txw.py`) → contact sheet a cada 3–4 s. Se o Instagram bloquear (limite sem login), tentar `gpt_social analyze_post`; se falhar, avisar e pedir o MP4.
 2. Mapear a estrutura: gancho → autoridade/números → "quase ninguém percebeu" → fatos → padrão do sistema → virada bíblica → fechamento com referência → CTA.
 3. Checar cada fato (WebSearch). Corrigir o que estiver errado no original.
@@ -36,6 +81,7 @@ description: Linha editorial do perfil "Obolari Teorias" do Maxwell — vídeos 
 6. **Pessoas públicas:** usar fotos reais com licença livre do Wikimedia Commons (API `generator=search`, uma busca por vez — a API limita pedidos seguidos). Montar vertical 1080×1920: fundo desfocado + recorte 4:5 + crédito pequeno ("Foto: Autor, licença"). Nunca usar foto de agência/Google (risco de direitos autorais). Créditos também na legenda do post.
 7. Montagem: `build.py` desta pasta (trocar `cuts`, `RED`, `card(...)`, `sfx`): legenda palavra a palavra Inter ExtraBold com palavras-chave em vermelho, títulos no topo, whoosh nos cortes, riser + impacto na virada bíblica, trilha sombria baixa com ducking, -14 LUFS, 1080×1920.
 8. Revisar contact sheet → entregar MP4 (SendUserFile) + legenda; capas (3) quando pedir. Não postar sem o Maxwell pedir.
+9. Registrar o vídeo em `historico.md` e commitar.
 
 ## CTA padrão
 Pergunta aberta que provoca ("Você aceitaria o chip?", "Você ainda deixa seus filhos assistirem?") + "compartilha com quem precisa acordar".
