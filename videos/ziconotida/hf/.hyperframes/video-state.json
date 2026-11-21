@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "historyId": "eb674897-bb53-42f8-9216-4989d9d38066",
+  "currentRevision": "f5749d76-991c-4559-827e-477e673f301d",
+  "pendingChanges": false,
+  "files": {
+    "assets/Bric.ttf": {
+      "hash": "b56db40c26850f83ba2ebffa1f7faa01e5ee4e55ac63decee1433de520a38483",
+      "content": "/root/.cache/hyperframes/history/eb674897-bb53-42f8-9216-4989d9d38066/blobs/b5/b56db40c26850f83ba2ebffa1f7faa01e5ee4e55ac63decee1433de520a38483"
+    },
+    "index.html": {
+      "hash": "ff4592ba11226e974bec929589bf9f0b6a3ea7de4b93761b6622dc515c72c166",
+      "content": "/root/.cache/hyperframes/history/eb674897-bb53-42f8-9216-4989d9d38066/blobs/ff/ff4592ba11226e974bec929589bf9f0b6a3ea7de4b93761b6622dc515c72c166"
+    },
+    "assets/bg.mp4": {
+      "hash": "d0c029fba73008289e672250f363a52378298402a696e510320bafb550a655ce",
+      "content": "/root/.cache/hyperframes/history/eb674897-bb53-42f8-9216-4989d9d38066/blobs/d0/d0c029fba73008289e672250f363a52378298402a696e510320bafb550a655ce"
+    }
+  },
+  "revisions": {
+    "f5749d76-991c-4559-827e-477e673f301d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795248766076,
+      "endedAt": 1795248766080,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/eb674897-bb53-42f8-9216-4989d9d38066/blobs/3e/3efd0825057cf82fb95874aee522ae34d13d893f306730f0c6e68eb7b5ef7562",
+          "after": "/root/.cache/hyperframes/history/eb674897-bb53-42f8-9216-4989d9d38066/blobs/ff/ff4592ba11226e974bec929589bf9f0b6a3ea7de4b93761b6622dc515c72c166"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1a7ab0f8-8909-4130-8647-77cffe0a7195",
+      "completedAt": 1795249083756,
+      "output": "/home/user/unchainedlife-app/videos/ziconotida/overlay.mp4",
+      "status": "completed",
+      "revision": "f5749d76-991c-4559-827e-477e673f301d"
+    },
+    "retainedRevisions": [
+      "f5749d76-991c-4559-827e-477e673f301d"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
