@@ -17,3 +17,20 @@ Consultar ANTES de escrever cada roteiro. Nada desta lista se repete nos próxim
 - **Frases proibidas agora:** "os sinais estão aí / em todo lugar", "abra os olhos / olhos abertos", "a Bíblia avisou / já tinha descrito", "dois mil anos atrás isso era impossível", "ele avisou", "repare (no padrão / na sequência)", "e tem mais", "agora pensa", "presta atenção", "compartilha com quem precisa acordar", "me diz nos comentários".
 - **Cuidado eleitoral:** nunca dizer que urna/eleição é fraude ou "feita para tirar seu poder", nem desestimular o voto (Instagram remove e o TSE fiscaliza). Falar de polarização e manipulação sem tomar lado.
 - **Fechamento "Está escrito em…":** variar a fórmula (ver banco em SKILL.md).
+
+## Desempenho (print do Maxwell, 21/11/2026 — perfil @obolari_teorias)
+1.419 seguidores (+786 em 30 dias) · 55,9 mil visualizações em 30 dias · Status da conta OK.
+
+| Post (capa) | Visualizações |
+|---|---|
+| A máscara do MrBeast caiu (vídeo 4) | **52,1 mil** |
+| Você vai implorar pela marca (vídeo 1) | **36,9 mil** |
+| A Bíblia avisou sobre a IA? (post anterior) | 4.220 |
+| Ele chamou a IA de demônio (vídeo 3) | 1.373 |
+| A imagem que fala já existe (vídeo 5) | 574 (recente) |
+| A política acabou com a sua família? (vídeo 7) | 218 (recente) |
+| 06:00 de novo (vídeo 6) | 147 (recente) |
+| Depois disso nunca mais vai duvidar de Deus (vídeo 2) | 57 |
+
+**O que funcionou (repetir):** pessoa/marca conhecida + "revelação" + palavra do Apocalipse na capa (marca, besta, Apocalipse 13); ameaça pessoal ("você vai implorar"); elemento visual único com círculo vermelho ou rosto em close.
+**O que não funcionou:** tema fora do tom apocalíptico (animais/fé leve = 57); repetir o mesmo personagem/tema logo em seguida (Musk/chip depois da "marca" = 1,3 mil); temas abstratos sem rosto (IA, rotina, política) — ainda em avaliação (menos de 48 h).
