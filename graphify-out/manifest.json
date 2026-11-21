@@ -1,950 +1,2029 @@
 {
   ".claude/settings.json": {
-    "mtime": 1793998643.725698,
-    "seen": 1794017825.3686974,
-    "ast_hash": "5d37bc8aad5c5a923f09b6cd04b260a2",
-    "semantic_hash": "5d37bc8aad5c5a923f09b6cd04b260a2",
-    "ast_empty": true
+    "mtime": 1794968855.4430037,
+    "seen": 1795249413.2356262,
+    "ast_hash": "d1d583e9d629ae5c51980206705c00b7",
+    "semantic_hash": ""
   },
   ".claude/skills/efeitos-virais/modelos/reel-estudo/gen.py": {
-    "mtime": 1793999309.8698516,
-    "seen": 1794017825.3687038,
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.235633,
     "ast_hash": "204ecd83ecd731cb1905bfbc074c8914",
     "semantic_hash": "204ecd83ecd731cb1905bfbc074c8914"
   },
   ".claude/skills/efeitos-virais/modelos/snapzoom-growthcurve/hyperframes.json": {
-    "mtime": 1793998773.8790822,
-    "seen": 1794017825.3687778,
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.2356343,
     "ast_hash": "7b33c6cb9ecfe380a4657c509ff8af33",
     "semantic_hash": "7b33c6cb9ecfe380a4657c509ff8af33"
   },
   ".claude/skills/hyperframes/scripts/bake-basemap.mjs": {
-    "mtime": 1793998272.8553019,
-    "seen": 1794017825.3688104,
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2356355,
     "ast_hash": "1f45f8f9a0b296ae2af78d1ad114837e",
     "semantic_hash": "1f45f8f9a0b296ae2af78d1ad114837e"
   },
   ".claude/skills/hyperframes/scripts/lib/main-module.mjs": {
-    "mtime": 1793998272.8553362,
-    "seen": 1794017825.368835,
+    "mtime": 1794968855.4495924,
+    "seen": 1795249413.2356365,
     "ast_hash": "f31cb90876e1ee4de8e7d60109c790e8",
     "semantic_hash": "f31cb90876e1ee4de8e7d60109c790e8"
   },
   ".claude/skills/hyperframes/scripts/lib/main-module.test.mjs": {
-    "mtime": 1793998272.8553495,
-    "seen": 1794017825.3688595,
+    "mtime": 1794968855.4496124,
+    "seen": 1795249413.2356372,
     "ast_hash": "404d7073189553ea35033fd47c9ad4f7",
     "semantic_hash": "404d7073189553ea35033fd47c9ad4f7"
   },
   ".claude/skills/hyperframes/scripts/locate.mjs": {
-    "mtime": 1793998272.8553615,
-    "seen": 1794017825.3688834,
+    "mtime": 1794968855.4496124,
+    "seen": 1795249413.2356384,
     "ast_hash": "92e815c25559abce094dabab34960660",
     "semantic_hash": "92e815c25559abce094dabab34960660"
   },
   ".claude/skills/hyperframes/scripts/plugin-cli.mjs": {
-    "mtime": 1793998272.855377,
-    "seen": 1794017825.368904,
+    "mtime": 1794968855.4496124,
+    "seen": 1795249413.2356398,
     "ast_hash": "755a0773fbb35378f0c800ce40ac61f8",
     "semantic_hash": "755a0773fbb35378f0c800ce40ac61f8"
   },
   ".claude/skills/hyperframes/scripts/plugin-cli.test.mjs": {
-    "mtime": 1793998272.8553877,
-    "seen": 1794017825.3689249,
+    "mtime": 1794968855.4496124,
+    "seen": 1795249413.2356408,
     "ast_hash": "e36ad186632d6cf239f8a09b45e5c970",
     "semantic_hash": "e36ad186632d6cf239f8a09b45e5c970"
   },
   ".claude/skills/media-use/audio/assets/sfx/manifest.json": {
-    "mtime": 1793998272.8605597,
-    "seen": 1794017825.3689451,
+    "mtime": 1794968855.4498255,
+    "seen": 1795249413.235642,
     "ast_hash": "17e787d588ba8d2b29a83f5910be70f5",
     "semantic_hash": "17e787d588ba8d2b29a83f5910be70f5"
   },
   ".claude/skills/media-use/audio/scripts/audio.mjs": {
-    "mtime": 1793998272.861554,
-    "seen": 1794017825.3689723,
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2356427,
     "ast_hash": "453449ce9895da47c671247e32118093",
     "semantic_hash": "453449ce9895da47c671247e32118093"
   },
   ".claude/skills/media-use/audio/scripts/audio.test.mjs": {
-    "mtime": 1793998272.8615906,
-    "seen": 1794017825.3689952,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356436,
     "ast_hash": "1f5a6751e8e347b4342f1f63ee303d37",
     "semantic_hash": "1f5a6751e8e347b4342f1f63ee303d37"
   },
   ".claude/skills/media-use/audio/scripts/carve.mjs": {
-    "mtime": 1793998272.8616054,
-    "seen": 1794017825.3690174,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356443,
     "ast_hash": "bf104d5e66132984b8648258ee6715a9",
     "semantic_hash": "bf104d5e66132984b8648258ee6715a9"
   },
   ".claude/skills/media-use/audio/scripts/carve.test.mjs": {
-    "mtime": 1793998272.8616257,
-    "seen": 1794017825.3690386,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356455,
     "ast_hash": "6b4921cd6955ce6edad79b9213ac24ad",
     "semantic_hash": "6b4921cd6955ce6edad79b9213ac24ad"
   },
   ".claude/skills/media-use/audio/scripts/extract-audio-data.py": {
-    "mtime": 1793998272.8616414,
-    "seen": 1794017825.3690603,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356462,
     "ast_hash": "d55d80076c6eb0152a13d635d8b64091",
     "semantic_hash": "d55d80076c6eb0152a13d635d8b64091"
   },
   ".claude/skills/media-use/audio/scripts/gemini-pipeline.test.mjs": {
-    "mtime": 1793998272.8616562,
-    "seen": 1794017825.3690832,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356472,
     "ast_hash": "7fc07407c214b6b2ce72cface770cae6",
     "semantic_hash": "7fc07407c214b6b2ce72cface770cae6"
   },
   ".claude/skills/media-use/audio/scripts/heygen-tts.mjs": {
-    "mtime": 1793998272.8616714,
-    "seen": 1794017825.3691058,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356482,
     "ast_hash": "c75e2dc0924323433d480577c99b9e73",
     "semantic_hash": "c75e2dc0924323433d480577c99b9e73"
   },
   ".claude/skills/media-use/audio/scripts/heygen-tts.test.mjs": {
-    "mtime": 1793998272.861686,
-    "seen": 1794017825.369137,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.235649,
     "ast_hash": "6bc7c1a41d148897a3237cc22c8f9930",
     "semantic_hash": "6bc7c1a41d148897a3237cc22c8f9930"
   },
   ".claude/skills/media-use/audio/scripts/heygen-voice.mjs": {
-    "mtime": 1793998272.8616967,
-    "seen": 1794017825.369159,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356498,
     "ast_hash": "a84f40003fd565b4ece9a89b1d5c679b",
     "semantic_hash": "a84f40003fd565b4ece9a89b1d5c679b"
   },
   ".claude/skills/media-use/audio/scripts/heygen-voice.test.mjs": {
-    "mtime": 1793998272.8618412,
-    "seen": 1794017825.3691812,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356508,
     "ast_hash": "dddbc0aeb648e4234ebda2fab01801fb",
     "semantic_hash": "dddbc0aeb648e4234ebda2fab01801fb"
   },
   ".claude/skills/media-use/audio/scripts/lib/audio-meta.mjs": {
-    "mtime": 1793998272.8618865,
-    "seen": 1794017825.369203,
+    "mtime": 1794968855.4568002,
+    "seen": 1795249413.2356517,
     "ast_hash": "8b6afa65555b53da76fdaa8eb91ef3cc",
     "semantic_hash": "8b6afa65555b53da76fdaa8eb91ef3cc"
   },
   ".claude/skills/media-use/audio/scripts/lib/audio-meta.test.mjs": {
-    "mtime": 1793998272.8619258,
-    "seen": 1794017825.3692272,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235653,
     "ast_hash": "dc204648e0b2476305df70126f99eb08",
     "semantic_hash": "dc204648e0b2476305df70126f99eb08"
   },
   ".claude/skills/media-use/audio/scripts/lib/bgm-volume.mjs": {
-    "mtime": 1793998272.8619614,
-    "seen": 1794017825.3692517,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356536,
     "ast_hash": "56605f1c9dac007f21dfa949c283444d",
     "semantic_hash": "56605f1c9dac007f21dfa949c283444d"
   },
   ".claude/skills/media-use/audio/scripts/lib/bgm.mjs": {
-    "mtime": 1793998272.8619752,
-    "seen": 1794017825.369275,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356548,
     "ast_hash": "4c6f79faf866a3103a21990da2d46eb2",
     "semantic_hash": "4c6f79faf866a3103a21990da2d46eb2"
   },
   ".claude/skills/media-use/audio/scripts/lib/bgm.test.mjs": {
-    "mtime": 1793998272.8619916,
-    "seen": 1794017825.3693001,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235656,
     "ast_hash": "df1932ab3188081f022c730592ea1a51",
     "semantic_hash": "df1932ab3188081f022c730592ea1a51"
   },
   ".claude/skills/media-use/audio/scripts/lib/concurrency.mjs": {
-    "mtime": 1793998272.8620043,
-    "seen": 1794017825.369324,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235657,
     "ast_hash": "7402be1cd900fdd1d34ccacdf2da1814",
     "semantic_hash": "7402be1cd900fdd1d34ccacdf2da1814"
   },
   ".claude/skills/media-use/audio/scripts/lib/concurrency.test.mjs": {
-    "mtime": 1793998272.8620176,
-    "seen": 1794017825.3693469,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356577,
     "ast_hash": "bff6054e8e97fdfab6982e1db402cc4d",
     "semantic_hash": "bff6054e8e97fdfab6982e1db402cc4d"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-auth.mjs": {
-    "mtime": 1793998272.8620305,
-    "seen": 1794017825.3693695,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356586,
     "ast_hash": "8ff36cf8d995e95702db87e24c5d38b6",
     "semantic_hash": "8ff36cf8d995e95702db87e24c5d38b6"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-auth.py": {
-    "mtime": 1793998272.8620431,
-    "seen": 1794017825.3693926,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356596,
     "ast_hash": "50c7643169451344ccd25dc236712c7e",
     "semantic_hash": "50c7643169451344ccd25dc236712c7e"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-auth.test.mjs": {
-    "mtime": 1793998272.8620546,
-    "seen": 1794017825.369416,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356606,
     "ast_hash": "2795b4e3d24333cc38f079c06fbb52dc",
     "semantic_hash": "2795b4e3d24333cc38f079c06fbb52dc"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-auth_test.py": {
-    "mtime": 1793998272.8620675,
-    "seen": 1794017825.3694382,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356613,
     "ast_hash": "15d275f159a2cacce051ec71e2a873ed",
     "semantic_hash": "15d275f159a2cacce051ec71e2a873ed"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-tts.mjs": {
-    "mtime": 1793998272.862082,
-    "seen": 1794017825.369461,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356622,
     "ast_hash": "9d7c40d90b52f00c237ed3783fbf4421",
     "semantic_hash": "9d7c40d90b52f00c237ed3783fbf4421"
   },
   ".claude/skills/media-use/audio/scripts/lib/gemini-tts.test.mjs": {
-    "mtime": 1793998272.862098,
-    "seen": 1794017825.3694832,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356634,
     "ast_hash": "174d3601d457c0f23a2e06b64f5ccdee",
     "semantic_hash": "174d3601d457c0f23a2e06b64f5ccdee"
   },
   ".claude/skills/media-use/audio/scripts/lib/heygen.mjs": {
-    "mtime": 1793998272.862115,
-    "seen": 1794017825.369507,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356644,
     "ast_hash": "922ce1049680f2d61c791b7d0ed5b15c",
     "semantic_hash": "922ce1049680f2d61c791b7d0ed5b15c"
   },
   ".claude/skills/media-use/audio/scripts/lib/heygen.test.mjs": {
-    "mtime": 1793998272.8621333,
-    "seen": 1794017825.36953,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235665,
     "ast_hash": "9852449aeadc8beadf9f2bc0677d65f6",
     "semantic_hash": "9852449aeadc8beadf9f2bc0677d65f6"
   },
   ".claude/skills/media-use/audio/scripts/lib/main-module.mjs": {
-    "mtime": 1793998272.862173,
-    "seen": 1794017825.3695517,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356663,
     "ast_hash": "f31cb90876e1ee4de8e7d60109c790e8",
     "semantic_hash": "f31cb90876e1ee4de8e7d60109c790e8"
   },
   ".claude/skills/media-use/audio/scripts/lib/media-record.mjs": {
-    "mtime": 1793998272.8621876,
-    "seen": 1794017825.369574,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235667,
     "ast_hash": "4c929f4f9f772a1e73e872627e1fbfe0",
     "semantic_hash": "4c929f4f9f772a1e73e872627e1fbfe0"
   },
   ".claude/skills/media-use/audio/scripts/lib/media-record.test.mjs": {
-    "mtime": 1793998272.862204,
-    "seen": 1794017825.3695967,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235668,
     "ast_hash": "661bf871034eee741a878630a8575cb0",
     "semantic_hash": "661bf871034eee741a878630a8575cb0"
   },
   ".claude/skills/media-use/audio/scripts/lib/openverse.mjs": {
-    "mtime": 1793998272.8622234,
-    "seen": 1794017825.3696206,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235669,
     "ast_hash": "c17bf5e804e5531d88d7bc4a60974822",
     "semantic_hash": "c17bf5e804e5531d88d7bc4a60974822"
   },
   ".claude/skills/media-use/audio/scripts/lib/python.mjs": {
-    "mtime": 1793998272.862239,
-    "seen": 1794017825.3696432,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356699,
     "ast_hash": "a219ff483fe5304ce63beb324fca83ac",
     "semantic_hash": "a219ff483fe5304ce63beb324fca83ac"
   },
   ".claude/skills/media-use/audio/scripts/lib/python.test.mjs": {
-    "mtime": 1793998272.862251,
-    "seen": 1794017825.3696656,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356706,
     "ast_hash": "8582da04cf7b99e5ed63b94e5b3f3831",
     "semantic_hash": "8582da04cf7b99e5ed63b94e5b3f3831"
   },
   ".claude/skills/media-use/audio/scripts/lib/sfx.mjs": {
-    "mtime": 1793998272.8622656,
-    "seen": 1794017825.3696873,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356715,
     "ast_hash": "972e24479f63f329a7bb6b3808b4106e",
     "semantic_hash": "972e24479f63f329a7bb6b3808b4106e"
   },
   ".claude/skills/media-use/audio/scripts/lib/sfx.test.mjs": {
-    "mtime": 1793998272.8623006,
-    "seen": 1794017825.3697116,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356722,
     "ast_hash": "ff1ca5a210059518550e5609f5f7c1ed",
     "semantic_hash": "ff1ca5a210059518550e5609f5f7c1ed"
   },
   ".claude/skills/media-use/audio/scripts/lib/tts.cleanup.test.mjs": {
-    "mtime": 1793998272.8623405,
-    "seen": 1794017825.369757,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356732,
     "ast_hash": "85739f498f5d9331b788fbe846798427",
     "semantic_hash": "85739f498f5d9331b788fbe846798427"
   },
   ".claude/skills/media-use/audio/scripts/lib/tts.mjs": {
-    "mtime": 1793998272.8623574,
-    "seen": 1794017825.3697846,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356741,
     "ast_hash": "bdb00fbeff36246b008799ad592e3c76",
     "semantic_hash": "bdb00fbeff36246b008799ad592e3c76"
   },
   ".claude/skills/media-use/audio/scripts/lib/tts.spawn.test.mjs": {
-    "mtime": 1793998272.8623776,
-    "seen": 1794017825.3698092,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235675,
     "ast_hash": "321a0106ed392774f2b1281da62a4727",
     "semantic_hash": "321a0106ed392774f2b1281da62a4727"
   },
   ".claude/skills/media-use/audio/scripts/lib/tts.test.mjs": {
-    "mtime": 1793998272.862392,
-    "seen": 1794017825.3698328,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356758,
     "ast_hash": "01004fa2791baacd904852711da41c8f",
     "semantic_hash": "01004fa2791baacd904852711da41c8f"
   },
   ".claude/skills/media-use/audio/scripts/lyria-recipe.py": {
-    "mtime": 1793998272.8625386,
-    "seen": 1794017825.3698568,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356768,
     "ast_hash": "de59982dcaa17ecb9683796d911602a5",
     "semantic_hash": "de59982dcaa17ecb9683796d911602a5"
   },
   ".claude/skills/media-use/audio/scripts/wait-bgm.mjs": {
-    "mtime": 1793998272.862556,
-    "seen": 1794017825.369879,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356777,
     "ast_hash": "fb3c7585941460cc7e7810260945af60",
     "semantic_hash": "fb3c7585941460cc7e7810260945af60"
   },
   ".claude/skills/media-use/audio/scripts/wait-bgm.test.mjs": {
-    "mtime": 1793998272.8625712,
-    "seen": 1794017825.369901,
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.2356784,
     "ast_hash": "2b9337fb08caf3132527f6b698ca99b8",
     "semantic_hash": "2b9337fb08caf3132527f6b698ca99b8"
   },
   ".claude/skills/media-use/luts/index.json": {
-    "mtime": 1793998272.8626404,
-    "seen": 1794017825.369923,
+    "mtime": 1794968855.4582996,
+    "seen": 1795249413.2356794,
     "ast_hash": "07f8000081e107266a6c928800091964",
     "semantic_hash": "07f8000081e107266a6c928800091964",
     "ast_empty": true
   },
   ".claude/skills/media-use/scripts/audio-duck.mjs": {
-    "mtime": 1793998272.863012,
-    "seen": 1794017825.3699243,
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.235681,
     "ast_hash": "2e408e4768e0fcc6fc2b494d7e342917",
     "semantic_hash": "2e408e4768e0fcc6fc2b494d7e342917"
   },
   ".claude/skills/media-use/scripts/compatibility.test.mjs": {
-    "mtime": 1793998272.8630276,
-    "seen": 1794017825.3699453,
+    "mtime": 1794968855.4591253,
+    "seen": 1795249413.2356818,
     "ast_hash": "1e0dcf4f1b2093a0964011f8b52eef66",
     "semantic_hash": "1e0dcf4f1b2093a0964011f8b52eef66"
   },
   ".claude/skills/media-use/scripts/dither.mjs": {
-    "mtime": 1793998272.86304,
-    "seen": 1794017825.3699667,
+    "mtime": 1794968855.4591253,
+    "seen": 1795249413.2356827,
     "ast_hash": "ab6ec097d835b977607556212eb3b0bd",
     "semantic_hash": "ab6ec097d835b977607556212eb3b0bd"
   },
   ".claude/skills/media-use/scripts/dither.test.mjs": {
-    "mtime": 1793998272.8630543,
-    "seen": 1794017825.369987,
+    "mtime": 1794968855.4591253,
+    "seen": 1795249413.2356837,
     "ast_hash": "33b9b67fc949c8fe14e48af02a651acd",
     "semantic_hash": "33b9b67fc949c8fe14e48af02a651acd"
   },
   ".claude/skills/media-use/scripts/eval.mjs": {
-    "mtime": 1793998272.8630683,
-    "seen": 1794017825.370007,
+    "mtime": 1794968855.4591253,
+    "seen": 1795249413.2356844,
     "ast_hash": "d04d3c4e94e117183f66398ddccfeb2b",
     "semantic_hash": "d04d3c4e94e117183f66398ddccfeb2b"
   },
   ".claude/skills/media-use/scripts/lib/config-lock.mjs": {
-    "mtime": 1793998272.8631072,
-    "seen": 1794017825.3700259,
+    "mtime": 1794968855.4591253,
+    "seen": 1795249413.2356856,
     "ast_hash": "60ad06db4f74cbd43994f375fe3cc3ee",
     "semantic_hash": "60ad06db4f74cbd43994f375fe3cc3ee"
   },
   ".claude/skills/media-use/scripts/lib/credit-limit.mjs": {
-    "mtime": 1793998272.863124,
-    "seen": 1794017825.3700485,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356863,
     "ast_hash": "8d4775e1010965403f303a93ca0cf304",
     "semantic_hash": "8d4775e1010965403f303a93ca0cf304"
   },
   ".claude/skills/media-use/scripts/lib/cutlist.mjs": {
-    "mtime": 1793998272.8633153,
-    "seen": 1794017825.37007,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356873,
     "ast_hash": "b009b1d191437c71e7b853614183f563",
     "semantic_hash": "b009b1d191437c71e7b853614183f563"
   },
   ".claude/skills/media-use/scripts/lib/duck.mjs": {
-    "mtime": 1793998272.8633518,
-    "seen": 1794017825.3700914,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356882,
     "ast_hash": "e5f8be1d43c36c1e6212cd4c6f69d5cd",
     "semantic_hash": "e5f8be1d43c36c1e6212cd4c6f69d5cd"
   },
   ".claude/skills/media-use/scripts/lib/error-diffusion.mjs": {
-    "mtime": 1793998272.8633637,
-    "seen": 1794017825.3701136,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.235689,
     "ast_hash": "78b2d01dff6920562e75d3873d77ddf9",
     "semantic_hash": "78b2d01dff6920562e75d3873d77ddf9"
   },
   ".claude/skills/media-use/scripts/lib/index-gen.mjs": {
-    "mtime": 1793998272.863377,
-    "seen": 1794017825.370142,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356896,
     "ast_hash": "a556139f89f5b469f3064edc50c893a1",
     "semantic_hash": "a556139f89f5b469f3064edc50c893a1"
   },
   ".claude/skills/media-use/scripts/lib/manifest.mjs": {
-    "mtime": 1793998272.8633916,
-    "seen": 1794017825.3701632,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356908,
     "ast_hash": "bba22a30cd64c5361d419686cf70c72d",
     "semantic_hash": "bba22a30cd64c5361d419686cf70c72d"
   },
   ".claude/skills/media-use/scripts/lib/media-fetch.mjs": {
-    "mtime": 1793998272.863406,
-    "seen": 1794017825.3701842,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356915,
     "ast_hash": "063939e6073d9ecea0a1eb2196143d53",
     "semantic_hash": "063939e6073d9ecea0a1eb2196143d53"
   },
   ".claude/skills/media-use/scripts/lib/media-home.mjs": {
-    "mtime": 1793998272.8634164,
-    "seen": 1794017825.3702056,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356925,
     "ast_hash": "49aa1de86f2c699c679b7dc89570a7f5",
     "semantic_hash": "49aa1de86f2c699c679b7dc89570a7f5"
   },
   ".claude/skills/media-use/scripts/lib/npx-sync.mjs": {
-    "mtime": 1793998272.8634276,
-    "seen": 1794017825.3702264,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356932,
     "ast_hash": "29775cfc8352ef3ee63720db37b1a88d",
     "semantic_hash": "29775cfc8352ef3ee63720db37b1a88d"
   },
   ".claude/skills/media-use/scripts/lib/parakeet-words.mjs": {
-    "mtime": 1793998272.8634627,
-    "seen": 1794017825.3702474,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356944,
     "ast_hash": "b86b1330ebcdffcf22052c0156d6ade8",
     "semantic_hash": "b86b1330ebcdffcf22052c0156d6ade8"
   },
   ".claude/skills/media-use/scripts/lib/prefs-store.mjs": {
-    "mtime": 1793998272.863477,
-    "seen": 1794017825.370268,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356951,
     "ast_hash": "7940800c48aa11224bb3cfb04f32df6e",
     "semantic_hash": "7940800c48aa11224bb3cfb04f32df6e"
   },
   ".claude/skills/media-use/scripts/lib/recipe-store.mjs": {
-    "mtime": 1793998272.8634915,
-    "seen": 1794017825.3702884,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356958,
     "ast_hash": "9e450498ad399194916dc9af8902f178",
     "semantic_hash": "9e450498ad399194916dc9af8902f178"
   },
   ".claude/skills/media-use/scripts/lib/telemetry.mjs": {
-    "mtime": 1793998272.8635082,
-    "seen": 1794017825.3703094,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356968,
     "ast_hash": "cc95e4bbfbf2e55a55162533d7b7a2d5",
     "semantic_hash": "cc95e4bbfbf2e55a55162533d7b7a2d5"
   },
   ".claude/skills/media-use/scripts/lib/telemetry.test.mjs": {
-    "mtime": 1793998272.8635705,
-    "seen": 1794017825.3703308,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356977,
     "ast_hash": "06d4e6cd6adc28685332f2f7ef49ab32",
     "semantic_hash": "06d4e6cd6adc28685332f2f7ef49ab32"
   },
   ".claude/skills/media-use/scripts/lib/transcriptCutFade.mjs": {
-    "mtime": 1793998272.8635821,
-    "seen": 1794017825.3703516,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356985,
     "ast_hash": "4fbf4f8bc9be2aa1ecfbce34d6e816b7",
     "semantic_hash": "4fbf4f8bc9be2aa1ecfbce34d6e816b7"
   },
   ".claude/skills/media-use/scripts/lib/words.mjs": {
-    "mtime": 1793998272.8635948,
-    "seen": 1794017825.370372,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2356994,
     "ast_hash": "6f7617fde53914e86a501b0ff1ca9a13",
     "semantic_hash": "6f7617fde53914e86a501b0ff1ca9a13"
   },
   ".claude/skills/media-use/scripts/prefs.mjs": {
-    "mtime": 1793998272.8636084,
-    "seen": 1794017825.3703926,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357001,
     "ast_hash": "d310f3689d012d9b1bd2ae6491bfe635",
     "semantic_hash": "d310f3689d012d9b1bd2ae6491bfe635"
   },
   ".claude/skills/media-use/scripts/recipe.mjs": {
-    "mtime": 1793998272.8636203,
-    "seen": 1794017825.3704123,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.235701,
     "ast_hash": "4e31dacc9f4a7c3cba7863b9f3f0db30",
     "semantic_hash": "4e31dacc9f4a7c3cba7863b9f3f0db30"
   },
   ".claude/skills/media-use/scripts/resolve-plugin.test.mjs": {
-    "mtime": 1793998272.863632,
-    "seen": 1794017825.3704317,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357018,
     "ast_hash": "4a602976220cec4ae7d95abf6d467c79",
     "semantic_hash": "4a602976220cec4ae7d95abf6d467c79"
   },
   ".claude/skills/media-use/scripts/resolve.mjs": {
-    "mtime": 1793998272.8636446,
-    "seen": 1794017825.3704512,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357025,
     "ast_hash": "d018b2eb6b230f8aa725c6bd57debf86",
     "semantic_hash": "d018b2eb6b230f8aa725c6bd57debf86"
   },
   ".claude/skills/media-use/scripts/transcribe.mjs": {
-    "mtime": 1793998272.863656,
-    "seen": 1794017825.3704712,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357032,
     "ast_hash": "254f193e5f663a4c2d62c63af1b7eaa0",
     "semantic_hash": "254f193e5f663a4c2d62c63af1b7eaa0"
   },
   ".claude/skills/media-use/scripts/transcribe.test.mjs": {
-    "mtime": 1793998272.8636694,
-    "seen": 1794017825.370491,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357044,
     "ast_hash": "60a59b540b2b4046a3e94bebd39cec80",
     "semantic_hash": "60a59b540b2b4046a3e94bebd39cec80"
   },
   ".claude/skills/media-use/scripts/transcript-cut.mjs": {
-    "mtime": 1793998272.8636806,
-    "seen": 1794017825.3705103,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357051,
     "ast_hash": "bf370bcefe7cb4647fad0f617f3a7b45",
     "semantic_hash": "bf370bcefe7cb4647fad0f617f3a7b45"
   },
   ".claude/skills/media-use/scripts/transcript-cut.test.mjs": {
-    "mtime": 1793998272.863697,
-    "seen": 1794017825.3705306,
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2357059,
     "ast_hash": "9905417a29d36feb67dba2be8ea285d3",
     "semantic_hash": "9905417a29d36feb67dba2be8ea285d3"
   },
   ".claude/skills/real-sfx/config.example.json": {
-    "mtime": 1793995943.827973,
-    "seen": 1794017825.3705513,
+    "mtime": 1794968855.4605336,
+    "seen": 1795249413.2357068,
     "ast_hash": "ee81030e7af9c3d7a2b939a7148588bc",
     "semantic_hash": "ee81030e7af9c3d7a2b939a7148588bc",
     "ast_empty": true
   },
   ".claude/skills/real-sfx/config.json": {
-    "mtime": 1793997360.9922583,
-    "seen": 1794017825.3705528,
+    "mtime": 1794968855.4605336,
+    "seen": 1795249413.235708,
     "ast_hash": "911f373480fefc82418897dd103a8515",
     "semantic_hash": "911f373480fefc82418897dd103a8515",
     "ast_empty": true
   },
   ".claude/skills/real-sfx/library_index.json": {
-    "mtime": 1793997362.337682,
-    "seen": 1794017825.3705542,
+    "mtime": 1794968855.4605336,
+    "seen": 1795249413.235709,
     "ast_hash": "0de9f46c05850b041af4334965545b03",
     "semantic_hash": "0de9f46c05850b041af4334965545b03",
     "ast_empty": true
   },
   ".claude/skills/real-sfx/references/profiles/clean-sfx-refs.json": {
-    "mtime": 1793995943.8282366,
-    "seen": 1794017825.3705552,
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.23571,
     "ast_hash": "a69d794311146ccf96bb83266634d815",
     "semantic_hash": "a69d794311146ccf96bb83266634d815",
     "ast_empty": true
   },
   ".claude/skills/real-sfx/scripts/adjust_test.py": {
-    "mtime": 1793995943.8284004,
-    "seen": 1794017825.3705564,
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.2357106,
     "ast_hash": "2b0dd9c32f88cb618f00d23d1b6cfd47",
     "semantic_hash": "2b0dd9c32f88cb618f00d23d1b6cfd47"
   },
   ".claude/skills/real-sfx/scripts/beats.py": {
-    "mtime": 1793995943.8284745,
-    "seen": 1794017825.370579,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357118,
     "ast_hash": "669c60613d6291001af0c71f4f4c6363",
     "semantic_hash": "669c60613d6291001af0c71f4f4c6363"
   },
   ".claude/skills/real-sfx/scripts/bed.py": {
-    "mtime": 1793995943.8285017,
-    "seen": 1794017825.3705988,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357125,
     "ast_hash": "ac838c8dbbca630881bba342ccb25a93",
     "semantic_hash": "ac838c8dbbca630881bba342ccb25a93"
   },
   ".claude/skills/real-sfx/scripts/build_index.py": {
-    "mtime": 1793995943.8285215,
-    "seen": 1794017825.3706486,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357132,
     "ast_hash": "d715caac7b756613178edad29a4196ed",
     "semantic_hash": "d715caac7b756613178edad29a4196ed"
   },
   ".claude/skills/real-sfx/scripts/common.py": {
-    "mtime": 1793995943.8285444,
-    "seen": 1794017825.370682,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357142,
     "ast_hash": "c0b90728020cc723bbc734623f1d84a2",
     "semantic_hash": "c0b90728020cc723bbc734623f1d84a2"
   },
   ".claude/skills/real-sfx/scripts/contact_sheet.py": {
-    "mtime": 1793995943.828576,
-    "seen": 1794017825.3707054,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357152,
     "ast_hash": "dfe61bb7aa44624d3717b3456e60f53b",
     "semantic_hash": "dfe61bb7aa44624d3717b3456e60f53b"
   },
   ".claude/skills/real-sfx/scripts/critique.py": {
-    "mtime": 1793995943.8285906,
-    "seen": 1794017825.3707387,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.235716,
     "ast_hash": "709951d5a65e51046984e58ea10532fa",
     "semantic_hash": "709951d5a65e51046984e58ea10532fa"
   },
   ".claude/skills/real-sfx/scripts/find_moments.py": {
-    "mtime": 1793995943.8286276,
-    "seen": 1794017825.3707712,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.235717,
     "ast_hash": "98ecdc7043f9ec999d7eac1e45a08029",
     "semantic_hash": "98ecdc7043f9ec999d7eac1e45a08029"
   },
   ".claude/skills/real-sfx/scripts/from_cues.py": {
-    "mtime": 1793995943.8286457,
-    "seen": 1794017825.3707929,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357178,
     "ast_hash": "cd3bf491a01b7bc245d584bbc15743ab",
     "semantic_hash": "cd3bf491a01b7bc245d584bbc15743ab"
   },
   ".claude/skills/real-sfx/scripts/from_hyperframes.py": {
-    "mtime": 1793995943.8287032,
-    "seen": 1794017825.370813,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357187,
     "ast_hash": "892430b22a0a56183f97f23afa6e058f",
     "semantic_hash": "892430b22a0a56183f97f23afa6e058f"
   },
   ".claude/skills/real-sfx/scripts/from_synth.py": {
-    "mtime": 1793995943.8287206,
-    "seen": 1794017825.3708336,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357197,
     "ast_hash": "27f3c390c3ac425fd5bbe75d5a744d5d",
     "semantic_hash": "27f3c390c3ac425fd5bbe75d5a744d5d"
   },
   ".claude/skills/real-sfx/scripts/hear.py": {
-    "mtime": 1793995943.8287516,
-    "seen": 1794017825.3708537,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357204,
     "ast_hash": "7b282f60e7eaca74740a7c09d022e673",
     "semantic_hash": "7b282f60e7eaca74740a7c09d022e673"
   },
   ".claude/skills/real-sfx/scripts/learn_style.py": {
-    "mtime": 1793995943.8287773,
-    "seen": 1794017825.370873,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357216,
     "ast_hash": "67fc9443d7437db32b3c9e7e37b4a7c4",
     "semantic_hash": "67fc9443d7437db32b3c9e7e37b4a7c4"
   },
   ".claude/skills/real-sfx/scripts/levels.py": {
-    "mtime": 1793995943.8287976,
-    "seen": 1794017825.3708925,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357223,
     "ast_hash": "e27accd4640fd22899891084e28be383",
     "semantic_hash": "e27accd4640fd22899891084e28be383"
   },
   ".claude/skills/real-sfx/scripts/listen.py": {
-    "mtime": 1793995943.8288133,
-    "seen": 1794017825.3709118,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.235723,
     "ast_hash": "7868f7c0443f6dcdfe27d33beccd7248",
     "semantic_hash": "7868f7c0443f6dcdfe27d33beccd7248"
   },
   ".claude/skills/real-sfx/scripts/listen_page.py": {
-    "mtime": 1793995943.8288326,
-    "seen": 1794017825.3709316,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357237,
     "ast_hash": "25c8aa60ff79257cb49f9656b950812c",
     "semantic_hash": "25c8aa60ff79257cb49f9656b950812c"
   },
   ".claude/skills/real-sfx/scripts/look.py": {
-    "mtime": 1793995943.82887,
-    "seen": 1794017825.370952,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357244,
     "ast_hash": "c91b1284ca3040facfc44a12b6c2bd89",
     "semantic_hash": "c91b1284ca3040facfc44a12b6c2bd89"
   },
   ".claude/skills/real-sfx/scripts/masking.py": {
-    "mtime": 1793995943.8288898,
-    "seen": 1794017825.3709726,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357259,
     "ast_hash": "429c9761d07d6f07115255baeafbf2dd",
     "semantic_hash": "429c9761d07d6f07115255baeafbf2dd"
   },
   ".claude/skills/real-sfx/scripts/maskmodel.py": {
-    "mtime": 1793995943.8289094,
-    "seen": 1794017825.3709927,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357266,
     "ast_hash": "d732d7384f3fa73a382352431ff3dd8a",
     "semantic_hash": "d732d7384f3fa73a382352431ff3dd8a"
   },
   ".claude/skills/real-sfx/scripts/mix.py": {
-    "mtime": 1793995943.8289309,
-    "seen": 1794017825.3710124,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357273,
     "ast_hash": "c8474fb615a1fe1748c9717f71e38fbb",
     "semantic_hash": "c8474fb615a1fe1748c9717f71e38fbb"
   },
   ".claude/skills/real-sfx/scripts/moment_test.py": {
-    "mtime": 1793995943.828981,
-    "seen": 1794017825.3710318,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.235728,
     "ast_hash": "8a035e662b56ba8a742d393172aaff54",
     "semantic_hash": "8a035e662b56ba8a742d393172aaff54"
   },
   ".claude/skills/real-sfx/scripts/package.py": {
-    "mtime": 1793995943.828998,
-    "seen": 1794017825.3710508,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.235729,
     "ast_hash": "5023456b42b7fcee3f401d2df42620d1",
     "semantic_hash": "5023456b42b7fcee3f401d2df42620d1"
   },
   ".claude/skills/real-sfx/scripts/picker.py": {
-    "mtime": 1793995943.829051,
-    "seen": 1794017825.3710704,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357297,
     "ast_hash": "ab3c12e00f7b755a5ddefd65809eaa01",
     "semantic_hash": "ab3c12e00f7b755a5ddefd65809eaa01"
   },
   ".claude/skills/real-sfx/scripts/refstyle.py": {
-    "mtime": 1793995943.8290756,
-    "seen": 1794017825.3710904,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357306,
     "ast_hash": "47c113c794b5d7ae63f3af7f8cf99c5e",
     "semantic_hash": "47c113c794b5d7ae63f3af7f8cf99c5e"
   },
   ".claude/skills/real-sfx/scripts/review.py": {
-    "mtime": 1793995943.8290954,
-    "seen": 1794017825.3711102,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357314,
     "ast_hash": "4491ddbf64400db30e95b194f0f5c268",
     "semantic_hash": "4491ddbf64400db30e95b194f0f5c268"
   },
   ".claude/skills/real-sfx/scripts/search.py": {
-    "mtime": 1793995943.8291194,
-    "seen": 1794017825.371135,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357328,
     "ast_hash": "dc64e29afa60aeb78a443cf071b5ee19",
     "semantic_hash": "dc64e29afa60aeb78a443cf071b5ee19"
   },
   ".claude/skills/real-sfx/scripts/setup.py": {
-    "mtime": 1793995943.8291364,
-    "seen": 1794017825.3711538,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357337,
     "ast_hash": "5e9b9671d5c68ea21e634465eed96132",
     "semantic_hash": "5e9b9671d5c68ea21e634465eed96132"
   },
   ".claude/skills/real-sfx/scripts/sheet.py": {
-    "mtime": 1793995943.8291535,
-    "seen": 1794017825.3711734,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357345,
     "ast_hash": "d79f7e9ab44d937f427a04b503cd6c00",
     "semantic_hash": "d79f7e9ab44d937f427a04b503cd6c00"
   },
   ".claude/skills/real-sfx/scripts/speech_map.py": {
-    "mtime": 1793995943.8291807,
-    "seen": 1794017825.3711927,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357352,
     "ast_hash": "571cd3ea2b931b1193f0ca9b306ffede",
     "semantic_hash": "571cd3ea2b931b1193f0ca9b306ffede"
   },
   ".claude/skills/real-sfx/scripts/suggest_cues.py": {
-    "mtime": 1793995943.8291953,
-    "seen": 1794017825.3712115,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357361,
     "ast_hash": "4c64fee76da8397838f6b1b608882747",
     "semantic_hash": "4c64fee76da8397838f6b1b608882747"
   },
   ".claude/skills/real-sfx/scripts/taste.py": {
-    "mtime": 1793995943.8292193,
-    "seen": 1794017825.3712301,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357368,
     "ast_hash": "6a1fa4b781e0a0b12ee00b601c40aed4",
     "semantic_hash": "6a1fa4b781e0a0b12ee00b601c40aed4"
   },
   ".claude/skills/real-sfx/scripts/taste_test.py": {
-    "mtime": 1793995943.8292391,
-    "seen": 1794017825.3712497,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357376,
     "ast_hash": "14de707a50eafaa9cb9554ab533667a5",
     "semantic_hash": "14de707a50eafaa9cb9554ab533667a5"
   },
   ".claude/skills/real-sfx/scripts/texture.py": {
-    "mtime": 1793995943.8292806,
-    "seen": 1794017825.371268,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357383,
     "ast_hash": "da473f37d87ba244b30285ed472e3417",
     "semantic_hash": "da473f37d87ba244b30285ed472e3417"
   },
   ".claude/skills/real-sfx/scripts/tonal.py": {
-    "mtime": 1793995943.8292983,
-    "seen": 1794017825.3712876,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357392,
     "ast_hash": "69d46cbe43891a033434e83270f7a477",
     "semantic_hash": "69d46cbe43891a033434e83270f7a477"
   },
   ".claude/skills/real-sfx/scripts/ui_events.py": {
-    "mtime": 1793995943.8293142,
-    "seen": 1794017825.371307,
+    "mtime": 1794968855.4613974,
+    "seen": 1795249413.2357402,
     "ast_hash": "7405e86e91cb512d88ff520017618adc",
     "semantic_hash": "7405e86e91cb512d88ff520017618adc"
   },
   ".claude/skills/real-sfx/scripts/unbake.py": {
-    "mtime": 1793995943.8293774,
-    "seen": 1794017825.3713257,
+    "mtime": 1794968855.4645395,
+    "seen": 1795249413.235741,
     "ast_hash": "db1d6ade611e20ed1b345b95bb651cd5",
     "semantic_hash": "db1d6ade611e20ed1b345b95bb651cd5"
   },
   ".claude/skills/real-sfx/scripts/verify.py": {
-    "mtime": 1793995943.8294058,
-    "seen": 1794017825.371345,
+    "mtime": 1794968855.4645395,
+    "seen": 1795249413.2357419,
     "ast_hash": "abae93d73003ed71f3fde61184085956",
     "semantic_hash": "abae93d73003ed71f3fde61184085956"
   },
   ".claude/skills/real-sfx/scripts/zoom.py": {
-    "mtime": 1793995943.8294282,
-    "seen": 1794017825.3713639,
+    "mtime": 1794968855.4645395,
+    "seen": 1795249413.2357428,
     "ast_hash": "46ebee9cdca492be3aefe779e3cfb6ac",
     "semantic_hash": "46ebee9cdca492be3aefe779e3cfb6ac"
   },
   ".claude/skills/real-sound/scripts/analyze.py": {
-    "mtime": 1793995943.862318,
-    "seen": 1794017825.371384,
+    "mtime": 1794968855.5243614,
+    "seen": 1795249413.2357438,
     "ast_hash": "fabbc8b10b3b061b5637aad144a90e8d",
     "semantic_hash": "fabbc8b10b3b061b5637aad144a90e8d"
   },
   ".claude/skills/real-sound/scripts/arrange.py": {
-    "mtime": 1793995943.8623981,
-    "seen": 1794017825.3714035,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357447,
     "ast_hash": "75ea6e99b539309c3c2b297ed2336b58",
     "semantic_hash": "75ea6e99b539309c3c2b297ed2336b58"
   },
   ".claude/skills/real-sound/scripts/audit.py": {
-    "mtime": 1793995943.8624232,
-    "seen": 1794017825.371423,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357454,
     "ast_hash": "a00af0b8ac9289a1b46cb9a65a4ec313",
     "semantic_hash": "a00af0b8ac9289a1b46cb9a65a4ec313"
   },
   ".claude/skills/real-sound/scripts/credits.py": {
-    "mtime": 1793995943.862444,
-    "seen": 1794017825.3714414,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357466,
     "ast_hash": "024e09b09a6ea9c527910369665d1b7f",
     "semantic_hash": "024e09b09a6ea9c527910369665d1b7f"
   },
   ".claude/skills/real-sound/scripts/licences.py": {
-    "mtime": 1793995943.862462,
-    "seen": 1794017825.3714612,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357473,
     "ast_hash": "4d0db49ece4695282df4733995282d17",
     "semantic_hash": "4d0db49ece4695282df4733995282d17"
   },
   ".claude/skills/real-sound/scripts/master.py": {
-    "mtime": 1793995943.8624756,
-    "seen": 1794017825.3714805,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.235748,
     "ast_hash": "d5f75065cbab035466a4396ac09999a9",
     "semantic_hash": "d5f75065cbab035466a4396ac09999a9"
   },
   ".claude/skills/real-sound/scripts/mix.py": {
-    "mtime": 1793995943.8624957,
-    "seen": 1794017825.3714998,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357488,
     "ast_hash": "25e2993179cbb46de1634d81dbfb275b",
     "semantic_hash": "25e2993179cbb46de1634d81dbfb275b"
   },
   ".claude/skills/real-sound/scripts/mux.mjs": {
-    "mtime": 1793995943.8625202,
-    "seen": 1794017825.371519,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357497,
     "ast_hash": "186a675afc202036f081bcec4a227a6a",
     "semantic_hash": "186a675afc202036f081bcec4a227a6a"
   },
   ".claude/skills/real-sound/scripts/qa.py": {
-    "mtime": 1793995943.8625352,
-    "seen": 1794017825.371539,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357507,
     "ast_hash": "6f57ee211c2b4184f78f2a617b8d3a84",
     "semantic_hash": "6f57ee211c2b4184f78f2a617b8d3a84"
   },
   ".claude/skills/real-sound/scripts/variant.py": {
-    "mtime": 1793995943.86257,
-    "seen": 1794017825.3715587,
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2357514,
     "ast_hash": "73e78e362edef08fde5ac30424c8667a",
     "semantic_hash": "73e78e362edef08fde5ac30424c8667a"
   },
   ".claude/skills/real-sound/templates/arc.json": {
-    "mtime": 1793995943.86262,
-    "seen": 1794017825.3715777,
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.235752,
     "ast_hash": "1d7725f518ce10c62b70504e3600a730",
     "semantic_hash": "1d7725f518ce10c62b70504e3600a730",
     "ast_empty": true
   },
   ".claude/skills/real-sound/templates/audit_entry.json": {
-    "mtime": 1793995943.8626304,
-    "seen": 1794017825.3715794,
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.2357535,
     "ast_hash": "df393c690c76b9b1edd402f04ccd859e",
     "semantic_hash": "df393c690c76b9b1edd402f04ccd859e",
     "ast_empty": true
   },
   ".claude/skills/real-sound/templates/cues.json": {
-    "mtime": 1793995943.8626587,
-    "seen": 1794017825.3715804,
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.2357543,
     "ast_hash": "627055e98afa5c4990124384e4c0d02e",
     "semantic_hash": "627055e98afa5c4990124384e4c0d02e",
     "ast_empty": true
   },
   ".claude/skills/real-sound/templates/design_fragment.json": {
-    "mtime": 1793995943.8626719,
-    "seen": 1794017825.3715816,
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.2357552,
     "ast_hash": "e0ebb9e4b5e9c0390a1f99f1b3194b1d",
     "semantic_hash": "e0ebb9e4b5e9c0390a1f99f1b3194b1d",
     "ast_empty": true
   },
   ".claude/skills/real-sound/templates/manifest_entry.json": {
-    "mtime": 1793995943.862686,
-    "seen": 1794017825.3715825,
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.2357564,
     "ast_hash": "5fec064a44b7913c32210fbbea2f644d",
     "semantic_hash": "5fec064a44b7913c32210fbbea2f644d",
     "ast_empty": true
   },
   ".claude/skills/real-sound/templates/sounddesign.json": {
-    "mtime": 1793995943.8628378,
-    "seen": 1794017825.3715835,
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2357574,
     "ast_hash": "b829d538a613dbd2a4cff7be1cd90d8c",
     "semantic_hash": "b829d538a613dbd2a4cff7be1cd90d8c",
     "ast_empty": true
   },
   "App.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.3715844,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357585,
     "ast_hash": "e1b841b90699dde0e90c82885a3ccd04",
     "semantic_hash": "e1b841b90699dde0e90c82885a3ccd04"
   },
   "Features.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.3716006,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357593,
     "ast_hash": "e8520fef37e76e7bd485ba4786f217f4",
     "semantic_hash": "e8520fef37e76e7bd485ba4786f217f4"
   },
   "Footer.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.3716166,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357605,
     "ast_hash": "9841bad88057edc6c348e0027ca13930",
     "semantic_hash": "9841bad88057edc6c348e0027ca13930"
   },
   "Hero.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.371631,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357612,
     "ast_hash": "d36036101838713853a0742a4ce7653e",
     "semantic_hash": "d36036101838713853a0742a4ce7653e"
   },
   "SocialProof.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.3716455,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357621,
     "ast_hash": "3737380e96e03922478edf61319088dc",
     "semantic_hash": "3737380e96e03922478edf61319088dc"
   },
   "WaitlistForm.tsx": {
-    "mtime": 1793502965.9174125,
-    "seen": 1794017825.3716598,
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2357628,
     "ast_hash": "cdd9d9b1c48a54a9838c8658f8de528b",
     "semantic_hash": "cdd9d9b1c48a54a9838c8658f8de528b"
   },
   "eslint.config.js": {
-    "mtime": 1793502965.9246573,
-    "seen": 1794017825.3716738,
+    "mtime": 1794968855.580628,
+    "seen": 1795249413.235764,
     "ast_hash": "2bc8570a791ea45c9895ec66bc8a86b9",
     "semantic_hash": "2bc8570a791ea45c9895ec66bc8a86b9"
   },
   "main.tsx": {
-    "mtime": 1793502965.9246573,
-    "seen": 1794017825.371688,
+    "mtime": 1794968855.5845394,
+    "seen": 1795249413.2357647,
     "ast_hash": "eb10138ed48767691f1c803ec3337c9b",
     "semantic_hash": "eb10138ed48767691f1c803ec3337c9b"
   },
   "package.json": {
-    "mtime": 1793502965.9246573,
-    "seen": 1794017825.3717017,
+    "mtime": 1794968855.5925395,
+    "seen": 1795249413.2357657,
     "ast_hash": "3d13318852341aafb9f5feee198f2ac5",
     "semantic_hash": "3d13318852341aafb9f5feee198f2ac5"
   },
   "postcss.config.js": {
-    "mtime": 1793502965.9246573,
-    "seen": 1794017825.371716,
+    "mtime": 1794968855.5925395,
+    "seen": 1795249413.235767,
     "ast_hash": "c735540bb63936a123bc867d950c9f69",
     "semantic_hash": "c735540bb63936a123bc867d950c9f69"
   },
   "supabase.ts": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.371746,
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2357678,
     "ast_hash": "0f0d650b58a32e42853f7fe3ab7df7b1",
     "semantic_hash": "0f0d650b58a32e42853f7fe3ab7df7b1"
   },
   "tailwind.config.js": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3717678,
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2357688,
     "ast_hash": "1740dcfedc2dc7ce615b49ac9ef034d3",
     "semantic_hash": "1740dcfedc2dc7ce615b49ac9ef034d3"
   },
   "tsconfig.app.json": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3717856,
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2357697,
     "ast_hash": "c181cad8596965f0e008618e4f6cccd3",
     "semantic_hash": "c181cad8596965f0e008618e4f6cccd3"
   },
   "tsconfig.json": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3718,
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.235771,
     "ast_hash": "a3d39fa780ebff65444de257f291ce6c",
     "semantic_hash": "a3d39fa780ebff65444de257f291ce6c"
   },
   "tsconfig.node.json": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3718133,
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2357717,
     "ast_hash": "fd32df1e922920eb085c1d20ffd7fd58",
     "semantic_hash": "fd32df1e922920eb085c1d20ffd7fd58"
   },
   "vite-env.d.ts": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3718271,
+    "mtime": 1794968857.3845394,
+    "seen": 1795249413.2357726,
     "ast_hash": "0352474ba2918efe13895edbc3780d94",
     "semantic_hash": "0352474ba2918efe13895edbc3780d94"
   },
   "vite.config.ts": {
-    "mtime": 1793502965.93133,
-    "seen": 1794017825.3718412,
+    "mtime": 1794968857.3845394,
+    "seen": 1795249413.2357733,
     "ast_hash": "9f13a8819453df0d288d2ddd8c6a2ace",
     "semantic_hash": "9f13a8819453df0d288d2ddd8c6a2ace"
+  },
+  ".claude/skills/efeitos-virais/modelos/poster-3d-v2/gen.py": {
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.2356308,
+    "ast_hash": "4e3faaa8eee8676de61e88daf7d55936",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1794968855.4405396,
+    "seen": 1795249413.2357745,
+    "ast_hash": "9b31786b637be3c13978bec4c2330752",
+    "semantic_hash": ""
+  },
+  ".claude/skills/cli-serve/SKILL.md": {
+    "mtime": 1794968855.443039,
+    "seen": 1795249413.2357755,
+    "ast_hash": "c629720ae6b21e3aae773d82c746b5c7",
+    "semantic_hash": ""
+  },
+  ".claude/skills/earshot/SKILL.md": {
+    "mtime": 1794968855.443039,
+    "seen": 1795249413.2357762,
+    "ast_hash": "405fdf5c1f82cdb05a558fc99da892fb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/SKILL.md": {
+    "mtime": 1794968855.443039,
+    "seen": 1795249413.2357771,
+    "ast_hash": "1b1b80181038a69f32030edcfacb934c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/modelos/acelerado/index.html": {
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.2357779,
+    "ast_hash": "8c9ca438797bf4946043e73751f7c6b4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/modelos/poster-3d/index.html": {
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.2357788,
+    "ast_hash": "ac3ca6164643aa071ff17185e8a9e31c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/modelos/poster-moldura/index.html": {
+    "mtime": 1794968855.4433148,
+    "seen": 1795249413.2357795,
+    "ast_hash": "234d4f75fc6cdb13a9c6d9362344e9f3",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/modelos/snapzoom-growthcurve/index.html": {
+    "mtime": 1794968855.4436448,
+    "seen": 1795249413.2357802,
+    "ast_hash": "0dab6994326165c2dc83f80c452ae28d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/efeitos-virais/prompts.md": {
+    "mtime": 1794968855.4436448,
+    "seen": 1795249413.2357812,
+    "ast_hash": "03e05856afc04f6b711d0097d82f6603",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/SKILL.md": {
+    "mtime": 1794968855.4440045,
+    "seen": 1795249413.2357821,
+    "ast_hash": "7ca24a22d4db2158a6167a2403ddc302",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/beats.md": {
+    "mtime": 1794968855.444337,
+    "seen": 1795249413.2357829,
+    "ast_hash": "d3af97edd4353e26d002b8abee6f5628",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/cloud.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357836,
+    "ast_hash": "eea105df73ccb07a7302704f093630eb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/cloudrun.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357845,
+    "ast_hash": "60137ffabebfa83acb404d7fb324c508",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/compare-and-batch.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357852,
+    "ast_hash": "a49061fa6125910155b0b41cefc05de2",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/conventions.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357907,
+    "ast_hash": "d0bdede0169c8a5deb59a37f248ad8ff",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/doctor-browser.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357917,
+    "ast_hash": "daa00b29e7051d44f7a6c173a6f23527",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/feedback.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357926,
+    "ast_hash": "8827de60f1e3c2d65520db6f474d9429",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/init-and-scaffold.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357934,
+    "ast_hash": "66a4ba7e3f9d2ead725e873445299f16",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/lambda.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.235794,
+    "ast_hash": "7898617db7bf45adbab45d0a3ba41c36",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/lint-validate-inspect.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.235795,
+    "ast_hash": "528e36fd38e8e34b9fa51a395f890944",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/preview-render.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357957,
+    "ast_hash": "40318cdbc9f6759ae7a85efb2e19a650",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes-cli/references/upgrade-info-misc.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357965,
+    "ast_hash": "ec482f6a9280fcc394c2206600679686",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/SKILL.md": {
+    "mtime": 1794968855.4443567,
+    "seen": 1795249413.2357972,
+    "ast_hash": "fb0289aade9c58ec130be8ea9463bfc7",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/biennale-yellow/FRAME.md": {
+    "mtime": 1794968855.445009,
+    "seen": 1795249413.2357981,
+    "ast_hash": "5ba38284a038422a2322ee6c0684af29",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/biennale-yellow/caption-skin.html": {
+    "mtime": 1794968855.4450958,
+    "seen": 1795249413.2357988,
+    "ast_hash": "7b5126d5a584181e81944caa17ad3cfc",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/biennale-yellow/frame-showcase.html": {
+    "mtime": 1794968855.4450958,
+    "seen": 1795249413.2357996,
+    "ast_hash": "14a2db60e142d390ddd0d99557ee577b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blockframe/FRAME.md": {
+    "mtime": 1794968855.4450958,
+    "seen": 1795249413.2358005,
+    "ast_hash": "92006b1d09017e54aa74b56590b56c24",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blockframe/caption-skin.html": {
+    "mtime": 1794968855.44551,
+    "seen": 1795249413.235801,
+    "ast_hash": "148335502243132c5239088e07c10120",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blockframe/frame-showcase.html": {
+    "mtime": 1794968855.44551,
+    "seen": 1795249413.235802,
+    "ast_hash": "2c830c8107d6755b24debb3a4437206d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blue-professional/FRAME.md": {
+    "mtime": 1794968855.44551,
+    "seen": 1795249413.235803,
+    "ast_hash": "d9358052dfaf784a924835b90c4bacb9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blue-professional/caption-skin.html": {
+    "mtime": 1794968855.4460573,
+    "seen": 1795249413.2358036,
+    "ast_hash": "5cd55b8c3c0e122eb731c9ecbadeca40",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/blue-professional/frame-showcase.html": {
+    "mtime": 1794968855.4460573,
+    "seen": 1795249413.2358043,
+    "ast_hash": "626447b0fb5cef5538a73709425c3801",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/bold-poster/FRAME.md": {
+    "mtime": 1794968855.4460573,
+    "seen": 1795249413.2358053,
+    "ast_hash": "6973373644c06f2baac86fb46684c43b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/bold-poster/caption-skin.html": {
+    "mtime": 1794968855.4462686,
+    "seen": 1795249413.235806,
+    "ast_hash": "30290587265fd4b252d1f2f0055c8b72",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/bold-poster/frame-showcase.html": {
+    "mtime": 1794968855.4462686,
+    "seen": 1795249413.2358067,
+    "ast_hash": "6b074b2ce7c6efc68772545a012c8c74",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/broadside/FRAME.md": {
+    "mtime": 1794968855.4462686,
+    "seen": 1795249413.2358074,
+    "ast_hash": "693fd0bdffff4c5ca1ad4ad6ed49953f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/broadside/caption-skin.html": {
+    "mtime": 1794968855.4465644,
+    "seen": 1795249413.2358084,
+    "ast_hash": "b95e70907fdbd84da8b56c033c1969d2",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/broadside/frame-showcase.html": {
+    "mtime": 1794968855.4465644,
+    "seen": 1795249413.235809,
+    "ast_hash": "2f92f9136b4ddd80b7d504075f7dc265",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/capsule/FRAME.md": {
+    "mtime": 1794968855.4465644,
+    "seen": 1795249413.2358096,
+    "ast_hash": "346c4338b3ae5096427bb4189587a990",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/capsule/caption-skin.html": {
+    "mtime": 1794968855.446853,
+    "seen": 1795249413.2358103,
+    "ast_hash": "ed5f9a940381b9dee8c2dab565f9e190",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/capsule/frame-showcase.html": {
+    "mtime": 1794968855.446853,
+    "seen": 1795249413.235811,
+    "ast_hash": "cd72b632231c212055b71d1f07758149",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cartesian/FRAME.md": {
+    "mtime": 1794968855.446853,
+    "seen": 1795249413.235812,
+    "ast_hash": "4352017c09f9ddea2084ca80a7bf089d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cartesian/caption-skin.html": {
+    "mtime": 1794968855.4470005,
+    "seen": 1795249413.2358127,
+    "ast_hash": "3f38159d6a5d53b758a15b4b7e20c8c9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cartesian/frame-showcase.html": {
+    "mtime": 1794968855.4470005,
+    "seen": 1795249413.2358134,
+    "ast_hash": "368da4c00c362edd9de53700f0180723",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cobalt-grid/FRAME.md": {
+    "mtime": 1794968855.4470005,
+    "seen": 1795249413.235814,
+    "ast_hash": "782391c4c78b35da693ba0bebc6985ff",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cobalt-grid/caption-skin.html": {
+    "mtime": 1794968855.4472032,
+    "seen": 1795249413.2358148,
+    "ast_hash": "ed013fc32b1c3d7aaebeb6f078001360",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/cobalt-grid/frame-showcase.html": {
+    "mtime": 1794968855.4472032,
+    "seen": 1795249413.2358155,
+    "ast_hash": "ff6d6fee52eca2e81c0c02576969c027",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/FRAME.md": {
+    "mtime": 1794968855.4472032,
+    "seen": 1795249413.2358162,
+    "ast_hash": "363e13898aff87e0ab87d04b5aa7c40b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/caption-skin.html": {
+    "mtime": 1794968855.4473326,
+    "seen": 1795249413.235817,
+    "ast_hash": "8a48220038c49d943cea1f29b338f7e1",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/fonts/OFL-eb-garamond.txt": {
+    "mtime": 1794968855.447389,
+    "seen": 1795249413.235818,
+    "ast_hash": "c3722e191fd09a1822fe8dcd0ad85bf0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/fonts/OFL-inter.txt": {
+    "mtime": 1794968855.447389,
+    "seen": 1795249413.2358189,
+    "ast_hash": "2eeb2b3ada55f38ae966db32bcb1f92a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/fonts/OFL-jetbrains-mono.txt": {
+    "mtime": 1794968855.447389,
+    "seen": 1795249413.2358196,
+    "ast_hash": "85183f249e4d7a1dc1a19abe9c0e3887",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/code-editorial/frame-showcase.html": {
+    "mtime": 1794968855.447389,
+    "seen": 1795249413.2358203,
+    "ast_hash": "fa1c0ff5ce466a3db0c71213232e52e2",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/coral/FRAME.md": {
+    "mtime": 1794968855.447389,
+    "seen": 1795249413.235821,
+    "ast_hash": "145c9e87c02c1f16a0008d2ecaf44952",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/coral/caption-skin.html": {
+    "mtime": 1794968855.447828,
+    "seen": 1795249413.2358217,
+    "ast_hash": "a51b537de9f5b7fa449449ceff00eeb4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/coral/frame-showcase.html": {
+    "mtime": 1794968855.447828,
+    "seen": 1795249413.2358227,
+    "ast_hash": "393f6441ecddd5105b28ba926dd3977e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/creative-mode/FRAME.md": {
+    "mtime": 1794968855.447828,
+    "seen": 1795249413.2358234,
+    "ast_hash": "ecca34ad8c6faa396aba032bf63416a4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/creative-mode/caption-skin.html": {
+    "mtime": 1794968855.448056,
+    "seen": 1795249413.235824,
+    "ast_hash": "6364be6eb21ef4b193b200b89b8592bf",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/creative-mode/frame-showcase.html": {
+    "mtime": 1794968855.448056,
+    "seen": 1795249413.2358248,
+    "ast_hash": "3766470894a7eb5d0b6425f2d0ba73b3",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/daisy-days/FRAME.md": {
+    "mtime": 1794968855.448056,
+    "seen": 1795249413.2358258,
+    "ast_hash": "b49189649967cafe00146366404d8402",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/daisy-days/caption-skin.html": {
+    "mtime": 1794968855.4482632,
+    "seen": 1795249413.2358265,
+    "ast_hash": "9e032c24d7e99cbbed25ae5eca222986",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/daisy-days/frame-showcase.html": {
+    "mtime": 1794968855.4482632,
+    "seen": 1795249413.2358272,
+    "ast_hash": "4bc097cf67016a27afa4d78a99823a81",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/editorial-forest/FRAME.md": {
+    "mtime": 1794968855.4482632,
+    "seen": 1795249413.235828,
+    "ast_hash": "f9868819f7b82fb95748e06c96ce7571",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/editorial-forest/caption-skin.html": {
+    "mtime": 1794968855.4484315,
+    "seen": 1795249413.2358286,
+    "ast_hash": "95dd8b5e632ce5c32e22fee5559bda55",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/assets/frame-presets/editorial-forest/frame-showcase.html": {
+    "mtime": 1794968855.4484315,
+    "seen": 1795249413.2358296,
+    "ast_hash": "d69733cbdcfec0fa3594655d7adffbc8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/captions.md": {
+    "mtime": 1794968855.4484315,
+    "seen": 1795249413.2358303,
+    "ast_hash": "79eb12eaffd37c77b0a1a344a2acd37a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/film.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.235831,
+    "ast_hash": "405137e1bdd8c836fefcea84a4a6c710",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/format.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358317,
+    "ast_hash": "b0e7750728e135a6a3644b3ee66ad6c9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/look.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358327,
+    "ast_hash": "4ffd34125bd41bbe6891b5b474e3fcee",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/motion.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358334,
+    "ast_hash": "5610c5b4235c0808e3661eda01a13531",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/overlays.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358341,
+    "ast_hash": "3ae0e6f2bc8ba1a99e4f78bdba79442a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/path-tracing.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358348,
+    "ast_hash": "d4b9a1ba16fd18187937f7a5f0e57054",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/plugin-installation.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358358,
+    "ast_hash": "7d05e987b8d77f824c558fef94a331d8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/review.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358367,
+    "ast_hash": "0d0e819c911a9aafe86442e4ab010098",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/runtimes.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358375,
+    "ast_hash": "eb2fc8c7219f291a4ab597de49fb3266",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/skill-lifecycle.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358384,
+    "ast_hash": "95dbf1e779b24443d801b1b0a0fc249e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/sound.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358391,
+    "ast_hash": "5ff65b3dd694538e6e5b5df33b25a86a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/spec.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.23584,
+    "ast_hash": "ee314fe8a9051c1630cfe219030537bf",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/story.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358408,
+    "ast_hash": "4b45b35f71301ccb61be38ca58a065ea",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/storyboard-format.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358415,
+    "ast_hash": "27e9784d09a64f364968d5368db8bb27",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/storyboard.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358422,
+    "ast_hash": "096f6210e6f001f9be2dc57e741dbe5e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/3d.md": {
+    "mtime": 1794968855.4485989,
+    "seen": 1795249413.2358434,
+    "ast_hash": "e83e4f03e11176463569689c99406956",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/character.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358441,
+    "ast_hash": "05fdbafa48aec434c0927f9c2d57fa08",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/data.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358449,
+    "ast_hash": "e7fc35c1f302efeadc6762795fb943cb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/explainer.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358456,
+    "ast_hash": "61a75f88c6223d7fe0a3a5265048c812",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/launch.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358463,
+    "ast_hash": "a78bfe4fa53d1e2d7eadb75d0a0f560b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/music.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358475,
+    "ast_hash": "91540ec4b9fc45c665b988d6830c15fe",
+    "semantic_hash": ""
+  },
+  ".claude/skills/hyperframes/references/types/vertical.md": {
+    "mtime": 1794968855.4493082,
+    "seen": 1795249413.2358484,
+    "ast_hash": "58986743778c95ac37570500dadfb76f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/SKILL.md": {
+    "mtime": 1794968855.449743,
+    "seen": 1795249413.2358491,
+    "ast_hash": "fbbace659a8b694826839a76f906000e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/assets/sfx/CREDITS.md": {
+    "mtime": 1794968855.449792,
+    "seen": 1795249413.23585,
+    "ast_hash": "58e8dc66d16a0bb83f66e59e7bbff942",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/bgm.md": {
+    "mtime": 1794968855.4525394,
+    "seen": 1795249413.235851,
+    "ast_hash": "e48b240a68e9b7cbca2e3fa88c001b74",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/captions/authoring.md": {
+    "mtime": 1794968855.456353,
+    "seen": 1795249413.2358518,
+    "ast_hash": "7b21f045931a72c870ffd583777e7202",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/captions/motion.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358525,
+    "ast_hash": "680e97ac552d27c7143c4bf56ac6c77e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/captions/transcript-handling.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358532,
+    "ast_hash": "7695a6214621cd94c3d9e7f069a0cc0c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/remove-background.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358541,
+    "ast_hash": "0d8f9a6c0665e9bdfb4fed4877622caf",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/requirements.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.235855,
+    "ast_hash": "1fba4df19a5da21aa22bf260dc49ae8f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/sfx.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358558,
+    "ast_hash": "c387d0718c2cef5001e8131fa181041e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/transcribe.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358563,
+    "ast_hash": "1f25fb1c1aae3421add0f6dabc6af021",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/tts-to-captions.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358575,
+    "ast_hash": "5c32f321be66870ed8fdfe431bcc0faa",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/audio/references/tts.md": {
+    "mtime": 1794968855.4564369,
+    "seen": 1795249413.2358582,
+    "ast_hash": "e593a70071d94f5e1d79f0fe722ed6cd",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/luts/README.md": {
+    "mtime": 1794968855.4572413,
+    "seen": 1795249413.235859,
+    "ast_hash": "e29a4f05ded55c6c7093307217741a0a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/audio.md": {
+    "mtime": 1794968855.4582996,
+    "seen": 1795249413.2358599,
+    "ast_hash": "b2e7d8b47edc94e3b6e0c2baa6b35ba9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/grading.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2358608,
+    "ast_hash": "388d9188bedd6125cf8651b1503b682f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/heygen.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2358615,
+    "ast_hash": "01dd3d498096fce4b80434d89c70e69d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/local.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2358625,
+    "ast_hash": "49743a0c6d5b7872418a0ae36fae6aaa",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/media-treatment-recipes.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2358959,
+    "ast_hash": "8f7fda7e23a74010763fdfb2b875b8db",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/media-treatments.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.235898,
+    "ast_hash": "b3b74982b6242cb2b5166156cc14f6fe",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/memory.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2358994,
+    "ast_hash": "b3e07125c97a3436406d6fbc5eb40d27",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/meta.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359004,
+    "ast_hash": "bfc483bc15f73c263bb5c97817105f74",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/mixing.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359014,
+    "ast_hash": "55358be09c4d2038626cdc9a829a9eda",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/operations.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359025,
+    "ast_hash": "0547bfb122012f37eaefed11d19f8e8a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/resolve.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359035,
+    "ast_hash": "8b0e7ef5f6e520dad0a50ade5711ebbb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/setup-providers.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359045,
+    "ast_hash": "aea586b3229296237da1cfd6a555c855",
+    "semantic_hash": ""
+  },
+  ".claude/skills/media-use/references/telemetry-dashboard.md": {
+    "mtime": 1794968855.458356,
+    "seen": 1795249413.2359052,
+    "ast_hash": "6c314a1edba0aeedae9715bf6e26c02e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/obolari-instagram/SKILL.md": {
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2359064,
+    "ast_hash": "3f982b0e5721e41280fda1f70982abdb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/omni-auth/SKILL.md": {
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2359073,
+    "ast_hash": "26d55ee7cbd4ddb1fa60cf5a8ab771fa",
+    "semantic_hash": ""
+  },
+  ".claude/skills/omni-budget/SKILL.md": {
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.235908,
+    "ast_hash": "2791066e037284469fee3453f6783312",
+    "semantic_hash": ""
+  },
+  ".claude/skills/omni-combos-routing/SKILL.md": {
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.2359092,
+    "ast_hash": "24edfd87701428ae369335093ee5595d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/omni-inference/SKILL.md": {
+    "mtime": 1794968855.4593115,
+    "seen": 1795249413.23591,
+    "ast_hash": "4773672dcc4e461d1338ffec2069e179",
+    "semantic_hash": ""
+  },
+  ".claude/skills/omni-inference/references/endpoints.md": {
+    "mtime": 1794968855.460333,
+    "seen": 1795249413.2359107,
+    "ast_hash": "23f9ec7a7300ef50b98b462effcebf02",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/README.md": {
+    "mtime": 1794968855.460333,
+    "seen": 1795249413.2359116,
+    "ast_hash": "25e8419ca52b638e382ce616cbaa593e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/SKILL.md": {
+    "mtime": 1794968855.4605336,
+    "seen": 1795249413.2359126,
+    "ast_hash": "7f130357a3f1ebfe0bcaf328a5291ca0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/event-map.md": {
+    "mtime": 1794968855.4605336,
+    "seen": 1795249413.2359133,
+    "ast_hash": "e219b22feb716eee2e64105516d974ec",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/handoff.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.235914,
+    "ast_hash": "e9680e0ff8605fcb9a0e1f7efd9d9424",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/listening.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.235915,
+    "ast_hash": "d230ea2aaf775d9874bc82089a109815",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/project-audio.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.2359157,
+    "ast_hash": "f1950ff56bc268b60d0c246965a3a4c5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/recipes.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.2359166,
+    "ast_hash": "68593d0e8a0e010fde31435e45951eef",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/screencast.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.2359173,
+    "ast_hash": "357ab77dccfff2ff35678251a003e6b6",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sfx/references/typed-cues.md": {
+    "mtime": 1794968855.4608564,
+    "seen": 1795249413.235918,
+    "ast_hash": "d5044b5a8e972a5f6289b8f72040c932",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/SKILL.md": {
+    "mtime": 1794968855.5205395,
+    "seen": 1795249413.2359188,
+    "ast_hash": "b216f6357e962b5abfb89cff626d9a62",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/references/design-format.md": {
+    "mtime": 1794968855.5242548,
+    "seen": 1795249413.2359197,
+    "ast_hash": "cff8687749e02e6dde154911cf9d5005",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/references/licences.md": {
+    "mtime": 1794968855.5243614,
+    "seen": 1795249413.2359204,
+    "ast_hash": "78b33b4aa2865fc7bd1da3a5c6abd7ed",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/references/process.md": {
+    "mtime": 1794968855.5243614,
+    "seen": 1795249413.2359214,
+    "ast_hash": "6072d8afda6f344dd5bd0daf33ee32b8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/references/sound-design.md": {
+    "mtime": 1794968855.5243614,
+    "seen": 1795249413.235922,
+    "ast_hash": "f278771a8857c493a693355f96f26884",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/references/troubleshooting.md": {
+    "mtime": 1794968855.5243614,
+    "seen": 1795249413.235923,
+    "ast_hash": "89ac847306bac89c69ee560a7212d423",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/SOUND_BRIEF.md": {
+    "mtime": 1794968855.5247464,
+    "seen": 1795249413.2359238,
+    "ast_hash": "0d0138378b6b77d029b1b8e0bca4c690",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/critic_director.md": {
+    "mtime": 1794968855.5257864,
+    "seen": 1795249413.2359245,
+    "ast_hash": "cd11857b3a3b6fa1ce092700537efc36",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/critic_edges.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359252,
+    "ast_hash": "49366dfdbb8c1c345060f96ca8559160",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/critic_masking.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.235926,
+    "ast_hash": "e8357cb926cd59ec778522e665851f85",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/critic_sync.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359269,
+    "ast_hash": "9229867a2c1a0e708f7ceb77332ec09c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/critic_tonal.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359276,
+    "ast_hash": "abcf5ae0c7b816591744350f61d4318d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/designer.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359283,
+    "ast_hash": "d14d49db8c32361480902f57bb1ea88d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/fixer.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.235929,
+    "ast_hash": "b0683b666e4cbdfcf6f616a719cae347",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/licence_audit.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.23593,
+    "ast_hash": "1fcfded7e2bdf60fc5e50f213e657edc",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/music_supervisor.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359307,
+    "ast_hash": "44a9e1c650abe81ebe924fbfb7d27d3e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/real-sound/templates/prompts/sourcing.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.2359314,
+    "ast_hash": "397857254c38b0323a828502976e9b0f",
+    "semantic_hash": ""
+  },
+  ".claude/skills/reverse-any-video/SKILL.md": {
+    "mtime": 1794968855.525942,
+    "seen": 1795249413.235932,
+    "ast_hash": "4cbcdddd9d951eca10a1fbad6ca5058d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/reverse-any-video/references/animated.md": {
+    "mtime": 1794968855.5262382,
+    "seen": 1795249413.2359328,
+    "ast_hash": "0050c5700fba9e6b96fc4420d4515bec",
+    "semantic_hash": ""
+  },
+  ".claude/skills/reverse-any-video/references/match.md": {
+    "mtime": 1794968855.5262663,
+    "seen": 1795249413.2359338,
+    "ast_hash": "b256018a4e6a8878dd1dfc9897757d8a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/reverse-any-video/references/people.md": {
+    "mtime": 1794968855.5262663,
+    "seen": 1795249413.2359347,
+    "ast_hash": "d35f6fb4798d21e2bd62b06dc73eef74",
+    "semantic_hash": ""
+  },
+  ".claude/skills/reverse-any-video/references/start.md": {
+    "mtime": 1794968855.5262663,
+    "seen": 1795249413.2359354,
+    "ast_hash": "7baac7755a7cd03edcf0fcbbcf616aeb",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/SKILL.md": {
+    "mtime": 1794968855.5262663,
+    "seen": 1795249413.2359362,
+    "ast_hash": "a241a5126368ce48661289e4eebed2d0",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/ganchos.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.235937,
+    "ast_hash": "03e8d562004ba469b16ade801ec06325",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/operacao-24h.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.2359378,
+    "ast_hash": "83577473f43a43f942514ba14764592c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/perfil-obolari.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.2359385,
+    "ast_hash": "1484b76577b147fa56661a8e3ee2ac18",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/referencias.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.235939,
+    "ast_hash": "bafa6dee6e04a29d8c27743e9a137706",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/respostas-comentarios.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.23594,
+    "ast_hash": "6b762973bc41b0060aad3c9da6a725c5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-effects/rotina-madrugada.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.235941,
+    "ast_hash": "9658f4ff7e81f794a66e2676adf86f35",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-falando/SKILL.md": {
+    "mtime": 1794968855.5265098,
+    "seen": 1795249413.2359414,
+    "ast_hash": "b81a9bdb42f4c079535d63cd9c3c4de5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/video-falando/roteiro-conversao.md": {
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.2359421,
+    "ast_hash": "396d4c0a307a56d0eb1e480390195d8c",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.235943,
+    "ast_hash": "27b5013a080a5b3af09aa5db46762d18",
+    "semantic_hash": ""
+  },
+  "brand/paleta.md": {
+    "mtime": 1794968855.5268252,
+    "seen": 1795249413.235944,
+    "ast_hash": "b56c1475fc2c28e87eec88e1f6e09228",
+    "semantic_hash": ""
+  },
+  "brand/youtube/descricao.txt": {
+    "mtime": 1794968855.580628,
+    "seen": 1795249413.2359447,
+    "ast_hash": "7b58c28a2c09e014dda6a2d2b5c7c03d",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1794968855.5845394,
+    "seen": 1795249413.2359455,
+    "ast_hash": "e7a9d456c33414eff7f4b39e25c8d3bb",
+    "semantic_hash": ""
+  },
+  "materiais/guia.html": {
+    "mtime": 1794968855.5885394,
+    "seen": 1795249413.2359462,
+    "ast_hash": "962f6e227dc4129e2f9e4122f7fb7c90",
+    "semantic_hash": ""
+  },
+  "materiais/gumroad/capa.html": {
+    "mtime": 1794968855.591323,
+    "seen": 1795249413.235947,
+    "ast_hash": "8c91620d26c6bedfd2a9cb2d288e223c",
+    "semantic_hash": ""
+  },
+  "materiais/gumroad/produto-guia.md": {
+    "mtime": 1794968855.591323,
+    "seen": 1795249413.235948,
+    "ast_hash": "8ad487a140fa35a4bff2125cf53591b2",
+    "semantic_hash": ""
+  },
+  "materiais/gumroad/thumb.html": {
+    "mtime": 1794968855.591323,
+    "seen": 1795249413.2359488,
+    "ast_hash": "a1f82c234827a329baacb678d678e242",
+    "semantic_hash": ""
+  },
+  "materiais/whatsapp/status-texto.txt": {
+    "mtime": 1794968855.5925395,
+    "seen": 1795249413.2359495,
+    "ast_hash": "fa4b6dea40f9b27728a9280dd77266a9",
+    "semantic_hash": ""
+  },
+  "research/clipes-usados.md": {
+    "mtime": 1795248488.9619274,
+    "seen": 1795249413.2359502,
+    "ast_hash": "5300d29bf0439e31e4399c85dfbc4209",
+    "semantic_hash": ""
+  },
+  "research/criadores.md": {
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2359512,
+    "ast_hash": "aea420b886e839796e9294c2a9c9e2a2",
+    "semantic_hash": ""
+  },
+  "research/ferramentas.md": {
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.235952,
+    "ast_hash": "2821a73deb13f12da3c0934f42ec110c",
+    "semantic_hash": ""
+  },
+  "research/flow-mcp-instalacao.md": {
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2359526,
+    "ast_hash": "a21ab3a773b5c269b2af348cb56234bb",
+    "semantic_hash": ""
+  },
+  "research/guia-enviados.md": {
+    "mtime": 1794968855.5950482,
+    "seen": 1795249413.2359533,
+    "ast_hash": "fb7d0f7edbcd17686851e743b341c04d",
+    "semantic_hash": ""
+  },
+  "research/peptideos.md": {
+    "mtime": 1795247279.0219817,
+    "seen": 1795249413.2359545,
+    "ast_hash": "c0b2d768131763ce99a5bfa59aa62517",
+    "semantic_hash": ""
+  },
+  "research/revisoes.md": {
+    "mtime": 1795247279.0219817,
+    "seen": 1795249413.2359552,
+    "ast_hash": "a183fda335c947929aea557848f3a444",
+    "semantic_hash": ""
+  },
+  "research/usados.md": {
+    "mtime": 1795248488.9659274,
+    "seen": 1795249413.235956,
+    "ast_hash": "3eedd0a3c141002f06a6fcabdbc097e3",
+    "semantic_hash": ""
+  },
+  "materiais/Guia-dos-Peptideos-Obolari-Academy.pdf": {
+    "mtime": 1794968855.5885394,
+    "seen": 1795249413.2359567,
+    "ast_hash": "681cf07e84b7c762d7903b87caef99ad",
+    "semantic_hash": ""
+  },
+  "materiais/gumroad/Guia-dos-Peptideos-Obolari-Academy.pdf": {
+    "mtime": 1794968855.5885394,
+    "seen": 1795249413.2359579,
+    "ast_hash": "681cf07e84b7c762d7903b87caef99ad",
+    "semantic_hash": ""
   }
 }
