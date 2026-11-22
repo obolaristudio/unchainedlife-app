@@ -24,6 +24,8 @@
 | 2026-11-20 | Teriparatida | https://www.instagram.com/reel/Df-FZ6KnNKM/ |
 | 2026-11-20 | Afamelanotida (Melanotan 1) | https://www.instagram.com/reel/Df-uk3fieVD/ |
 | 2026-11-21 | Kisspeptina | https://www.instagram.com/reel/DgA3_ubmdGH/ |
+| 2026-11-22 | Exenatida (fila) | pendente: Instagram desconectado |
+| 2026-11-22 | Dihexa (fila) | pendente: Instagram desconectado |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -39,4 +41,6 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Exenatida | aprovada 2005 (Byetta; marca saiu do mercado em out/2024) | aprovada (Byetta, MS 1.0180.0405) | — | EMA 2006 | FDA; UHC aviso 2024; alerta CVS-SP 2014 |
+| Dihexa | não aprovado; na pauta do comitê PCAC até fev/2027 | sem registro | — | — | RAPS abr/2026; DLA Piper jul/2026 |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
