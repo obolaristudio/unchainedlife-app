@@ -21,6 +21,11 @@ Objetivo: transformar o perfil numa máquina de crescer seguidores com conteúdo
 3. Ganchos que mais retêm: pergunta no 1º segundo, mito × verdade, "o que ninguém te conta sobre…", número grande, identidade ("Você que tem mais de 40…").
 4. CTA de comentário sempre (pergunta aberta). Palavra-chave só com guia próprio aprovado.
 
+## Ajustes da revisão de 23/11/2026 (métricas 16–23/11)
+- **Gancho vencedor = história/surpresa concreta no 1º segundo** ("A NASA estudou esse pó…", "Nos anos 80, cientistas tentaram…", "Sua pele fabrica o próprio antibiótico"): 1.600–2.900 views, contra ~250–300 dos que abriram com "Você sabia?" ou com o nome técnico. Evitar esses dois começos.
+- **Envio é o que puxa alcance** (15–29 envios nos 3 melhores). Escolher ângulos que a pessoa manda para alguém: corpo humano, espaço, história curiosa.
+- Ritmo: no máximo 2 Reels/dia, ≥ 6 h entre eles.
+
 ## Orçamento de créditos (avisar o Maxwell antes de acabar)
 - Higgsfield: ~6 créditos por clipe. **Reaproveitar a biblioteca de clipes** já gerados (pasta de clipes no ramo `media`) + imagens/vídeos CC0 antes de gerar novos; meta ≤ 5 clipes novos por dia. Alertar quando o saldo < 150.
 - ElevenLabs: narração com **1 versão** (`generations_count: 1`) nas rotinas para economizar; efeitos sonoros já estão em `brand/sfx/`. Se der erro de saldo, parar e avisar.

@@ -81,3 +81,26 @@ Views 247 · alcance 223 · envios 0 · salvos 0 · comentários 1 (só o nosso)
 Praticamente parou depois das 8 h (239 → 247). Mesmo padrão da resistência à insulina: não saiu da base, retenção ~7 s.
 Contexto: desde o DMSO saíram mais 3 Reels pela rotina em <24 h (19/11 16:28 ET, 20/11 20:29 ET de 19/11, 20/11 11:28 ET) → ritmo de ~4 Reels/dia.
 Leitura consolidada (3 vídeos seguidos ~7 s): problema comum é a abertura + volume de posts, não o tema isolado.
+
+## Revisão semanal 2026-11-23 (lida 13:35 UTC; janela 16/11–23/11) — rotina de comentários
+Fonte: INSTAGRAM_GET_USER_INSIGHTS (total 7 dias) + insights lifetime de cada post da semana.
+Conta: **459 seguidores** (eram 174 em 08/11). Alcance 6.916 · views 10.290 · visitas ao perfil 70 · interações 700 · contas engajadas 390. (follows_and_unfollows não veio.)
+Obs.: o token do Instagram ficou inválido entre 21/11 e 23/11 (Maxwell reconectou em 23/11 12:28 UTC); Ziconotida, Dihexa e Exenatida ficaram presos na fila nesse período.
+
+| Post | Views | Alcance | Tempo médio | Salvos | Envios |
+|---|---|---|---|---|---|
+| NASA / pó (Df2QXQdDMT9) | 2.866 | 2.497 | 20,7 s | 18 | 15 |
+| Afamelanotida (Df-uk3fieVD) | 2.194 | 1.762 | 25,2 s | 13 | 24 |
+| "Sua pele fabrica o próprio antibiótico" (Df019k7CefV) | 1.653 | 1.398 | 19,6 s | 18 | 29 |
+| Elamipretida (Df2sDqJmfIG) | 563 | 469 | 35,0 s | 2 | 18 |
+| Demais 10 posts | 165–325 | 134–280 | 8,7–18,9 s | 0–2 | 0–3 |
+
+### Leitura
+1. Os 3 que saíram da base abrem com **história/surpresa concreta** ("A NASA estudou…", "Nos anos 80, cientistas tentaram…", "Sua pele fabrica…"). Os que abrem com "Você sabia?" (DMSO, resistência à insulina) ou com nome técnico ficaram em ~250–300 views e 8–11 s.
+2. O que puxou alcance foi **envio** (15–29 por post), não curtida.
+3. Elamipretida teve a maior retenção (35 s) mas pouco alcance: conteúdo bom, gancho fraco para quem não segue.
+
+### Ajustes aplicados (operacao-24h.md)
+- Gancho: abrir com história/surpresa concreta no 1º segundo; nada de "Você sabia?" nem nome técnico como primeira frase.
+- Priorizar ângulos "compartilháveis" (corpo humano, espaço, história curiosa) dentro da série de peptídeos.
+- Manter no máximo 2 Reels/dia com ≥ 6 h entre eles.
