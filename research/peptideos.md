@@ -26,6 +26,7 @@
 | 2026-11-21 | Kisspeptina | https://www.instagram.com/reel/DgA3_ubmdGH/ |
 | 2026-11-23 | Ziconotida | https://www.instagram.com/reel/DgFfqAoE6Pr/ |
 | 2026-11-23 | Dihexa | https://www.instagram.com/reel/DgGIlvlGTXi/ |
+| 2026-11-23 | Exenatida | https://www.instagram.com/reel/DgGkIqXlL3m/ |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
