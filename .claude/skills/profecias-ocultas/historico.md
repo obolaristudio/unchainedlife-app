@@ -18,7 +18,7 @@ Consultar ANTES de escrever cada roteiro. Nada desta lista se repete nos próxim
 ## Já gastos (evitar por um bom tempo)
 - **Temas saturados:** Neuralink/chip (4 vídeos), "Musk invocando o demônio" (3), Apocalipse 13 (4 vídeos). Só voltar com ângulo totalmente novo.
 - **Frases proibidas agora:** "os sinais estão aí / em todo lugar", "abra os olhos / olhos abertos", "a Bíblia avisou / já tinha descrito", "dois mil anos atrás isso era impossível", "ele avisou", "repare (no padrão / na sequência)", "e tem mais", "agora pensa", "presta atenção", "compartilha com quem precisa acordar", "me diz nos comentários".
-- **Sons já usados (não repetir):** banco antigo `brand/sfx*` (ding, impact_classic/deep/punch, riser_tension, whoosh_fast_crisp) usado nos vídeos 1–8; vídeo 9: relógio, cartão recusado, sonar, cabo partindo, sistema caindo; vídeo 10: raio-x, contador, moedas, máquina de escrever, trovão+águia.
+- **Sons já usados (não repetir):** banco antigo `brand/sfx*` (ding, impact_classic/deep/punch, riser_tension, whoosh_fast_crisp) usado nos vídeos 1–8; vídeo 9: relógio, cartão recusado, sonar, cabo partindo, sistema caindo; vídeo 10: raio-x, contador, moedas, máquina de escrever, trovão+águia, botão vermelho apertado (abertura).
 - **Cuidado religioso:** nunca mostrar divindades/símbolos de outras religiões (hinduísmo, budismo etc.) como ídolos do mal; usar símbolos bíblicos (bezerro de ouro, Babel, Babilônia).
 - **Cuidado eleitoral:** nunca dizer que urna/eleição é fraude ou "feita para tirar seu poder", nem desestimular o voto (Instagram remove e o TSE fiscaliza). Falar de polarização e manipulação sem tomar lado.
 - **Fechamento "Está escrito em…":** variar a fórmula (ver banco em SKILL.md).
