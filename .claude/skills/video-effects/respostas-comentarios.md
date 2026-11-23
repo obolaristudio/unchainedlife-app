@@ -35,7 +35,10 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
-3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS` com `fields=id,text,username,timestamp,parent_id` (a lista traz comentários E respostas misturados). Para cada comentário de outra pessoa, decidir se já foi respondido assim:
+   - **Sem `parent_id`** (comentário principal): respondido se existe comentário de @obolari_academy com `parent_id` = id dele.
+   - **Com `parent_id`** (a pessoa respondeu DENTRO de uma conversa): a resposta da API vai sempre para o comentário principal, então `INSTAGRAM_GET_IG_COMMENT_REPLIES` do comentário dela volta vazio para sempre. Considerar respondido se existe comentário de @obolari_academy com o mesmo `parent_id` e `timestamp` posterior ao dela. **Nunca** usar só GET_IG_COMMENT_REPLIES nesse caso (bug achado em 23/11/2026: o mesmo comentário era respondido de novo a cada execução, ex.: "pão com manteiga" respondido 9 vezes).
+   - Já respondido → pular.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
