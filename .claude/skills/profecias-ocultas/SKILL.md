@@ -59,6 +59,11 @@ Pergunta de escolha ("A ou B?") · "Qual dessas notícias você já tinha visto?
 - **Damasco em ruínas** (Is 17:1).
 - **O Evangelho a todas as nações** (Mt 24:14): satélites, internet, tradução — o lado bom do sinal.
 
+## Mídia real e sons novos (pedido do Maxwell, 22/11/2026)
+- **Priorizar imagens e vídeos REAIS que conectam com a fala** (de preferência vídeo). Ordem: 1) Wikimedia Commons (`filetype:video` e `bitmap`, licença livre; baixar via `Special:FilePath`, poucas requisições com pausa — o servidor bloqueia com 429), 2) NASA `images-api.nasa.gov` (domínio público), 3) fotos oficiais de governo (ex.: MTur Destinos = domínio público), 4) só então IA na Buzzy. Toda mídia real leva crédito pequeno na tela ("Foto real: autor, licença") e na legenda do post.
+- **Nunca repetir os mesmos sons entre vídeos.** Gerar efeitos novos por vídeo na Buzzy (`eleven_text_to_sound_v2`, modo `sound_effect`), ligados à cena (ex.: sonar, cabo partindo, sistema caindo, relógio). Sem o whoosh padrão em todo corte. Trilha nova por vídeo (`music_v2`, ElevenLabs via Buzzy; o Suno da Buzzy falhou com erro 402). Registrar os sons usados no `historico.md`.
+- **Nunca repetir falas de vídeos anteriores** (ver frases já usadas no `historico.md`).
+
 ## Tom
 - Convicto e de alerta: "a máscara caiu", "os sinais estão aí", "abra os olhos", "a Bíblia avisou".
 - Sem frases que enfraqueçam ("é só uma teoria", "pode não ser").
