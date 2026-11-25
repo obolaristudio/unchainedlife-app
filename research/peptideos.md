@@ -1,17 +1,15 @@
 # Série "um peptídeo por vídeo"
 
 ## Fila (prioridade de cima para baixo; a rotina reordena pelo que estiver em alta)
-- GHK-Cu
-- BPC-157
-- Retatrutida
-- Tirzepatida (Mounjaro/Zepbound)
-- Tesamorelina
-- Sermorelina
-- AOD-9604
-- TB-500 (timosina beta-4)
-- CJC-1295
-- Ipamorelina
-- Insulina (o primeiro peptídeo usado como remédio)
+- (os itens antigos desta fila já foram publicados entre 30/10 e 15/11; ver nota abaixo da tabela)
+- Calcitonina de salmão
+- Bivalirudina / hirudina (sanguessuga)
+- Octreotida (somatostatina)
+- Vasopressina / desmopressina
+- Teduglutida (GLP-2)
+- Leuprorelina (GnRH)
+- Linaclotida
+- Survodutida (glucagon + GLP-1)
 
 ## Já explicados
 | Data | Peptídeo | Link do post |
@@ -29,6 +27,10 @@
 | 2026-11-23 | Exenatida | https://www.instagram.com/reel/DgGkIqXlL3m/ |
 | 2026-11-24 | FOXO4-DRI | https://www.instagram.com/reel/DgIfsFBmVli/ |
 | 2026-11-24 | Melanotan 2 | https://www.instagram.com/reel/DgJIqv7id4-/ |
+| 2026-11-25 | Glucagon | (fila 12:10 ET) |
+| 2026-11-25 | Ciclosporina | (fila 18:10 ET) |
+
+> Atenção (25/11): esta tabela não listava os vídeos de 30/10 a 15/11. Já publicados também (ver `fila.json` no ramo `media`): Retatrutida, GHK-Cu, BPC-157 (2x), TB-500, Tirzepatida, Insulina, CJC-1295, Ipamorelina, PT-141, Tesamorelina, MOTS-c, Epitalon, KPV (agendado), DSIP (agendado), Sermorelina, Semax, Timosina alfa-1, AOD-9604, Selank, Liraglutida, Humanina, Mazdutida. **Antes de escolher o peptídeo do dia, conferir também o `fila.json`.**
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
