@@ -1,0 +1,25 @@
+# Intermediários de render e downloads (pesados, regeneráveis com mkbg.py/gen.py/mix.py)
+stock/
+music/
+fonts/
+*.ttf
+*/sc_*.mp4
+*/overlay.mp4
+*/mix.wav
+*/voz.wav
+*/voz_raw.mp3
+*/list.txt
+*/*.log
+*/ph.jpg
+*/hf/assets/
+*/hf/.hyperframes/
+ins/hf/
+tb4/hf/
+ins/reel.mp4
+ins/capa.jpg
+tb4/capa.jpg
+ins/words.json
+tb4/words.json
+used.txt
+t.html
+capas.jpg
