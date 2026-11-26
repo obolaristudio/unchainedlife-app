@@ -104,3 +104,8 @@ Obs.: o token do Instagram ficou inválido entre 21/11 e 23/11 (Maxwell reconect
 - Gancho: abrir com história/surpresa concreta no 1º segundo; nada de "Você sabia?" nem nome técnico como primeira frase.
 - Priorizar ângulos "compartilháveis" (corpo humano, espaço, história curiosa) dentro da série de peptídeos.
 - Manter no máximo 2 Reels/dia com ≥ 6 h entre eles.
+
+## Intestino 5 causas — 24 h (lido 26/11 21:11 UTC; postado 25/11 16:04 ET) · https://www.instagram.com/reel/DgLc9PuysCQ/
+Views 234 · alcance 197 · salvos 3 (12,8/1k) · envios 0 · comentários 1 (só o nosso) · curtidas 4 · tempo médio 12,5 s de 84 s.
+Teste da abertura nova (revelação no 1º s, sem cartão parado): retenção subiu de ~7 s (resistência à insulina 7,1 · DMSO 7,7) para 12,5 s (+70%). Salvos/1k é o maior já registrado (Cobre 9,3). Mas o alcance continua preso na base (~200 contas) e 0 envios.
+Leitura: abertura ajudou a segurar; o freio agora é distribuição — volume de posts (3/dia da rotina + este com 3h35 do anterior) e ausência de "motivo para enviar" (cobre/reta tinham número-choque compartilhável).
