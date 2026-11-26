@@ -13,6 +13,10 @@
 - Ipamorelina
 - Insulina (o primeiro peptídeo usado como remédio)
 
+## Pauta 26/11/2026 (rotina da madrugada)
+- Calcitonina (de salmão) e Octreotida (somatostatina): produzidos, na fila do ramo media.
+- Epitalon: NÃO repetir (já publicado em 08/11, DffQ2PBlcwa).
+
 ## Já explicados
 | Data | Peptídeo | Link do post |
 |---|---|---|
@@ -44,4 +48,6 @@
 |---|---|---|---|---|---|
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
+| Calcitonina de salmão | aprovada (Miacalcin, anos 70) | registrada (Miacalcic) | — | EMA restringiu uso longo em 2012 | Copp & Cheney, Nature 1962; nota técnica MS "Calcitonina"; bula Novartis |
+| Octreotida | aprovada em 1988 (Sandostatin) | registrada; no SUS (PCDT Acromegalia) | — | — | Brazeau et al., Science 1973; FDA; PCDT Acromegalia |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
