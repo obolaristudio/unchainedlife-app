@@ -36,6 +36,7 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
 3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+   **Trava anti-repetição (26/11/2026):** a lista de comentários da API vem "achatada" e inclui respostas dentro de conversas (ex.: "@obolari_academy pão com manteiga" respondendo a uma resposta nossa). Esses comentários-resposta NUNCA têm respostas próprias, então "sem resposta" não significa "não respondido". Antes de responder, montar o mapa filho→pai (GET_IG_COMMENT_REPLIES de cada comentário de nível superior) e, se o comentário for resposta dentro de uma conversa, só responder se não houver NENHUMA resposta da @obolari_academy depois dele nessa conversa. Comentário sem texto (apagado/oculto) → pular. Entre 15/11 e 26/11 essa falha gerou 12 respostas repetidas para @renatosdpaula e 8 para @jessicanovaz84.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
