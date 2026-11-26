@@ -36,6 +36,7 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
 3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+   - **Respostas dentro de conversa (comentário com `parent_id`)** — nunca responder se @obolari_academy já respondeu ao comentário-pai. A API devolve as respostas da conversa inteira sob o pai, então `INSTAGRAM_GET_IG_COMMENT_REPLIES` do filho vem vazio e parece "não respondido". Também é preciso olhar as respostas do pai e só responder ao filho se ele trouxer pergunta nova. Isso já causou 9 agradecimentos repetidos ao mesmo "👏" do @renatosdpaula (19 a 25/11/2026). As respostas da API não trazem `username`: para identificar as nossas, use o conteúdo e o histórico.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
