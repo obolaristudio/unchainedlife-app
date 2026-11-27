@@ -691,5 +691,21 @@
     "publicar_apos": "2026-11-27 18:10",
     "status": "pendente",
     "checagem_politicas": "OK (27/11)"
+  },
+  {
+    "id": "2026-11-27-gluten-cerebro",
+    "status": "publicado",
+    "publicar_apos": "2026-11-27 17:30",
+    "ig_media_id": "17968718679198439",
+    "permalink": "https://www.instagram.com/reel/DgQwZbKBvAc/",
+    "obs": "conta Composio obolari_academy_v2"
+  },
+  {
+    "id": "2026-11-27-vontade-doce",
+    "status": "pronto",
+    "publicar_apos": null,
+    "video_url": "https://res-prod.buzzy.now/file-service/a231cec2-5ba9-41e2-940f-f9bcf34c01c0.mp4",
+    "legenda_arquivo": "videos/vontade-doce/legenda.txt (ramo main)",
+    "obs": "Aguardando horário do Maxwell"
   }
 ]
