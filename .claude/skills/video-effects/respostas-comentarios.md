@@ -36,6 +36,7 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
 3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+   - **Respostas dentro de thread (comentário com `parent_id`)**: o Instagram só deixa responder ao comentário-pai, então NÃO responder de novo. Se @obolari_academy já tem qualquer resposta no mesmo `parent_id` com data posterior ao comentário, considerar respondido. Em 27/11/2026 achamos ~10 respostas repetidas para @jessicanovaz84 e @renatosdpaula por falha nessa checagem (risco de spam).
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
