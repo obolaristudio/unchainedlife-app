@@ -35,7 +35,7 @@ Em toda execução, ao varrer os comentários dos últimos 7 dias:
 ## Como rodar
 1. Composio, toolkit `instagram`, conta `obolari_academy` (ig_user_id 28819342257765111). Se a conexão não estiver ACTIVE, parar e avisar o Maxwell.
 2. `INSTAGRAM_GET_IG_USER_MEDIA` (me) → posts dos últimos 14 dias.
-3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular.
+3. Para cada post: `INSTAGRAM_GET_IG_MEDIA_COMMENTS`; para cada comentário de outra pessoa, ver com `INSTAGRAM_GET_IG_COMMENT_REPLIES` se @obolari_academy já respondeu. Já respondido → pular. **Atenção (28/11/2026):** comentário que já é uma resposta dentro de um fio (tem `parent_id`) NÃO pode ser respondido sozinho: a resposta cai no comentário principal. Se o fio já tiver resposta da @obolari_academy depois dele, pular. A API não devolve o @ nas respostas; a nossa é a que vem sem `from`/`username` de terceiro. Sem esse cuidado, o fio "Metal nobre" (post do cobre) recebeu 11 respostas nossas entre 15 e 28/11.
 4. Responder com `INSTAGRAM_POST_IG_COMMENT_REPLIES` (máx. 300 caracteres, sem só maiúsculas, no máx. 1 emoji, sem links e sem hashtags).
 5. Limite de **30 respostas por execução**, com ~20 s entre uma e outra. Variar as palavras: nunca a mesma frase pronta repetida (o Instagram trata como spam).
 
