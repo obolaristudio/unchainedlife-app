@@ -29,6 +29,8 @@
 | 2026-11-23 | Exenatida | https://www.instagram.com/reel/DgGkIqXlL3m/ |
 | 2026-11-24 | FOXO4-DRI | https://www.instagram.com/reel/DgIfsFBmVli/ |
 | 2026-11-24 | Melanotan 2 | https://www.instagram.com/reel/DgJIqv7id4-/ |
+| 2026-11-28 | Matrixyl (palmitoil pentapeptídeo-4) | na fila: 28/11 12:10 ET |
+| 2026-11-28 | Snap-8 (acetil octapeptídeo-3) | na fila: 28/11 18:10 ET |
 
 ## Notícia: política interina do HHS (EUA) — verificada em 07/11/2026
 - Publicada no Federal Register em 30/10/2026 (assinada 28/10, Sec. RFK Jr.). Enforcement discretion para farmácias 503A manipularem 6 peptídeos com receita: BPC-157, TB-500, Epitalon, Semax, KPV, MOTS-c. 10 condições (teste por lote, produto de ingrediente único, notificação de eventos adversos).
@@ -45,3 +47,8 @@
 | Semax | não aprovado (manipulação liberada pela política interina do HHS, out/2026) | sem registro | registrado como medicamento | — | a confirmar no registro russo (GRLS) |
 | Selank | não aprovado | sem registro | registrado como medicamento | — | a confirmar no GRLS |
 | Timosina alfa-1 | não aprovado | a confirmar | — | aprovada em dezenas de países (ex.: China, Itália) | a confirmar |
+
+## Fontes checadas 28/11 (Snap-8 e Matrixyl)
+- Snap-8: criado pela Lipotec (Espanha) como extensão da Argireline; teste do fabricante com 17 mulheres, 28 dias, ~35% de redução média na profundidade das rugas (dado citado por fontes secundárias; sem estudo independente). Toxina botulínica A: ~1.300 aminoácidos (cadeia de 1.296). Fontes: https://peptidejournal.org/compare/snap-8-vs-argireline-expression-line-peptides · https://incidecoder.com/ingredients/acetyl-octapeptide-3
+- Matrixyl (pal-KTTKS): KTTKS vem do pró-peptídeo do colágeno tipo I (Katayama et al., J Biol Chem 1993); Sederma (França). Robinson et al., Int J Cosmet Sci 2005;27(3):155-60: 93 mulheres, 12 semanas, meia face, 3 ppm, melhora de linhas finas por imagem; estudo da Procter & Gamble. https://pubmed.ncbi.nlm.nih.gov/18492182/
+- Status: cosméticos não passam por aprovação prévia da FDA; no Brasil, regulados pela Anvisa como cosméticos.
